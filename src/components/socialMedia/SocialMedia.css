@@ -1,0 +1,25 @@
+.social-media {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-media__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 1rem;
+  transition: color var(--transition), border-color var(--transition), background var(--transition), transform var(--transition);
+}
+
+.social-media__link:hover {
+  color: var(--accent);
+  border-color: var(--border-accent);
+  background: var(--accent-glow);
+  transform: translateY(-2px);
+}

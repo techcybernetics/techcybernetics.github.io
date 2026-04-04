@@ -1,0 +1,130 @@
+.education-page { min-height: 100vh; background: var(--bg-primary); }
+
+.education-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 24px 80px;
+}
+
+.education-main__header { margin-bottom: 56px; }
+
+.education-main__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #f1f5f9 0%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.education-main__sub { font-size: 1rem; color: var(--text-secondary); }
+
+.degrees-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+.degree-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.degree-card:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.degree-card__logo-wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-sm);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px;
+  flex-shrink: 0;
+}
+
+.degree-card__logo { width: 100%; height: 100%; object-fit: contain; }
+
+.degree-card__duration {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: var(--accent-glow);
+  border: 1px solid var(--border-accent);
+  margin-bottom: 12px;
+}
+
+.degree-card__school {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.degree-card__degree {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.degree-card__bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.degree-card__bullets li {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding-left: 14px;
+  position: relative;
+}
+
+.degree-card__bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.degree-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition: gap var(--transition), color var(--transition);
+}
+
+.degree-card__link:hover { color: #7dd3fc; gap: 10px; }
+.degree-card__link i { font-size: 0.75rem; }
+
+@media (max-width: 500px) { .degrees-grid { grid-template-columns: 1fr; } }

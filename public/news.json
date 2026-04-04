@@ -1,0 +1,59 @@
+{
+  "lastUpdated": "2026-04-04",
+  "articles": [
+    {
+      "id": "1",
+      "title": "OpenAI Releases GPT-5 with Improved Reasoning Capabilities",
+      "summary": "OpenAI's latest model demonstrates significant improvements in multi-step reasoning and coding tasks, surpassing previous benchmarks across math, science, and software engineering.",
+      "source": "OpenAI Blog",
+      "url": "https://openai.com",
+      "category": "AI",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "2",
+      "title": "Boston Dynamics' Atlas Robot Learns New Construction Tasks",
+      "summary": "The latest Atlas update enables the humanoid robot to perform complex construction workflows autonomously, including drywall installation and cable routing — tasks previously requiring human dexterity.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "3",
+      "title": "Google DeepMind's AlphaFold 3 Expands to Drug Discovery",
+      "summary": "AlphaFold 3 now predicts interactions between proteins and small molecules with unprecedented accuracy, accelerating drug discovery pipelines at major pharmaceutical companies.",
+      "source": "Nature",
+      "url": "https://nature.com",
+      "category": "Innovation",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "4",
+      "title": "NVIDIA Blackwell GPUs Power New Wave of Edge AI Deployments",
+      "summary": "NVIDIA's latest Blackwell architecture is enabling real-time AI inference at the edge, with deployments in manufacturing, healthcare diagnostics, and autonomous vehicle fleets.",
+      "source": "NVIDIA News",
+      "url": "https://nvidia.com",
+      "category": "AI",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "5",
+      "title": "Waymo Expands Fully Autonomous Rides to 10 New Cities",
+      "summary": "Waymo's driverless taxi service is rolling out to 10 additional US cities in 2026, backed by improved sensor fusion and real-time mapping that handles complex urban environments.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "6",
+      "title": "Microsoft Copilot Integrated into Azure DevOps Workflows",
+      "summary": "Microsoft's AI Copilot now automates PR reviews, generates test cases, and monitors production anomalies natively inside Azure DevOps, targeting enterprise engineering teams.",
+      "source": "Microsoft Azure Blog",
+      "url": "https://azure.microsoft.com",
+      "category": "Innovation",
+      "date": "2026-04-02"
+    }
+  ]
+}

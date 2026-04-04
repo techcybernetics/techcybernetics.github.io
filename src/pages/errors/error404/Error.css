@@ -1,0 +1,36 @@
+.error-main {
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+.error-class {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 160px 24px 80px;
+  text-align: center;
+}
+
+.error-class h1:first-child {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.error-404 {
+  font-size: 7rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  background: linear-gradient(135deg, var(--accent) 0%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+  line-height: 1;
+}
+
+.error-class p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
