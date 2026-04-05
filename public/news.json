@@ -1,59 +1,77 @@
 {
-  "lastUpdated": "2026-04-04",
+  "lastUpdated": "2026-04-05",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 with Improved Reasoning Capabilities",
-      "summary": "OpenAI's latest model demonstrates significant improvements in multi-step reasoning and coding tasks, surpassing previous benchmarks across math, science, and software engineering.",
-      "source": "OpenAI Blog",
-      "url": "https://openai.com",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning, mathematical proof generation, and agentic tool use, narrowing the gap on several AGI benchmarks. Enterprise API access is rolling out with new structured-output guarantees and latency improvements.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-04-04"
+      "date": "2026-03-28"
     },
     {
       "id": "2",
-      "title": "Boston Dynamics' Atlas Robot Learns New Construction Tasks",
-      "summary": "The latest Atlas update enables the humanoid robot to perform complex construction workflows autonomously, including drywall installation and cable routing — tasks previously requiring human dexterity.",
+      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
+      "summary": "DeepMind unveiled Gemini Robotics, a family of vision-language-action models that allow robotic arms to perform complex dexterous manipulation tasks with zero-shot generalization to novel objects. The system combines Gemini's world-knowledge with real-time proprioceptive feedback loops, achieving human-comparable success rates on 47 of 52 benchmark tasks. Several hardware partners including Apptronik and Agility Robotics are integrating the models into commercial platforms.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "3",
+      "title": "Figure AI Raises $1.5B Series C, Begins Warehouse Deployments with BMW",
+      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, fueled by production deployments of its Figure 02 humanoid robot at BMW's Spartanburg manufacturing facility. The robots are autonomously performing bin picking, parts kitting, and inter-station transport across three production lines. Figure reports sub-2-second grasp planning and 99.4% pick reliability in production conditions, a milestone for general-purpose humanoid deployment.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-04-02"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic Introduces Claude Agent SDK with Built-In Safety Scaffolding",
+      "summary": "Anthropic released an open-source Agent SDK designed to let developers build autonomous Claude-powered agents with built-in Constitutional AI guardrails, sandboxed code execution, and human-in-the-loop checkpoints. The framework supports multi-step tool chains, persistent memory, and real-time monitoring dashboards. Early adopters report cutting agent development time by 60% compared to custom LangChain-style pipelines while maintaining tighter safety controls.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "AI",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "5",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Chips",
+      "summary": "TSMC announced volume production on its N14G (1.4nm-class) gate-all-around nanosheet process at its Kaohsiung fab, with Apple and Nvidia confirmed as launch customers. The node delivers a 20% speed improvement and 30% power reduction over N2, critical for next-generation AI accelerator and mobile SoC designs. Yield rates reportedly exceeded expectations, easing concerns about the economic viability of sub-2nm manufacturing.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-03-26"
+    },
+    {
+      "id": "6",
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Topping Benchmarks",
+      "summary": "Meta released Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model with 256 experts and 37B active parameters per forward pass, under a permissive open license. The model tops GPT-5 on several academic reasoning and coding benchmarks while remaining deployable on a single 8×H200 node. The release intensifies the open-weight vs. proprietary debate and gives the open-source ecosystem its most capable foundation model to date.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "7",
+      "title": "Boston Dynamics and Toyota Research Demonstrate Collaborative Multi-Robot Construction",
+      "summary": "Boston Dynamics and Toyota Research Institute demonstrated a team of Atlas electric humanoids and Spot quadrupeds autonomously constructing a modular emergency shelter in under four hours. The system uses a shared spatial-semantic map and decentralized task allocation, with robots dynamically reassigning roles when one encounters an obstacle. The demonstration targets disaster-response and defense logistics applications with field trials planned for Q3 2026.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-04-04"
     },
     {
-      "id": "3",
-      "title": "Google DeepMind's AlphaFold 3 Expands to Drug Discovery",
-      "summary": "AlphaFold 3 now predicts interactions between proteins and small molecules with unprecedented accuracy, accelerating drug discovery pipelines at major pharmaceutical companies.",
-      "source": "Nature",
-      "url": "https://nature.com",
+      "id": "8",
+      "title": "Helion Energy Achieves Sustained Fusion Plasma Milestone, Signs Second Commercial PPA",
+      "summary": "Helion Energy reported sustaining a 100-million-degree plasma for over 20 seconds in its seventh-generation Polaris prototype, a record for a private fusion company using field-reversed configuration. The company simultaneously announced a second commercial power purchase agreement, this time with Nucor Steel, following its earlier Microsoft deal. Helion targets first electricity delivery in late 2027, positioning pulsed fusion as a viable pathway to abundant clean energy for AI data center demand.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
       "category": "Innovation",
       "date": "2026-04-03"
-    },
-    {
-      "id": "4",
-      "title": "NVIDIA Blackwell GPUs Power New Wave of Edge AI Deployments",
-      "summary": "NVIDIA's latest Blackwell architecture is enabling real-time AI inference at the edge, with deployments in manufacturing, healthcare diagnostics, and autonomous vehicle fleets.",
-      "source": "NVIDIA News",
-      "url": "https://nvidia.com",
-      "category": "AI",
-      "date": "2026-04-03"
-    },
-    {
-      "id": "5",
-      "title": "Waymo Expands Fully Autonomous Rides to 10 New Cities",
-      "summary": "Waymo's driverless taxi service is rolling out to 10 additional US cities in 2026, backed by improved sensor fusion and real-time mapping that handles complex urban environments.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-04-03"
-    },
-    {
-      "id": "6",
-      "title": "Microsoft Copilot Integrated into Azure DevOps Workflows",
-      "summary": "Microsoft's AI Copilot now automates PR reviews, generates test cases, and monitors production anomalies natively inside Azure DevOps, targeting enterprise engineering teams.",
-      "source": "Microsoft Azure Blog",
-      "url": "https://azure.microsoft.com",
-      "category": "Innovation",
-      "date": "2026-04-02"
     }
   ]
 }
