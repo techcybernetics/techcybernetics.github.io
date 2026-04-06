@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-05",
+  "lastUpdated": "2026-04-06",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning, mathematical proof generation, and agentic tool use, narrowing the gap on several AGI benchmarks. Enterprise API access is rolling out with new structured-output guarantees and latency improvements.",
+      "summary": "OpenAI officially released GPT-5 in late March 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and mathematical proof generation, narrowing the gap with domain-specific systems. Industry benchmarks show a 35% improvement on ARC-AGI-2 compared to its predecessor.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-03-28"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
-      "summary": "DeepMind unveiled Gemini Robotics, a family of vision-language-action models that allow robotic arms to perform complex dexterous manipulation tasks with zero-shot generalization to novel objects. The system combines Gemini's world-knowledge with real-time proprioceptive feedback loops, achieving human-comparable success rates on 47 of 52 benchmark tasks. Several hardware partners including Apptronik and Agility Robotics are integrating the models into commercial platforms.",
+      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "Google DeepMind published results from its Gemini Robotics program showing foundation models that allow robotic arms to perform complex manipulation tasks — including deformable object handling and tool use — without task-specific fine-tuning. The system leverages a vision-language-action architecture trained on a massive dataset of real-world and simulated interactions. Several logistics partners are beginning pilot deployments in warehouse settings.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-03-31"
-    },
-    {
-      "id": "3",
-      "title": "Figure AI Raises $1.5B Series C, Begins Warehouse Deployments with BMW",
-      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, fueled by production deployments of its Figure 02 humanoid robot at BMW's Spartanburg manufacturing facility. The robots are autonomously performing bin picking, parts kitting, and inter-station transport across three production lines. Figure reports sub-2-second grasp planning and 99.4% pick reliability in production conditions, a milestone for general-purpose humanoid deployment.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-04-02"
     },
     {
-      "id": "4",
-      "title": "Anthropic Introduces Claude Agent SDK with Built-In Safety Scaffolding",
-      "summary": "Anthropic released an open-source Agent SDK designed to let developers build autonomous Claude-powered agents with built-in Constitutional AI guardrails, sandboxed code execution, and human-in-the-loop checkpoints. The framework supports multi-step tool chains, persistent memory, and real-time monitoring dashboards. Early adopters report cutting agent development time by 60% compared to custom LangChain-style pipelines while maintaining tighter safety controls.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "id": "3",
+      "title": "Anthropic Introduces Claude with Real-Time Tool Use and Autonomous Agent Capabilities",
+      "summary": "Anthropic rolled out a major update to Claude enabling persistent agent loops with real-time tool use, including code execution, web browsing, and file system interaction within sandboxed environments. The system introduces a novel constitutional-AI-based safety layer for agentic actions, requiring explicit user approval for irreversible operations. Early enterprise adopters report significant productivity gains in software engineering and data analysis workflows.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
       "date": "2026-04-01"
     },
     {
+      "id": "4",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment Across Three Additional Manufacturing Plants",
+      "summary": "Figure announced the expansion of its humanoid robot workforce into three additional BMW manufacturing facilities in Europe, scaling from the initial pilot to over 200 units performing assembly-line tasks such as component insertion, quality inspection, and inter-station transport. The Figure 02 platform now operates with improved uptime of 18+ hours per cycle and demonstrates emergent task adaptation through on-device learning. This marks one of the largest commercial humanoid deployments to date.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
+      "date": "2026-03-31"
+    },
+    {
       "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Chips",
-      "summary": "TSMC announced volume production on its N14G (1.4nm-class) gate-all-around nanosheet process at its Kaohsiung fab, with Apple and Nvidia confirmed as launch customers. The node delivers a 20% speed improvement and 30% power reduction over N2, critical for next-generation AI accelerator and mobile SoC designs. Yield rates reportedly exceeded expectations, easing concerns about the economic viability of sub-2nm manufacturing.",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed it has started high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, roughly one quarter ahead of original projections. The node utilizes gate-all-around nanosheet transistors with backside power delivery, yielding approximately 20% performance improvement and 30% power reduction over N2. Apple and Nvidia are reported to be among the first customers taping out designs on the new process.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "6",
+      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with Mixture-of-Experts Architecture",
+      "summary": "Meta released Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model with open weights, making it the largest openly available language model to date. The model activates roughly 400B parameters per forward pass and matches or exceeds several proprietary frontier models on reasoning and code generation benchmarks. The release includes optimized inference kernels for multi-node deployment, lowering the barrier for organizations with modest GPU clusters.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/artificial-intelligence",
+      "category": "AI",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "Neuralink announced FDA clearance for its N2 implant, a second-generation BCI device featuring 4,096 electrode channels — quadruple the original — and wireless data throughput sufficient for real-time high-bandwidth neural decoding. Clinical trial data from the first cohort showed paralyzed participants achieving cursor control speeds approaching able-bodied benchmarks. The approval covers expanded trials for both motor and communication restoration indications.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
       "date": "2026-03-26"
     },
     {
-      "id": "6",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Topping Benchmarks",
-      "summary": "Meta released Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model with 256 experts and 37B active parameters per forward pass, under a permissive open license. The model tops GPT-5 on several academic reasoning and coding benchmarks while remaining deployable on a single 8×H200 node. The release intensifies the open-weight vs. proprietary debate and gives the open-source ecosystem its most capable foundation model to date.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "AI",
-      "date": "2026-04-03"
-    },
-    {
-      "id": "7",
-      "title": "Boston Dynamics and Toyota Research Demonstrate Collaborative Multi-Robot Construction",
-      "summary": "Boston Dynamics and Toyota Research Institute demonstrated a team of Atlas electric humanoids and Spot quadrupeds autonomously constructing a modular emergency shelter in under four hours. The system uses a shared spatial-semantic map and decentralized task allocation, with robots dynamically reassigning roles when one encounters an obstacle. The demonstration targets disaster-response and defense logistics applications with field trials planned for Q3 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-04-04"
-    },
-    {
       "id": "8",
-      "title": "Helion Energy Achieves Sustained Fusion Plasma Milestone, Signs Second Commercial PPA",
-      "summary": "Helion Energy reported sustaining a 100-million-degree plasma for over 20 seconds in its seventh-generation Polaris prototype, a record for a private fusion company using field-reversed configuration. The company simultaneously announced a second commercial power purchase agreement, this time with Nucor Steel, following its earlier Microsoft deal. Helion targets first electricity delivery in late 2027, positioning pulsed fusion as a viable pathway to abundant clean energy for AI data center demand.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Innovation",
-      "date": "2026-04-03"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
+      "summary": "Boston Dynamics, backed by Hyundai, formally launched the commercial version of its electric Atlas humanoid platform targeted at construction applications, including autonomous rebar carrying, site surveying with integrated LiDAR, and stair navigation with heavy payloads up to 25 kg. The system integrates a vision-language model for natural language task instruction from on-site supervisors. Pre-orders from three major construction firms signal strong industrial demand for humanoid platforms beyond manufacturing.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/robotics",
+      "category": "Robotics",
+      "date": "2026-04-05"
     }
   ]
 }
