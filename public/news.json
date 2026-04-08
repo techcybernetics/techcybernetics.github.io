@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-07",
+  "lastUpdated": "2026-04-08",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring natively fused vision-language-audio reasoning rather than bolted-on modality adapters, alongside a 1M-token context window available at launch. Benchmarks show significant gains in complex multi-step coding, scientific reasoning, and agentic tool-use tasks, narrowing the gap with specialized domain models.",
+      "summary": "OpenAI released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and multi-step mathematical proofs, narrowing the gap with domain-specific systems. Enterprise API pricing reflects a shift toward consumption-based tiers aimed at making advanced capabilities accessible at scale.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-03-28"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
-      "summary": "Google DeepMind's Gemini 2.5 Pro model achieved state-of-the-art results on SWE-Bench Verified and HumanEval-Agent, demonstrating an ability to autonomously navigate large codebases, write tests, and submit working pull requests. The model's improved planning and self-correction loops mark a step change in practical AI-assisted software engineering.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on agentic task-completion benchmarks including SWE-bench and WebArena, successfully completing multi-step browser and coding workflows with over 72% accuracy. The model integrates a learned tool-use layer that dynamically selects and chains APIs without explicit prompting. Researchers highlighted a new self-verification loop that substantially reduces hallucinated actions in autonomous workflows.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-03-31"
-    },
-    {
-      "id": "3",
-      "title": "Meta Releases Llama 4 Maverick and Scout Models Under Open License",
-      "summary": "Meta released the Llama 4 family, including the 'Maverick' 400B mixture-of-experts model and the smaller 'Scout' variant optimized for on-device inference. Both models ship under a permissive license and compete directly with closed frontier models on reasoning benchmarks, further accelerating the open-weight AI ecosystem.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence",
-      "category": "AI",
-      "date": "2026-04-05"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI's Helix Humanoid Begins Pilot Deployment at BMW Spartanburg Plant",
-      "summary": "Figure AI announced that its Helix humanoid robot has started a paid pilot program at BMW's Spartanburg, SC manufacturing facility, performing bin-picking, parts transfer, and quality inspection tasks alongside human workers. The deployment represents one of the first commercial-scale uses of general-purpose humanoids in automotive manufacturing.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
       "date": "2026-04-02"
     },
     {
-      "id": "5",
-      "title": "Boston Dynamics Unveils Electric Atlas SDK for Third-Party Developers",
-      "summary": "Boston Dynamics opened a public SDK and simulation environment for its electric Atlas humanoid platform, enabling external developers to build and test manipulation and locomotion behaviors in a digital twin before deploying on hardware. The move signals a shift toward a platform-ecosystem strategy similar to what worked for Spot.",
-      "source": "Wired",
-      "url": "https://www.wired.com/tag/robotics",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
+      "summary": "Figure AI has started deploying its Figure 03 humanoid robots on BMW assembly lines in South Carolina, marking one of the first scaled commercial deployments of general-purpose humanoid robots in automotive manufacturing. The robots handle bin-picking, part insertion, and quality inspection tasks alongside human workers. Figure reports the units operate autonomously for 18-hour shifts with a mean-time-between-intervention exceeding 4 hours, a milestone for humanoid reliability.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-04-03"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Fully Autonomous Warehouse Navigation",
+      "summary": "Boston Dynamics released footage and technical details of its electric Atlas robot autonomously navigating a complex, unstructured warehouse environment including stairs, narrow aisles, and dynamic obstacles. The system uses a vision-language-action model trained end-to-end on real-world data, eliminating the need for pre-mapped environments. The company announced partnerships with DHL and Amazon to pilot Atlas in logistics facilities by Q3 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-05"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional Classifiers to Defend Against Jailbreaks at Scale",
+      "summary": "Anthropic published a paper and deployed a new safety architecture called Constitutional Classifiers, lightweight auxiliary models trained via constitutional AI principles that screen both inputs and outputs in real time. In red-team evaluations, the system reduced successful jailbreak rates to under 3% while adding less than 40ms of latency. The approach is model-agnostic and Anthropic has open-sourced the training framework to encourage industry-wide adoption.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-03-31"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm N2 Process Node",
-      "summary": "TSMC confirmed the start of high-volume manufacturing on its N2 (2nm-class) process using gate-all-around nanosheet transistors, with Apple and Nvidia among the first customers. The node delivers roughly 15% speed improvement and 30% power reduction over N3E, critical for next-generation AI accelerator and mobile SoC designs.",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, achieving an estimated 15% speed improvement and 30% power reduction over N2. Apple, Nvidia, and AMD are confirmed first customers, with chips expected in consumer products by early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-03-25"
-    },
-    {
-      "id": "7",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Harden AI Safety at Scale",
-      "summary": "Anthropic published research on Constitutional Classifiers, a technique that uses layered AI-generated rule sets to detect and refuse adversarial jailbreak attempts with significantly lower false-positive rates than previous guardrail methods. Early results on Claude deployments show a 85% reduction in successful prompt injection attacks while maintaining helpfulness on benign queries.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "AI",
       "date": "2026-04-01"
     },
     {
-      "id": "8",
-      "title": "Helion Energy Achieves Sustained Fusion Plasma Milestone Ahead of Schedule",
-      "summary": "Helion Energy reported that its Polaris prototype sustained a fusion plasma at over 100 million degrees Celsius for a record-breaking duration, moving the company closer to its goal of grid-connected fusion electricity by 2028. The achievement bolsters confidence in the field-reversed configuration approach and its commercial viability for clean baseload power.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/energy",
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained logical qubit error rates below 10⁻⁶ across 100+ consecutive operations on their trapped-ion system, crossing a key threshold for practical fault-tolerant quantum computing. The achievement was enabled by Microsoft's new real-time decoding ASIC that performs error correction in under one microsecond. The teams outlined a roadmap to a 100-logical-qubit system by 2028 targeting materials science and cryptographic applications.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
       "category": "Innovation",
       "date": "2026-04-06"
+    },
+    {
+      "id": "8",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
+      "summary": "The FDA has cleared Neuralink to begin human trials of its N2 implant, which doubles the electrode count to 2,048 channels and features an upgraded wireless chipset with 10x higher data throughput than the first-generation device. The approval covers a 30-patient expansion trial focused on enabling full cursor control and text input for individuals with quadriplegia. Preliminary data from the initial cohort showed stable signal quality beyond 12 months post-implantation.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-04-07"
     }
   ]
 }
