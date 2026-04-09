@@ -1,55 +1,55 @@
 {
-  "lastUpdated": "2026-04-08",
+  "lastUpdated": "2026-04-09",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and multi-step mathematical proofs, narrowing the gap with domain-specific systems. Enterprise API pricing reflects a shift toward consumption-based tiers aimed at making advanced capabilities accessible at scale.",
+      "summary": "OpenAI officially released GPT-5 in late March 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and mathematical proof generation, narrowing the gap with domain-specific systems. Enterprise API availability began rolling out in early April with tiered pricing based on context utilization.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-03-28"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on agentic task-completion benchmarks including SWE-bench and WebArena, successfully completing multi-step browser and coding workflows with over 72% accuracy. The model integrates a learned tool-use layer that dynamically selects and chains APIs without explicit prompting. Researchers highlighted a new self-verification loop that substantially reduces hallucinated actions in autonomous workflows.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-04-02"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on GPQA-Diamond, MathOlympiad, and several graduate-level science benchmarks. The model introduces a novel mixture-of-experts architecture that dynamically allocates compute to sub-problems, enabling PhD-level performance on multi-step chemistry and physics reasoning tasks. Google is integrating the model across its Cloud AI Platform and research tools.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/ai",
+      "category": "AI",
+      "date": "2026-04-05"
+    },
+    {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
-      "summary": "Figure AI has started deploying its Figure 03 humanoid robots on BMW assembly lines in South Carolina, marking one of the first scaled commercial deployments of general-purpose humanoid robots in automotive manufacturing. The robots handle bin-picking, part insertion, and quality inspection tasks alongside human workers. Figure reports the units operate autonomously for 18-hour shifts with a mean-time-between-intervention exceeding 4 hours, a milestone for humanoid reliability.",
+      "title": "Figure Robotics Deploys Humanoid Workers at BMW Spartanburg Plant at Scale",
+      "summary": "Figure AI announced that over 200 of its Figure 03 humanoid robots are now operating across multiple assembly lines at BMW's Spartanburg, South Carolina plant, marking the largest commercial deployment of general-purpose humanoid robots in manufacturing. The robots handle bin-picking, parts transfer, and quality inspection tasks with a reported 99.2% uptime. BMW says the deployment has reduced certain line cycle times by 18%.",
       "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Demonstrates Autonomous Construction Site Navigation and Tool Use",
+      "summary": "Boston Dynamics released a technical demo showing its electric Atlas robot autonomously navigating an active construction site, identifying tasks from a digital work order, selecting appropriate power tools, and performing drilling and fastening operations. The system uses a vision-language-action model fine-tuned on construction domain data. The company announced partnerships with Bechtel and Skanska for pilot deployments starting Q3 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-04-03"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Electric Demonstrates Fully Autonomous Warehouse Navigation",
-      "summary": "Boston Dynamics released footage and technical details of its electric Atlas robot autonomously navigating a complex, unstructured warehouse environment including stairs, narrow aisles, and dynamic obstacles. The system uses a vision-language-action model trained end-to-end on real-world data, eliminating the need for pre-mapped environments. The company announced partnerships with DHL and Amazon to pilot Atlas in logistics facilities by Q3 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-04-05"
-    },
-    {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers to Defend Against Jailbreaks at Scale",
-      "summary": "Anthropic published a paper and deployed a new safety architecture called Constitutional Classifiers, lightweight auxiliary models trained via constitutional AI principles that screen both inputs and outputs in real time. In red-team evaluations, the system reduced successful jailbreak rates to under 3% while adding less than 40ms of latency. The approach is model-agnostic and Anthropic has open-sourced the training framework to encourage industry-wide adoption.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' Framework to Mitigate Jailbreaks at the Infrastructure Level",
+      "summary": "Anthropic published a paper and open-source toolkit for Constitutional Classifiers, a defense-in-depth approach that embeds safety classifiers directly into the inference pipeline at multiple transformer layers rather than relying solely on output filtering. Internal red-team evaluations showed a 94% reduction in successful jailbreak attacks compared to output-only safeguards, with less than 2% overhead on latency. The framework is model-agnostic and has been adopted by two major cloud providers.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com/research",
       "category": "AI",
-      "date": "2026-03-31"
+      "date": "2026-03-28"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, achieving an estimated 15% speed improvement and 30% power reduction over N2. Apple, Nvidia, and AMD are confirmed first customers, with chips expected in consumer products by early 2027.",
+      "title": "TSMC Begins Volume Production of A14 2nm Node with Backside Power Delivery",
+      "summary": "TSMC confirmed volume production has started on its N2 process node at its Kaohsiung fab, featuring gate-all-around nanosheet transistors and backside power delivery network technology. Early yields are reportedly exceeding initial projections, with Apple and Nvidia among the first customers. The node delivers approximately 25% speed improvement or 30% power reduction over N3E, critical for next-generation AI accelerator and mobile SoC designs.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained logical qubit error rates below 10⁻⁶ across 100+ consecutive operations on their trapped-ion system, crossing a key threshold for practical fault-tolerant quantum computing. The achievement was enabled by Microsoft's new real-time decoding ASIC that performs error correction in under one microsecond. The teams outlined a roadmap to a 100-logical-qubit system by 2028 targeting materials science and cryptographic applications.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-04-06"
-    },
-    {
-      "id": "8",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
-      "summary": "The FDA has cleared Neuralink to begin human trials of its N2 implant, which doubles the electrode count to 2,048 channels and features an upgraded wireless chipset with 10x higher data throughput than the first-generation device. The approval covers a 30-patient expansion trial focused on enabling full cursor control and text input for individuals with quadriplegia. Preliminary data from the initial cohort showed stable signal quality beyond 12 months post-implantation.",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4x Electrode Density",
+      "summary": "Neuralink announced FDA clearance for its N2 implant, which features 4,096 electrodes—four times the density of its first-generation device—and a wireless data throughput of 200 Mbps. The improved resolution enables more granular motor cortex decoding, and early trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks. The company plans to expand its clinical trial to 50 participants across five US hospitals.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-04-07"
+      "date": "2026-04-08"
+    },
+    {
+      "id": "8",
+      "title": "Toyota Research Institute Unveils Diffusion-Policy-Based Robotic Manipulation System That Learns from 10 Minutes of Demo Data",
+      "summary": "TRI presented a new manipulation framework at ICRA 2026 that uses diffusion policy models to learn complex bimanual manipulation tasks—including cable routing, fabric folding, and liquid pouring—from as few as 10 minutes of human teleoperation data. The system generalizes to novel object geometries with an 87% success rate, a major step toward practical few-shot robot learning. TRI plans to open-source the training pipeline and a simulated benchmark suite.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/robotics",
+      "category": "Robotics",
+      "date": "2026-04-06"
     }
   ]
 }
