@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-10",
+  "lastUpdated": "2026-04-11",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Agency Capabilities",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with significantly improved agentic task completion. The model demonstrates substantial gains on graduate-level benchmarks and can autonomously execute multi-step workflows across web browsers and code environments. Enterprise API pricing reflects a new tiered compute model based on reasoning depth.",
+      "title": "OpenAI Launches GPT-5 with Persistent Memory and Extended Reasoning Chains",
+      "summary": "OpenAI officially released GPT-5 in late March 2026, featuring a dramatically improved architecture with native long-term memory across sessions and multi-step reasoning that outperforms GPT-4o on every major benchmark. The model introduces a new \"deliberative alignment\" mechanism that allows it to pause mid-generation and self-correct, significantly reducing hallucination rates in technical and scientific domains.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-04-02"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
-      "summary": "DeepMind published results from its Gemini Robotics program showing foundation models that allow robotic hands to perform zero-shot dexterous manipulation of novel objects using vision-language grounding. The system transfers sim-to-real with minimal fine-tuning and achieved 87% success rates on previously unseen household tasks. This represents a major step toward general-purpose robotic manipulation without task-specific training.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-04-07"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Claude's Real-Time Computer Use API for Enterprise Automation",
-      "summary": "Anthropic released a production-grade API enabling Claude to interact directly with desktop environments, browsers, and enterprise software in real time with robust guardrails. The system includes a verified action framework that requires human-in-the-loop confirmation for sensitive operations while allowing autonomous execution of routine workflows. Early enterprise partners report 40-60% reductions in repetitive knowledge-work time.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-04-04"
-    },
-    {
-      "id": "4",
-      "title": "Figure and BMW Scale Humanoid Robot Deployment to Full Assembly Line Operations",
-      "summary": "Figure's second-generation humanoid robots are now operating across multiple BMW manufacturing lines in South Carolina, handling parts logistics, quality inspection, and light assembly tasks alongside human workers. The deployment marks the largest commercial humanoid workforce to date, with over 200 units running three shifts. Figure credits breakthroughs in whole-body control and on-device vision-language models for the reliability improvements needed for production use.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-04-08"
-    },
-    {
-      "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has entered volume production on its A14 (1.4nm-class) gate-all-around transistor process, several months ahead of original projections, with Apple and Nvidia as lead customers. The node delivers approximately 20% performance improvement and 30% power reduction compared to N2. This acceleration tightens the competitive window for Samsung and Intel, both of whom have faced repeated delays on comparable nodes.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-04-03"
-    },
-    {
-      "id": "6",
-      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with Mixture-of-Experts at Frontier Scale",
-      "summary": "Meta released Llama 4 Behemoth, a massive mixture-of-experts open-weight model that matches or exceeds proprietary frontier models on major reasoning and coding benchmarks. The model uses a sparse architecture activating roughly 100B parameters per forward pass from a total of over 1.5T parameters, making it feasible to run on multi-GPU server configurations. The open release has sparked immediate adoption across the research community and is expected to shift competitive dynamics in the foundation model landscape.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-03-28"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with Bidirectional Stimulation",
-      "summary": "The FDA has granted Neuralink clearance to begin human trials of its N2 implant, which adds targeted electrical stimulation capabilities to the existing high-bandwidth neural recording platform. The bidirectional interface could enable not only motor output for paralyzed patients but also sensory feedback, a critical step toward practical closed-loop neuroprosthetics. The trial will enroll 50 participants with spinal cord injuries across five U.S. medical centers.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
+      "summary": "Google DeepMind's Gemini 2.5 Pro, released in early April 2026, set new state-of-the-art results on SWE-Bench and HumanEval-X, demonstrating the ability to autonomously resolve complex multi-file GitHub issues with over 60% accuracy. The model's 2-million-token context window and improved tool-use capabilities make it particularly effective for repository-scale code understanding and modification tasks.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
+      "date": "2026-04-04"
+    },
+    {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 02 Humanoids in BMW Factories",
+      "summary": "Figure AI announced the first large-scale commercial deployment of its Figure 02 humanoid robots at BMW's Spartanburg, South Carolina plant, with over 50 units now performing assembly-line logistics and parts inspection tasks. The robots leverage onboard vision-language models for flexible task adaptation, reportedly reducing the need for manual reprogramming when production lines change configurations.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Navigation in Live Demo",
+      "summary": "Tesla showcased its third-generation Optimus humanoid performing end-to-end warehouse picking, packing, and sorting tasks without human teleoperation at a live event in Austin. The updated hardware features new actuators with 40% greater torque density and a custom Tesla-designed vision transformer chip enabling real-time 3D scene understanding at sub-100ms latency.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
       "date": "2026-04-09"
     },
     {
-      "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric Platform with Autonomous Construction Capabilities",
-      "summary": "Boston Dynamics demonstrated its latest Atlas electric humanoid performing autonomous construction tasks including rebar tying, concrete form inspection, and heavy material transport on an active Hyundai E&C building site in Seoul. The robot uses a combination of LiDAR-based SLAM, vision-language planning, and reinforced whole-body locomotion to navigate unstructured job sites. Hyundai plans to deploy pilot fleets to address South Korea's acute construction labor shortage by early 2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
+      "id": "5",
+      "title": "Anthropic Introduces Claude's Tool-Use Orchestration Layer for Enterprise Agents",
+      "summary": "Anthropic released a new enterprise agent framework built on top of Claude that enables multi-step, multi-tool workflows with built-in audit logging, human-in-the-loop checkpoints, and granular permission scoping. The system is designed for regulated industries like finance and healthcare, where autonomous AI actions require verifiable chain-of-custody documentation for every decision made by the model.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai",
+      "category": "AI",
+      "date": "2026-04-03"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors at its Fab 20 in Hsinchu, with initial capacity allocated to Apple and NVIDIA. The node delivers an estimated 20% speed improvement and 30% power reduction over N2, which is critical for next-generation AI accelerators that are increasingly constrained by power delivery and thermal limits.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
       "date": "2026-04-06"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Threshold",
+      "summary": "Microsoft and Atom Computing published results showing their neutral-atom quantum processor achieved logical error rates below the fault-tolerance threshold using a distance-7 surface code with 98 physical qubits per logical qubit. This milestone marks a practical inflection point for quantum error correction, bringing closer the prospect of fault-tolerant quantum computation for chemistry simulation and optimization problems.",
+      "source": "Nature",
+      "url": "https://www.nature.com/news",
+      "category": "Innovation",
+      "date": "2026-04-02"
+    },
+    {
+      "id": "8",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office commenced its first formal compliance audits under the AI Act's general-purpose AI provisions, targeting major foundation model providers including OpenAI, Google, and Meta operating in European markets. Companies are required to submit detailed documentation on training data provenance, systemic risk assessments, and energy consumption metrics, with potential fines up to 3% of global annual revenue for non-compliance.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Innovation",
+      "date": "2026-04-10"
     }
   ]
 }
