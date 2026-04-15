@@ -1,46 +1,46 @@
 {
-  "lastUpdated": "2026-04-14",
+  "lastUpdated": "2026-04-15",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in complex multi-step reasoning benchmarks and reduced hallucination rates. Enterprise API availability began rolling out in early April with tiered pricing based on context utilization.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Agent Capabilities",
+      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with significantly improved chain-of-thought performance. The model introduces persistent agent memory and the ability to execute multi-step tool-use workflows autonomously, marking a shift from conversational AI to agentic AI as the primary product paradigm.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-04-08"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "Google DeepMind published results from its Gemini Robotics program, demonstrating foundation models that allow robotic arms to perform complex manipulation tasks in cluttered, novel environments without task-specific fine-tuning. The system leverages a vision-language-action architecture that generalizes across different robot morphologies. Several logistics and warehouse partners have begun pilot integrations.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
       "date": "2026-04-10"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
+      "summary": "DeepMind published results from its Gemini Robotics program demonstrating foundation models that allow robotic hands to perform complex dexterous manipulation tasks—such as assembling small electronic components—without task-specific fine-tuning. The system leverages a vision-language-action architecture trained on massive simulation and real-world teleoperation datasets, achieving a 87% success rate on previously unseen objects.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-04-08"
+    },
+    {
       "id": "3",
-      "title": "Anthropic Introduces Constitutional Steering: A New Approach to Real-Time AI Alignment",
-      "summary": "Anthropic unveiled a technique called Constitutional Steering that allows runtime adjustment of model behavior constraints without retraining, using lightweight activation-space interventions guided by natural language principles. The method reportedly reduces alignment tax on capability benchmarks to under 2% while maintaining robust safety guardrails. The research has been submitted for peer review and the tooling is available in their latest Claude API release.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Figure AI and BMW Expand Humanoid Deployment to Full Assembly Line Integration",
+      "summary": "Figure AI announced it has scaled its humanoid robot deployment at BMW's Spartanburg plant from a pilot of 50 units to over 300, now covering multiple stages of vehicle sub-assembly. The robots operate alongside human workers using real-time LLM-driven task planning, reportedly reducing line downtime by 18% and marking the largest commercial humanoid deployment in manufacturing to date.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic Introduces Constitutional Classifiers for Enterprise AI Safety Guardrails",
+      "summary": "Anthropic released a new suite of constitutional classifiers designed to let enterprises define and enforce custom safety and compliance policies for Claude deployments without sacrificing model capability. The approach uses lightweight classifier heads trained via constitutional AI methods, enabling fine-grained control over outputs in regulated industries like healthcare and finance with sub-5ms latency overhead.",
+      "source": "VentureBeat",
+      "url": "https://www.venturebeat.com",
       "category": "AI",
       "date": "2026-04-11"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Reveal Atlas Production Line for Commercial Deployment",
-      "summary": "Boston Dynamics, backed by Hyundai, announced the opening of a dedicated production facility for its electric Atlas humanoid robot aimed at automotive manufacturing and logistics applications. The commercial Atlas units feature improved battery life of 4+ hours under load, enhanced dexterous manipulation, and an integrated fleet management platform. Initial deployments to Hyundai and KIA factories are scheduled for Q3 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-04-07"
-    },
-    {
       "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC confirmed that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered volume production at its Kaohsiung fab, with initial capacity allocated to Apple and NVIDIA. The node offers approximately 20% performance improvement and 30% power reduction over N2, critical for next-generation AI accelerator and mobile SoC designs. Yield rates are reportedly ahead of schedule compared to the N2 ramp at the same stage.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed it has commenced high-volume production on its N1.4 gate-all-around (GAA) transistor process, approximately one quarter ahead of its original roadmap. The node delivers a 20% power efficiency gain over N2 and is expected to power next-generation AI accelerators and mobile SoCs shipping in late 2026, intensifying the competition with Samsung Foundry and Intel.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -48,28 +48,28 @@
     },
     {
       "id": "6",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with Mixture-of-Experts Architecture at 2 Trillion Parameters",
-      "summary": "Meta released the full weights and training documentation for Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that activates roughly 200 billion parameters per forward pass. The model sets new state-of-the-art results on multiple academic and industry benchmarks while remaining runnable on multi-node GPU clusters accessible to well-funded research labs. The permissive license continues Meta's strategy of commoditizing the model layer of the AI stack.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
+      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with MoE Architecture",
+      "summary": "Meta released Llama 4 Behemoth, a massive mixture-of-experts model with over 2 trillion total parameters and 288 billion active parameters per forward pass, under its open-weight license. Benchmarks show it competitive with GPT-5 and Gemini Ultra on reasoning and coding tasks, and the open release has reignited debate about the safety implications of making frontier-class models widely available.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
       "category": "AI",
-      "date": "2026-04-03"
+      "date": "2026-04-07"
     },
     {
       "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Production-Intent Cells",
-      "summary": "QuantumScape announced that its latest lithium-metal solid-state cells have achieved 600 Wh/kg energy density at the cell level in production-intent form factors, nearly doubling the density of current top-tier lithium-ion cells. The cells retained over 80% capacity after 1,000 fast-charge cycles, addressing a long-standing durability concern. Automotive OEM partners including Volkswagen have confirmed integration into 2028 model-year vehicle platforms.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "Neuralink obtained FDA clearance for its N2 implant, a second-generation BCI device featuring 4,096 electrodes—quadruple the original—and wireless charging capability. The approval covers expanded clinical trials for patients with quadriplegia and ALS, with early trial participants demonstrating cursor control speeds approaching those of able-bodied users with a traditional mouse.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-04-12"
+      "date": "2026-04-14"
     },
     {
       "id": "8",
-      "title": "Figure AI Secures $1.5B Series C to Scale Humanoid Robot Deployment in BMW and Amazon Facilities",
-      "summary": "Figure AI closed a $1.5 billion Series C funding round at a $15 billion valuation, with investment from Microsoft, NVIDIA, and Amazon's Industrial Innovation Fund. The capital will fund scaling production of its Figure 02 humanoid to thousands of units for deployment at BMW's Spartanburg plant and Amazon fulfillment centers. The robots use on-device vision-language models for task understanding, enabling non-expert operators to assign work via natural language commands.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Boston Dynamics Atlas Achieves Autonomous Disaster Site Navigation in DARPA Evaluation",
+      "summary": "Boston Dynamics' electric Atlas humanoid completed a DARPA-supervised evaluation in which it autonomously navigated a simulated collapsed building, identified hazards, and performed basic search tasks without human teleoperation. The robot used onboard LiDAR-vision fusion and a locally-running planning model to traverse unstructured rubble terrain, representing a major milestone for autonomous humanoid robots in emergency response scenarios.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-04-13"
     }
