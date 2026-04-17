@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-17",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning and mathematical proof generation, narrowing the gap with domain-specific formal verification tools. Enterprise API availability began rolling out this week with new structured-output guarantees.",
+      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant gains in long-horizon planning, mathematical proof generation, and agentic task completion. Independent benchmarks show a 35% improvement over GPT-4.5 on complex multi-step coding and scientific reasoning tasks.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
+      "summary": "Google DeepMind published results from its Gemini Robotics program showing foundation models that allow humanoid and multi-fingered robotic hands to perform complex dexterous manipulation tasks with zero-shot transfer from simulation. The system uses a vision-language-action architecture that generalizes across unseen objects and environments, marking a significant step toward general-purpose robotic manipulation.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "3",
+      "title": "Anthropic Introduces Claude Tool-Use Framework for Autonomous Enterprise Workflows",
+      "summary": "Anthropic released a production-grade tool-use and orchestration framework for Claude, enabling autonomous multi-step enterprise workflows with built-in sandboxing, audit logging, and human-in-the-loop checkpoints. The framework supports persistent agent sessions that can interact with databases, APIs, and file systems while maintaining Constitutional AI safety constraints. Early enterprise adopters report 40-60% reductions in back-office process cycle times.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "AI",
       "date": "2026-04-14"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results from its Gemini Robotics program showing that foundation models trained on massive simulation and real-world teleoperation data can perform zero-shot dexterous manipulation tasks in cluttered household environments. The system pairs a Gemini-class vision-language model with a diffusion-based action policy, achieving a 78% first-attempt success rate on previously unseen objects. The work signals a major step toward general-purpose robotic assistants.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-04-11"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Constitutional Oversight Layer for Autonomous AI Agent Deployments",
-      "summary": "Anthropic announced a new runtime safety framework called Constitutional Oversight that monitors and constrains autonomous AI agents acting in multi-step tool-use workflows. The system uses a lightweight supervisor model that evaluates each planned action against a configurable policy spec before execution, with formal guarantees on intervention latency. The release targets enterprise customers deploying agentic coding and data-analysis pipelines in production.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-04-15"
-    },
-    {
       "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Automotive Manufacturing",
-      "summary": "Boston Dynamics debuted the production version of its electric Atlas humanoid robot tailored for Hyundai's automotive assembly lines, capable of carrying 30 kg payloads and performing multi-step assembly sequences alongside human workers. The robot uses onboard LiDAR-vision fusion and a learned task planner that adapts to line configuration changes with minimal re-programming. Initial deployment covers three Hyundai plants in South Korea with expansion planned for late 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Deployment for Automotive Assembly",
+      "summary": "Boston Dynamics announced the first large-scale commercial deployment of its electric Atlas humanoid robot in Hyundai automotive assembly plants in South Korea. The robots handle heavy part transportation, precision component insertion, and quality inspection tasks alongside human workers. The deployment represents 75 units operating across three facilities with plans to scale to 500 by year-end.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-04-12"
     },
     {
       "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm-Class GAA Transistor Node for AI Accelerators",
-      "summary": "TSMC confirmed that its A14 process node, using next-generation gate-all-around nanosheet transistors, has entered volume production at its Kaohsiung fab primarily serving AI accelerator customers including NVIDIA and Broadcom. The node delivers approximately 25% higher transistor density and 20% power efficiency gains over N2, which is critical for scaling next-generation training clusters. Yield rates have reportedly reached production-viable thresholds ahead of the original Q3 timeline.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-04-13"
+      "title": "Meta Releases Open-Source Llama 4 Behemoth with Mixture-of-Experts at 2 Trillion Parameters",
+      "summary": "Meta publicly released the full weights of Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that rivals proprietary frontier models on reasoning, code generation, and multilingual tasks. The model uses a novel routing architecture that activates only 200B parameters per inference pass, making it runnable on high-end multi-GPU setups. The open-source release has reignited debate around responsible release practices for frontier-class models.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-04-05"
     },
     {
       "id": "6",
-      "title": "Meta Open-Sources Llama 4 Behemoth 288B with Mixture-of-Experts Architecture",
-      "summary": "Meta released Llama 4 Behemoth, a 288B-active-parameter mixture-of-experts model with reportedly over 1.5 trillion total parameters, under a permissive open license. Benchmarks show it competing with GPT-5 on coding, reasoning, and multilingual tasks while being runnable on 4-node GPU clusters common in well-resourced startups. The release intensifies the open-weight vs. closed-model competitive dynamic and gives the open-source ecosystem its most capable foundation model to date.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-04-10"
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed it has entered volume production on its A14 (1.4nm-class) process node using gate-all-around nanosheet transistors at its Fab 20 in Tainan. The node delivers an 18% speed improvement and 25% power reduction over N2, targeting next-generation AI accelerator and mobile SoC designs. Apple, NVIDIA, and AMD are confirmed as first customers with products expected in late 2026.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-04-15"
     },
     {
       "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV-Format Cells",
-      "summary": "QuantumScape reported that its multi-layer solid-state lithium-metal battery cells have surpassed 1,000 full charge-discharge cycles while retaining over 90% capacity in an automotive-format pouch configuration. The result addresses the key durability concern that has kept solid-state technology out of mass EV production. The company's partnership with Volkswagen's PowerCo targets initial vehicle integration in 2027 model-year programs.",
+      "title": "Figure AI Raises $1.5B Series C as Humanoid Robots Enter Warehouse Logistics at Scale",
+      "summary": "Figure AI closed a $1.5 billion Series C round at an $18 billion valuation, fueled by commercial contracts with Amazon and BMW for warehouse logistics and light manufacturing. The company's Figure 03 robot demonstrates improved autonomous navigation, package handling, and collaborative task execution using onboard vision-language models. The funding will accelerate production to thousands of units per year at its new South Carolina facility.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com",
-      "category": "Innovation",
-      "date": "2026-04-09"
+      "category": "Robotics",
+      "date": "2026-04-11"
     },
     {
       "id": "8",
-      "title": "Figure AI Demonstrates Fully Autonomous Warehouse Order Fulfillment with Humanoid Robot Fleet",
-      "summary": "Figure AI showcased a fleet of its Figure 02 humanoid robots autonomously completing end-to-end warehouse order fulfillment tasks—including shelf navigation, item picking, packing, and handoff—at a BMW logistics facility without human teleoperation. The system coordinates multiple robots via a centralized task planner built on a fine-tuned vision-language model, achieving throughput competitive with traditional fixed automation. The demonstration marks one of the first commercially viable multi-robot humanoid deployments.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
+      "title": "Microsoft and Pacific Northwest National Lab Synthesize New Solid-State Electrolyte Discovered by AI",
+      "summary": "Microsoft and PNNL announced successful lab synthesis and testing of a novel lithium-ion solid-state electrolyte material first identified by Microsoft's AI-driven materials discovery platform in 2024. The material demonstrates ionic conductivity on par with liquid electrolytes while maintaining structural stability through 1,000+ charge cycles. This validates the AI-to-lab materials pipeline and could accelerate the development of safer, higher-density batteries for EVs and grid storage.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
       "date": "2026-04-16"
     }
   ]
