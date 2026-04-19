@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-18",
+  "lastUpdated": "2026-04-19",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5 in early April 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning, mathematical proof generation, and code synthesis, narrowing the gap on several AGI benchmarks. Enterprise API pricing reflects a 40% cost reduction per token compared to GPT-4 Turbo at launch.",
+      "summary": "OpenAI released GPT-5 in early April 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and reduces hallucination rates by roughly 40% compared to GPT-4o, according to OpenAI's internal benchmarks. Enterprise API access is available immediately with consumer rollout expected by end of April.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -13,25 +13,25 @@
     {
       "id": "2",
       "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
-      "summary": "DeepMind released Gemini Ultra 2, which sets new records on GPQA-Diamond, MathOdyssey, and a newly introduced multi-step scientific hypothesis evaluation benchmark. The model integrates a retrieval-augmented chain-of-thought architecture that cites primary research papers inline. Google is positioning it as the backbone for its Lab Discovery Assistant tool targeting pharmaceutical and materials science R&D.",
+      "summary": "DeepMind's Gemini Ultra 2, unveiled at a mid-April event, set new records on GPQA-Diamond and ScienceQA benchmarks, outperforming all publicly available models on graduate-level physics and biology reasoning. The model introduces a novel mixture-of-experts architecture with dynamic routing that cuts inference costs by 30% at equivalent quality. Google is integrating it across Search, Cloud Vertex AI, and a new research-assistant product aimed at academic institutions.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-04-11"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly stations, handling tasks such as parts kitting, cable harness installation, and bin picking with dexterous manipulation. Internal metrics reportedly show a 3x improvement in task completion reliability over Gen 2, driven by a transformer-based visuomotor policy trained on over 100,000 hours of teleoperation data. The move signals Tesla's serious push toward commercializing general-purpose humanoid labor.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-04-14"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Workflow with Figure 02 Fleet",
+      "summary": "Figure Robotics published video and third-party audit results showing a fleet of 20 Figure 02 humanoid robots operating autonomously in a BMW logistics facility for 8-hour shifts with minimal human oversight. The robots handled unstructured pick-and-place, pallet loading, and inter-zone transport, achieving 97.3% task completion rates. The milestone represents one of the first commercially validated deployments of general-purpose humanoid robots in real manufacturing logistics.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-11"
+    },
+    {
       "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Announces Warehouse Autonomy Partnership with Amazon",
-      "summary": "Figure AI closed a massive $1.5 billion Series C round at a $15 billion valuation and simultaneously announced a multi-year deployment deal with Amazon for its Figure 03 humanoid robots in fulfillment centers. The robots leverage a foundation world model for zero-shot generalization to novel objects, reportedly handling over 1,200 unique SKUs without per-item retraining. This represents one of the largest commercial humanoid robotics contracts to date.",
+      "title": "Boston Dynamics and Toyota Research Institute Unveil Shared Dexterous Manipulation Platform",
+      "summary": "Boston Dynamics and TRI announced a joint open-source manipulation platform combining Atlas's hardware capabilities with TRI's diffusion-policy-based learning framework for dexterous tasks. The platform enables robots to learn complex bimanual manipulation from as few as 50 human demonstrations, dramatically lowering the data barrier for new task acquisition. The partners are releasing pretrained policy checkpoints and a sim-to-real transfer toolkit on GitHub.",
       "source": "TechCrunch",
       "url": "https://www.techcrunch.com",
       "category": "Robotics",
@@ -39,39 +39,39 @@
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude's Persistent Memory and Agentic Tool-Use Framework",
-      "summary": "Anthropic rolled out persistent cross-session memory and a composable tool-use framework for Claude, allowing the model to retain user context across conversations and autonomously chain API calls, file operations, and web interactions to complete multi-step tasks. The system includes a novel constitutional-AI-based permission model that provides auditable guardrails on autonomous actions. Early enterprise adopters report 50–70% reductions in workflow orchestration code when replacing bespoke LangChain pipelines.",
+      "title": "Anthropic Introduces Constitutional Steering: Fine-Grained Runtime Safety Controls for Enterprise AI",
+      "summary": "Anthropic launched Constitutional Steering, a new API-level feature allowing enterprise customers to define domain-specific behavioral constraints that are enforced at inference time without model retraining. The system uses a lightweight constitutional classifier that operates in under 5ms of additional latency, enabling compliance with sector-specific regulations in healthcare, finance, and legal deployments. Early adopter results show a 60% reduction in policy-violating outputs compared to system-prompt-only approaches.",
       "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-04-16"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process for AI Accelerators",
-      "summary": "TSMC announced volume production readiness for its N1.4 process node using gate-all-around (GAA) nanosheet transistors, with first customers including NVIDIA and Apple. The node delivers a 25% performance uplift and 35% power reduction versus N2, critical for next-generation AI training and inference chips. Yield rates at the Kaohsiung fab reportedly exceed initial projections, easing supply concerns for the 2027 chip generation.",
+      "title": "TSMC Begins Volume Production of A14 2nm Node, Enabling Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production on its N2 (2nm-class) process node at its Kaohsiung fab, with first customer silicon shipping to Apple, NVIDIA, and AMD. The node delivers approximately 25% better performance at iso-power or 30% power reduction at iso-performance versus N3E, critical for next-generation AI training and inference chips. NVIDIA's anticipated B300 GPU series is expected to be among the first AI accelerators fabricated on the process later this year.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-04-10"
+      "date": "2026-04-09"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
-      "summary": "Microsoft and Quantinuum jointly published results showing fault-tolerant operations on logical qubits with error rates below 10⁻⁶, a critical threshold for practical quantum error correction. The demonstration used Quantinuum's H3 trapped-ion system combined with Microsoft's topological qubit decoder running in real time on Azure. This milestone substantially compresses the timeline for commercially useful quantum computations in chemistry simulation and combinatorial optimization.",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving below-threshold error rates on logical qubit operations using Quantinuum's H3 trapped-ion system combined with Microsoft's topological error correction codes. The team demonstrated 12 logical qubits performing entangling gates with error rates of 10^-6, a hundred-fold improvement over their 2025 results. While general quantum advantage for practical problems remains years away, this milestone validates the fault-tolerant roadmap that both companies have staked their quantum strategies on.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-04-12"
+      "date": "2026-04-17"
     },
     {
       "id": "8",
       "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act's provisions for general-purpose AI models, with OpenAI, Google, and Meta among the first companies required to submit systemic risk assessments and training data documentation. The audits focus on transparency obligations, copyright compliance, and red-teaming protocols for frontier models. The enforcement action is shaping global AI governance norms as other jurisdictions weigh similar regulatory frameworks.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's General-Purpose AI provisions, sending detailed information requests to OpenAI, Google, Meta, and Mistral regarding training data transparency, systemic risk assessments, and energy consumption reporting. Companies face potential fines of up to 3% of global revenue for non-compliance. The enforcement actions are being closely watched as a bellwether for global AI regulation and are already influencing model documentation practices industry-wide.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Innovation",
-      "date": "2026-04-17"
+      "date": "2026-04-18"
     }
   ]
 }
