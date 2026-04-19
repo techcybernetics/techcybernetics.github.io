@@ -248,7 +248,7 @@ def react_agent(query: str, max_steps: int = 6) -> str:
             return text.split("Answer:")[-1].strip()
 
         # Parse and execute tool call
-        match = re.search(r'Action: (\w+)\((.+)\)', text)
+        match = re.search(r'Action: ([A-Za-z0-9_]+)[(](.+)[)]', text)
         if match:
             tool_name, args_raw = match.group(1), match.group(2)
             # extract first quoted value  (simple parser)
@@ -1305,10 +1305,6 @@ function DifficultyBadge({ level }) {
 function TutorialCard({ tutorial, isExpanded, onToggle }) {
   const status = getDayStatus(tutorial.day);
   const daysUntil = status === "locked" ? getDaysUntil(tutorial.day) : 0;
-  const isToday =
-    status === "available" &&
-    getDaysUntil(tutorial.day + 1) > 0 &&
-    getDayStatus(tutorial.day - 1) === "available";
 
   // Check if this is "today's" tutorial (the latest available one)
   const allAvailable = tutorials.filter(
