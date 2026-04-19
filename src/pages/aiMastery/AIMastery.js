@@ -12,7 +12,8 @@ const tutorials = [
     day: 1,
     date: "April 18, 2026",
     title: "AI Agents 101 — Architecture & Mental Models",
-    subtitle: "Understand what an AI agent is before writing a single line of code",
+    subtitle:
+      "Understand what an AI agent is before writing a single line of code",
     duration: "45 min",
     difficulty: "Beginner",
     tags: ["Agents", "Architecture", "ReAct", "LLM"],
@@ -76,7 +77,10 @@ def agent_loop(user_task: str, max_steps: int = 5) -> str:
 result = agent_loop("What is 15% of 847, then square that result?")
 print(result)`,
     codeLang: "python",
-    resources: ["Anthropic Agent Cookbook", "ReAct: Synergizing Reasoning and Acting (Yao et al., 2023)"],
+    resources: [
+      "Anthropic Agent Cookbook",
+      "ReAct: Synergizing Reasoning and Acting (Yao et al., 2023)",
+    ],
   },
   {
     day: 2,
@@ -146,13 +150,17 @@ print(f"Input tokens: {response.usage.input_tokens}")
 print(f"Output tokens:{response.usage.output_tokens}")
 print(f"\\nResponse:\\n{response.content[0].text}")`,
     codeLang: "python",
-    resources: ["Anthropic Python SDK Docs", "Model Context Protocol (MCP) Overview"],
+    resources: [
+      "Anthropic Python SDK Docs",
+      "Model Context Protocol (MCP) Overview",
+    ],
   },
   {
     day: 3,
     date: "April 20, 2026",
     title: "Building a ReAct Agent from Scratch",
-    subtitle: "No frameworks — pure Python. Understand the loop before you abstract it.",
+    subtitle:
+      "No frameworks — pure Python. Understand the loop before you abstract it.",
     duration: "60 min",
     difficulty: "Intermediate",
     tags: ["ReAct", "Tool Use", "Agent Loop", "Python"],
@@ -262,7 +270,8 @@ print(f"\\nFinal: {answer}")`,
     day: 4,
     date: "April 21, 2026",
     title: "Tool Use & Function Calling — Production Patterns",
-    subtitle: "Structured tool definitions, parallel calls, and robust error recovery",
+    subtitle:
+      "Structured tool definitions, parallel calls, and robust error recovery",
     duration: "50 min",
     difficulty: "Intermediate",
     tags: ["Function Calling", "Tool Use", "JSON Schema", "Error Handling"],
@@ -375,7 +384,10 @@ def tool_agent(query: str) -> str:
 answer = tool_agent("What is the market cap of Anthropic divided by 1 million?")
 print(f"\\nAnswer: {answer}")`,
     codeLang: "python",
-    resources: ["Anthropic Tool Use Documentation", "OpenAI Function Calling Guide"],
+    resources: [
+      "Anthropic Tool Use Documentation",
+      "OpenAI Function Calling Guide",
+    ],
   },
   {
     day: 5,
@@ -494,7 +506,11 @@ agent = MemoryAgent()
 print(agent.chat("My name is Tariq and I work at JP Morgan Chase."))
 print(agent.chat("What do you know about me?"))  # agent recalls!`,
     codeLang: "python",
-    resources: ["ChromaDB Docs", "Anthropic Memory Patterns", "Voyage AI Embeddings"],
+    resources: [
+      "ChromaDB Docs",
+      "Anthropic Memory Patterns",
+      "Voyage AI Embeddings",
+    ],
   },
   {
     day: 6,
@@ -619,13 +635,18 @@ to align the model with human values without requiring extensive human labeling.
 ingest_document(sample_doc, source="anthropic_overview")
 print(rag_query("Who founded Anthropic and what is Constitutional AI?"))`,
     codeLang: "python",
-    resources: ["LangChain RAG Tutorial", "ChromaDB Documentation", "VoyageAI Embeddings"],
+    resources: [
+      "LangChain RAG Tutorial",
+      "ChromaDB Documentation",
+      "VoyageAI Embeddings",
+    ],
   },
   {
     day: 7,
     date: "April 24, 2026",
     title: "Multi-Agent Systems — Orchestration & Specialization",
-    subtitle: "Divide and conquer complex tasks with a network of specialized agents",
+    subtitle:
+      "Divide and conquer complex tasks with a network of specialized agents",
     duration: "65 min",
     difficulty: "Advanced",
     tags: ["Multi-Agent", "Orchestrator", "CrewAI", "Agent Networks"],
@@ -749,7 +770,11 @@ report = orchestrator("The state of AI agents in 2026 and key frameworks to know
 print("\\n=== FINAL REPORT ===")
 print(report[:500] + "...")`,
     codeLang: "python",
-    resources: ["CrewAI Documentation", "AutoGen Paper (Wu et al.)", "Anthropic Multi-Agent Patterns"],
+    resources: [
+      "CrewAI Documentation",
+      "AutoGen Paper (Wu et al.)",
+      "Anthropic Multi-Agent Patterns",
+    ],
   },
   {
     day: 8,
@@ -817,9 +842,10 @@ Return ONLY a JSON array of strings. No markdown, no explanation.
 Goal: {goal}""",
         system="You are a planning agent. Output valid JSON only."
     )
-    # Strip markdown fences if present
-    plan_json = plan_json.strip().lstrip("```json").rstrip("```").strip()
-    return json.loads(plan_json)
+    # Extract JSON array (handles LLM wrapping output in prose)
+    start = plan_json.find("[")
+    end   = plan_json.rfind("]") + 1
+    return json.loads(plan_json[start:end])
 
 # ── Step 2: Executor ──────────────────────────────────
 def execute_step(step: str, completed: list[str]) -> dict:
@@ -851,8 +877,9 @@ The failed step could not be completed. Revise the remaining plan.
 Return ONLY a JSON array of the NEW remaining steps.""",
         system="You are a replanning agent. Output valid JSON only."
     )
-    new_plan_json = new_plan_json.strip().lstrip("```json").rstrip("```").strip()
-    return json.loads(new_plan_json)
+    start = new_plan_json.find("[")
+    end   = new_plan_json.rfind("]") + 1
+    return json.loads(new_plan_json[start:end])
 
 # ── Full Plan-Execute loop ────────────────────────────
 def plan_execute(goal: str) -> str:
@@ -889,13 +916,17 @@ def plan_execute(goal: str) -> str:
 result = plan_execute("Write and test a Python function to parse JSON from a URL")
 print("\\nFinal result:", result[:300])`,
     codeLang: "python",
-    resources: ["LATS Paper (Zhou et al., 2023)", "LangGraph Plan-Execute Tutorial"],
+    resources: [
+      "LATS Paper (Zhou et al., 2023)",
+      "LangGraph Plan-Execute Tutorial",
+    ],
   },
   {
     day: 9,
     date: "April 26, 2026",
     title: "Evaluating & Testing AI Agents",
-    subtitle: "You can't improve what you can't measure — build a rigorous eval harness",
+    subtitle:
+      "You can't improve what you can't measure — build a rigorous eval harness",
     duration: "55 min",
     difficulty: "Advanced",
     tags: ["Evaluation", "Testing", "LLM-as-Judge", "RAGAS", "Benchmarks"],
@@ -971,8 +1002,9 @@ Return ONLY JSON: {{"accuracy": int, "completeness": int, "conciseness": int, "n
         system="You are a precise evaluator. Output valid JSON only.",
         messages=[{"role": "user", "content": prompt}]
     )
-    raw = response.content[0].text.strip().lstrip("```json").rstrip("```").strip()
-    return json.loads(raw)
+    raw = response.content[0].text.strip()
+    start = raw.find("{"); end = raw.rfind("}") + 1
+    return json.loads(raw[start:end])
 
 # ── Agent runner (simplified) ─────────────────────────
 def run_agent(question: str) -> tuple[str, list[str]]:
@@ -1038,13 +1070,18 @@ class TestAgentUnit:
         answer, _ = run_agent("What is 12 squared?")
         assert "144" in answer`,
     codeLang: "python",
-    resources: ["RAGAS Evaluation Framework", "DeepEval for LLM Testing", "OpenAI Evals"],
+    resources: [
+      "RAGAS Evaluation Framework",
+      "DeepEval for LLM Testing",
+      "OpenAI Evals",
+    ],
   },
   {
     day: 10,
     date: "April 27, 2026",
     title: "Production Deployment — Serve, Monitor & Scale",
-    subtitle: "Ship your agent to production with FastAPI, Docker, and observability",
+    subtitle:
+      "Ship your agent to production with FastAPI, Docker, and observability",
     duration: "70 min",
     difficulty: "Advanced",
     tags: ["Production", "FastAPI", "Docker", "LangSmith", "Observability"],
@@ -1175,7 +1212,11 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", 
 #      -H "Content-Type: application/json" \\
 #      -d '{"message": "Hello, agent!", "session_id": "test-1"}'`,
     codeLang: "python",
-    resources: ["FastAPI Documentation", "LangSmith Observability", "Anthropic Production Best Practices"],
+    resources: [
+      "FastAPI Documentation",
+      "LangSmith Observability",
+      "Anthropic Production Best Practices",
+    ],
   },
 ];
 
@@ -1233,9 +1274,13 @@ function CodeBlock({ code, lang }) {
         <span className="am-code__lang">{lang}</span>
         <button className="am-code__copy" onClick={handleCopy}>
           {copied ? (
-            <><i className="fas fa-check" /> Copied!</>
+            <>
+              <i className="fas fa-check" /> Copied!
+            </>
           ) : (
-            <><i className="fas fa-copy" /> Copy</>
+            <>
+              <i className="fas fa-copy" /> Copy
+            </>
           )}
         </button>
       </div>
@@ -1247,11 +1292,12 @@ function CodeBlock({ code, lang }) {
 }
 
 function DifficultyBadge({ level }) {
-  const cls = {
-    Beginner: "am-badge--green",
-    Intermediate: "am-badge--yellow",
-    Advanced: "am-badge--red",
-  }[level] || "am-badge--blue";
+  const cls =
+    {
+      Beginner: "am-badge--green",
+      Intermediate: "am-badge--yellow",
+      Advanced: "am-badge--red",
+    }[level] || "am-badge--blue";
 
   return <span className={`am-badge ${cls}`}>{level}</span>;
 }
@@ -1259,16 +1305,24 @@ function DifficultyBadge({ level }) {
 function TutorialCard({ tutorial, isExpanded, onToggle }) {
   const status = getDayStatus(tutorial.day);
   const daysUntil = status === "locked" ? getDaysUntil(tutorial.day) : 0;
-  const isToday = status === "available" && getDaysUntil(tutorial.day + 1) > 0 && getDayStatus(tutorial.day - 1) === "available";
+  const isToday =
+    status === "available" &&
+    getDaysUntil(tutorial.day + 1) > 0 &&
+    getDayStatus(tutorial.day - 1) === "available";
 
   // Check if this is "today's" tutorial (the latest available one)
-  const allAvailable = tutorials.filter(t => getDayStatus(t.day) === "available");
-  const latestDay = allAvailable.length > 0 ? Math.max(...allAvailable.map(t => t.day)) : 0;
+  const allAvailable = tutorials.filter(
+    (t) => getDayStatus(t.day) === "available"
+  );
+  const latestDay =
+    allAvailable.length > 0 ? Math.max(...allAvailable.map((t) => t.day)) : 0;
   const isFeatured = tutorial.day === latestDay;
 
   return (
     <div
-      className={`am-card ${isFeatured ? "am-card--featured" : ""} ${status === "locked" ? "am-card--locked" : ""}`}
+      className={`am-card ${isFeatured ? "am-card--featured" : ""} ${
+        status === "locked" ? "am-card--locked" : ""
+      }`}
     >
       {isFeatured && (
         <div className="am-card__live-banner">
@@ -1277,7 +1331,10 @@ function TutorialCard({ tutorial, isExpanded, onToggle }) {
         </div>
       )}
 
-      <div className="am-card__header" onClick={status !== "locked" ? onToggle : undefined}>
+      <div
+        className="am-card__header"
+        onClick={status !== "locked" ? onToggle : undefined}
+      >
         <div className="am-card__day-badge">DAY {tutorial.day}</div>
 
         <div className="am-card__meta">
@@ -1289,7 +1346,11 @@ function TutorialCard({ tutorial, isExpanded, onToggle }) {
                 <span>in {daysUntil}d</span>
               </div>
             ) : (
-              <i className={`fas fa-chevron-${isExpanded ? "up" : "down"} am-card__chevron`} />
+              <i
+                className={`fas fa-chevron-${
+                  isExpanded ? "up" : "down"
+                } am-card__chevron`}
+              />
             )}
           </div>
           <p className="am-card__subtitle">{tutorial.subtitle}</p>
@@ -1306,7 +1367,9 @@ function TutorialCard({ tutorial, isExpanded, onToggle }) {
 
           <div className="am-card__tags">
             {tutorial.tags.map((t) => (
-              <span key={t} className="am-tag">{t}</span>
+              <span key={t} className="am-tag">
+                {t}
+              </span>
             ))}
           </div>
         </div>
@@ -1357,7 +1420,13 @@ function TutorialCard({ tutorial, isExpanded, onToggle }) {
       {status === "locked" && (
         <div className="am-card__locked-body">
           <i className="fas fa-lock am-lock-icon" />
-          <p>Unlocks in <strong>{daysUntil} day{daysUntil !== 1 ? "s" : ""}</strong> on {tutorial.date}</p>
+          <p>
+            Unlocks in{" "}
+            <strong>
+              {daysUntil} day{daysUntil !== 1 ? "s" : ""}
+            </strong>{" "}
+            on {tutorial.date}
+          </p>
         </div>
       )}
     </div>
@@ -1369,25 +1438,29 @@ export default function AIMastery() {
   const [expandedDay, setExpandedDay] = useState(null);
   const [filter, setFilter] = useState("all");
 
-  const availableCount = tutorials.filter(t => getDayStatus(t.day) === "available").length;
+  const availableCount = tutorials.filter(
+    (t) => getDayStatus(t.day) === "available"
+  ).length;
 
   // Auto-expand the latest available tutorial
   useEffect(() => {
-    const allAvailable = tutorials.filter(t => getDayStatus(t.day) === "available");
+    const allAvailable = tutorials.filter(
+      (t) => getDayStatus(t.day) === "available"
+    );
     if (allAvailable.length > 0) {
-      const latest = Math.max(...allAvailable.map(t => t.day));
+      const latest = Math.max(...allAvailable.map((t) => t.day));
       setExpandedDay(latest);
     }
   }, []);
 
-  const filteredTutorials = tutorials.filter(t => {
+  const filteredTutorials = tutorials.filter((t) => {
     if (filter === "available") return getDayStatus(t.day) === "available";
     if (filter === "locked") return getDayStatus(t.day) === "locked";
     return true;
   });
 
   const toggleDay = (day) => {
-    setExpandedDay(prev => prev === day ? null : day);
+    setExpandedDay((prev) => (prev === day ? null : day));
   };
 
   return (
@@ -1398,12 +1471,16 @@ export default function AIMastery() {
       <section className="am-hero">
         <div className="am-hero__bg" aria-hidden="true">
           {[...Array(20)].map((_, i) => (
-            <div key={i} className="am-hero__particle" style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`,
-            }} />
+            <div
+              key={i}
+              className="am-hero__particle"
+              style={{
+                left: `${Math.random() * 100}%`,
+                top: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 5}s`,
+                animationDuration: `${3 + Math.random() * 4}s`,
+              }}
+            />
           ))}
         </div>
 
@@ -1415,12 +1492,15 @@ export default function AIMastery() {
 
           <h1 className="am-hero__title">
             Build AI Agents
-            <span className="am-hero__title--accent"> from Zero to Mastery</span>
+            <span className="am-hero__title--accent">
+              {" "}
+              from Zero to Mastery
+            </span>
           </h1>
 
           <p className="am-hero__subtitle">
-            A hands-on, developer-first curriculum. Real code. Real architectures.
-            No fluff. One tutorial drops every day for 10 days.
+            A hands-on, developer-first curriculum. Real code. Real
+            architectures. No fluff. One tutorial drops every day for 10 days.
           </p>
 
           <div className="am-hero__stats">
@@ -1446,8 +1526,18 @@ export default function AIMastery() {
           </div>
 
           <div className="am-hero__stack">
-            {["Claude API", "OpenAI", "LangChain", "ChromaDB", "FastAPI", "Docker", "CrewAI"].map(t => (
-              <span key={t} className="am-tech-chip">{t}</span>
+            {[
+              "Claude API",
+              "OpenAI",
+              "LangChain",
+              "ChromaDB",
+              "FastAPI",
+              "Docker",
+              "CrewAI",
+            ].map((t) => (
+              <span key={t} className="am-tech-chip">
+                {t}
+              </span>
             ))}
           </div>
         </div>
@@ -1457,15 +1547,24 @@ export default function AIMastery() {
       <section className="am-progress-section">
         <div className="am-container">
           <div className="am-progress-track">
-            {tutorials.map(t => {
+            {tutorials.map((t) => {
               const status = getDayStatus(t.day);
-              const allAvailable = tutorials.filter(x => getDayStatus(x.day) === "available");
-              const latestDay = allAvailable.length > 0 ? Math.max(...allAvailable.map(x => x.day)) : 0;
+              const allAvailable = tutorials.filter(
+                (x) => getDayStatus(x.day) === "available"
+              );
+              const latestDay =
+                allAvailable.length > 0
+                  ? Math.max(...allAvailable.map((x) => x.day))
+                  : 0;
               return (
                 <div
                   key={t.day}
-                  className={`am-progress-node ${status === "available" ? "am-progress-node--done" : ""} ${t.day === latestDay ? "am-progress-node--today" : ""}`}
-                  onClick={() => status === "available" && setExpandedDay(t.day)}
+                  className={`am-progress-node ${
+                    status === "available" ? "am-progress-node--done" : ""
+                  } ${t.day === latestDay ? "am-progress-node--today" : ""}`}
+                  onClick={() =>
+                    status === "available" && setExpandedDay(t.day)
+                  }
                   title={`Day ${t.day}: ${t.title}`}
                 >
                   <div className="am-progress-node__circle">
@@ -1484,7 +1583,9 @@ export default function AIMastery() {
             <div className="am-progress-line">
               <div
                 className="am-progress-line__fill"
-                style={{ width: `${(availableCount / tutorials.length) * 100}%` }}
+                style={{
+                  width: `${(availableCount / tutorials.length) * 100}%`,
+                }}
               />
             </div>
           </div>
@@ -1496,12 +1597,22 @@ export default function AIMastery() {
         <div className="am-filters">
           {[
             { key: "all", label: "All Tutorials", icon: "fa-list" },
-            { key: "available", label: `Available (${availableCount})`, icon: "fa-unlock" },
-            { key: "locked", label: `Coming Soon (${10 - availableCount})`, icon: "fa-lock" },
-          ].map(f => (
+            {
+              key: "available",
+              label: `Available (${availableCount})`,
+              icon: "fa-unlock",
+            },
+            {
+              key: "locked",
+              label: `Coming Soon (${10 - availableCount})`,
+              icon: "fa-lock",
+            },
+          ].map((f) => (
             <button
               key={f.key}
-              className={`am-filter-btn ${filter === f.key ? "am-filter-btn--active" : ""}`}
+              className={`am-filter-btn ${
+                filter === f.key ? "am-filter-btn--active" : ""
+              }`}
               onClick={() => setFilter(f.key)}
             >
               <i className={`fas ${f.icon}`} />
@@ -1513,7 +1624,7 @@ export default function AIMastery() {
 
       {/* ── Tutorial list ── */}
       <div className="am-container am-tutorials">
-        {filteredTutorials.map(t => (
+        {filteredTutorials.map((t) => (
           <TutorialCard
             key={t.day}
             tutorial={t}
@@ -1530,8 +1641,9 @@ export default function AIMastery() {
             <i className="fas fa-bell am-cta__icon" />
             <h2>New tutorial every day</h2>
             <p>
-              Bookmark this page and come back daily. Each tutorial builds on the last —
-              by Day 10 you will have a fully production-deployed AI agent.
+              Bookmark this page and come back daily. Each tutorial builds on
+              the last — by Day 10 you will have a fully production-deployed AI
+              agent.
             </p>
             <div className="am-cta__links">
               <a
