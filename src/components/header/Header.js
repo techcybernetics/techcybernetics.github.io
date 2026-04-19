@@ -22,6 +22,7 @@ const Header = () => {
     { to: "/experience", label: "Experience" },
     { to: "/contact", label: "Contact" },
     { to: "/news", label: "AI News" },
+    { to: "/ai-mastery", label: "AI Mastery" },
   ];
 
   return (
@@ -45,7 +46,7 @@ const Header = () => {
                 activeClassName="header__nav-link--active"
                 onClick={() => setMenuOpen(false)}
               >
-                {label === "AI News" ? (
+                {(label === "AI News" || label === "AI Mastery") ? (
                   <span className="header__nav-link-new">{label} <span className="header__nav-badge">NEW</span></span>
                 ) : label}
               </NavLink>

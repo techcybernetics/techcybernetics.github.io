@@ -6,6 +6,7 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import News from "../pages/news/NewsComponent";
+import AIMastery from "../pages/aiMastery/AIMastery";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -44,6 +45,10 @@ const Main = (props) => {
         <Route
           path="/news"
           render={(routeProps) => <News {...routeProps} theme={props.theme} />}
+        />
+        <Route
+          path="/ai-mastery"
+          render={(routeProps) => <AIMastery {...routeProps} theme={props.theme} />}
         />
         {settings.isSplash && (
           <Route
