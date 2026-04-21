@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-21",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Thinking",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a unified architecture rather than bolted-on adapters. The model demonstrates significant improvements in multi-step scientific reasoning and long-horizon planning tasks, narrowing the gap with domain-specific expert systems. Enterprise API access rolled out with new structured output guarantees and a 1M-token context window.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Autonomous Task Execution",
+      "summary": "OpenAI released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with significantly improved long-horizon planning. The model demonstrates near-human performance on several graduate-level STEM benchmarks and introduces a persistent agent mode capable of autonomously executing multi-step workflows over hours. Industry analysts note the leap in agentic reliability as a potential inflection point for enterprise AI adoption.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-04-14"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Model Enables Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results from its Gemini Robotics foundation model, demonstrating that a single vision-language-action model can perform complex manipulation tasks in cluttered, previously unseen environments without task-specific fine-tuning. The system achieves 87% success on a standardized benchmark of 150 household tasks, a major leap from the sub-50% rates seen just 18 months ago. The work points toward general-purpose robotic assistants that can be deployed without per-site engineering.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Scientific Discovery Benchmarks",
+      "summary": "DeepMind unveiled Gemini 2.5 Ultra, which sets new records on MathOdyssey and SciCode benchmarks by combining chain-of-thought reasoning with a retrieval-augmented architecture over curated scientific corpora. The model has already been deployed internally at Google to accelerate materials science research, reportedly reducing candidate screening time for novel battery cathode materials by 60%. The release intensifies the frontier model race between Google, OpenAI, and Anthropic.",
       "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "Robotics",
-      "date": "2026-04-11"
-    },
-    {
-      "id": "3",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment to Full Assembly Line Integration",
-      "summary": "Figure AI announced that its humanoid robots are now operating across multiple stations on BMW's Spartanburg assembly line, moving beyond the initial pilot phase that began in 2024. The robots handle sub-assembly tasks including wire harness routing and panel insertion, working alongside human operators with real-time safety co-monitoring. BMW reports a 17% throughput improvement on the integrated stations.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-04-16"
     },
     {
-      "id": "4",
-      "title": "Anthropic Introduces Constitutional Classifiers to Defend Against Jailbreaks at Scale",
-      "summary": "Anthropic released a detailed technical report on its constitutional classifiers system, a scalable defense layer that reduced successful jailbreak rates on Claude to under 2% across adversarial red-team evaluations. The approach trains lightweight classifier heads using constitutionally-generated synthetic attack data, avoiding the brittleness of rule-based filters. The system is now available as a configurable safety API for enterprise customers building on Claude.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com/research",
-      "category": "AI",
-      "date": "2026-04-09"
-    },
-    {
-      "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm-Class Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed that its A14 process node has entered high-volume manufacturing at its Kaohsiung fab, with first silicon destined for next-generation AI training accelerators from major hyperscaler clients. The node uses gate-all-around nanosheet transistors and backside power delivery, achieving a 20% speed improvement and 30% power reduction over N2. This sets the stage for a new class of AI chips expected to ship in late 2026 data center hardware.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
+      "id": "3",
+      "title": "Figure Robotics Demonstrates Full Warehouse Autonomy with Figure 03 Humanoid Fleet",
+      "summary": "Figure Robotics showcased a fleet of its third-generation humanoid robots operating autonomously in a BMW logistics facility, handling palletizing, inventory scanning, and inter-zone transport without human intervention for an entire 8-hour shift. The robots use on-device vision-language models for real-time task adaptation and natural-language instruction following from supervisors. The demonstration marks a significant milestone in commercial humanoid deployment at scale.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
       "date": "2026-04-17"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics and Toyota Research Institute Unveil Dexterous Bi-Manual Manipulation Platform",
+      "summary": "A joint project between Boston Dynamics and the Toyota Research Institute produced a new robotic manipulation system that combines Atlas-derived hardware with TRI's diffusion-policy-based learning framework. The platform demonstrates human-level dexterity in tasks such as cable routing, small-parts assembly, and tool use, trained primarily in simulation with minimal real-world fine-tuning. The partnership signals a broader industry convergence between legacy robotics firms and foundation-model-driven control approaches.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional Classifiers for Real-Time AI Safety Monitoring in Production Systems",
+      "summary": "Anthropic released a new open-source safety framework called Constitutional Classifiers, designed to detect harmful, biased, or policy-violating outputs from any LLM in real time with sub-10ms latency overhead. The system uses lightweight classifier heads distilled from Claude's internal alignment representations and can be deployed as a sidecar to existing inference pipelines. Early adopters in financial services and healthcare report a 90% reduction in flagged outputs without meaningful impact on response quality.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-04-19"
+    },
+    {
       "id": "6",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target High-Risk Deployments",
-      "summary": "The European AI Office commenced its first formal compliance audits under the AI Act, focusing on high-risk AI systems in hiring, credit scoring, and law enforcement across multiple member states. Companies face requirements for technical documentation, bias testing, and human oversight mechanisms, with non-compliance penalties reaching 7% of global revenue. The audits are being closely watched as a bellwether for how prescriptive AI regulation will function in practice.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/technology",
+      "title": "TSMC Begins Volume Production of A14 2nm Node with Backside Power Delivery for AI Accelerators",
+      "summary": "TSMC confirmed volume production on its N2 process node featuring backside power delivery network (BSPDN) technology, enabling a 15% performance uplift and 30% power reduction compared to its 3nm node. The first customers include Apple and NVIDIA, with the latter expected to use the node for its next-generation Blackwell Ultra AI GPU architecture. The ramp is on schedule and represents the most significant transistor-level architectural change in TSMC's manufacturing history.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-04-15"
     },
     {
       "id": "7",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
-      "summary": "Meta released Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model, under a broadly permissive license that allows commercial use without royalty requirements. Benchmarks show it performing competitively with GPT-5 and Gemini Ultra on reasoning and code generation, significantly raising the ceiling for open-weight models. The release includes optimized inference code for multi-node setups and quantized variants that run on 8xH100 clusters.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com/ai",
-      "category": "AI",
-      "date": "2026-04-18"
+      "title": "Meta Open-Sources Full Llama 4 Maverick Model Weights and Training Infrastructure Code",
+      "summary": "Meta released the complete weights, training code, and data pipeline tooling for Llama 4 Maverick, its 400B-parameter mixture-of-experts model, under the permissive Llama Community License. The release includes the FSDP2 and context-parallelism infrastructure that enabled training on a 48,000 H100 cluster, giving the open-source community unprecedented access to frontier-scale training methodology. Researchers have already begun fine-tuning domain-specific variants for legal reasoning and biomedical literature synthesis.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "Innovation",
+      "date": "2026-04-11"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Electric Atlas for Commercial Warehouse Operations",
-      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot, purpose-built for warehouse logistics in partnership with Hyundai's supply chain division. The robot features hot-swappable battery packs for continuous operation, integrated LiDAR-vision SLAM for dynamic environment mapping, and a manipulation payload of 25 kg per arm. Initial deployments are scheduled at Hyundai and Kia parts distribution centers in South Korea and the U.S.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
+      "title": "Sanctuary AI and Magna International Partner to Deploy Humanoid Robots on Automotive Assembly Lines",
+      "summary": "Canadian robotics company Sanctuary AI announced a partnership with Magna International to integrate its Phoenix humanoid robots into automotive parts assembly workflows, starting with door panel and wiring harness installation. The robots leverage Sanctuary's Carbon AI system, which uses a world model trained on millions of hours of manipulation data to generalize across novel assembly tasks with minimal reprogramming. The deal includes deployment at three Magna facilities in Ontario by Q3 2026, representing one of the largest humanoid-in-manufacturing contracts announced to date.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-04-12"
+      "date": "2026-04-20"
     }
   ]
 }
