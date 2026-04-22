@@ -8,6 +8,7 @@
   min-height: 100vh;
   background: var(--bg-primary);
   color: var(--text);
+  overflow-x: hidden;
 }
 
 /* Single container — mirrors .news-main exactly */
@@ -15,6 +16,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 120px 24px 80px;
+  overflow-x: hidden;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -863,78 +865,54 @@
 
 /* ── Mobile (≤640px) ───────────────────────────────────── */
 @media (max-width: 640px) {
-  /* Single container — reduce side padding */
+  /* Single container */
   .am-main {
     padding: 100px 16px 60px;
   }
 
-  /* ── Hero ── */
-  .am-hero__badge {
-    font-size: 0.72rem;
-    padding: 5px 12px;
-    margin-bottom: 20px;
-  }
-
-  .am-hero__subtitle {
-    font-size: 0.92rem;
+  /* ── Hero — simplified like News page ── */
+  .am-hero {
+    padding-bottom: 32px;
     margin-bottom: 24px;
   }
 
-  /* Stats — 2-column grid */
+  /* Hide complex elements on mobile */
   .am-hero__stats {
-    flex-wrap: wrap;
-    padding: 0;
-    max-width: 100%;
-  }
-
-  .am-stat {
-    flex: 0 0 50%;
-    padding: 16px 10px;
-    border-right: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .am-stat:nth-child(2n) {
-    border-right: none;
-  }
-
-  .am-stat:nth-child(3),
-  .am-stat:nth-child(4) {
-    border-bottom: none;
-  }
-
-  .am-stat__num {
-    font-size: 1.2rem;
-  }
-
-  .am-stat__label {
-    font-size: 0.68rem;
-  }
-
-  .am-tech-chip {
-    font-size: 0.7rem;
-    padding: 4px 10px;
-  }
-
-  /* ── Progress track — scrollable ── */
-  .am-progress-section {
-    padding: 16px;
-  }
-
-  .am-progress-node__label {
     display: none;
   }
 
-  .am-progress-node__circle {
-    width: 24px;
-    height: 24px;
-    font-size: 0.55rem;
+  .am-hero__stack {
+    display: none;
   }
 
-  .am-progress-line {
-    top: 11px;
-    left: 8px;
-    right: 8px;
+  .am-hero__bg {
+    display: none;
+  }
+
+  .am-hero__badge {
+    font-size: 0.72rem;
+    padding: 5px 12px;
+    margin-bottom: 16px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .am-hero__title {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .am-hero__subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+
+  /* Hide progress track on mobile — too complex */
+  .am-progress-section {
+    display: none;
   }
 
   /* ── Filter tabs ── */
