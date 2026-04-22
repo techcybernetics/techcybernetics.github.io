@@ -123,18 +123,15 @@
 /* Stats row */
 .am-hero__stats {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   gap: 0;
-  margin-bottom: 32px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 20px 32px;
   max-width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
 }
 
 .am-stat {
