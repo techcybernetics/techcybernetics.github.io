@@ -10,20 +10,22 @@
   color: var(--text);
 }
 
-.am-container {
+/* Single container — mirrors .news-main exactly */
+.am-main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 120px 24px 80px;
 }
 
 /* ═══════════════════════════════════════════════════════════
-   HERO
+   HERO  (inside .am-main, no separate full-width section)
    ═══════════════════════════════════════════════════════════ */
 .am-hero {
   position: relative;
-  padding: 140px 24px 80px;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
+  padding-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 /* Animated particle background */
@@ -62,11 +64,10 @@
   }
 }
 
-.am-hero__inner {
+/* Hero content sits above the particle layer */
+.am-hero__content {
   position: relative;
   z-index: 1;
-  max-width: 780px;
-  margin: 0 auto;
 }
 
 .am-hero__badge {
@@ -190,10 +191,16 @@
    PROGRESS TRACK
    ═══════════════════════════════════════════════════════════ */
 .am-progress-section {
-  padding: 40px 0;
   background: var(--bg-secondary);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 8px;
+}
+
+.am-progress-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .am-progress-track {
@@ -202,6 +209,8 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 0;
+  min-width: max-content;
+  width: 100%;
 }
 
 .am-progress-line {
@@ -279,13 +288,6 @@
 .am-progress-node--done .am-progress-node__label,
 .am-progress-node--today .am-progress-node__label {
   color: var(--accent);
-}
-
-/* ── Main content wrapper (mirrors .news-main) ─────────── */
-.am-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 24px 80px;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -746,9 +748,7 @@
    CALL TO ACTION
    ═══════════════════════════════════════════════════════════ */
 .am-cta {
-  padding: 60px 0 100px;
-  background: var(--bg-secondary);
-  border-top: 1px solid var(--border);
+  margin-top: 48px;
 }
 
 .am-cta__card {
@@ -757,8 +757,6 @@
   border-radius: var(--radius);
   padding: 48px;
   text-align: center;
-  max-width: 640px;
-  margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
@@ -853,10 +851,6 @@
 
 /* ── Tablet (≤768px) ───────────────────────────────────── */
 @media (max-width: 768px) {
-  .am-hero {
-    padding: 100px 20px 56px;
-  }
-
   .am-hero__stats {
     max-width: 100%;
     padding: 16px 20px;
@@ -869,22 +863,12 @@
 
 /* ── Mobile (≤640px) ───────────────────────────────────── */
 @media (max-width: 640px) {
-  /* Main content wrapper */
+  /* Single container — reduce side padding */
   .am-main {
-    padding: 0 16px 60px;
-  }
-
-  /* Progress section container */
-  .am-container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 100px 16px 60px;
   }
 
   /* ── Hero ── */
-  .am-hero {
-    padding: 88px 16px 48px;
-  }
-
   .am-hero__badge {
     font-size: 0.72rem;
     padding: 5px 12px;
@@ -896,7 +880,7 @@
     margin-bottom: 24px;
   }
 
-  /* Stats — 2-column grid, borders as dividers */
+  /* Stats — 2-column grid */
   .am-hero__stats {
     flex-wrap: wrap;
     padding: 0;
@@ -908,15 +892,12 @@
     padding: 16px 10px;
     border-right: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
-    box-sizing: border-box;
   }
 
-  /* 2nd stat in each row: no right border */
   .am-stat:nth-child(2n) {
     border-right: none;
   }
 
-  /* Bottom row: no bottom border */
   .am-stat:nth-child(3),
   .am-stat:nth-child(4) {
     border-bottom: none;
@@ -930,7 +911,6 @@
     font-size: 0.68rem;
   }
 
-  /* Tech chips */
   .am-tech-chip {
     font-size: 0.7rem;
     padding: 4px 10px;
@@ -938,18 +918,7 @@
 
   /* ── Progress track — scrollable ── */
   .am-progress-section {
-    padding: 20px 0;
-  }
-
-  .am-progress-section .am-container {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 8px;
-  }
-
-  .am-progress-track {
-    min-width: 380px;
-    padding: 0 8px;
+    padding: 16px;
   }
 
   .am-progress-node__label {
@@ -985,7 +954,7 @@
     padding-top: 12px;
   }
 
-  /* ── Card header ── */
+  /* ── Cards ── */
   .am-card__header {
     padding: 14px;
     gap: 10px;
@@ -1034,7 +1003,6 @@
     padding: 2px 6px;
   }
 
-  /* ── Expanded body ── */
   .am-card__body {
     padding: 14px;
     gap: 20px;
@@ -1085,13 +1053,8 @@
   }
 
   /* ── CTA ── */
-  .am-cta {
-    padding: 40px 0 64px;
-  }
-
   .am-cta__card {
     padding: 28px 16px;
-    margin: 0 16px;
   }
 
   .am-cta__card h2 {

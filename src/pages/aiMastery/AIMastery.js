@@ -1463,130 +1463,130 @@ export default function AIMastery() {
     <div className="am-page">
       <Header />
 
-      {/* ── Hero ── */}
-      <section className="am-hero">
-        <div className="am-hero__bg" aria-hidden="true">
-          {[...Array(20)].map((_, i) => (
-            <div
-              key={i}
-              className="am-hero__particle"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 5}s`,
-                animationDuration: `${3 + Math.random() * 4}s`,
-              }}
-            />
-          ))}
-        </div>
-
-        <div className="am-hero__inner">
-          <div className="am-hero__badge">
-            <i className="fas fa-robot" />
-            <span>10-Day Series · Updated Daily</span>
-          </div>
-
-          <h1 className="am-hero__title">
-            Build AI Agents
-            <span className="am-hero__title--accent">
-              {" "}
-              from Zero to Mastery
-            </span>
-          </h1>
-
-          <p className="am-hero__subtitle">
-            A hands-on, developer-first curriculum. Real code. Real
-            architectures. No fluff. One tutorial drops every day for 10 days.
-          </p>
-
-          <div className="am-hero__stats">
-            <div className="am-stat">
-              <span className="am-stat__num">{availableCount}</span>
-              <span className="am-stat__label">Live Now</span>
-            </div>
-            <div className="am-stat">
-              <span className="am-stat__num">10</span>
-              <span className="am-stat__label">Total Days</span>
-            </div>
-            <div className="am-stat">
-              <span className="am-stat__num">Python</span>
-              <span className="am-stat__label">Language</span>
-            </div>
-            <div className="am-stat">
-              <span className="am-stat__num">Free</span>
-              <span className="am-stat__label">Always</span>
-            </div>
-          </div>
-
-          <div className="am-hero__stack">
-            {[
-              "Claude API",
-              "OpenAI",
-              "LangChain",
-              "ChromaDB",
-              "FastAPI",
-              "Docker",
-              "CrewAI",
-            ].map((t) => (
-              <span key={t} className="am-tech-chip">
-                {t}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Progress Bar ── */}
-      <section className="am-progress-section">
-        <div className="am-container">
-          <div className="am-progress-track">
-            {tutorials.map((t) => {
-              const status = getDayStatus(t.day);
-              const allAvailable = tutorials.filter(
-                (x) => getDayStatus(x.day) === "available"
-              );
-              const latestDay =
-                allAvailable.length > 0
-                  ? Math.max(...allAvailable.map((x) => x.day))
-                  : 0;
-              return (
-                <div
-                  key={t.day}
-                  className={`am-progress-node ${
-                    status === "available" ? "am-progress-node--done" : ""
-                  } ${t.day === latestDay ? "am-progress-node--today" : ""}`}
-                  onClick={() =>
-                    status === "available" && setExpandedDay(t.day)
-                  }
-                  title={`Day ${t.day}: ${t.title}`}
-                >
-                  <div className="am-progress-node__circle">
-                    {status === "available" && t.day < latestDay ? (
-                      <i className="fas fa-check" />
-                    ) : t.day === latestDay ? (
-                      <i className="fas fa-play" />
-                    ) : (
-                      <i className="fas fa-lock" />
-                    )}
-                  </div>
-                  <span className="am-progress-node__label">D{t.day}</span>
-                </div>
-              );
-            })}
-            <div className="am-progress-line">
+      <main className="am-main">
+        {/* ── Hero ── */}
+        <div className="am-hero">
+          <div className="am-hero__bg" aria-hidden="true">
+            {[...Array(20)].map((_, i) => (
               <div
-                className="am-progress-line__fill"
+                key={i}
+                className="am-hero__particle"
                 style={{
-                  width: `${(availableCount / tutorials.length) * 100}%`,
+                  left: `${Math.random() * 100}%`,
+                  top: `${Math.random() * 100}%`,
+                  animationDelay: `${Math.random() * 5}s`,
+                  animationDuration: `${3 + Math.random() * 4}s`,
                 }}
               />
+            ))}
+          </div>
+
+          <div className="am-hero__content">
+            <div className="am-hero__badge">
+              <i className="fas fa-robot" />
+              <span>10-Day Series · Updated Daily</span>
+            </div>
+
+            <h1 className="am-hero__title">
+              Build AI Agents
+              <span className="am-hero__title--accent">
+                {" "}
+                from Zero to Mastery
+              </span>
+            </h1>
+
+            <p className="am-hero__subtitle">
+              A hands-on, developer-first curriculum. Real code. Real
+              architectures. No fluff. One tutorial drops every day for 10 days.
+            </p>
+
+            <div className="am-hero__stats">
+              <div className="am-stat">
+                <span className="am-stat__num">{availableCount}</span>
+                <span className="am-stat__label">Live Now</span>
+              </div>
+              <div className="am-stat">
+                <span className="am-stat__num">10</span>
+                <span className="am-stat__label">Total Days</span>
+              </div>
+              <div className="am-stat">
+                <span className="am-stat__num">Python</span>
+                <span className="am-stat__label">Language</span>
+              </div>
+              <div className="am-stat">
+                <span className="am-stat__num">Free</span>
+                <span className="am-stat__label">Always</span>
+              </div>
+            </div>
+
+            <div className="am-hero__stack">
+              {[
+                "Claude API",
+                "OpenAI",
+                "LangChain",
+                "ChromaDB",
+                "FastAPI",
+                "Docker",
+                "CrewAI",
+              ].map((t) => (
+                <span key={t} className="am-tech-chip">
+                  {t}
+                </span>
+              ))}
             </div>
           </div>
         </div>
-      </section>
 
-      {/* ── Filter tabs + Tutorial list ── */}
-      <main className="am-main">
+        {/* ── Progress Bar ── */}
+        <div className="am-progress-section">
+          <div className="am-progress-scroll">
+            <div className="am-progress-track">
+              {tutorials.map((t) => {
+                const status = getDayStatus(t.day);
+                const allAvailable = tutorials.filter(
+                  (x) => getDayStatus(x.day) === "available"
+                );
+                const latestDay =
+                  allAvailable.length > 0
+                    ? Math.max(...allAvailable.map((x) => x.day))
+                    : 0;
+                return (
+                  <div
+                    key={t.day}
+                    className={`am-progress-node ${
+                      status === "available" ? "am-progress-node--done" : ""
+                    } ${t.day === latestDay ? "am-progress-node--today" : ""}`}
+                    onClick={() =>
+                      status === "available" && setExpandedDay(t.day)
+                    }
+                    title={`Day ${t.day}: ${t.title}`}
+                  >
+                    <div className="am-progress-node__circle">
+                      {status === "available" && t.day < latestDay ? (
+                        <i className="fas fa-check" />
+                      ) : t.day === latestDay ? (
+                        <i className="fas fa-play" />
+                      ) : (
+                        <i className="fas fa-lock" />
+                      )}
+                    </div>
+                    <span className="am-progress-node__label">D{t.day}</span>
+                  </div>
+                );
+              })}
+              <div className="am-progress-line">
+                <div
+                  className="am-progress-line__fill"
+                  style={{
+                    width: `${(availableCount / tutorials.length) * 100}%`,
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ── Filter tabs ── */}
         <div className="am-filters">
           {[
             { key: "all", label: "All Tutorials", icon: "fa-list" },
@@ -1614,6 +1614,7 @@ export default function AIMastery() {
           ))}
         </div>
 
+        {/* ── Tutorial list ── */}
         <div className="am-tutorials">
           {filteredTutorials.map((t) => (
             <TutorialCard
@@ -1624,11 +1625,9 @@ export default function AIMastery() {
             />
           ))}
         </div>
-      </main>
 
-      {/* ── CTA ── */}
-      <section className="am-cta">
-        <div className="am-container">
+        {/* ── CTA ── */}
+        <div className="am-cta">
           <div className="am-cta__card">
             <i className="fas fa-bell am-cta__icon" />
             <h2>New tutorial every day</h2>
@@ -1657,7 +1656,7 @@ export default function AIMastery() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
 
       <Footer />
       <TopButton />
