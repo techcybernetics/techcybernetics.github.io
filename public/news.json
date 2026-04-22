@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-21",
+  "lastUpdated": "2026-04-22",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Autonomous Task Execution",
-      "summary": "OpenAI released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with significantly improved long-horizon planning. The model demonstrates near-human performance on several graduate-level STEM benchmarks and introduces a persistent agent mode capable of autonomously executing multi-step workflows over hours. Industry analysts note the leap in agentic reliability as a potential inflection point for enterprise AI adoption.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5 in early April 2026, featuring natively fused vision, audio, and text reasoning in a single architecture rather than bolted-on adapters. The model demonstrates significant gains on agentic coding benchmarks and supports a 1M-token context window with improved recall, positioning it as a step toward more reliable autonomous AI workflows.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-04-14"
+      "date": "2026-04-08"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Scientific Discovery Benchmarks",
-      "summary": "DeepMind unveiled Gemini 2.5 Ultra, which sets new records on MathOdyssey and SciCode benchmarks by combining chain-of-thought reasoning with a retrieval-augmented architecture over curated scientific corpora. The model has already been deployed internally at Google to accelerate materials science research, reportedly reducing candidate screening time for novel battery cathode materials by 60%. The release intensifies the frontier model race between Google, OpenAI, and Anthropic.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
+      "summary": "DeepMind released Gemini Ultra 2, which topped GPQA-Diamond and new graduate-level STEM benchmarks by meaningful margins over prior frontier models. The model integrates a chain-of-thought verification loop that significantly reduces hallucination on quantitative problems, making it particularly relevant for research copilot applications.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-04-16"
+      "date": "2026-04-15"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Demonstrates Full Warehouse Autonomy with Figure 03 Humanoid Fleet",
-      "summary": "Figure Robotics showcased a fleet of its third-generation humanoid robots operating autonomously in a BMW logistics facility, handling palletizing, inventory scanning, and inter-zone transport without human intervention for an entire 8-hour shift. The robots use on-device vision-language models for real-time task adaptation and natural-language instruction following from supervisors. The demonstration marks a significant milestone in commercial humanoid deployment at scale.",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Factories",
+      "summary": "Figure AI announced the first paid commercial deployment of its Figure 02 humanoid robots at BMW's Spartanburg plant, handling bin-picking, part inspection, and kit staging across three production lines. The deployment marks a milestone as one of the first revenue-generating general-purpose humanoid robotics contracts, with per-unit costs reportedly competitive with three-shift human labor over a 30-month horizon.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
-      "date": "2026-04-17"
+      "date": "2026-04-10"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics and Toyota Research Institute Unveil Dexterous Bi-Manual Manipulation Platform",
-      "summary": "A joint project between Boston Dynamics and the Toyota Research Institute produced a new robotic manipulation system that combines Atlas-derived hardware with TRI's diffusion-policy-based learning framework. The platform demonstrates human-level dexterity in tasks such as cable routing, small-parts assembly, and tool use, trained primarily in simulation with minimal real-world fine-tuning. The partnership signals a broader industry convergence between legacy robotics firms and foundation-model-driven control approaches.",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Tool Use in Unstructured Environments",
+      "summary": "Boston Dynamics released video and technical details of its electric Atlas performing autonomous tool manipulation — operating drills, turning valves, and carrying irregular loads — in a simulated disaster response scenario. The system leverages a vision-language-action model fine-tuned with reinforcement learning, achieving 94% task completion without teleoperation on previously unseen configurations.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "url": "https://techcrunch.com/robotics",
       "category": "Robotics",
       "date": "2026-04-18"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers for Real-Time AI Safety Monitoring in Production Systems",
-      "summary": "Anthropic released a new open-source safety framework called Constitutional Classifiers, designed to detect harmful, biased, or policy-violating outputs from any LLM in real time with sub-10ms latency overhead. The system uses lightweight classifier heads distilled from Claude's internal alignment representations and can be deployed as a sidecar to existing inference pipelines. Early adopters in financial services and healthcare report a 90% reduction in flagged outputs without meaningful impact on response quality.",
+      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with MoE Architecture",
+      "summary": "Meta released the full Llama 4 Behemoth mixture-of-experts model with open weights, featuring 288 expert modules totaling over 1.5 trillion parameters but activating roughly 200B per forward pass. The release includes a commercially permissive license and represents the most capable open-weight model to date, narrowing the gap with proprietary frontier systems on major benchmarks.",
       "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
-      "date": "2026-04-19"
+      "date": "2026-04-12"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of A14 2nm Node with Backside Power Delivery for AI Accelerators",
-      "summary": "TSMC confirmed volume production on its N2 process node featuring backside power delivery network (BSPDN) technology, enabling a 15% performance uplift and 30% power reduction compared to its 3nm node. The first customers include Apple and NVIDIA, with the latter expected to use the node for its next-generation Blackwell Ultra AI GPU architecture. The ramp is on schedule and represents the most significant transistor-level architectural change in TSMC's manufacturing history.",
+      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed risk production has started on its A14 (1.4nm-class) process node at its Fab 20 facility in Hsinchu, approximately one quarter ahead of the original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, promising a 15% speed improvement or 30% power reduction over N2, and is expected to power next-generation AI accelerators starting in late 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-04-15"
+      "date": "2026-04-16"
     },
     {
       "id": "7",
-      "title": "Meta Open-Sources Full Llama 4 Maverick Model Weights and Training Infrastructure Code",
-      "summary": "Meta released the complete weights, training code, and data pipeline tooling for Llama 4 Maverick, its 400B-parameter mixture-of-experts model, under the permissive Llama Community License. The release includes the FSDP2 and context-parallelism infrastructure that enabled training on a 48,000 H100 cluster, giving the open-source community unprecedented access to frontier-scale training methodology. Researchers have already begun fine-tuning domain-specific variants for legal reasoning and biomedical literature synthesis.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
+      "summary": "The FDA cleared Neuralink's N2 implant for a second-phase human clinical trial involving 30 patients with quadriplegia. The updated device doubles electrode count to 2,048 channels and introduces bidirectional stimulation, enabling preliminary sensory feedback alongside motor decoding — a critical step toward closed-loop brain-computer interface systems.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-04-11"
+      "date": "2026-04-20"
     },
     {
       "id": "8",
-      "title": "Sanctuary AI and Magna International Partner to Deploy Humanoid Robots on Automotive Assembly Lines",
-      "summary": "Canadian robotics company Sanctuary AI announced a partnership with Magna International to integrate its Phoenix humanoid robots into automotive parts assembly workflows, starting with door panel and wiring harness installation. The robots leverage Sanctuary's Carbon AI system, which uses a world model trained on millions of hours of manipulation data to generalize across novel assembly tasks with minimal reprogramming. The deal includes deployment at three Magna facilities in Ontario by Q3 2026, representing one of the largest humanoid-in-manufacturing contracts announced to date.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Toyota Research Institute Demonstrates Diffusion-Policy-Based Dexterous Manipulation Across 60+ Household Tasks",
+      "summary": "TRI published results from its large-scale behavior cloning program, where a single diffusion policy model trained on teleoperated demonstrations successfully generalized to over 60 household manipulation tasks including folding, pouring, and drawer organization. The work demonstrates that scaling demonstration data with consistent hardware can yield broadly capable robotic manipulation without per-task reward engineering.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
-      "date": "2026-04-20"
+      "date": "2026-04-19"
     }
   ]
 }
