@@ -143,6 +143,11 @@
   align-items: center;
   padding: 0 24px;
   flex: 1;
+  border-right: 1px solid var(--border);
+}
+
+.am-stat:last-child {
+  border-right: none;
 }
 
 .am-stat__num {
@@ -158,12 +163,6 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   margin-top: 2px;
-}
-
-.am-stat__divider {
-  width: 1px;
-  height: 40px;
-  background: var(--border);
 }
 
 /* Tech stack chips */
@@ -285,6 +284,13 @@
   color: var(--accent);
 }
 
+/* ── Main content wrapper (mirrors .news-main) ─────────── */
+.am-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
 /* ═══════════════════════════════════════════════════════════
    FILTER TABS
    ═══════════════════════════════════════════════════════════ */
@@ -325,7 +331,7 @@
    TUTORIAL CARDS
    ═══════════════════════════════════════════════════════════ */
 .am-tutorials {
-  padding: 24px 24px 60px;
+  padding: 24px 0 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -841,7 +847,7 @@
    RESPONSIVE
    ═══════════════════════════════════════════════════════════ */
 
-/* Touch-friendly scrolling for code/diagram blocks — global */
+/* Touch-friendly scrolling for code/diagram blocks */
 .am-diagram__content,
 .am-code__content {
   -webkit-overflow-scrolling: touch;
@@ -866,7 +872,12 @@
 
 /* ── Mobile (≤640px) ───────────────────────────────────── */
 @media (max-width: 640px) {
-  /* Container — use individual props to avoid shorthand conflicts */
+  /* Main content wrapper */
+  .am-main {
+    padding: 0 16px 60px;
+  }
+
+  /* Progress section container */
   .am-container {
     padding-left: 16px;
     padding-right: 16px;
@@ -888,35 +899,29 @@
     margin-bottom: 24px;
   }
 
-  /* Stats — hide dividers, 2-column flex wrap */
-  .am-stat__divider {
-    display: none;
-  }
-
+  /* Stats — 2-column grid, borders as dividers */
   .am-hero__stats {
-    display: flex;
     flex-wrap: wrap;
     padding: 0;
     max-width: 100%;
-    gap: 0;
   }
 
   .am-stat {
     flex: 0 0 50%;
-    padding: 14px 10px;
+    padding: 16px 10px;
     border-right: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
     box-sizing: border-box;
   }
 
-  /* Right column stats: no right border */
-  .am-stat:nth-of-type(2n) {
+  /* 2nd stat in each row: no right border */
+  .am-stat:nth-child(2n) {
     border-right: none;
   }
 
-  /* Bottom row stats: no bottom border */
-  .am-stat:nth-of-type(3),
-  .am-stat:nth-of-type(4) {
+  /* Bottom row: no bottom border */
+  .am-stat:nth-child(3),
+  .am-stat:nth-child(4) {
     border-bottom: none;
   }
 
@@ -978,17 +983,15 @@
     gap: 5px;
   }
 
-  /* ── Tutorial list — use individual padding to avoid conflict with .am-container ── */
+  /* ── Tutorial list ── */
   .am-tutorials {
     padding-top: 12px;
-    padding-bottom: 48px;
   }
 
   /* ── Card header ── */
   .am-card__header {
-    padding: 14px 14px;
+    padding: 14px;
     gap: 10px;
-    align-items: flex-start;
   }
 
   .am-card__day-badge {
@@ -998,7 +1001,6 @@
     border-radius: 8px;
   }
 
-  /* Title row: stack title and chevron/lock */
   .am-card__title-row {
     flex-wrap: wrap;
     gap: 6px;
@@ -1018,11 +1020,6 @@
   .am-card__subtitle {
     font-size: 0.82rem;
     margin-bottom: 10px;
-  }
-
-  /* Pills: hide the date badge (too wide), keep difficulty + duration */
-  .am-card__pills .am-badge--ghost:last-child {
-    display: none;
   }
 
   .am-card__pills {
@@ -1064,14 +1061,12 @@
     font-size: 0.82rem;
   }
 
-  /* Diagram — scrollable horizontally */
   .am-diagram__content {
     font-size: 0.62rem;
     padding: 12px;
     line-height: 1.5;
   }
 
-  /* Code block — scrollable horizontally */
   .am-code__header {
     padding: 8px 12px;
   }
@@ -1087,7 +1082,6 @@
     line-height: 1.6;
   }
 
-  /* Locked body */
   .am-card__locked-body {
     padding: 14px;
     font-size: 0.85rem;

@@ -1504,17 +1504,14 @@ export default function AIMastery() {
               <span className="am-stat__num">{availableCount}</span>
               <span className="am-stat__label">Live Now</span>
             </div>
-            <div className="am-stat__divider" />
             <div className="am-stat">
               <span className="am-stat__num">10</span>
               <span className="am-stat__label">Total Days</span>
             </div>
-            <div className="am-stat__divider" />
             <div className="am-stat">
               <span className="am-stat__num">Python</span>
               <span className="am-stat__label">Language</span>
             </div>
-            <div className="am-stat__divider" />
             <div className="am-stat">
               <span className="am-stat__num">Free</span>
               <span className="am-stat__label">Always</span>
@@ -1588,8 +1585,8 @@ export default function AIMastery() {
         </div>
       </section>
 
-      {/* ── Filter tabs ── */}
-      <div className="am-container">
+      {/* ── Filter tabs + Tutorial list ── */}
+      <main className="am-main">
         <div className="am-filters">
           {[
             { key: "all", label: "All Tutorials", icon: "fa-list" },
@@ -1616,19 +1613,18 @@ export default function AIMastery() {
             </button>
           ))}
         </div>
-      </div>
 
-      {/* ── Tutorial list ── */}
-      <div className="am-container am-tutorials">
-        {filteredTutorials.map((t) => (
-          <TutorialCard
-            key={t.day}
-            tutorial={t}
-            isExpanded={expandedDay === t.day}
-            onToggle={() => toggleDay(t.day)}
-          />
-        ))}
-      </div>
+        <div className="am-tutorials">
+          {filteredTutorials.map((t) => (
+            <TutorialCard
+              key={t.day}
+              tutorial={t}
+              isExpanded={expandedDay === t.day}
+              onToggle={() => toggleDay(t.day)}
+            />
+          ))}
+        </div>
+      </main>
 
       {/* ── CTA ── */}
       <section className="am-cta">
