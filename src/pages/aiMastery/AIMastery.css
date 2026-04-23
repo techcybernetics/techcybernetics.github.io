@@ -16,7 +16,6 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 120px 24px 80px;
-  overflow-x: hidden;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -631,9 +630,9 @@
    ═══════════════════════════════════════════════════════════ */
 .am-diagram {
   border-radius: var(--radius-sm);
-  overflow: hidden;
   border: 1px solid var(--border);
   background: #0d1117;
+  overflow: hidden;
 }
 
 .am-diagram__header {
@@ -673,8 +672,9 @@
   font-size: 0.78rem;
   line-height: 1.65;
   color: #7dd3fc;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: pre;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -682,9 +682,9 @@
    ═══════════════════════════════════════════════════════════ */
 .am-code {
   border-radius: var(--radius-sm);
-  overflow: hidden;
   border: 1px solid var(--border);
   background: #0d1117;
+  overflow: hidden;
 }
 
 .am-code__header {
@@ -735,9 +735,10 @@
   font-size: 0.78rem;
   line-height: 1.7;
   color: #e2e8f0;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: pre;
   tab-size: 4;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Basic syntax colouring via CSS (no JS highlighter needed) */
@@ -870,49 +871,41 @@
     padding: 100px 16px 60px;
   }
 
-  /* ── Hero — simplified like News page ── */
+  /* ── Hero — left-aligned on mobile, matches News page style ── */
   .am-hero {
+    text-align: left;
     padding-bottom: 32px;
     margin-bottom: 24px;
+    overflow: visible;
   }
 
   /* Hide complex elements on mobile */
-  .am-hero__stats {
-    display: none;
-  }
-
-  .am-hero__stack {
-    display: none;
-  }
-
-  .am-hero__bg {
+  .am-hero__stats,
+  .am-hero__stack,
+  .am-hero__bg,
+  .am-progress-section {
     display: none;
   }
 
   .am-hero__badge {
-    font-size: 0.72rem;
-    padding: 5px 12px;
+    font-size: 0.75rem;
+    padding: 5px 14px;
     margin-bottom: 16px;
-    white-space: normal;
-    text-align: center;
   }
 
   .am-hero__title {
-    font-size: 1.8rem;
+    font-size: clamp(1.6rem, 7vw, 2.2rem);
     margin-bottom: 12px;
     word-break: break-word;
     overflow-wrap: break-word;
+    line-height: 1.25;
   }
 
   .am-hero__subtitle {
     font-size: 0.95rem;
-    margin-bottom: 0;
+    margin: 0;
     max-width: 100%;
-  }
-
-  /* Hide progress track on mobile — too complex */
-  .am-progress-section {
-    display: none;
+    line-height: 1.6;
   }
 
   /* ── Filter tabs ── */
