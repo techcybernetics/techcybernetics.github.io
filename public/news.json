@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a 1M-token effective context window. The model demonstrates significant improvements on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap with specialized domain models. Enterprise API availability began rolling out this week with tiered pricing based on context usage.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a 1M-token context window. Benchmarks show substantial gains on ARC-AGI-2 and GPQA Diamond, with the model demonstrating near-expert performance on multi-step scientific and engineering problems.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-04-18"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results from its Gemini Robotics Foundation Model program, showing humanoid and multi-arm robots completing novel warehouse pick-and-pack tasks with no task-specific fine-tuning. The system combines Gemini's world model with a learned physics prior, achieving 94% grasp success on previously unseen objects. The work signals a meaningful step toward general-purpose robotic manipulation outside controlled lab settings.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-04-20"
-    },
-    {
-      "id": "3",
-      "title": "Meta Releases Llama 4 Herd of Models Under Permissive Open License",
-      "summary": "Meta released the Llama 4 family including a 400B-parameter dense model and a mixture-of-experts variant exceeding 1T parameters, both under an updated open-use license that permits commercial deployment. Benchmark results show the MoE model competing with GPT-5 on reasoning and code generation while requiring significantly less inference compute per token. The release intensifies the open-weight vs. closed-model debate as frontier capability becomes more accessible.",
+      "title": "Google DeepMind's Gemini 2.5 Pro Tops Coding and Math Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Pro with a new hybrid reasoning architecture that achieves state-of-the-art results on SWE-Bench Verified and MATH-500. The model introduces dynamic compute allocation, spending more inference-time tokens on harder sub-problems, a technique Google calls adaptive chain-of-thought.",
       "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
       "date": "2026-04-15"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Begins Commercial Pilot Deployments in Automotive Manufacturing",
-      "summary": "Boston Dynamics announced that its electric Atlas humanoid robot has entered paid pilot programs at three major automotive OEMs, performing sub-assembly, part transfer, and quality inspection tasks alongside human workers. The company reported Atlas operating autonomously for 8-hour shifts with a mean-time-between-intervention exceeding 45 minutes. This marks the first large-scale commercial revenue milestone for a general-purpose humanoid platform.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Spartanburg Plant",
+      "summary": "Figure AI's Figure 03 humanoid robots have started performing real production-line tasks at BMW's South Carolina facility, handling bin-picking, part inspection, and material transport across three shifts. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing, with BMW reporting a measurable reduction in repetitive-strain injury claims.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-04-21"
     },
     {
-      "id": "5",
-      "title": "TSMC Begins Volume Production on A14 2nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed volume production has started on its N2 (2nm) gate-all-around transistor process, roughly one quarter ahead of the previously communicated timeline. Early yield data reportedly exceeds initial projections, with Apple and NVIDIA as anchor customers for the first production wave. The node promises roughly 15% speed improvement and 30% power reduction over N3E, critical for next-generation AI accelerator and mobile SoC designs.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-04-16"
-    },
-    {
-      "id": "6",
-      "title": "Anthropic Introduces Constitutional Classifiers and Real-Time Auditing for Enterprise Claude Deployments",
-      "summary": "Anthropic launched a new safety infrastructure layer for Claude enterprise customers that includes constitutional classifiers capable of flagging policy-violating outputs in under 50ms and a real-time auditing dashboard for compliance teams. The system allows organizations to define domain-specific constitutions that shape model behavior without fine-tuning, addressing a major enterprise adoption blocker. Early adopters in financial services and healthcare reported a 70% reduction in manual output review overhead.",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Live Demo",
+      "summary": "At a public showcase, Tesla demonstrated its third-generation Optimus humanoid robot autonomously folding laundry, loading a dishwasher, and navigating cluttered residential environments using an end-to-end vision-language-action model. Tesla announced plans to begin limited internal deployment in its Fremont factory and a pilot consumer leasing program by late 2026.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "AI",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
       "date": "2026-04-22"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "The FDA granted Neuralink clearance to begin broader clinical trials with its N2 implant, which doubles the electrode count to 2,048 channels and features a fully wireless power system eliminating the external charging puck. Three participants from the initial cohort demonstrated cursor control and robotic arm manipulation with latencies under 100ms. The approval expands the trial to 50 patients with quadriplegia across ten clinical sites in the United States.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Code Execution",
+      "summary": "Anthropic shipped a major update enabling Claude models to operate as long-running agents that maintain persistent memory across sessions, execute code in sandboxed environments, and chain tool calls autonomously to complete multi-step workflows. Early enterprise adopters report significant productivity gains in software engineering and data analysis pipelines.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/artificial-intelligence",
+      "category": "AI",
+      "date": "2026-04-20"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node has entered high-volume manufacturing at its Kaohsiung fab, roughly two months ahead of the original roadmap. The node offers a 20% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerator chips from Nvidia and Apple shipping in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-04-17"
     },
     {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained below-threshold error rates on logical qubits using a combination of Quantinuum's H3 trapped-ion hardware and Microsoft's new topological error-correction codes. The achievement is considered a critical milestone toward practical quantum advantage, with the team running a 24-logical-qubit chemistry simulation that outperformed classical heuristics on a specific molecular energy surface.",
+      "source": "Nature",
+      "url": "https://www.nature.com/news",
+      "category": "Innovation",
+      "date": "2026-04-12"
+    },
+    {
       "id": "8",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Full Assembly Line Integration",
-      "summary": "Figure AI announced the expansion of its Figure 02 humanoid robot program at BMW's Spartanburg plant from a single-station pilot to integrated multi-station deployment across a body-shop assembly line. The robots now coordinate with each other and existing automation via a shared task planner powered by a fine-tuned vision-language model. BMW reported a measurable throughput increase and stated plans to deploy over 100 units across its global manufacturing network by year-end.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Robotics",
-      "date": "2026-04-19"
+      "title": "Meta Releases Llama 4 Maverick and Scout Models Under Open Weights License",
+      "summary": "Meta released two new models in the Llama 4 family—Maverick, a 400B-parameter mixture-of-experts model, and Scout, a smaller 109B MoE variant with a 10M-token context window. Both are available under Meta's open weights license and demonstrate competitive performance with proprietary frontier models on reasoning, code generation, and multilingual benchmarks, intensifying the open-vs-closed model debate.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai",
+      "category": "AI",
+      "date": "2026-04-10"
     }
   ]
 }
