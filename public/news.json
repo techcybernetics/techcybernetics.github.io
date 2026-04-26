@@ -1,75 +1,75 @@
 {
-  "lastUpdated": "2026-04-25",
+  "lastUpdated": "2026-04-26",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates near-expert-level performance on graduate-level STEM benchmarks and introduces a new \"deep research\" mode that autonomously plans and executes multi-step investigations. Enterprise API pricing reflects a shift toward outcome-based billing rather than per-token costs.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI released GPT-5 in early April 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a 1M-token context window. The model demonstrates significant improvements on graduate-level science benchmarks and complex multi-step planning tasks, narrowing the gap toward robust agentic workflows in enterprise settings.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced Gemini Ultra 2 can now solve over 90% of International Mathematical Olympiad problems end-to-end, a milestone that surpasses prior formal reasoning benchmarks by a wide margin. The system combines chain-of-thought search with a learned verifier model, suggesting a path toward reliable formal proof generation for research mathematics.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-04-18"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Pro Tops Coding and Math Benchmarks, Challenging OpenAI's Lead",
-      "summary": "Google DeepMind released Gemini 2.5 Pro with state-of-the-art performance on SWE-Bench, GPQA, and competitive programming tasks, narrowing or closing the gap with GPT-5 on several key metrics. The model introduces native tool-use grounding that allows it to call Google Search, execute code, and query structured databases mid-generation. Developers report particular strength in agentic workflows where the model must autonomously decide when and how to use external tools.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
-      "category": "AI",
-      "date": "2026-04-21"
-    },
-    {
       "id": "3",
-      "title": "Figure Robotics Deploys Humanoid Workers at BMW Spartanburg Plant at Scale",
-      "summary": "Figure AI announced that over 200 of its Figure 02 humanoid robots are now operating across multiple assembly lines at BMW's Spartanburg, South Carolina facility, marking the largest commercial deployment of general-purpose humanoid robots to date. The robots handle bin-picking, part insertion, and inter-station logistics using onboard vision-language models for task understanding. BMW reported a measurable reduction in line downtime and plans to expand the deployment to 500 units by Q3 2026.",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
+      "summary": "Figure's third-generation humanoid robot has entered full commercial deployment at BMW's Spartanburg plant, handling parts kitting, inspection, and inter-station transport across three production lines. The robots use on-device vision-language models for task understanding and can be re-tasked via natural language instructions, reducing reprogramming time from days to minutes.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-04-15"
+      "date": "2026-04-14"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics Atlas Now Runs Full Warehouse Shifts with Autonomous Task Switching",
-      "summary": "Boston Dynamics demonstrated its electric Atlas humanoid completing 8-hour warehouse shifts at a DHL facility, autonomously switching between palletizing, depalletizing, and package sorting without human intervention. A new reinforcement-learning-based locomotion controller allows the robot to handle uneven surfaces and recover from unexpected collisions gracefully. The company says commercial leasing will begin in late 2026 with pricing competitive against third-shift manual labor costs.",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Construction Site Work",
+      "summary": "Boston Dynamics showcased its electric Atlas performing multi-hour autonomous routines on an active construction site, including carrying heavy materials over uneven terrain and operating power tools. The demonstration highlights advances in whole-body manipulation and dynamic balance that bring general-purpose humanoid labor closer to economic viability in high-risk industries.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
-      "date": "2026-04-22"
+      "date": "2026-04-21"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Built-In Safety Monitoring Framework",
-      "summary": "Anthropic released a new agentic framework for Claude that enables persistent, multi-session tool-use agents with a built-in Constitutional AI safety monitor that audits every action before execution. The system supports sandboxed code execution, file system access, and web browsing while maintaining detailed audit logs for enterprise compliance. Early adopters in financial services report using the framework for automated due diligence and regulatory document analysis with human-in-the-loop approval gates.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/ai",
+      "title": "Anthropic Introduces Claude's 'Extended Thinking' Mode for Multi-Hour Autonomous Research Tasks",
+      "summary": "Anthropic rolled out an extended autonomous research mode for Claude that can execute multi-hour investigative workflows, iteratively searching the web, reading papers, writing and running code, and synthesizing findings into structured reports. Early benchmarks show the system produces literature reviews on par with domain PhD students, raising both excitement and concerns about AI-driven research automation.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-04-23"
+      "date": "2026-04-22"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm GAA Chips, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed volume production of its N2 process node using gate-all-around (GAA) transistor architecture at its Kaohsiung fab, with Apple and NVIDIA as lead customers. The node delivers approximately 25% better performance at the same power or 30% power reduction at the same performance compared to N3E. NVIDIA's next-generation Blackwell Ultra AI accelerators are expected to be among the first HPC products manufactured on N2, with shipments anticipated in late 2026.",
+      "title": "TSMC Begins Volume Production on A14 2nm Process with GAA Transistors",
+      "summary": "TSMC confirmed volume production on its N2 process node using gate-all-around nanosheet transistors, delivering roughly 25% more performance at iso-power compared to N3E. Apple and NVIDIA are expected to be lead customers, with the node critical for next-generation AI accelerators that need higher transistor density to keep pace with model scaling demands.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-04-20"
+      "date": "2026-04-15"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4x Electrode Density",
-      "summary": "Neuralink announced FDA clearance for its N2 implant, which quadruples the electrode count of the original N1 device to 4,096 channels and introduces bidirectional stimulation capability. The device is approved for expanded clinical trials targeting both paralysis patients and treatment-resistant depression. Three patients implanted during earlier trials have demonstrated the ability to control robotic arms and type via neural signals with latencies under 50 milliseconds.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Implant",
+      "summary": "The FDA granted Neuralink approval to begin broader clinical trials with its N2 implant, which doubles the electrode count to 2,048 channels and adds bidirectional stimulation capabilities. Early trial participants with spinal cord injuries have demonstrated cursor control speeds approaching able-bodied benchmarks, marking a significant step toward therapeutic brain-computer interfaces at scale.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-04-17"
+      "date": "2026-04-23"
     },
     {
       "id": "8",
       "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office commenced its first formal compliance audits under the AI Act, focusing on general-purpose AI model providers including OpenAI, Google, and Meta operating in the EU market. Companies must now provide detailed technical documentation on training data, safety evaluations, and energy consumption for models classified as posing systemic risk. The audits are being closely watched as a bellwether for global AI regulation, with several non-EU jurisdictions signaling intent to adopt comparable frameworks.",
+      "summary": "The European Union's AI Office launched its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta over transparency, safety testing, and copyright documentation requirements. The enforcement actions are being closely watched as a bellwether for global AI regulation and could establish precedents that shape how frontier models are evaluated and deployed worldwide.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
+      "url": "https://www.reuters.com",
       "category": "Innovation",
       "date": "2026-04-24"
     }
