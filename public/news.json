@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a reported 3x improvement on graduate-level science benchmarks. The model introduces a new 'deliberative alignment' system that allows it to reason about its own safety constraints in-context, marking a shift in how guardrails are implemented.",
+      "summary": "OpenAI released GPT-5 in mid-April 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a reported 3x reduction in hallucination rates on internal benchmarks. The model introduces a new \"deep research\" mode capable of autonomously browsing, synthesizing, and citing hundreds of sources for complex analytical tasks. Enterprise API pricing remains competitive, signaling OpenAI's push to maintain dominance amid intensifying competition from Anthropic and Google DeepMind.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-04-15"
+      "date": "2026-04-16"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
-      "summary": "Google DeepMind's Gemini 2.5 Pro has taken the top position on SWE-Bench Verified and WebArena, demonstrating state-of-the-art performance on complex multi-step coding and web-browsing agent tasks. The model's million-token context window and improved instruction following make it particularly effective for repository-scale code understanding and autonomous debugging workflows.",
+      "title": "Google DeepMind's Gemini 2.5 Pro Achieves State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "Google DeepMind's Gemini 2.5 Pro, released in late March 2026, has topped SWE-Bench Verified and HumanEval-Plus leaderboards, demonstrating strong multi-file codebase reasoning and autonomous bug-fixing capabilities. The model integrates natively with Google Cloud's Vertex AI platform for enterprise agentic workflows. Notably, it features a 2-million-token context window that enables whole-repository understanding without chunking strategies.",
       "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-04-18"
+      "date": "2026-04-10"
     },
     {
       "id": "3",
-      "title": "Figure AI and BMW Expand Humanoid Deployment to Full Assembly Line Operations",
-      "summary": "Figure AI announced that its Figure 02 humanoid robots are now operating across multiple stages of BMW's Spartanburg assembly line, moving beyond the initial pilot of single-station tasks. The robots handle component insertion, quality inspection, and inter-station material transport with a reported 97.3% task completion rate, representing one of the largest humanoid deployments in manufacturing to date.",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
+      "summary": "Figure AI announced the first scaled commercial deployment of its Figure 02 humanoid robots at BMW's Spartanburg, South Carolina manufacturing facility, with 50 units performing parts inspection, bin picking, and intra-facility logistics. The robots leverage onboard vision-language models for zero-shot task adaptation, reducing reprogramming time from days to minutes. This marks a milestone as the first revenue-generating, large-scale humanoid deployment in automotive manufacturing.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
-      "date": "2026-04-21"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Disaster Site Navigation",
-      "summary": "Boston Dynamics demonstrated its electric Atlas humanoid navigating a simulated collapsed building environment with fully autonomous perception and path planning, requiring no teleoperation. The system combines a vision-language model for scene understanding with a learned locomotion policy, allowing it to adapt to unstable rubble, narrow passages, and dynamic obstacles in real time.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-04-22"
     },
     {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Navigation and Dexterous Manipulation",
+      "summary": "Tesla showcased its Optimus Gen 3 humanoid robot performing end-to-end autonomous warehouse tasks including shelf stocking, package sorting, and navigating dynamic environments with human workers present. The robot features redesigned actuators providing 40% more torque at lower weight and a new tactile sensor array across all fingers. Tesla plans limited deployments at its own Gigafactories by Q3 2026 before broader commercial availability.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-04-25"
+    },
+    {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration for Enterprise Agentic Workflows",
-      "summary": "Anthropic released a new agentic framework allowing Claude models to autonomously chain tool calls, manage state across multi-turn enterprise workflows, and delegate subtasks to specialized sub-agents. Early enterprise adopters report 40-60% reductions in back-office processing time for tasks like contract review, compliance checking, and data reconciliation across disparate systems.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/ai",
+      "title": "Anthropic Introduces Claude Tool-Use Framework for Autonomous Multi-Step Enterprise Workflows",
+      "summary": "Anthropic launched a new agentic tool-use framework for Claude that allows the model to autonomously orchestrate multi-step workflows involving API calls, database queries, file manipulation, and inter-service communication with built-in safety guardrails. The framework includes a novel \"constitutional delegation\" protocol that enforces permission hierarchies and audit trails for every autonomous action. Early adopters including Stripe and Notion report 60% reductions in back-office automation development time.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
-      "date": "2026-04-24"
+      "date": "2026-04-18"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC has commenced high-volume manufacturing on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors, delivering an estimated 20% speed improvement and 30% power reduction over its N2 node. The first customer chips are expected in AI accelerator and mobile SoC products shipping in Q3 2026, continuing the cadence of transistor density scaling that many had predicted would stall.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "title": "ASML Reports Record EUV High-NA Orders as Chip Industry Pushes Toward 1.4nm Process Nodes",
+      "summary": "ASML reported record quarterly bookings for its next-generation high-NA EUV lithography systems, driven by orders from TSMC, Samsung, and Intel for their planned 1.4nm and A14 process nodes expected in 2027-2028. Each Twinscan EXE:5000 system costs over $400 million and requires significant fab infrastructure modifications. The bottleneck in high-NA system production capacity is now viewed as a strategic chokepoint in the global semiconductor supply chain.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Innovation",
+      "date": "2026-04-23"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4x Electrode Density",
+      "summary": "Neuralink received FDA breakthrough device clearance for its N2 implant, which features 4,096 electrodes compared to the first-generation's 1,024, enabling significantly higher-resolution neural signal capture. Early clinical trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks and preliminary success with robotic arm manipulation. The approval opens the door for an expanded 50-patient trial focused on motor restoration and communication applications.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "Innovation",
       "date": "2026-04-14"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold required for practical quantum error correction, using Quantinuum's trapped-ion H3 processor. This milestone is widely seen as a critical step toward scalable quantum computing, with the team projecting that useful quantum advantage on chemistry problems could be achievable within two to three years.",
-      "source": "Nature",
-      "url": "https://www.nature.com/news",
-      "category": "Innovation",
-      "date": "2026-04-20"
-    },
-    {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The European Union's AI Office has initiated its first formal compliance audits of major foundation model providers under the EU AI Act's general-purpose AI provisions, which took full effect in April 2026. Companies including OpenAI, Google, and Meta are being assessed on transparency obligations, systemic risk evaluations, and energy consumption reporting, setting precedents that will shape global AI governance frameworks.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Innovation",
-      "date": "2026-04-25"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric for Construction Site Autonomy",
+      "summary": "Boston Dynamics, backed by Hyundai, unveiled a construction-optimized variant of its fully electric Atlas humanoid robot capable of carrying 50kg payloads across uneven terrain, climbing ladders, and performing supervised demolition tasks. The system uses a combination of LiDAR, stereo vision, and a fine-tuned foundation model for real-time scene understanding and adaptive motion planning. Pilot programs with three major South Korean construction firms are scheduled to begin in summer 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-26"
     }
   ]
 }
