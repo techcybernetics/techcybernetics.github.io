@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-04-30",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5 in mid-April 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and scientific reasoning benchmarks, narrowing the gap on several domain-expert evaluations. Enterprise API access is rolling out with new structured-output guarantees and a refined function-calling protocol.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science and mathematics benchmarks, narrowing the gap with domain-specific expert systems. Enterprise API pricing reflects the increased compute cost but offers a distilled GPT-5-mini variant for latency-sensitive workloads.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-04-17"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 88% of International Mathematical Olympiad-level problems in a controlled evaluation, a jump from approximately 72% achieved by its predecessor. The system uses a novel verify-and-refine chain-of-thought architecture that iteratively checks its own proof steps. The result reignites debate about whether LLMs are developing genuine mathematical reasoning or sophisticated pattern matching at scale.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-04-22"
     },
     {
-      "id": "3",
-      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Shift with Figure 03 Humanoids",
-      "summary": "Figure completed a 10-hour autonomous warehouse operations demo in Houston where a fleet of eight Figure 03 humanoid robots handled picking, packing, and palletizing without human intervention. The robots used on-device vision-language models for real-time object identification and grasp planning, achieving a 97.3% successful pick rate across irregular item geometries. BMW and Amazon are reportedly in advanced procurement talks for pilot deployments.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-04-24"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Gains Fine Manipulation Skills with New Dexterous End Effectors",
-      "summary": "Boston Dynamics unveiled an upgraded electric Atlas platform equipped with 16-degree-of-freedom hands capable of tool use, cable routing, and delicate assembly tasks. Internal benchmarks show the robot threading bolts, operating power tools, and handling flexible materials with sub-millimeter precision. The company positions the update as critical for its Hyundai manufacturing integration slated for Q3 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
+      "summary": "DeepMind's Gemini 2.5 Pro has set new state-of-the-art results on SWE-Bench Verified and HumanEval-Agent, demonstrating the ability to autonomously plan, write, test, and debug multi-file codebases. The model's integrated tool-use architecture allows it to invoke compilers, linters, and search within a single reasoning trace. The release intensifies competition with Anthropic's Claude and OpenAI's Codex-successor offerings in the developer tooling market.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
       "date": "2026-04-25"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' Framework for Real-Time AI Safety Monitoring",
-      "summary": "Anthropic published a new open-source framework called Constitutional Classifiers that allows organizations to attach lightweight, interpretable safety monitors to any LLM deployment in production. The classifiers run as sidecar processes evaluating model outputs against customizable policy constitutions with less than 15ms added latency. Early adopters report a 60% reduction in policy-violating outputs compared to prompt-based guardrails alone.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
+      "id": "3",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office has initiated its first formal compliance audits under the AI Act's general-purpose AI provisions, requesting detailed documentation from major foundation model providers operating in the EU. Companies must demonstrate adherence to transparency requirements, copyright compliance protocols, and systemic risk assessments. Legal analysts expect the outcomes to set important precedents for AI governance worldwide.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "AI",
-      "date": "2026-04-21"
+      "date": "2026-04-28"
+    },
+    {
+      "id": "4",
+      "title": "Figure Robotics Demonstrates Autonomous Warehouse Operations at BMW Facility",
+      "summary": "Figure's second-generation humanoid robot, Figure 02, has completed a multi-week pilot at a BMW logistics facility in Spartanburg, SC, performing bin-picking, parts transport, and inventory scanning with minimal human oversight. The system leverages a vision-language-action model fine-tuned on manipulation tasks, achieving a reported 97% grasp success rate on previously unseen parts. BMW confirmed plans to expand the deployment to additional production lines by Q3 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-18"
+    },
+    {
+      "id": "5",
+      "title": "Boston Dynamics and Toyota Research Institute Unveil Shared Dexterous Manipulation Platform",
+      "summary": "Boston Dynamics and TRI announced a joint open platform for dexterous robotic manipulation research, combining Atlas's hardware capabilities with TRI's diffusion-policy-based learning framework. The platform provides a standardized sim-to-real pipeline, dramatically reducing the time required to train contact-rich manipulation policies. The collaboration aims to accelerate the industry toward general-purpose robotic dexterity, with APIs and simulation environments being released under a permissive license.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-04-23"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its Fab 21 in Arizona has commenced volume production on the A14 (1.4nm-class) process node, approximately two months ahead of the original timeline. The node uses gate-all-around nanosheet transistors and backside power delivery, yielding an estimated 20% performance gain and 30% power reduction over N2. Apple, NVIDIA, and AMD are all confirmed first customers, with AI accelerator dies expected to ship in Q3 2026.",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving repeated rounds of fault-tolerant error correction on logical qubits with error rates below the threshold needed for scalable quantum computation. The demonstration used Quantinuum's trapped-ion H2 processor with Microsoft's qubit-virtualization layer, executing over 50 rounds of syndrome extraction without logical failure. Researchers say this milestone significantly de-risks the path to practically useful quantum algorithms within this decade.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-04-16"
+    },
+    {
+      "id": "7",
+      "title": "TSMC Begins Risk Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its A14 (1.4nm-class) process node has entered risk production at its Fab 20 complex in Hsinchu, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, offering a reported 15% speed improvement and 30% power reduction over N2. Major customers including Apple, Nvidia, and AMD are expected to tape out designs later this year for 2027 volume production.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-04-27"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Trial",
-      "summary": "The FDA granted Neuralink approval to begin human trials of its N2 implant, which doubles electrode count to 2,048 channels and adds bidirectional stimulation capabilities. The second-generation device targets both motor restoration for paralysis patients and a new exploratory indication for treatment-resistant depression. The approval follows 18 months of data from the first-generation PRIME study, where participants demonstrated sustained cursor and robotic arm control.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-04-28"
-    },
-    {
       "id": "8",
-      "title": "Toyota Research Institute Unveils Diffusion-Policy Framework for Generalizable Robot Learning",
-      "summary": "TRI published a landmark paper and open-source release of a diffusion-policy-based robot learning framework that enables household manipulation robots to generalize across hundreds of unseen objects and tasks after training on only 50 demonstration episodes per skill. The approach combines 3D diffusion policies with a foundation world model pre-trained on internet-scale video. In standardized benchmarks the system outperformed prior sim-to-real methods by 40% on novel task success rate.",
-      "source": "arXiv / TRI Blog",
-      "url": "https://www.tri.global",
-      "category": "Robotics",
-      "date": "2026-04-23"
+      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreaks in Claude 4",
+      "summary": "Anthropic published a technical report detailing a new safety architecture called constitutional classifiers, integrated into the forthcoming Claude 4 model family. The system uses a lightweight auxiliary model trained via constitutional AI principles to classify and intercept adversarial prompt patterns in real time, reducing jailbreak success rates by over 95% on internal red-team benchmarks. The approach imposes less than 3% latency overhead, making it practical for production deployment at scale.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-04-29"
     }
   ]
 }
