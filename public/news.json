@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-04-30",
+  "lastUpdated": "2026-05-01",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science and mathematics benchmarks, narrowing the gap with domain-specific expert systems. Enterprise API pricing reflects the increased compute cost but offers a distilled GPT-5-mini variant for latency-sensitive workloads.",
+      "summary": "OpenAI officially released GPT-5 in April 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation within a single model, and a context window exceeding 1 million tokens. Benchmarks show step-change improvements in complex mathematical proofs, multi-file code generation, and agentic task completion. The model is available through the API with tiered rate limits and a new pricing structure reflecting its substantially higher compute requirements.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/openai",
       "category": "AI",
       "date": "2026-04-22"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
-      "summary": "DeepMind's Gemini 2.5 Pro has set new state-of-the-art results on SWE-Bench Verified and HumanEval-Agent, demonstrating the ability to autonomously plan, write, test, and debug multi-file codebases. The model's integrated tool-use architecture allows it to invoke compilers, linters, and search within a single reasoning trace. The release intensifies competition with Anthropic's Claude and OpenAI's Codex-successor offerings in the developer tooling market.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-04-25"
-    },
-    {
-      "id": "3",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office has initiated its first formal compliance audits under the AI Act's general-purpose AI provisions, requesting detailed documentation from major foundation model providers operating in the EU. Companies must demonstrate adherence to transparency requirements, copyright compliance protocols, and systemic risk assessments. Legal analysts expect the outcomes to set important precedents for AI governance worldwide.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
+      "summary": "DeepMind released Gemini Ultra 2, which topped the FrontierMath and GPQA-Diamond benchmarks by significant margins, demonstrating PhD-level scientific reasoning across physics, biology, and chemistry. The model integrates a novel mixture-of-experts architecture with retrieval-augmented generation over curated scientific corpora. Google is positioning it as the backbone of its new AI-powered research assistant available within Google Cloud and Workspace.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-04-28"
     },
     {
-      "id": "4",
-      "title": "Figure Robotics Demonstrates Autonomous Warehouse Operations at BMW Facility",
-      "summary": "Figure's second-generation humanoid robot, Figure 02, has completed a multi-week pilot at a BMW logistics facility in Spartanburg, SC, performing bin-picking, parts transport, and inventory scanning with minimal human oversight. The system leverages a vision-language-action model fine-tuned on manipulation tasks, achieving a reported 97% grasp success rate on previously unseen parts. BMW confirmed plans to expand the deployment to additional production lines by Q3 2026.",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
+      "summary": "Figure Robotics announced that its third-generation humanoid robot, Figure 03, has entered commercial deployment at two BMW manufacturing plants in South Carolina. The robots handle bin-picking, parts transfer, and quality visual inspection, operating alongside human workers in mixed workflows. Figure reports the units achieve 97% task completion autonomy with a mean-time-between-intervention exceeding 4 hours, a major reliability milestone for general-purpose humanoids.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Construction Site Navigation",
+      "summary": "Boston Dynamics published results from a six-month pilot where its electric Atlas humanoid autonomously navigated active construction sites, carrying tools and materials across unstructured terrain. The robot leverages a vision-language-action model fine-tuned on construction environments, enabling it to interpret verbal instructions from site foremen and plan multi-step logistics tasks. The pilot, conducted with Bechtel, showed a 30% reduction in material delivery times for certain workflows.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
       "date": "2026-04-18"
     },
     {
       "id": "5",
-      "title": "Boston Dynamics and Toyota Research Institute Unveil Shared Dexterous Manipulation Platform",
-      "summary": "Boston Dynamics and TRI announced a joint open platform for dexterous robotic manipulation research, combining Atlas's hardware capabilities with TRI's diffusion-policy-based learning framework. The platform provides a standardized sim-to-real pipeline, dramatically reducing the time required to train contact-rich manipulation policies. The collaboration aims to accelerate the industry toward general-purpose robotic dexterity, with APIs and simulation environments being released under a permissive license.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-04-23"
+      "title": "Anthropic Introduces Claude with Persistent Memory and Long-Running Agent Capabilities",
+      "summary": "Anthropic rolled out a major update enabling Claude to maintain persistent memory across sessions and execute long-running agentic tasks spanning hours or days with checkpoint-based recovery. The system uses a structured memory store that the model can read, write, and reason over, combined with a sandboxed execution environment for code and tool use. Early enterprise adopters report significant productivity gains in software engineering, data analysis, and research workflows.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-04-30"
     },
     {
       "id": "6",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum reported achieving repeated rounds of fault-tolerant error correction on logical qubits with error rates below the threshold needed for scalable quantum computation. The demonstration used Quantinuum's trapped-ion H2 processor with Microsoft's qubit-virtualization layer, executing over 50 rounds of syndrome extraction without logical failure. Researchers say this milestone significantly de-risks the path to practically useful quantum algorithms within this decade.",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its A14 (1.4nm-class) process node has entered volume production at its Fab 20 facility in Tainan, approximately one quarter ahead of the originally published roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, yielding roughly 20% performance improvement and 30% power reduction over N2. Apple and Nvidia are confirmed as launch customers, with chips expected in consumer devices by late 2026.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
+      "summary": "Microsoft and Quantinuum jointly published results showing sustained logical qubit error rates of 1e-8 per operation across 12 logical qubits using their hybrid ion-trap architecture with real-time error correction. This crosses a critical threshold where quantum error correction overhead becomes manageable for practical computation. The team demonstrated a small quantum chemistry simulation that would be intractable classically, marking a credible step toward useful quantum advantage.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
       "date": "2026-04-16"
     },
     {
-      "id": "7",
-      "title": "TSMC Begins Risk Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its A14 (1.4nm-class) process node has entered risk production at its Fab 20 complex in Hsinchu, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, offering a reported 15% speed improvement and 30% power reduction over N2. Major customers including Apple, Nvidia, and AMD are expected to tape out designs later this year for 2027 volume production.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-04-27"
-    },
-    {
       "id": "8",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreaks in Claude 4",
-      "summary": "Anthropic published a technical report detailing a new safety architecture called constitutional classifiers, integrated into the forthcoming Claude 4 model family. The system uses a lightweight auxiliary model trained via constitutional AI principles to classify and intercept adversarial prompt patterns in real time, reducing jailbreak success rates by over 95% on internal red-team benchmarks. The approach imposes less than 3% latency overhead, making it practical for production deployment at scale.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-04-29"
+      "title": "Toyota Research Institute Unveils Diffusion-Policy-Based Robotic Manipulation System for Home Environments",
+      "summary": "TRI demonstrated a new robotic manipulation framework that uses diffusion policy models trained on large-scale teleoperation data to perform over 200 distinct household tasks including folding laundry, loading dishwashers, and organizing shelves. The system generalizes to novel objects and layouts with minimal fine-tuning by leveraging a foundation vision-language model for semantic scene understanding. TRI plans to integrate the system into a mobile manipulator platform for in-home beta testing by early 2027.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "Robotics",
+      "date": "2026-04-27"
     }
   ]
 }
