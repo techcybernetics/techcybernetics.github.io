@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-02",
+  "lastUpdated": "2026-05-03",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a larger effective context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex agentic coding tasks, narrowing the gap between AI assistants and domain experts in several technical fields.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5 in late April 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a reported 1M-token effective context window. The model shows significant improvements in multi-step mathematical proof generation and code synthesis benchmarks, narrowing the gap with specialized domain models. Enterprise API access includes a new structured-output guarantee layer that reduces hallucination rates by an estimated 40% over GPT-4o.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-04-22"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding and Research Benchmarks",
-      "summary": "Google DeepMind's latest Gemini 2.5 Pro model has taken top positions on SWE-Bench and several agentic research benchmarks, demonstrating an ability to autonomously navigate large codebases and synthesize findings across hundreds of academic papers. The model's improved tool-use capabilities and 2M-token context window make it particularly competitive for enterprise RAG and software engineering workflows.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-04-25"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Begins Pilot Deployment of Figure 03 Humanoids in BMW Factories",
-      "summary": "Figure Robotics has started a limited production pilot of its Figure 03 humanoid robots at BMW's Spartanburg, SC plant, handling parts kitting and bin-picking tasks alongside human workers. The robots leverage on-device vision-language models for task understanding and can adapt to novel part geometries without explicit reprogramming, marking a milestone in general-purpose humanoid deployment in automotive manufacturing.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
       "date": "2026-04-28"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Navigation and Manipulation",
-      "summary": "Tesla showcased its third-generation Optimus humanoid robot performing end-to-end warehouse logistics tasks including autonomous navigation, shelf stocking, and package sorting without teleoperation. The system uses a vision-only transformer pipeline derived from Tesla's FSD architecture, and Elon Musk indicated limited external sales could begin in early 2027.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Benchmarks",
+      "summary": "DeepMind published results for Gemini Ultra 2, which tops GPQA-Diamond and newly introduced SciArena benchmarks across physics, chemistry, and biology. The model leverages a novel mixture-of-experts architecture with over 2 trillion sparse parameters and introduces retrieval-augmented chain-of-thought that cites primary literature. Researchers highlight its ability to propose novel experimental designs that were independently validated by lab partners at MIT and the Francis Crick Institute.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-04-30"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Deploys Humanoid Workers at BMW's Spartanburg Plant at Scale",
+      "summary": "Figure announced that over 200 of its Figure 03 humanoid robots are now operating across multiple lines at BMW's South Carolina manufacturing facility, handling parts kitting, quality inspection, and light assembly tasks. The deployment marks the largest commercial humanoid workforce to date and uses on-device vision-language models for real-time task adaptation without reprogramming. BMW reports a 17% throughput improvement on affected lines with a target of 500 units deployed by Q4 2026.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Demonstrates Autonomous Disaster Response in DARPA Exercise",
+      "summary": "Boston Dynamics' electric Atlas robot completed a full DARPA-organized urban disaster response course autonomously, navigating rubble, opening doors, shutting off valves, and carrying a simulated casualty to an extraction point. The system used a hierarchical planner combining a large world model with real-time LiDAR-visual SLAM, achieving the course in 22 minutes versus the 45-minute human-teleoperated baseline. DARPA officials noted it as a milestone toward certifiable autonomous first-responder robots.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-05-01"
+    },
+    {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Execution",
-      "summary": "Anthropic released a major update to its Claude platform enabling long-running agentic workflows with persistent memory across sessions, sandboxed code execution, and fine-grained permission controls for enterprise environments. The system allows Claude to autonomously manage multi-step projects over days, with human-in-the-loop checkpoints, targeting software development and research automation use cases.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Anthropic Introduces 'Constitutional Classifiers 2.0' to Mitigate Agentic AI Risks",
+      "summary": "Anthropic released a detailed technical report on Constitutional Classifiers 2.0, a guardrail framework designed specifically for AI agents that execute multi-step tool-use chains. The system monitors intermediate reasoning traces and tool calls in real time, intervening when planned actions violate safety constitutions, and reduced harmful autonomous action sequences by 92% in red-team evaluations. The framework is open-sourced and already integrated into Claude's agentic computer-use and API-calling capabilities.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
       "category": "AI",
       "date": "2026-04-29"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm A16 Process Node for AI Accelerators",
-      "summary": "TSMC has commenced high-volume manufacturing on its A16 (2nm-class) process node featuring backside power delivery, with initial production allocated primarily to next-generation AI accelerator chips. The node delivers approximately 15% speed improvement and 30% power reduction compared to N3E, which is expected to meaningfully improve inference cost-efficiency for large-scale AI data centers.",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed risk production of its A14 (1.4nm-class) process technology using gate-all-around nanosheet transistors, with volume production ramping at its Kaohsiung fab. The node delivers approximately 20% speed improvement or 30% power reduction over N2, and is expected to power next-generation AI accelerator chips from Apple, NVIDIA, and AMD starting in early 2027. The achievement extends Moore's Law economics at a time when AI training and inference compute demand continues to grow exponentially.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-04-21"
+      "date": "2026-04-27"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error-Correction Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained logical qubit operations with error rates below the fault-tolerance threshold on their latest trapped-ion system, executing circuits of over 100 logical gates with high fidelity. This represents a critical engineering milestone on the path to practical quantum computing, though commercially useful quantum advantage for real-world problems likely remains several years away.",
+      "title": "Microsoft and Atom Computing Demonstrate Fault-Tolerant Quantum Operations with 99.7% Fidelity",
+      "summary": "Microsoft, partnering with Atom Computing, demonstrated logical qubit operations on a neutral-atom quantum processor exceeding the 99.5% fidelity threshold needed for practical error correction, reaching 99.7% on two-qubit gates across a 256-logical-qubit array. The result builds on Microsoft's topological qubit announcement from earlier in 2025 and combines it with Atom Computing's scalable atom-array architecture. The companies outlined a roadmap to a 1,000-logical-qubit fault-tolerant system by 2028 targeting molecular simulation and cryptographic applications.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-04-24"
+      "date": "2026-05-02"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Toyota Research Launch Open Sim-to-Real Transfer Framework for Dexterous Manipulation",
-      "summary": "Boston Dynamics and Toyota Research Institute jointly open-sourced a sim-to-real transfer framework for training dexterous robotic manipulation policies in simulation and deploying them to physical hardware with minimal fine-tuning. The framework, built on GPU-accelerated Isaac Sim environments, includes standardized benchmarks for grasping, tool use, and bimanual coordination, aiming to accelerate reproducible research in robotic dexterity.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-04-27"
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI model provisions, targeting major foundation model providers including OpenAI, Google, Meta, and Mistral. Auditors are examining systemic risk assessments, compute reporting disclosures, and red-teaming documentation that providers were required to file by April 2026. The enforcement marks the transition of AI governance from policy to practice in Europe and is expected to set precedents that influence regulatory approaches globally.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-05-02"
     }
   ]
 }
