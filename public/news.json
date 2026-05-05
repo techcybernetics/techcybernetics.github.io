@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-05-05",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a larger effective context window. The model demonstrates step-change improvements on graduate-level science benchmarks and complex agentic coding tasks, raising the bar for frontier model capabilities.",
+      "title": "OpenAI Launches GPT-5 with Expanded Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially rolled out GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation within a single model, and a larger effective context window. Benchmarks show step-function improvements on graduate-level STEM problems and complex code generation tasks, narrowing the gap between AI assistants and domain experts.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-04-28"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding and Research Benchmarks",
-      "summary": "Google DeepMind released updated Gemini 2.5 Pro checkpoints that lead on SWE-bench Verified and several multi-step research benchmarks. The model introduces improved tool-use orchestration and a refined thinking budget mechanism that lets developers trade latency for accuracy, making it particularly effective for autonomous software engineering pipelines.",
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google/blog",
-      "category": "AI",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 02 Humanoids in BMW Plants",
-      "summary": "Figure announced the start of paid commercial operations with its Figure 02 humanoid robots at BMW's Spartanburg manufacturing facility, marking one of the first scaled deployments of general-purpose humanoids in automotive production. The robots handle bin-picking, part insertion, and inter-station transport tasks using on-board vision-language-action models fine-tuned for factory workflows.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
-      "date": "2026-04-25"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Prototype Demonstrates Fluid Bipedal Walking and Dexterous Manipulation",
-      "summary": "Tesla showed a new Optimus Gen 3 prototype with redesigned actuators achieving smoother, more human-like gait on uneven terrain and improved hand dexterity for handling small objects. The demo included the robot autonomously sorting mixed warehouse inventory, signaling Tesla's intent to begin limited internal deployment later this year.",
+      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Pro, which achieved state-of-the-art scores on SWE-Bench Verified and other agentic coding evaluations, outperforming Claude and GPT-series models on multi-file repository tasks. The model introduces improved tool-use orchestration and longer reliable planning horizons, making autonomous software engineering workflows materially more practical.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
-      "category": "Robotics",
-      "date": "2026-05-01"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Execution",
-      "summary": "Anthropic rolled out a new agentic framework for Claude that supports persistent cross-session memory, sandboxed code execution, and structured multi-step tool orchestration via a new API surface. The system targets enterprise automation workflows and includes built-in safety monitoring that can pause agent chains when confidence drops below configurable thresholds.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com/news",
+      "url": "https://www.techcrunch.com",
       "category": "AI",
       "date": "2026-04-22"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plant",
+      "summary": "Figure's second-generation humanoid robot, Figure 02, has entered limited commercial deployment at a BMW manufacturing facility in South Carolina, performing parts kitting and material transport tasks alongside human workers. The deployment marks one of the first revenue-generating humanoid robotics contracts and is being closely watched as a bellwether for the viability of general-purpose humanoid labor in industrial settings.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Demonstrates Autonomous Multi-Step Manipulation in Unstructured Environments",
+      "summary": "Boston Dynamics published new research showing its electric Atlas humanoid autonomously completing complex multi-step manipulation tasks—such as sorting irregular objects and operating valves—in unstructured warehouse environments without pre-programmed routines. The system leverages a vision-language-action model fine-tuned on proprioceptive and visual data, representing a major leap in dexterous generalization for legged robots.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Execution",
+      "summary": "Anthropic shipped a major update to the Claude platform enabling persistent, long-running agents that can autonomously execute multi-step tool-use workflows with sandboxed code execution and memory across sessions. The release targets enterprise automation use cases and includes new controllability features such as human-in-the-loop checkpoints and audit logging for compliance-sensitive environments.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/blog",
+      "category": "AI",
+      "date": "2026-05-01"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm N2 Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed high-volume manufacturing of its N2 process using gate-all-around nanosheet transistors, with first customer shipments expected in Q3 2026. The node delivers roughly 15% speed improvement and 30% power reduction over N3E, and is expected to power the next generation of AI training and inference chips from Apple, Nvidia, and AMD.",
+      "title": "TSMC Begins Volume Production of 2nm A16 Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its A16 (2nm-class) process node using nanosheet gate-all-around transistors has entered volume production, ahead of its originally scheduled late-2025 timeline. Early yield data reportedly exceeds expectations, which will have downstream effects on next-generation AI accelerator chips from Apple, Nvidia, and AMD expected to tape out on the node this year.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance to Expand Brain-Computer Interface Trials to Motor Restoration",
+      "summary": "Neuralink received expanded FDA Investigational Device Exemption clearance to enroll patients with spinal cord injuries in trials focused on restoring voluntary motor control via its N1 implant and decoder algorithms. Previous trial participants had demonstrated high-bandwidth cursor and device control; the new cohort will test closed-loop stimulation pathways aimed at re-enabling limb movement.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
       "date": "2026-04-29"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error-Correction Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained logical qubit operations with error rates below the fault-tolerance threshold across a 56-physical-qubit trapped-ion system. The milestone validates their hybrid classical-quantum error correction scheme and brings practical quantum advantage for certain chemistry and optimization problems meaningfully closer.",
-      "source": "Nature",
-      "url": "https://www.nature.com/articles",
-      "category": "Innovation",
-      "date": "2026-04-27"
-    },
-    {
       "id": "8",
-      "title": "Meta Releases Llama 4 Maverick Open-Weight Model Rivaling Closed Frontier Systems",
-      "summary": "Meta released Llama 4 Maverick, an open-weight mixture-of-experts model with 128 experts and 17B active parameters per forward pass, achieving performance competitive with GPT-4.5 and Gemini 2.5 Pro on reasoning and coding benchmarks. The release includes optimized inference kernels for consumer GPUs, further democratizing access to frontier-class language model capabilities.",
-      "source": "Meta AI Blog",
-      "url": "https://ai.meta.com/blog",
+      "title": "Meta Open-Sources Llama 4 Maverick: A 400B MoE Model Rivaling Proprietary Frontier Systems",
+      "summary": "Meta released Llama 4 Maverick, a 400-billion-parameter mixture-of-experts model under a permissive open license, with benchmark performance competitive with GPT-5 and Gemini 2.5 Pro across reasoning, code, and multilingual tasks. The release includes optimized inference kernels for commodity hardware and is expected to accelerate open-source ecosystem development and enterprise on-premises AI deployment.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-05-02"
+      "date": "2026-04-21"
     }
   ]
 }
