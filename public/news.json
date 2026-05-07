@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-06",
+  "lastUpdated": "2026-05-07",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and multi-step mathematical proofs, narrowing the gap with specialized formal verification tools. Enterprise API access began rolling out in late April with tiered pricing based on context utilization.",
+      "summary": "OpenAI officially released GPT-5, featuring natively fused vision-language-audio reasoning and a context window exceeding 1 million tokens. Early benchmarks show step-change improvements in complex multi-step math, code generation, and agentic task completion, though researchers note diminishing returns on certain narrow NLP tasks compared to the GPT-4o to GPT-5 leap.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-04-28"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on GPQA-Diamond, MathOdyssey, and a newly introduced materials science benchmark. The model leverages a mixture-of-experts architecture with over 2 trillion parameters and demonstrates emergent capabilities in hypothesis generation for protein-ligand binding prediction. Google is integrating the model directly into its Cloud Vertex AI platform for research customers.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-04-30"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Demonstrates Autonomous Warehouse Operations at Scale",
-      "summary": "Figure AI showcased its Figure 03 humanoid robots operating autonomously across a 200,000 sq ft logistics warehouse, handling picking, packing, and palletizing without human intervention for continuous 8-hour shifts. The system uses a vision-language-action model fine-tuned on warehouse teleoperation data, achieving a 97.3% task success rate. BMW and Amazon have reportedly signed expanded pilot agreements for Q3 2026 deployments.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-05-02"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Enters Limited Production with Dexterous Manipulation Upgrade",
-      "summary": "Tesla announced that its Optimus Gen 3 humanoid robot has entered limited production at its Austin facility, featuring 27 degrees of freedom in each hand and a new tactile sensing array enabling fine-grained object manipulation. The robots are initially being deployed in Tesla's own factories for cable routing and small-parts assembly. Musk stated the company aims to produce 10,000 units by end of 2026 with external sales beginning in 2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-05-01"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Enterprise Agents",
-      "summary": "Anthropic released a new framework enabling enterprises to deploy Claude-based autonomous agents with layered constitutional constraints, real-time audit logging, and human-in-the-loop escalation policies. The system allows organizations to define domain-specific behavioral constitutions that govern agent actions in production environments such as finance, healthcare, and legal workflows. Early adopters report a 60% reduction in required human oversight compared to previous guardrail approaches.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
-      "category": "AI",
-      "date": "2026-05-04"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N14P (1.4nm-class) process node has entered volume production at its Kaohsiung fab, approximately one quarter ahead of the original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, delivering an 18% speed improvement and 30% power reduction over N2. Apple, Nvidia, and Qualcomm are confirmed first customers, with chips expected in consumer devices by early 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-05-03"
-    },
-    {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 32 logical qubits with error rates below 10^-6 per logical gate cycle, using Quantinuum's latest trapped-ion hardware and Microsoft's qubit virtualization layer. This crosses a key threshold that makes certain quantum chemistry simulations practically viable for the first time. The team demonstrated a simulation of a FeMo-cofactor electronic structure that would be intractable on classical hardware.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
       "date": "2026-04-29"
     },
     {
-      "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Seamless Loco-Manipulation",
-      "summary": "Boston Dynamics revealed a major update to its electric Atlas platform, demonstrating seamless transitions between bipedal locomotion, crouching manipulation, and single-arm lifting of 30kg payloads in unstructured construction environments. The robot uses a unified transformer-based policy trained in simulation and transferred zero-shot to hardware, eliminating the need for task-specific motion planners. Hyundai confirmed deployment trials at its Ulsan shipyard beginning in June 2026.",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Pro Tops Agentic Coding Benchmarks",
+      "summary": "Google DeepMind's Gemini 2.5 Pro has taken the lead on SWE-Bench Verified and HumanEval-Agent, demonstrating an ability to autonomously resolve real-world GitHub issues with over 65% success rate. The model integrates a refined chain-of-thought architecture with built-in tool use, intensifying the competition with OpenAI and Anthropic in the agentic coding space.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
+      "summary": "Figure Robotics announced that its Figure 03 humanoid robot has entered commercial deployment at BMW's Spartanburg plant, performing bin-picking, parts transfer, and quality inspection tasks alongside human workers. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-04-30"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Electric Achieves Real-Time Autonomous Warehouse Navigation",
+      "summary": "Boston Dynamics demonstrated its electric Atlas robot autonomously navigating a cluttered warehouse environment, picking and placing irregular packages using a new vision-language-action model for manipulation planning. The milestone shows Atlas transitioning from scripted demos to genuinely adaptive behavior in unstructured commercial settings.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com",
       "category": "Robotics",
       "date": "2026-05-05"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Claude Agents' — Persistent AI Workers for Enterprise Workflows",
+      "summary": "Anthropic launched Claude Agents, a platform allowing enterprises to deploy persistent, sandboxed AI agents that can execute multi-hour workflows involving web research, code execution, and document drafting with human-in-the-loop checkpoints. The system uses Constitutional AI-based guardrails to bound agent behavior, addressing key enterprise concerns around reliability and auditability.",
+      "source": "Bloomberg Technology",
+      "url": "https://www.bloomberg.com/technology",
+      "category": "AI",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced early volume production on its N14P (1.4nm-class) process node, approximately one quarter ahead of the original roadmap. The node leverages gate-all-around nanosheet transistors and backside power delivery, promising a 15% speed improvement and 30% power reduction versus its 2nm predecessor, with AI accelerator chips expected to be first adopters.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval for Expanded BCI Trials Targeting Spinal Cord Injury",
+      "summary": "The FDA granted Neuralink approval to expand its brain-computer interface clinical trials to patients with spinal cord injuries, building on positive results from its initial ALS and paralysis cohort. Early participants demonstrated reliable cursor control and text input at speeds approaching 40 words per minute, marking a significant milestone for implantable BCI technology.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "8",
+      "title": "Toyota Research Institute Unveils Diffusion-Policy-Based Robot That Learns Kitchen Tasks from 10 Demonstrations",
+      "summary": "Toyota Research Institute published results on a new diffusion-policy learning framework that enables a bimanual robot to learn complex kitchen manipulation tasks — such as cracking eggs and assembling sandwiches — from as few as 10 human teleoperation demonstrations. The approach dramatically reduces data requirements compared to prior imitation learning methods, suggesting a path toward practical household robotics.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-05-03"
     }
   ]
 }
