@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-12",
+  "lastUpdated": "2026-05-13",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5 in late April 2026, featuring natively fused vision, audio, and text reasoning in a single architecture rather than stitched-together modules. The model demonstrates significant gains on graduate-level science benchmarks and supports a 1M token context window, enabling full-codebase and long-document analysis workflows that were previously impractical.",
+      "summary": "OpenAI officially released GPT-5, featuring natively fused vision, audio, and text reasoning in a single model architecture rather than stitched-together modules. The model supports a 1M-token context window with significantly improved long-range coherence, and benchmarks show major gains in multi-step mathematical and scientific reasoning tasks.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-04-30"
+      "date": "2026-05-08"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Coding Tasks",
-      "summary": "DeepMind unveiled Gemini Ultra 2 with dramatically improved agentic capabilities, scoring over 75% on the SWE-Bench Verified benchmark for autonomous software engineering. The model can plan multi-step repository changes, run tests iteratively, and self-correct, narrowing the gap toward fully autonomous software maintenance for production codebases.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "DeepMind's Gemini 2.5 Ultra topped SWE-Bench Verified and the new AgentCoder benchmark, autonomously resolving over 70% of real-world GitHub issues end-to-end. The model introduces improved tool-use planning and self-verification loops that drastically reduce hallucinated fixes, signaling a step change in AI-assisted software engineering.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-05-06"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
-      "summary": "Figure AI started deploying its third-generation humanoid robot at BMW's Spartanburg plant for general-purpose material handling and sub-assembly tasks. The Figure 03 units operate alongside human workers with improved dexterity and a new foundation model for task adaptation, marking one of the first scaled commercial humanoid deployments in automotive manufacturing.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
-      "date": "2026-05-08"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Shows Autonomous Disaster Response in DARPA Field Trials",
-      "summary": "Boston Dynamics demonstrated its electric Atlas humanoid performing fully autonomous search-and-rescue operations during DARPA's latest Robotics Challenge field exercises. The robot navigated collapsed structures, manipulated debris, and carried simulated casualties without teleoperation, leveraging a new perception stack built on real-time 3D scene reconstruction and LLM-driven task planning.",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Plants",
+      "summary": "Figure's third-generation humanoid robot has entered volume deployment at BMW's Spartanburg facility, performing bin-picking, parts inspection, and inter-station transport tasks alongside human workers. The robots leverage on-device vision-language models for flexible task switching without manual reprogramming, a milestone for general-purpose humanoid deployment in manufacturing.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-05-03"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional Steering for Enterprise AI Governance",
-      "summary": "Anthropic released a new framework called Constitutional Steering that allows enterprises to define domain-specific behavioral policies for Claude models using structured natural-language constitutions. The system enables fine-grained compliance guardrails for regulated industries like healthcare and finance, with auditable decision traces that map outputs back to specific constitutional clauses.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/ai",
-      "category": "AI",
       "date": "2026-05-10"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of A14 2nm Chips Ahead of Schedule",
-      "summary": "TSMC announced that its N2 (2nm) process node has entered high-volume manufacturing at the Kaohsiung fab, several weeks ahead of the originally projected timeline. The gate-all-around transistor architecture delivers a roughly 25% performance uplift at iso-power versus N3E, with Apple and Nvidia among the first customers expected to ship consumer products on the node later this year.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-05-05"
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Live Demo",
+      "summary": "Tesla showcased Optimus Gen 3 performing unscripted household chores including laundry folding, dishwasher loading, and navigating cluttered rooms in a live streamed demonstration. The robot uses an end-to-end transformer policy trained in simulation and fine-tuned with teleoperation data, though experts caution that reliability in unstructured homes remains a significant engineering challenge.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-05-11"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
-      "summary": "Microsoft and Quantinuum published results showing 14 fault-tolerant logical qubits operating with error rates below 10⁻⁸ per logical gate cycle, a roughly 100x improvement over their 2025 milestones. The advance, built on Quantinuum's trapped-ion hardware and Microsoft's qubit virtualization layer, brings practical quantum error correction closer to enabling real algorithmic advantage for chemistry and optimization problems.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
+      "id": "5",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' Framework for Enterprise AI Safety Guardrails",
+      "summary": "Anthropic published a new open-source framework that lets enterprises define domain-specific safety and compliance rules as constitutional principles, which are then enforced at inference time through lightweight classifier heads. The approach reduces harmful or off-policy outputs by over 90% in enterprise RAG settings while adding less than 5% latency overhead, making it practical for regulated industries like healthcare and finance.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
       "date": "2026-05-07"
     },
     {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has started high-volume manufacturing on its A14 (1.4nm-class) process, several months ahead of its original roadmap, with backside power delivery and gate-all-around nanosheet transistors. Early yields are reportedly above expectations, and the node is slated to power next-generation AI accelerators from Nvidia, Apple, and AMD shipping in late 2026.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-05-09"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving repeated rounds of fault-tolerant quantum error correction on logical qubits with below-threshold error rates on their latest trapped-ion system. The team executed over 100,000 consecutive logical CNOT gates with a logical error rate of 1e-6, a critical milestone toward building practical, scalable quantum computers.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-05-12"
+    },
+    {
       "id": "8",
-      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with MoE Architecture",
-      "summary": "Meta publicly released the weights for Llama 4 Behemoth, a 288B-active-parameter mixture-of-experts model with over 1.5 trillion total parameters, under a permissive license. Benchmarks place it competitive with proprietary frontier models on reasoning and coding tasks, intensifying the debate around open-weight model safety while giving the open-source ecosystem its most capable foundation model to date.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-05-01"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric with Real-Time Terrain Adaptation via Foundation Model",
+      "summary": "Boston Dynamics revealed a major software update for the electric Atlas platform that integrates a vision-language-action foundation model for real-time terrain assessment and locomotion planning. The system enables the humanoid to traverse previously unseen obstacles including rubble, mud, and steep inclines without pre-mapped paths, representing a convergence of large model inference and dynamic legged locomotion control.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-05-05"
     }
   ]
 }
