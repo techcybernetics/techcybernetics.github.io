@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-16",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5 in early May 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and complex scientific reasoning, narrowing the gap on several expert-level benchmarks. Enterprise API access includes new structured-output guarantees and fine-tuning capabilities targeting domain-specific deployments.",
+      "summary": "OpenAI officially released GPT-5 in early May 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and mathematical proof generation, narrowing the gap with domain-specific systems. Enterprise API availability rolled out with tiered pricing based on context utilization.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,8 +12,8 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 88% of International Mathematical Olympiad-level problems in a controlled evaluation, surpassing previous AI systems by a wide margin. The system combines chain-of-thought reinforcement learning with a novel formal verification loop that checks proof validity before outputting solutions. Researchers note this represents a meaningful step toward AI systems capable of genuine mathematical discovery rather than pattern-matched approximation.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
+      "summary": "DeepMind's Gemini Ultra 2 set new records on GPQA Diamond and several graduate-level STEM benchmarks, surpassing 80% accuracy on PhD-qualifier-level physics and chemistry problems. The model leverages a new mixture-of-experts architecture with specialized science reasoning heads trained on curated datasets of peer-reviewed literature. Researchers note this marks a meaningful step toward AI-assisted scientific discovery workflows.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,35 +21,35 @@
     },
     {
       "id": "3",
-      "title": "Figure Robotics Deploys Humanoid Workers at BMW's Spartanburg Plant at Scale",
-      "summary": "Figure AI announced that over 200 of its Figure 03 humanoid robots are now operating across multiple production lines at BMW's South Carolina manufacturing facility, handling tasks from parts kitting to quality inspection. The robots leverage on-device vision-language models for real-time task adaptation without reprogramming, a significant advance over earlier scripted industrial automation. BMW reports a 14% throughput improvement in pilot zones with fewer line stoppages.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla announced that its third-generation Optimus humanoid robot has entered limited production deployment at its Austin Gigafactory, performing repetitive assembly tasks alongside human workers. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and onboard vision-language models for natural-language task instruction. Tesla plans broader external sales to manufacturing partners by Q4 2026.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-05-08"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Disaster Site Navigation with Dexterous Manipulation",
-      "summary": "Boston Dynamics demonstrated the latest electric Atlas performing fully autonomous navigation and object manipulation in a simulated collapsed-building scenario during a FEMA evaluation exercise. The robot cleared debris, opened doors, and operated valves using a new generation of high-DOF hands with tactile sensing, all guided by an onboard world model with no remote teleoperation. FEMA officials indicated plans to integrate Atlas units into urban search-and-rescue protocols by late 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-05-12"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
+      "summary": "Boston Dynamics, backed by Hyundai, revealed the commercial version of its electric Atlas humanoid robot purpose-built for construction environments, featuring IP67 dust and water resistance and the ability to carry 50 kg payloads across uneven terrain. The platform integrates a digital-twin planning system that lets operators choreograph multi-robot workflows from a single interface. Pilot deployments are underway with three major construction firms in South Korea and the United States.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-05-08"
+    },
+    {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Monitoring Framework for Autonomous Agent Systems",
-      "summary": "Anthropic released a new open-source framework for runtime monitoring and constraint enforcement on autonomous AI agents, designed to prevent reward hacking, unsafe tool use, and scope creep in agentic deployments. The system uses a lightweight Constitutional AI supervisor model that evaluates each planned action against a configurable policy specification before execution. Early adopters in financial services and healthcare report that the framework catches over 96% of policy-violating actions with minimal latency overhead.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Autonomous Task Execution",
+      "summary": "Anthropic released a major update to its Claude model family enabling persistent memory across sessions and autonomous multi-step tool-use agents that can execute complex workflows over hours without human intervention. The system includes a novel constitutional-AI-based guardrail layer that continuously audits agent actions against user-defined safety policies. Early adopters report 40-60% reductions in time spent on repetitive software engineering and data analysis pipelines.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-05-13"
+      "date": "2026-05-14"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed it has commenced high-volume manufacturing on its N1.4 process node at its Kaohsiung fab, with initial production allocated to AI accelerator chips for major hyperscaler clients. The node delivers a roughly 20% performance improvement and 30% power reduction over the 2nm node, using gate-all-around nanosheet transistors with backside power delivery. This process is expected to underpin the next generation of training and inference GPUs shipping in late 2026 and early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered volume production at its Fab 20 complex in Tainan, with Apple and Nvidia as lead customers. The node delivers an estimated 20% speed improvement and 30% power reduction over N2, critical for next-generation AI accelerator chips. This cements TSMC's manufacturing lead as Intel and Samsung continue ramping their competing 14A and SF1.4 nodes.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -58,20 +58,20 @@
     {
       "id": "7",
       "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum jointly announced sustained fault-tolerant operation of 12 logical qubits with error rates below the threshold needed for useful quantum computation, using Quantinuum's latest trapped-ion system paired with Microsoft's qubit virtualization layer. The demonstration ran a simplified quantum chemistry simulation that would be intractable for classical approximation methods. Researchers characterize this as a transition from the NISQ era to early fault-tolerant quantum computing.",
+      "summary": "Microsoft and Quantinuum jointly announced sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold required for practical quantum error correction, using Quantinuum's H3 trapped-ion processor and Microsoft's topological error-correction codes. This milestone is considered a critical prerequisite for scaling to the hundreds of logical qubits needed for commercially relevant quantum algorithms. The team published a roadmap targeting a 100-logical-qubit system by late 2027.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-05-11"
+      "date": "2026-05-13"
     },
     {
       "id": "8",
-      "title": "Waymo Expands Fully Driverless Robotaxi Service to 10 Additional U.S. Metro Areas",
-      "summary": "Alphabet's Waymo announced a rapid expansion bringing its fully autonomous ride-hailing service to ten new metropolitan areas including Seattle, Miami, Dallas, and Atlanta, roughly doubling its operational footprint. The expansion leverages the sixth-generation Waymo Driver hardware suite with improved lidar range and an updated perception stack trained on over 40 billion miles of simulation data. The company disclosed it now completes over 500,000 fully driverless trips per week across all markets.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "EU AI Act Enforcement Phase Begins with First Compliance Audits of Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI provisions, targeting major foundation model providers including OpenAI, Google, and Meta to assess adherence to transparency, safety testing, and energy reporting requirements. Companies face potential fines of up to 3% of global revenue for non-compliance. The enforcement action is being closely watched as a bellwether for global AI regulation and has prompted several providers to publish detailed model cards and systemic risk assessments.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-05-14"
+      "date": "2026-05-15"
     }
   ]
 }
