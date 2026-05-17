@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-16",
+  "lastUpdated": "2026-05-17",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5 in early May 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and mathematical proof generation, narrowing the gap with domain-specific systems. Enterprise API availability rolled out with tiered pricing based on context utilization.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a vastly expanded context window reaching 1M tokens. Benchmarks show substantial gains on PhD-level science questions and complex multi-step coding tasks, narrowing the gap to domain-specific expert systems.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-05-06"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
-      "summary": "DeepMind's Gemini Ultra 2 set new records on GPQA Diamond and several graduate-level STEM benchmarks, surpassing 80% accuracy on PhD-qualifier-level physics and chemistry problems. The model leverages a new mixture-of-experts architecture with specialized science reasoning heads trained on curated datasets of peer-reviewed literature. Researchers note this marks a meaningful step toward AI-assisted scientific discovery workflows.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-05-10"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla announced that its third-generation Optimus humanoid robot has entered limited production deployment at its Austin Gigafactory, performing repetitive assembly tasks alongside human workers. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and onboard vision-language models for natural-language task instruction. Tesla plans broader external sales to manufacturing partners by Q4 2026.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
-      "summary": "Boston Dynamics, backed by Hyundai, revealed the commercial version of its electric Atlas humanoid robot purpose-built for construction environments, featuring IP67 dust and water resistance and the ability to carry 50 kg payloads across uneven terrain. The platform integrates a digital-twin planning system that lets operators choreograph multi-robot workflows from a single interface. Pilot deployments are underway with three major construction firms in South Korea and the United States.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-05-08"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Autonomous Task Execution",
-      "summary": "Anthropic released a major update to its Claude model family enabling persistent memory across sessions and autonomous multi-step tool-use agents that can execute complex workflows over hours without human intervention. The system includes a novel constitutional-AI-based guardrail layer that continuously audits agent actions against user-defined safety policies. Early adopters report 40-60% reductions in time spent on repetitive software engineering and data analysis pipelines.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-05-14"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC confirmed that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered volume production at its Fab 20 complex in Tainan, with Apple and Nvidia as lead customers. The node delivers an estimated 20% speed improvement and 30% power reduction over N2, critical for next-generation AI accelerator chips. This cements TSMC's manufacturing lead as Intel and Samsung continue ramping their competing 14A and SF1.4 nodes.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-05-09"
+      "id": "2",
+      "title": "Google DeepMind Unveils Gemini Ultra 2 with Real-Time Agentic Capabilities",
+      "summary": "Google DeepMind announced Gemini Ultra 2, which integrates persistent memory, tool use, and autonomous task execution directly into the model architecture. The system can independently browse the web, write and execute code, and manage multi-step workflows, marking a significant step toward fully autonomous AI agents for enterprise use.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-05-12"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum jointly announced sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold required for practical quantum error correction, using Quantinuum's H3 trapped-ion processor and Microsoft's topological error-correction codes. This milestone is considered a critical prerequisite for scaling to the hundreds of logical qubits needed for commercially relevant quantum algorithms. The team published a roadmap targeting a 100-logical-qubit system by late 2027.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "id": "3",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Warehouse Logistics End-to-End",
+      "summary": "Boston Dynamics demonstrated its electric Atlas humanoid robot completing full warehouse pick-pack-ship cycles without human intervention, using a new foundation model for manipulation trained on millions of grasping scenarios. The company announced commercial pilot deployments with three major logistics providers beginning Q3 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "4",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment Across European Assembly Lines",
+      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across five additional European manufacturing plants. The robots now handle complex sub-assembly tasks including wire harness routing and quality inspection, leveraging on-device vision-language models for real-time decision making on the production floor.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Opus 4 with Verifiable Chain-of-Thought Auditing",
+      "summary": "Anthropic released Claude Opus 4, emphasizing interpretability with a new verifiable reasoning trace feature that allows enterprises to audit the model's full chain-of-thought for compliance and correctness. The model also demonstrates state-of-the-art performance on agentic coding benchmarks and long-document analysis tasks exceeding 500K tokens.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed that its N1.4 process node has entered high-volume manufacturing several months ahead of the original timeline, delivering a 20% performance improvement and 35% power reduction over its 2nm node. The accelerated schedule is driven by surging demand from AI accelerator chips, with Apple and NVIDIA among the first customers.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-05-13"
     },
     {
-      "id": "8",
-      "title": "EU AI Act Enforcement Phase Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI provisions, targeting major foundation model providers including OpenAI, Google, and Meta to assess adherence to transparency, safety testing, and energy reporting requirements. Companies face potential fines of up to 3% of global revenue for non-compliance. The enforcement action is being closely watched as a bellwether for global AI regulation and has prompted several providers to publish detailed model cards and systemic risk assessments.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Paralysis Patients",
+      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to 50 additional participants with spinal cord injuries and ALS. Recent trial data showed patients achieving cursor control speeds approaching able-bodied benchmarks, and the latest N2 implant iteration offers twice the electrode density with a fully wireless, rechargeable design.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-05-15"
+      "date": "2026-05-16"
+    },
+    {
+      "id": "8",
+      "title": "Toyota Research Institute Demonstrates Kitchen Robot That Learns New Recipes from Video",
+      "summary": "TRI showcased a dual-arm mobile manipulator that can watch a single cooking demonstration video and reproduce the recipe in a real kitchen, handling deformable ingredients and varied utensils. The system combines a large behavior model with sim-to-real transfer and tactile sensing, representing a major leap in generalization for household robotics.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "Robotics",
+      "date": "2026-05-11"
     }
   ]
 }
