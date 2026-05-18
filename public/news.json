@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-05-18",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a vastly expanded context window reaching 1M tokens. Benchmarks show substantial gains on PhD-level science questions and complex multi-step coding tasks, narrowing the gap to domain-specific expert systems.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5, featuring natively fused vision, audio, and text reasoning in a single architecture rather than stitched-together modules. The model supports a 1M-token effective context window and demonstrates significant gains on agentic coding benchmarks, with early enterprise adopters reporting 40%+ improvements in multi-step task completion rates.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-05-14"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind Unveils Gemini Ultra 2 with Real-Time Agentic Capabilities",
-      "summary": "Google DeepMind announced Gemini Ultra 2, which integrates persistent memory, tool use, and autonomous task execution directly into the model architecture. The system can independently browse the web, write and execute code, and manage multi-step workflows, marking a significant step toward fully autonomous AI agents for enterprise use.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-05-12"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Tops New ARC-AGI-2 Benchmark",
+      "summary": "DeepMind's Gemini 2.5 Ultra became the first model to surpass 80% on the ARC-AGI-2 abstract reasoning benchmark, a suite specifically designed to test novel pattern generalization that prior models struggled with. The result has reignited debate about how close frontier models are to general reasoning versus sophisticated pattern matching on increasingly broad training distributions.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/ai",
+      "category": "AI",
+      "date": "2026-05-14"
+    },
+    {
       "id": "3",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Warehouse Logistics End-to-End",
-      "summary": "Boston Dynamics demonstrated its electric Atlas humanoid robot completing full warehouse pick-pack-ship cycles without human intervention, using a new foundation model for manipulation trained on millions of grasping scenarios. The company announced commercial pilot deployments with three major logistics providers beginning Q3 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
+      "title": "Anthropic Introduces 'Claude Codebase Agent' for Autonomous Repository-Scale Engineering",
+      "summary": "Anthropic launched a specialized agentic product built on Claude that can autonomously navigate large codebases, plan multi-file refactors, write and run tests, and submit pull requests with human-in-the-loop review gates. Early benchmarks on SWE-Bench Verified show it resolving over 70% of real GitHub issues end-to-end, pushing the frontier of AI-assisted software engineering.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
       "date": "2026-05-15"
     },
     {
       "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment Across European Assembly Lines",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across five additional European manufacturing plants. The robots now handle complex sub-assembly tasks including wire harness routing and quality inspection, leveraging on-device vision-language models for real-time decision making on the production floor.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment to Full Assembly Line",
+      "summary": "Figure announced that its Figure 02 humanoid robots are now operating across an entire sub-assembly line at BMW's Spartanburg plant, moving beyond the initial pilot phase. The robots handle parts transfer, fastening, and quality inspection using on-board vision-language models, with BMW reporting a 25% throughput improvement and a path toward three-shift autonomous operation.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-05-10"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude Opus 4 with Verifiable Chain-of-Thought Auditing",
-      "summary": "Anthropic released Claude Opus 4, emphasizing interpretability with a new verifiable reasoning trace feature that allows enterprises to audit the model's full chain-of-thought for compliance and correctness. The model also demonstrates state-of-the-art performance on agentic coding benchmarks and long-document analysis tasks exceeding 500K tokens.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-05-08"
+      "title": "Boston Dynamics Atlas Now Performs Adaptive Manipulation in Unstructured Warehouse Environments",
+      "summary": "Boston Dynamics released a technical update showing its electric Atlas robot autonomously picking, placing, and palletizing irregularly shaped packages in a live DHL warehouse using a new sim-to-real reinforcement learning pipeline. The system adapts on-the-fly to novel objects not seen during training, representing a major step toward general-purpose robotic manipulation in logistics.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
+      "date": "2026-05-16"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its N1.4 process node has entered high-volume manufacturing several months ahead of the original timeline, delivering a 20% performance improvement and 35% power reduction over its 2nm node. The accelerated schedule is driven by surging demand from AI accelerator chips, with Apple and NVIDIA among the first customers.",
+      "title": "TSMC Begins Volume Production of 1.4nm-Class N14P Process Node",
+      "summary": "TSMC confirmed volume production has started on its N14P (1.4nm-class) process, utilizing backside power delivery and gate-all-around nanosheet transistors. The node delivers roughly 20% speed improvement and 30% power reduction over N2, with Apple and NVIDIA among the first customers expected to tape out designs for late-2026 and early-2027 products.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-05-08"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold needed for practical quantum error correction, using Quantinuum's H3 trapped-ion system and Microsoft's new qubit virtualization layer. This milestone marks a credible entry into the early fault-tolerant era and opens the door to first useful quantum chemistry simulations.",
+      "source": "Nature",
+      "url": "https://www.nature.com/news",
       "category": "Innovation",
       "date": "2026-05-13"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Paralysis Patients",
-      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to 50 additional participants with spinal cord injuries and ALS. Recent trial data showed patients achieving cursor control speeds approaching able-bodied benchmarks, and the latest N2 implant iteration offers twice the electrode density with a fully wireless, rechargeable design.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-05-16"
-    },
-    {
       "id": "8",
-      "title": "Toyota Research Institute Demonstrates Kitchen Robot That Learns New Recipes from Video",
-      "summary": "TRI showcased a dual-arm mobile manipulator that can watch a single cooking demonstration video and reproduce the recipe in a real kitchen, handling deformable ingredients and varied utensils. The system combines a large behavior model with sim-to-real transfer and tactile sensing, representing a major leap in generalization for household robotics.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "Robotics",
-      "date": "2026-05-11"
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI provisions, targeting several major foundation model providers operating in Europe. Companies must now demonstrate systemic risk assessments, red-teaming documentation, and compute reporting, setting a global precedent for binding AI regulation that is being closely watched by US and UK policymakers.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Innovation",
+      "date": "2026-05-17"
     }
   ]
 }
