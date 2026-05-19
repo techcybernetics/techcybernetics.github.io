@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring natively fused vision, audio, and text reasoning in a single architecture rather than stitched-together modules. The model supports a 1M-token effective context window and demonstrates significant gains on agentic coding benchmarks, with early enterprise adopters reporting 40%+ improvements in multi-step task completion rates.",
+      "summary": "OpenAI officially released GPT-5, featuring natively fused vision, audio, and text reasoning in a single architecture rather than stitched-together modules. The model demonstrates significant gains on ARC-AGI-2 benchmarks and supports a 1M-token effective context window, marking a meaningful step toward general-purpose autonomous agents.",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops New ARC-AGI-2 Benchmark",
-      "summary": "DeepMind's Gemini 2.5 Ultra became the first model to surpass 80% on the ARC-AGI-2 abstract reasoning benchmark, a suite specifically designed to test novel pattern generalization that prior models struggled with. The result has reignited debate about how close frontier models are to general reasoning versus sophisticated pattern matching on increasingly broad training distributions.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra, which tops GPQA Diamond and MATH-500 leaderboards while introducing a new chain-of-thought verification layer that reduces hallucination rates by roughly 40%. The model also integrates real-time tool use, allowing it to execute code, query APIs, and browse the web within a single reasoning trace.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/ai",
       "category": "AI",
-      "date": "2026-05-14"
+      "date": "2026-05-08"
     },
     {
       "id": "3",
-      "title": "Anthropic Introduces 'Claude Codebase Agent' for Autonomous Repository-Scale Engineering",
-      "summary": "Anthropic launched a specialized agentic product built on Claude that can autonomously navigate large codebases, plan multi-file refactors, write and run tests, and submit pull requests with human-in-the-loop review gates. Early benchmarks on SWE-Bench Verified show it resolving over 70% of real GitHub issues end-to-end, pushing the frontier of AI-assisted software engineering.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
-      "category": "AI",
-      "date": "2026-05-15"
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Spartanburg Plant",
+      "summary": "Figure AI's second-generation humanoid robot, Figure 02, has entered full-shift commercial deployment on BMW's assembly line in South Carolina, handling bin-picking, part inspection, and material transport tasks. The deployment represents one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing, operating alongside human workers across two shifts.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
+      "date": "2026-05-14"
     },
     {
       "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment to Full Assembly Line",
-      "summary": "Figure announced that its Figure 02 humanoid robots are now operating across an entire sub-assembly line at BMW's Spartanburg plant, moving beyond the initial pilot phase. The robots handle parts transfer, fastening, and quality inspection using on-board vision-language models, with BMW reporting a 25% throughput improvement and a path toward three-shift autonomous operation.",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Disaster-Site Navigation",
+      "summary": "Boston Dynamics showcased the all-electric Atlas performing autonomous search-and-rescue navigation through a collapsed structure mockup, combining real-time LiDAR SLAM with a vision-language model for semantic scene understanding. The robot completed multi-floor traversal including ladder climbing and debris manipulation without human teleoperation, a significant milestone for field-deployable humanoid robotics.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
-      "date": "2026-05-10"
+      "date": "2026-05-15"
     },
     {
       "id": "5",
-      "title": "Boston Dynamics Atlas Now Performs Adaptive Manipulation in Unstructured Warehouse Environments",
-      "summary": "Boston Dynamics released a technical update showing its electric Atlas robot autonomously picking, placing, and palletizing irregularly shaped packages in a live DHL warehouse using a new sim-to-real reinforcement learning pipeline. The system adapts on-the-fly to novel objects not seen during training, representing a major step toward general-purpose robotic manipulation in logistics.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
-      "category": "Robotics",
+      "title": "Anthropic Introduces Constitutional Classifiers for Real-Time Enterprise AI Safety Monitoring",
+      "summary": "Anthropic released a new enterprise product that uses lightweight constitutional AI classifiers running in parallel with production LLM deployments to flag policy violations, data leakage, and prompt injection attacks in real time. The system operates at sub-10ms latency overhead and is already integrated into Claude's enterprise API tier, giving security teams auditable traces of all flagged interactions.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/artificial-intelligence",
+      "category": "AI",
       "date": "2026-05-16"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm-Class N14P Process Node",
-      "summary": "TSMC confirmed volume production has started on its N14P (1.4nm-class) process, utilizing backside power delivery and gate-all-around nanosheet transistors. The node delivers roughly 20% speed improvement and 30% power reduction over N2, with Apple and NVIDIA among the first customers expected to tape out designs for late-2026 and early-2027 products.",
+      "title": "TSMC Begins Volume Production on A14 2nm Node Ahead of Schedule",
+      "summary": "TSMC announced that its N2 process using gate-all-around (GAA) nanosheet transistors has entered high-volume manufacturing at its Kaohsiung fab, roughly one quarter ahead of the original timeline. The node delivers an estimated 25% speed improvement or 30% power reduction over N3E, with Apple and Nvidia reportedly among the first customers receiving wafers.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-08"
+      "date": "2026-05-10"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold needed for practical quantum error correction, using Quantinuum's H3 trapped-ion system and Microsoft's new qubit virtualization layer. This milestone marks a credible entry into the early fault-tolerant era and opens the door to first useful quantum chemistry simulations.",
-      "source": "Nature",
-      "url": "https://www.nature.com/news",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI provisions, requesting technical documentation and systemic risk assessments from major foundation model providers including OpenAI, Google, and Meta. This marks the transition from regulatory framework to active enforcement, with potential fines of up to 3% of global annual revenue for non-compliance.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/artificial-intelligence",
       "category": "Innovation",
-      "date": "2026-05-13"
+      "date": "2026-05-17"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI provisions, targeting several major foundation model providers operating in Europe. Companies must now demonstrate systemic risk assessments, red-teaming documentation, and compute reporting, setting a global precedent for binding AI regulation that is being closely watched by US and UK policymakers.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Innovation",
-      "date": "2026-05-17"
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 2T Parameters",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that activates roughly 400B parameters per forward pass, under a permissive license allowing commercial use. Benchmarks show it competing with GPT-5 and Gemini 2.5 Ultra on reasoning tasks while being runnable on a single 8×H200 node, making frontier-class capabilities accessible to the open-source community.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
+      "date": "2026-05-13"
     }
   ]
 }
