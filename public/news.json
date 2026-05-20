@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring natively fused vision, audio, and text reasoning in a single architecture rather than stitched-together modules. The model demonstrates significant gains on ARC-AGI-2 benchmarks and supports a 1M-token effective context window, marking a meaningful step toward general-purpose autonomous agents.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5 in early May 2026, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the previous o-series reasoning models with the main GPT line. Benchmarks show substantial gains on PhD-level science questions and complex multi-step coding tasks, with latency improvements over the previous chain-of-thought approach.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
-      "category": "AI",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
-      "summary": "DeepMind released Gemini 2.5 Ultra, which tops GPQA Diamond and MATH-500 leaderboards while introducing a new chain-of-thought verification layer that reduces hallucination rates by roughly 40%. The model also integrates real-time tool use, allowing it to execute code, query APIs, and browse the web within a single reasoning trace.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
+      "url": "https://www.theverge.com/openai",
       "category": "AI",
       "date": "2026-05-08"
     },
     {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Spartanburg Plant",
-      "summary": "Figure AI's second-generation humanoid robot, Figure 02, has entered full-shift commercial deployment on BMW's assembly line in South Carolina, handling bin-picking, part inspection, and material transport tasks. The deployment represents one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing, operating alongside human workers across two shifts.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with 2M-Token Context and Agent Capabilities",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra, boasting a 2-million-token context window and built-in agentic tool-use capabilities that allow the model to autonomously browse, write code, and execute multi-step workflows. The model achieves state-of-the-art results on GPQA and SWE-Bench Full, signaling a significant leap in production-ready AI agents.",
+      "source": "Google Blog",
+      "url": "https://blog.google/technology/ai/",
+      "category": "AI",
       "date": "2026-05-14"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Disaster-Site Navigation",
-      "summary": "Boston Dynamics showcased the all-electric Atlas performing autonomous search-and-rescue navigation through a collapsed structure mockup, combining real-time LiDAR SLAM with a vision-language model for semantic scene understanding. The robot completed multi-floor traversal including ladder climbing and debris manipulation without human teleoperation, a significant milestone for field-deployable humanoid robotics.",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
+      "summary": "Figure announced the start of scaled commercial deployment of its Figure 03 humanoid robot at BMW's Spartanburg manufacturing plant, marking one of the first large-scale uses of general-purpose humanoids in automotive production. The robots handle parts kitting, inspection, and bin picking with a new vision-language-action model that allows rapid task reassignment without reprogramming.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
-      "date": "2026-05-15"
+      "date": "2026-05-12"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers for Real-Time Enterprise AI Safety Monitoring",
-      "summary": "Anthropic released a new enterprise product that uses lightweight constitutional AI classifiers running in parallel with production LLM deployments to flag policy violations, data leakage, and prompt injection attacks in real time. The system operates at sub-10ms latency overhead and is already integrated into Claude's enterprise API tier, giving security teams auditable traces of all flagged interactions.",
-      "source": "Wired",
-      "url": "https://www.wired.com/tag/artificial-intelligence",
-      "category": "AI",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Live Demo",
+      "summary": "Tesla showcased its Optimus Gen 3 humanoid performing unscripted household chores including folding laundry, loading a dishwasher, and navigating cluttered rooms during a live investor event. The robot uses an end-to-end neural network trained on large-scale teleoperation data, a shift from the previous hybrid control stack, and Tesla announced plans for limited external sales in late 2026.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics/",
+      "category": "Robotics",
       "date": "2026-05-16"
     },
     {
+      "id": "5",
+      "title": "Anthropic Introduces Claude with Persistent Memory and Long-Running Background Tasks",
+      "summary": "Anthropic rolled out persistent memory and background task execution for Claude, allowing the assistant to retain user context across sessions and run multi-hour research and coding workflows asynchronously. The feature uses a retrieval-augmented memory architecture with user-controlled privacy settings, positioning it as a step toward always-on AI collaborators for professional workflows.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news",
+      "category": "AI",
+      "date": "2026-05-06"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production on A14 2nm Node Ahead of Schedule",
-      "summary": "TSMC announced that its N2 process using gate-all-around (GAA) nanosheet transistors has entered high-volume manufacturing at its Kaohsiung fab, roughly one quarter ahead of the original timeline. The node delivers an estimated 25% speed improvement or 30% power reduction over N3E, with Apple and Nvidia reportedly among the first customers receiving wafers.",
+      "title": "TSMC Begins Volume Production of 1.4nm-Class N14P Process Node",
+      "summary": "TSMC confirmed the start of volume production on its N14P (1.4nm-class) process using backside power delivery and gate-all-around transistors, achieving a roughly 15% performance gain and 30% power reduction over N2. Early customers include Apple and NVIDIA, with AI accelerator designs expected to tape out on the node by Q3 2026.",
       "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "url": "https://www.anandtech.com/",
       "category": "Innovation",
       "date": "2026-05-10"
     },
     {
       "id": "7",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI provisions, requesting technical documentation and systemic risk assessments from major foundation model providers including OpenAI, Google, and Meta. This marks the transition from regulatory framework to active enforcement, with potential fines of up to 3% of global annual revenue for non-compliance.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/artificial-intelligence",
+      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Threshold",
+      "summary": "Microsoft and Atom Computing published results showing their neutral-atom quantum computer sustained below-threshold error rates on logical qubits using a topological error-correction code, a milestone toward fault-tolerant quantum computation. The system ran a 24-logical-qubit chemistry simulation that would take classical supercomputers orders of magnitude longer, though commercial viability remains years away.",
+      "source": "Nature",
+      "url": "https://www.nature.com/",
       "category": "Innovation",
-      "date": "2026-05-17"
+      "date": "2026-05-18"
     },
     {
       "id": "8",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 2T Parameters",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that activates roughly 400B parameters per forward pass, under a permissive license allowing commercial use. Benchmarks show it competing with GPT-5 and Gemini 2.5 Ultra on reasoning tasks while being runnable on a single 8×H200 node, making frontier-class capabilities accessible to the open-source community.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
-      "category": "AI",
-      "date": "2026-05-13"
+      "title": "NVIDIA Announces Rubin Ultra GPU Architecture with 576GB HBM4 at Computex Preview",
+      "summary": "Ahead of Computex 2026, NVIDIA previewed the Rubin Ultra GPU featuring 576GB of HBM4 memory, a new FP4 tensor core architecture optimized for mixture-of-experts inference, and NVLink 6 enabling 3.6 TB/s bisection bandwidth across 72-GPU clusters. The announcement intensifies the AI infrastructure arms race as hyperscalers race to deploy trillion-parameter models at scale.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/nvidia/",
+      "category": "Innovation",
+      "date": "2026-05-19"
     }
   ]
 }
