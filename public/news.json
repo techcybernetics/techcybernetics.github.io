@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-22",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Enhanced Reasoning and Multimodal Capabilities",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native multimodal input/output across text, image, audio, and video, and a larger effective context window. Benchmarks show step-change improvements in complex math, code generation, and scientific reasoning tasks, narrowing the gap with specialized domain models.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses what were previously separate models into a single end-to-end system. Benchmarks show substantial gains on ARC-AGI-2 and GPQA Diamond, with the model demonstrating markedly better calibration and reduced hallucination rates compared to GPT-4o.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/openai",
       "category": "AI",
       "date": "2026-05-14"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind's latest Gemini 2.5 model has topped SWE-Bench Verified and HumanEval-Agent benchmarks, demonstrating an ability to autonomously plan, write, test, and debug multi-file codebases. The model introduces a persistent workspace memory that lets it maintain context across extended multi-step engineering tasks, pushing AI-assisted software development closer to practical autonomy.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Standard for Agentic Code Generation",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra with a 2M-token context window and deeply integrated tool-use capabilities, scoring at the top of the SWE-Bench Verified leaderboard. The model can autonomously navigate complex multi-file codebases, write and execute tests, and iterate on failures, pushing the frontier of AI-driven software engineering workflows.",
       "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
       "date": "2026-05-12"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Fremont Factory",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots on select assembly line stations at its Fremont, California plant. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for dynamic task adaptation, handling bin-picking and cable routing tasks previously requiring human workers.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Shift with Figure 03 Humanoids",
+      "summary": "Figure announced that a team of its Figure 03 humanoid robots completed an uninterrupted 8-hour warehouse logistics shift at a BMW facility with no human teleoperation. The robots handled bin picking, palletizing, and inter-station transport using on-board vision-language models for real-time task planning, marking a milestone for general-purpose humanoid deployment in industrial settings.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-05-18"
     },
     {
       "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Pilot to Full Body Shop Operations",
-      "summary": "Figure AI announced the expansion of its partnership with BMW, moving beyond the initial pilot to deploy its Figure 02 humanoid robots across full body shop operations at the Spartanburg plant. The robots now perform welding inspection, parts transfer, and quality assurance tasks, with Figure reporting a 3x improvement in operational uptime since the initial deployment phase.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Tesla Optimus Gen 3 Enters Limited Production, Promises Sub-$25K Price Point",
+      "summary": "Tesla began limited production of its Optimus Gen 3 humanoid robot at its Texas Gigafactory, with Elon Musk reiterating a target retail price below $25,000. The updated hardware features 28 degrees of freedom in the hands, improved actuator density, and an on-device inference stack running a distilled version of Tesla's FSD neural network for navigation and manipulation.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
       "category": "Robotics",
-      "date": "2026-05-16"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces 'Claude Workspaces' for Persistent AI-Assisted Engineering Teams",
-      "summary": "Anthropic launched Claude Workspaces, a new product tier enabling engineering teams to create persistent, shared AI environments with long-term project memory, integrated code repositories, and fine-grained access controls. The feature targets enterprise software teams and supports continuous context across sessions, aiming to make AI a stateful collaborator rather than a stateless tool.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
       "date": "2026-05-19"
     },
     {
+      "id": "5",
+      "title": "Anthropic Introduces Claude's 'Artifacts Workspace' — a Full In-Context IDE for Enterprise",
+      "summary": "Anthropic expanded Claude's Artifacts feature into a full collaborative workspace supporting multi-file projects, persistent state, version control integration, and real-time co-editing between AI and human engineers. Enterprise customers report 30-40% reductions in prototyping cycle times, with the system able to maintain coherent architectural context across sessions.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/ai",
+      "category": "AI",
+      "date": "2026-05-20"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC has commenced high-volume manufacturing on its A14 (1.4nm-class) gate-all-around nanosheet process at its Kaohsiung fab, marking a major inflection point in semiconductor scaling. The node offers approximately 20% speed improvement and 30% power reduction over N2, with Apple and Nvidia among the first customers expected to tape out designs later this year.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 gate-all-around (GAA) transistor process, several months ahead of its original roadmap. The node delivers approximately 20% performance gains and 30% power reduction versus N2, with leading AI chip customers including NVIDIA and Apple among the first to tape out designs targeting late 2026 products.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-10"
+      "date": "2026-05-15"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Quantinuum jointly published results showing their latest trapped-ion quantum system sustaining logical qubit error rates below 10⁻⁶ across extended computation cycles, clearing a key fault-tolerance threshold. The achievement uses Microsoft's Floquet color codes and moves practical quantum error correction from theoretical milestone to engineering reality, potentially accelerating the timeline for useful quantum computation.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "title": "Microsoft and Atom Computing Demonstrate Fault-Tolerant Quantum Operations at 1,200 Logical Qubits",
+      "summary": "Microsoft, partnering with Atom Computing, demonstrated reliable fault-tolerant quantum error correction across 1,200 logical qubits on their neutral-atom platform, a significant scale-up from previous demonstrations. The milestone brings practical quantum advantage for certain optimization and materials-simulation workloads closer to reality, with Azure Quantum offering cloud access to the system.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "Innovation",
-      "date": "2026-05-08"
+      "date": "2026-05-16"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union has initiated its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta on transparency, safety testing, and systemic risk documentation requirements. The audits mark the practical onset of the world's most comprehensive AI regulation framework and are being closely watched as a template for governance approaches in other jurisdictions.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
-      "date": "2026-05-20"
+      "title": "Meta Releases Llama 4 Behemoth Open-Weight Model with Mixture-of-Experts at 2T Parameters",
+      "summary": "Meta released the open weights for Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that rivals proprietary frontier systems on reasoning and multilingual benchmarks. The release includes LoRA-compatible fine-tuning recipes and optimized inference kernels for multi-node deployments, further intensifying the open-source AI ecosystem's competitiveness with closed providers.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/artificial-intelligence",
+      "category": "AI",
+      "date": "2026-05-21"
     }
   ]
 }
