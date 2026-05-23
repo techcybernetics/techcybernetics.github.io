@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-23",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses what were previously separate models into a single end-to-end system. Benchmarks show substantial gains on ARC-AGI-2 and GPQA Diamond, with the model demonstrating markedly better calibration and reduced hallucination rates compared to GPT-4o.",
+      "summary": "OpenAI officially released GPT-5, featuring dramatically improved chain-of-thought reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show substantial gains on PhD-level science questions and complex coding tasks, with the model demonstrating emergent planning capabilities that narrow the gap toward general-purpose AI agents.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/openai",
-      "category": "AI",
-      "date": "2026-05-14"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Standard for Agentic Code Generation",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra with a 2M-token context window and deeply integrated tool-use capabilities, scoring at the top of the SWE-Bench Verified leaderboard. The model can autonomously navigate complex multi-file codebases, write and execute tests, and iterate on failures, pushing the frontier of AI-driven software engineering workflows.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
-      "category": "AI",
-      "date": "2026-05-12"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Shift with Figure 03 Humanoids",
-      "summary": "Figure announced that a team of its Figure 03 humanoid robots completed an uninterrupted 8-hour warehouse logistics shift at a BMW facility with no human teleoperation. The robots handled bin picking, palletizing, and inter-station transport using on-board vision-language models for real-time task planning, marking a milestone for general-purpose humanoid deployment in industrial settings.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
-      "date": "2026-05-18"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Enters Limited Production, Promises Sub-$25K Price Point",
-      "summary": "Tesla began limited production of its Optimus Gen 3 humanoid robot at its Texas Gigafactory, with Elon Musk reiterating a target retail price below $25,000. The updated hardware features 28 degrees of freedom in the hands, improved actuator density, and an on-device inference stack running a distilled version of Tesla's FSD neural network for navigation and manipulation.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude's 'Artifacts Workspace' — a Full In-Context IDE for Enterprise",
-      "summary": "Anthropic expanded Claude's Artifacts feature into a full collaborative workspace supporting multi-file projects, persistent state, version control integration, and real-time co-editing between AI and human engineers. Enterprise customers report 30-40% reductions in prototyping cycle times, with the system able to maintain coherent architectural context across sessions.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-05-20"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 gate-all-around (GAA) transistor process, several months ahead of its original roadmap. The node delivers approximately 20% performance gains and 30% power reduction versus N2, with leading AI chip customers including NVIDIA and Apple among the first to tape out designs targeting late 2026 products.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "DeepMind's Gemini 2.5 Ultra set new records on SWE-Bench Verified and HumanEval-Plus, solving over 75% of real-world GitHub issues autonomously. The model introduces a novel hierarchical planning architecture that decomposes multi-file refactoring tasks, making it a strong contender for production-grade AI software engineering workflows.",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google",
+      "category": "AI",
+      "date": "2026-05-17"
+    },
+    {
+      "id": "3",
+      "title": "Boston Dynamics Unveils Commercial Atlas Electric for Warehouse and Manufacturing Deployment",
+      "summary": "Boston Dynamics announced general availability of the fully electric Atlas humanoid robot for industrial partners, featuring improved dexterous manipulation with 22-DOF hands and real-time vision-language model integration for task instruction. Early deployments at Hyundai and Amazon fulfillment centers show the robot can autonomously handle irregular package sorting at near-human throughput.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "4",
+      "title": "Figure AI Raises $1.5B Series C, Demos Figure 03 Performing Multi-Step Assembly Tasks",
+      "summary": "Figure AI closed a massive $1.5 billion funding round at a $15 billion valuation, demonstrating its Figure 03 humanoid robot performing complex electronics assembly with tool use. The robot leverages an on-device vision-language-action model fine-tuned on factory teleoperation data, achieving sub-centimeter precision in pick-and-place sequences without pre-programmed waypoints.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
       "date": "2026-05-15"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Atom Computing Demonstrate Fault-Tolerant Quantum Operations at 1,200 Logical Qubits",
-      "summary": "Microsoft, partnering with Atom Computing, demonstrated reliable fault-tolerant quantum error correction across 1,200 logical qubits on their neutral-atom platform, a significant scale-up from previous demonstrations. The milestone brings practical quantum advantage for certain optimization and materials-simulation workloads closer to reality, with Azure Quantum offering cloud access to the system.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "id": "5",
+      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Persistent Memory and Multi-App Orchestration",
+      "summary": "Anthropic released a major update to Claude's computer use capabilities, now supporting persistent session memory across tasks and coordinated workflows spanning multiple desktop applications. The system can reliably complete multi-hour administrative workflows like data reconciliation across spreadsheets and CRM systems, marking a significant step toward practical AI office automation.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production of its A14 (1.4nm-class) process node at its Kaohsiung fab, with initial wafers destined for Apple and NVIDIA's next-generation AI training chips. The node delivers a 25% power efficiency improvement over N2, enabling data center GPUs to push past 2 petaflops of FP8 throughput per chip while staying within existing thermal envelopes.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-16"
+      "date": "2026-05-18"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold needed for practical quantum error correction. Using Microsoft's new qubit virtualization layer on Quantinuum's H3 trapped-ion system, the team executed 50-round syndrome extraction circuits, a prerequisite for running commercially relevant quantum algorithms at scale.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-05-22"
     },
     {
       "id": "8",
-      "title": "Meta Releases Llama 4 Behemoth Open-Weight Model with Mixture-of-Experts at 2T Parameters",
-      "summary": "Meta released the open weights for Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that rivals proprietary frontier systems on reasoning and multilingual benchmarks. The release includes LoRA-compatible fine-tuning recipes and optimized inference kernels for multi-node deployments, further intensifying the open-source AI ecosystem's competitiveness with closed providers.",
-      "source": "Wired",
-      "url": "https://www.wired.com/tag/artificial-intelligence",
-      "category": "AI",
-      "date": "2026-05-21"
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office commenced its first formal compliance audits of general-purpose AI model providers under the AI Act's Chapter V obligations, with OpenAI, Google, and Meta among the initial targets. The audits focus on systemic risk assessments, red-teaming documentation, and energy consumption reporting, setting precedents that will shape global AI governance frameworks.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Innovation",
+      "date": "2026-05-16"
     }
   ]
 }
