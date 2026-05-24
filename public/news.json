@@ -1,64 +1,64 @@
 {
-  "lastUpdated": "2026-05-23",
+  "lastUpdated": "2026-05-24",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring dramatically improved chain-of-thought reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show substantial gains on PhD-level science questions and complex coding tasks, with the model demonstrating emergent planning capabilities that narrow the gap toward general-purpose AI agents.",
+      "summary": "OpenAI released GPT-5 in mid-May 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates near-expert performance on graduate-level STEM benchmarks and introduces a new \"deep research\" mode that can autonomously browse, synthesize, and cite sources over multi-step queries.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind's Gemini 2.5 Ultra set new records on SWE-Bench Verified and HumanEval-Plus, solving over 75% of real-world GitHub issues autonomously. The model introduces a novel hierarchical planning architecture that decomposes multi-file refactoring tasks, making it a strong contender for production-grade AI software engineering workflows.",
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google",
-      "category": "AI",
-      "date": "2026-05-17"
-    },
-    {
-      "id": "3",
-      "title": "Boston Dynamics Unveils Commercial Atlas Electric for Warehouse and Manufacturing Deployment",
-      "summary": "Boston Dynamics announced general availability of the fully electric Atlas humanoid robot for industrial partners, featuring improved dexterous manipulation with 22-DOF hands and real-time vision-language model integration for task instruction. Early deployments at Hyundai and Amazon fulfillment centers show the robot can autonomously handle irregular package sorting at near-human throughput.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Demos Figure 03 Performing Multi-Step Assembly Tasks",
-      "summary": "Figure AI closed a massive $1.5 billion funding round at a $15 billion valuation, demonstrating its Figure 03 humanoid robot performing complex electronics assembly with tool use. The robot leverages an on-device vision-language-action model fine-tuned on factory teleoperation data, achieving sub-centimeter precision in pick-and-place sequences without pre-programmed waypoints.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
       "date": "2026-05-15"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Persistent Memory and Multi-App Orchestration",
-      "summary": "Anthropic released a major update to Claude's computer use capabilities, now supporting persistent session memory across tasks and coordinated workflows spanning multiple desktop applications. The system can reliably complete multi-hour administrative workflows like data reconciliation across spreadsheets and CRM systems, marking a significant step toward practical AI office automation.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Breakthrough in Agentic Code Generation",
+      "summary": "DeepMind unveiled Gemini Ultra 2 with state-of-the-art scores on SWE-Bench and HumanEval, capable of autonomously navigating large codebases, writing integration tests, and submitting pull requests with minimal human guidance. The system uses a novel planning architecture that decomposes complex software engineering tasks into verifiable sub-goals, significantly reducing hallucinated code paths.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-05-21"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed volume production of its A14 (1.4nm-class) process node at its Kaohsiung fab, with initial wafers destined for Apple and NVIDIA's next-generation AI training chips. The node delivers a 25% power efficiency improvement over N2, enabling data center GPUs to push past 2 petaflops of FP8 throughput per chip while staying within existing thermal envelopes.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-05-18"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
+      "summary": "Figure announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment at two BMW manufacturing plants in South Carolina. The robots handle parts kitting, quality inspection, and bin-picking tasks alongside human workers, leveraging on-board vision-language models for real-time task adaptation without manual reprogramming.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Fully Autonomous Warehouse Navigation",
+      "summary": "Boston Dynamics released footage and technical details of its electric Atlas robot performing end-to-end autonomous warehouse logistics, including pallet manipulation, obstacle-rich navigation, and dynamic replanning when encountering unexpected layouts. The system relies on a transformer-based world model trained on hundreds of thousands of hours of simulated and real-world warehouse data.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-05-21"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional AI Monitoring Framework as Open Standard",
+      "summary": "Anthropic open-sourced its Constitutional AI Monitoring (CAIM) framework, a set of tools and protocols for continuously auditing large language model outputs against safety constitutions in production environments. The framework includes real-time drift detection, automated red-teaming pipelines, and standardized reporting formats, and has already been adopted by several enterprise AI providers.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered volume production at its Kaohsiung fab, with initial customers including Apple and NVIDIA. The node delivers approximately 25% performance improvement and 35% power reduction over N2, critical for next-generation AI accelerator and mobile SoC designs.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-05-19"
+    },
+    {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold needed for practical quantum error correction. Using Microsoft's new qubit virtualization layer on Quantinuum's H3 trapped-ion system, the team executed 50-round syndrome extraction circuits, a prerequisite for running commercially relevant quantum algorithms at scale.",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Scale",
+      "summary": "Microsoft and Quantinuum announced a milestone in quantum computing, demonstrating reliable operations on 12 logical qubits with error rates below the fault-tolerance threshold using their hybrid ion-trap architecture. This represents a significant step toward practical quantum advantage for optimization and materials simulation problems, with a roadmap to 100+ logical qubits by 2028.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
@@ -66,12 +66,12 @@
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office commenced its first formal compliance audits of general-purpose AI model providers under the AI Act's Chapter V obligations, with OpenAI, Google, and Meta among the initial targets. The audits focus on systemic risk assessments, red-teaming documentation, and energy consumption reporting, setting precedents that will shape global AI governance frameworks.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Innovation",
-      "date": "2026-05-16"
+      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with MoE Architecture",
+      "summary": "Meta released Llama 4 Behemoth, a massive mixture-of-experts model with over 2 trillion total parameters and 288 billion active parameters per forward pass, under a permissive open-weight license. Benchmarks place it competitive with closed frontier models on reasoning and multilingual tasks, intensifying the debate around open vs. closed AI development and giving the open-source ecosystem its most capable foundation model to date.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-10"
     }
   ]
 }
