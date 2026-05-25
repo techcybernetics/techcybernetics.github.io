@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-25",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI released GPT-5 in mid-May 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates near-expert performance on graduate-level STEM benchmarks and introduces a new \"deep research\" mode that can autonomously browse, synthesize, and cite sources over multi-step queries.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level math and science benchmarks, narrowing the gap to expert human performance on several standardized evaluations. Enterprise API pricing has been restructured to accommodate the heavier compute requirements.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
-      "category": "AI",
-      "date": "2026-05-15"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Breakthrough in Agentic Code Generation",
-      "summary": "DeepMind unveiled Gemini Ultra 2 with state-of-the-art scores on SWE-Bench and HumanEval, capable of autonomously navigating large codebases, writing integration tests, and submitting pull requests with minimal human guidance. The system uses a novel planning architecture that decomposes complex software engineering tasks into verifiable sub-goals, significantly reducing hallucinated code paths.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-05-18"
     },
     {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
-      "summary": "Figure announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment at two BMW manufacturing plants in South Carolina. The robots handle parts kitting, quality inspection, and bin-picking tasks alongside human workers, leveraging on-board vision-language models for real-time task adaptation without manual reprogramming.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on SWE-Bench Verified and HumanEval-X, successfully resolving over 72% of real-world GitHub issues autonomously. The model integrates tightly with Google Cloud's Vertex AI platform, offering developers tool-use pipelines that can browse documentation, write tests, and submit pull requests. The release intensifies competition with Anthropic and OpenAI in the agentic software engineering space.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "AI",
       "date": "2026-05-20"
     },
     {
+      "id": "3",
+      "title": "Anthropic Introduces Claude's Real-Time Computer Use API for Enterprise Automation",
+      "summary": "Anthropic expanded Claude's computer use capabilities into a production-grade API, allowing enterprises to deploy AI agents that interact with desktop applications, legacy software, and internal tools via structured screen understanding. Early adopters in finance and healthcare report 40-60% reductions in manual back-office workflows. The system includes a new safety layer that requires human-in-the-loop approval for irreversible actions.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-22"
+    },
+    {
       "id": "4",
-      "title": "Boston Dynamics Atlas Electric Demonstrates Fully Autonomous Warehouse Navigation",
-      "summary": "Boston Dynamics released footage and technical details of its electric Atlas robot performing end-to-end autonomous warehouse logistics, including pallet manipulation, obstacle-rich navigation, and dynamic replanning when encountering unexpected layouts. The system relies on a transformer-based world model trained on hundreds of thousands of hours of simulated and real-world warehouse data.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Shift with Figure 03 Humanoids",
+      "summary": "Figure completed a 10-hour fully autonomous warehouse shift at a BMW logistics facility using a team of six Figure 03 humanoid robots performing pick-and-place, palletizing, and inventory scanning tasks. The robots coordinated via a shared world model and demonstrated graceful failure recovery, including rerouting tasks when one unit encountered a hardware fault. The milestone marks one of the first commercially viable demonstrations of multi-humanoid collaboration in an unstructured industrial setting.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-05-21"
+      "date": "2026-05-14"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Monitoring Framework as Open Standard",
-      "summary": "Anthropic open-sourced its Constitutional AI Monitoring (CAIM) framework, a set of tools and protocols for continuously auditing large language model outputs against safety constitutions in production environments. The framework includes real-time drift detection, automated red-teaming pipelines, and standardized reporting formats, and has already been adopted by several enterprise AI providers.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-05-12"
+      "title": "Boston Dynamics and Toyota Research Institute Unveil Dexterous Manipulation Breakthrough",
+      "summary": "A joint research effort between Boston Dynamics and the Toyota Research Institute produced a new diffusion-policy-based manipulation system that allows Atlas to perform bi-manual tasks such as assembling small electronic components and threading cables. The system was trained on fewer than 50 human demonstrations per task using sim-to-real transfer with domain randomization. Researchers say the approach generalizes to novel objects with minimal fine-tuning, a long-standing challenge in robotic manipulation.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-05-16"
     },
     {
       "id": "6",
       "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC confirmed that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered volume production at its Kaohsiung fab, with initial customers including Apple and NVIDIA. The node delivers approximately 25% performance improvement and 35% power reduction over N2, critical for next-generation AI accelerator and mobile SoC designs.",
+      "summary": "TSMC announced volume production at its Fab 21 facility in Arizona on the A14 (1.4nm-class) gate-all-around FET process, delivering an estimated 20% speed improvement and 30% power reduction over N2. Apple and NVIDIA are reported first customers, with AI accelerator and mobile SoC designs expected to tape out in Q3 2026. The milestone cements TSMC's process leadership and has significant implications for next-generation AI training chip efficiency.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-19"
+      "date": "2026-05-12"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Scale",
-      "summary": "Microsoft and Quantinuum announced a milestone in quantum computing, demonstrating reliable operations on 12 logical qubits with error rates below the fault-tolerance threshold using their hybrid ion-trap architecture. This represents a significant step toward practical quantum advantage for optimization and materials simulation problems, with a roadmap to 100+ logical qubits by 2028.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "title": "Neuralink Receives FDA Clearance for Expanded Brain-Computer Interface Trial in Spinal Cord Injury Patients",
+      "summary": "The FDA granted Neuralink clearance to expand its PRIME clinical trial to include patients with complete spinal cord injuries, allowing participants to control robotic limbs and digital interfaces via the N2 implant. Initial cohort data showed participants achieving cursor control within hours of calibration and rudimentary robotic arm manipulation within two weeks. The expansion represents a significant regulatory milestone for invasive BCI technology moving toward broader therapeutic applications.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-05-22"
+      "date": "2026-05-21"
     },
     {
       "id": "8",
-      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with MoE Architecture",
-      "summary": "Meta released Llama 4 Behemoth, a massive mixture-of-experts model with over 2 trillion total parameters and 288 billion active parameters per forward pass, under a permissive open-weight license. Benchmarks place it competitive with closed frontier models on reasoning and multilingual tasks, intensifying the debate around open vs. closed AI development and giving the open-source ecosystem its most capable foundation model to date.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Meta Open-Sources Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
+      "summary": "Meta released Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model, under a permissive license allowing commercial use. Independent benchmarks place it competitive with GPT-5 and Gemini Ultra 2 on reasoning and multilingual tasks, while being fully self-hostable on a cluster of eight H200 nodes. The release includes quantized variants, fine-tuning recipes, and safety-tuning datasets, further accelerating the open-weight AI ecosystem.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
-      "date": "2026-05-10"
+      "date": "2026-05-23"
     }
   ]
 }
