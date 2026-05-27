@@ -1,64 +1,64 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-05-27",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level math and science benchmarks, narrowing the gap to expert human performance on several standardized evaluations. Enterprise API pricing has been restructured to accommodate the heavier compute requirements.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses previously separate models into one system. The model demonstrates substantial gains on graduate-level science benchmarks and complex agentic coding tasks, raising the bar for frontier AI capabilities.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-05-18"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on SWE-Bench Verified and HumanEval-X, successfully resolving over 72% of real-world GitHub issues autonomously. The model integrates tightly with Google Cloud's Vertex AI platform, offering developers tool-use pipelines that can browse documentation, write tests, and submit pull requests. The release intensifies competition with Anthropic and OpenAI in the agentic software engineering space.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
       "category": "AI",
       "date": "2026-05-20"
     },
     {
-      "id": "3",
-      "title": "Anthropic Introduces Claude's Real-Time Computer Use API for Enterprise Automation",
-      "summary": "Anthropic expanded Claude's computer use capabilities into a production-grade API, allowing enterprises to deploy AI agents that interact with desktop applications, legacy software, and internal tools via structured screen understanding. Early adopters in finance and healthcare report 40-60% reductions in manual back-office workflows. The system includes a new safety layer that requires human-in-the-loop approval for irreversible actions.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "id": "2",
+      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Million-Token Persistent Memory",
+      "summary": "DeepMind announced Gemini 2.5 Ultra, which pairs its extended 2-million-token context window with a persistent memory layer that allows it to recall user-specific context across sessions. The feature is aimed at enterprise agentic workflows and long-running research assistants, marking a shift toward stateful AI systems.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-05-22"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plant",
+      "summary": "Figure AI started deploying its Figure 02 humanoid robots on a BMW assembly line in Spartanburg, South Carolina, handling parts transfer, inspection, and light assembly tasks. The robots operate alongside human workers with real-time vision-language model reasoning for task adaptation, representing one of the first sustained commercial humanoid deployments in automotive manufacturing.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-05-19"
+    },
+    {
       "id": "4",
-      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Shift with Figure 03 Humanoids",
-      "summary": "Figure completed a 10-hour fully autonomous warehouse shift at a BMW logistics facility using a team of six Figure 03 humanoid robots performing pick-and-place, palletizing, and inventory scanning tasks. The robots coordinated via a shared world model and demonstrated graceful failure recovery, including rerouting tasks when one unit encountered a hardware fault. The milestone marks one of the first commercially viable demonstrations of multi-humanoid collaboration in an unstructured industrial setting.",
+      "title": "Boston Dynamics Atlas Demonstrates Autonomous Disaster Response in DARPA Field Trial",
+      "summary": "Boston Dynamics showcased its electric Atlas humanoid navigating a collapsed building scenario in a DARPA-organized field trial, autonomously mapping debris fields, opening doors, and retrieving simulated casualties. The system used on-board LiDAR fused with a vision-language planner, achieving task completion rates above 80% without human teleoperation.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-05-14"
+      "date": "2026-05-23"
     },
     {
       "id": "5",
-      "title": "Boston Dynamics and Toyota Research Institute Unveil Dexterous Manipulation Breakthrough",
-      "summary": "A joint research effort between Boston Dynamics and the Toyota Research Institute produced a new diffusion-policy-based manipulation system that allows Atlas to perform bi-manual tasks such as assembling small electronic components and threading cables. The system was trained on fewer than 50 human demonstrations per task using sim-to-real transfer with domain randomization. Researchers say the approach generalizes to novel objects with minimal fine-tuning, a long-standing challenge in robotic manipulation.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-05-16"
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration for Multi-Agent Enterprise Pipelines",
+      "summary": "Anthropic released a new orchestration framework allowing Claude models to coordinate as specialized agents in multi-step enterprise workflows, with built-in sandboxing, audit trails, and human-in-the-loop checkpoints. Early adopters report 40-60% reductions in back-office processing time for legal document review and financial compliance tasks.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "AI",
+      "date": "2026-05-25"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced volume production at its Fab 21 facility in Arizona on the A14 (1.4nm-class) gate-all-around FET process, delivering an estimated 20% speed improvement and 30% power reduction over N2. Apple and NVIDIA are reported first customers, with AI accelerator and mobile SoC designs expected to tape out in Q3 2026. The milestone cements TSMC's process leadership and has significant implications for next-generation AI training chip efficiency.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "title": "TSMC Begins Volume Production of 2nm GAA Chips, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production at its Fab 20 in Hsinchu using its N2 gate-all-around transistor process, with Apple and NVIDIA among the first customers. The node delivers roughly 25% better performance at the same power compared to 3nm, a critical enabler for next-generation AI training and inference hardware.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "Innovation",
-      "date": "2026-05-12"
+      "date": "2026-05-18"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Expanded Brain-Computer Interface Trial in Spinal Cord Injury Patients",
-      "summary": "The FDA granted Neuralink clearance to expand its PRIME clinical trial to include patients with complete spinal cord injuries, allowing participants to control robotic limbs and digital interfaces via the N2 implant. Initial cohort data showed participants achieving cursor control within hours of calibration and rudimentary robotic arm manipulation within two weeks. The expansion represents a significant regulatory milestone for invasive BCI technology moving toward broader therapeutic applications.",
+      "title": "Neuralink Receives FDA Clearance to Expand Brain-Computer Interface Trial to 50 Patients",
+      "summary": "The FDA granted Neuralink approval to expand its PRIME study to 50 participants with spinal cord injuries and ALS, following positive 18-month safety and efficacy data from its initial cohort. Patients demonstrated reliable cursor control and text input speeds exceeding 30 words per minute, accelerating the path toward broader clinical availability.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
@@ -66,12 +66,12 @@
     },
     {
       "id": "8",
-      "title": "Meta Open-Sources Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
-      "summary": "Meta released Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model, under a permissive license allowing commercial use. Independent benchmarks place it competitive with GPT-5 and Gemini Ultra 2 on reasoning and multilingual tasks, while being fully self-hostable on a cluster of eight H200 nodes. The release includes quantized variants, fine-tuning recipes, and safety-tuning datasets, further accelerating the open-weight AI ecosystem.",
+      "title": "Toyota Research Institute Demos Diffusion-Policy Robot That Learns Household Tasks from 10 Minutes of Video",
+      "summary": "TRI demonstrated a manipulation system that uses video diffusion policies to learn dexterous household tasks—such as folding laundry and loading dishwashers—from as few as 10 minutes of human demonstration video. The approach generalizes across object shapes and kitchen layouts, significantly reducing the data and engineering overhead of traditional robot learning pipelines.",
       "source": "Wired",
       "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-05-23"
+      "category": "Robotics",
+      "date": "2026-05-26"
     }
   ]
 }
