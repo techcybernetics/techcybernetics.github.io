@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning, mathematical proof generation, and code synthesis benchmarks, narrowing the gap on several AGI evaluation frameworks. Enterprise API availability began rolling out mid-May with tiered pricing based on context utilization.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring dramatically improved long-horizon reasoning, native image and audio generation within a single model, and a significantly expanded context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-05-20"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on GPQA-Diamond, MATH-500, and a newly introduced scientific literature synthesis benchmark. The model incorporates a mixture-of-experts architecture with over 2 trillion parameters and demonstrates emergent capabilities in cross-domain hypothesis generation. Google has integrated the model into Google Cloud's Vertex AI platform for research and enterprise customers.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-05-22"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Marks on Agentic Coding Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra, which achieves state-of-the-art results on SWE-Bench Verified and real-world agentic software engineering tasks, completing multi-file refactors and end-to-end feature implementations with minimal human guidance. The model integrates tightly with Google Cloud's developer tooling, signaling an escalating competition with OpenAI and Anthropic in the AI-for-code space.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-20"
+    },
+    {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
-      "summary": "Figure Robotics announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment at two BMW manufacturing plants in South Carolina. The robots handle complex multi-step assembly tasks including wire harness routing and quality inspection, operating alongside human workers with updated safety-rated motion planning. This marks one of the largest commercial humanoid deployments in automotive manufacturing to date.",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facility",
+      "summary": "Figure AI announced the start of paid commercial deployments of its Figure 02 humanoid robot at BMW's Spartanburg manufacturing plant, performing bin-picking, parts transfer, and inspection tasks alongside human workers. The deployment marks one of the first revenue-generating humanoid robotics contracts in automotive manufacturing and validates the viability of general-purpose humanoid form factors in structured industrial settings.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-05-18"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Demonstrates Autonomous Tool Use and Multi-Robot Coordination",
-      "summary": "Boston Dynamics released a technical demonstration of its electric Atlas platform performing autonomous tool selection and manipulation in unstructured construction environments, coordinating tasks across a team of three units without human teleoperation. The system uses a transformer-based world model trained on simulation and real-world data to plan dexterous manipulation sequences. The company says pilot programs with construction partners will begin in Q3 2026.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-05-25"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Autonomous Agent Systems",
-      "summary": "Anthropic published a new framework for governing autonomous AI agents that chain multiple tool calls and operate over extended time horizons, building on their constitutional AI approach. The system introduces runtime constraint verification, automated red-teaming checkpoints, and interpretable audit logs for every agentic action. The framework is open-sourced and has already been adopted by several major cloud providers for their agent orchestration platforms.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
       "date": "2026-05-26"
     },
     {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Live Demo",
+      "summary": "Tesla showcased a live demonstration of its Optimus Gen 3 humanoid robot performing unsupervised household chores including laundry folding, dish sorting, and object retrieval based on natural language commands. The demo leveraged an on-device vision-language-action model, though independent observers noted the tasks were conducted in a controlled environment and real-world robustness remains unproven.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
+      "summary": "Anthropic released a production-grade orchestration framework that allows Claude models to autonomously chain tool calls, manage state across multi-step workflows, and integrate with enterprise APIs with built-in guardrails and audit logging. The framework targets regulated industries like finance and healthcare where traceability of AI agent actions is a compliance requirement, and includes a novel constitutional-AI-based permission escalation system.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
+      "date": "2026-05-25"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed it has started volume production on its N1.4 process node using second-generation gate-all-around transistor architecture at its Fab 20 facility in Tainan. The node delivers approximately 25% performance improvement and 35% power reduction over the N2 node, with early yields reportedly exceeding internal targets. Major customers including Apple, Nvidia, and Qualcomm are expected to tape out designs in the second half of 2026.",
+      "title": "TSMC Begins Volume Production on A14 2nm Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed it has entered high-volume manufacturing on its N2 (2nm) gate-all-around transistor process, roughly one quarter ahead of its original timeline, with initial production allocated to Apple and Nvidia. The node delivers an estimated 25% performance improvement or 30% power reduction over N3E, and is expected to underpin the next generation of AI training and inference accelerators shipping in late 2026.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-15"
+      "date": "2026-05-19"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Quantinuum jointly announced achieving logical qubit error rates of 10^-8, crossing below the threshold required for practical fault-tolerant quantum computation using their topological error correction scheme on Quantinuum's latest trapped-ion system. This milestone opens a credible path toward running commercially relevant quantum algorithms in chemistry and optimization within the next few years. The team published full benchmarking data and open-sourced their error correction stack.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-05-23"
-    },
-    {
-      "id": "8",
       "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta regarding systemic risk assessments, training data transparency, and red-teaming obligations for general-purpose AI systems. Companies face potential fines of up to 3% of global revenue for non-compliance. The audits are closely watched as a bellwether for global AI regulation enforcement.",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta to assess adherence to transparency, risk assessment, and systemic risk reporting requirements. Companies face potential fines up to 7% of global revenue for non-compliance, and the audits are being closely watched as a precedent for AI regulation worldwide.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Innovation",
-      "date": "2026-05-27"
+      "date": "2026-05-28"
+    },
+    {
+      "id": "8",
+      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Dexterous Manipulation for Logistics",
+      "summary": "Boston Dynamics, backed by Hyundai, revealed an updated electric Atlas platform with redesigned multi-fingered hands capable of manipulating irregular packages, operating door handles, and using standard human tools. The robot is being piloted in Hyundai's logistics centers for mixed-palletizing tasks, combining whole-body mobility with fine motor manipulation in a commercially targeted humanoid platform.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "Robotics",
+      "date": "2026-05-23"
     }
   ]
 }
