@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-05-31",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially launched GPT-5 in mid-May 2026, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and mathematical proof generation, narrowing the gap on several AGI benchmarks. Enterprise API access includes new structured-output guarantees and deterministic sampling modes aimed at production reliability.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation within a single unified model, and a larger effective context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several STEM fields.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-05-18"
+      "date": "2026-05-20"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which tops GPQA-Diamond and new ARC-AGI-2 benchmarks with substantial margins over previous frontier models. The system introduces a mixture-of-experts architecture with over 2 trillion parameters and dynamic compute allocation that routes harder sub-problems to specialized expert clusters. Google is integrating the model across Search, Cloud Vertex AI, and a new research-assistant product targeting pharmaceutical and materials-science workflows.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Million-Token Context and Agentic Capabilities",
+      "summary": "Google DeepMind's Gemini 2.5 Ultra ships with a production-ready one-million-token context window and native tool-use capabilities that allow it to autonomously browse, code, and execute multi-step workflows. Early benchmarks show state-of-the-art performance on long-document comprehension and agentic task completion, intensifying competition in the frontier model space.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-05-22"
     },
     {
       "id": "3",
-      "title": "Anthropic Introduces Claude's Real-Time Tool-Use Orchestration for Agentic Workflows",
-      "summary": "Anthropic shipped a major update to Claude enabling real-time multi-tool orchestration, allowing the model to autonomously chain API calls, browser actions, and code execution within a single agentic session with built-in safety checkpoints. The system includes a new constitutional-AI-based permission model that lets enterprises define granular action boundaries. Early adopters report 40-60% reductions in complex workflow automation development time compared to hand-coded LangChain pipelines.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "AI",
-      "date": "2026-05-27"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Automotive Manufacturing",
-      "summary": "Boston Dynamics formally launched the commercial Atlas humanoid robot platform, purpose-built for Hyundai's automotive assembly lines, featuring enhanced dexterous manipulation with 22-DOF hands and real-time LLM-driven task planning. The robots can autonomously handle unstructured bin-picking, flexible part installation, and quality inspection across mixed model production lines. Initial deployments at Hyundai's Ulsan plant show a 30% throughput improvement on tasks previously requiring dedicated fixed automation.",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facility",
+      "summary": "Figure AI has started deploying its Figure 02 humanoid robots on BMW assembly lines in Spartanburg, South Carolina, marking one of the first scaled commercial deployments of general-purpose humanoid robots in automotive manufacturing. The robots handle bin-picking, parts transfer, and quality inspection tasks, operating alongside human workers with updated safety-rated control systems.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-05-20"
+      "date": "2026-05-18"
     },
     {
-      "id": "5",
-      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robots Begin Warehouse Deployments at Scale",
-      "summary": "Figure AI closed a $1.5 billion Series C at a $15 billion valuation as its Figure 03 humanoid robots entered full-scale deployment at multiple Amazon and BMW logistics facilities. The robots leverage on-device vision-language models for zero-shot task generalization, handling previously unseen package types without retraining. The funding will accelerate production to 10,000 units annually and fund development of household-capable variants expected in 2027.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Navigation and Dexterous Manipulation",
+      "summary": "Tesla showcased its third-generation Optimus humanoid robot performing end-to-end warehouse logistics tasks including shelf stocking, package sorting, and navigating dynamic environments without teleoperation. The system uses a vision-only transformer pipeline derived from Tesla's FSD stack, with significantly improved hand dexterity featuring 22 degrees of freedom per hand.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
-      "date": "2026-05-25"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N14P (1.4nm-class) process node has entered high-volume manufacturing at its Kaohsiung fab, approximately one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, yielding an estimated 25% performance improvement and 35% power reduction versus the 2nm N2 node. Apple and Nvidia are confirmed as launch customers, with chips expected in devices shipping Q4 2026.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-05-26"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results demonstrating sustained logical qubit operations with error rates below 10⁻⁸ using their topological-hybrid architecture, crossing a key threshold for practical quantum error correction. The experiments ran 100,000 consecutive logical CNOT gates on four logical qubits with no uncorrectable errors detected. This milestone significantly de-risks the path toward a commercially useful quantum computer capable of tackling real-world molecular simulation and optimization problems.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Formal Safety Guarantees",
+      "summary": "Anthropic released a new agentic framework for Claude that includes mathematically grounded constraint systems designed to prevent unintended actions during autonomous tool use. The framework uses a novel constitutional-AI-derived verification layer that checks planned actions against user-specified safety invariants before execution, addressing a key concern in deploying AI agents in production environments.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
       "date": "2026-05-28"
     },
     {
-      "id": "8",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office commenced its first formal compliance audits under the AI Act's general-purpose AI provisions, targeting OpenAI, Google, Meta, and Mistral's operations in the EU. Auditors are examining training data documentation, systemic risk assessments, and energy consumption disclosures mandated for GPAI models above the 10²⁵ FLOP threshold. The enforcement actions mark the world's first binding regulatory scrutiny of frontier AI systems and are expected to establish precedents that influence upcoming frameworks in the US and UK.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 2nm A16 Process with Backside Power Delivery",
+      "summary": "TSMC has commenced high-volume manufacturing on its A16 (1.6nm-class) process node featuring backside power delivery network (BSPDN) technology, delivering an estimated 10-15% speed improvement and 20-25% power reduction over N2. This process is expected to power next-generation AI accelerator chips from major fabless customers starting in late 2026, sustaining the pace of compute scaling critical for frontier AI training.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error Correction Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving below-threshold error rates on logical qubits using a new topological error correction code running on Quantinuum's latest trapped-ion system. The result marks a significant milestone toward fault-tolerant quantum computing, with logical error rates approximately 100x lower than physical qubit error rates, potentially accelerating the timeline for commercially useful quantum algorithms.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-05-24"
+    },
+    {
+      "id": "8",
+      "title": "Boston Dynamics Atlas Electric Gains Autonomous Construction Site Capabilities",
+      "summary": "Boston Dynamics demonstrated its electric Atlas robot performing autonomous inspection and light manipulation tasks on active construction sites, including climbing scaffolding, carrying tools, and documenting progress via onboard LIDAR and camera systems. The company announced partnerships with three major construction firms for pilot programs beginning in Q3 2026, expanding humanoid robotics beyond the warehouse and factory floor.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-05-29"
     }
   ]
