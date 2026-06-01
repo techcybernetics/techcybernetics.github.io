@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-01",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation within a single unified model, and a larger effective context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several STEM fields.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5 in mid-May 2026, featuring natively fused vision, audio, and text reasoning in a single architecture rather than stitched adapter modules. The model demonstrates significant improvements in long-horizon planning tasks and supports a 1M-token effective context window, raising the bar for enterprise agentic workflows.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-05-20"
     },
     {
       "id": "2",
-      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Million-Token Context and Agentic Capabilities",
-      "summary": "Google DeepMind's Gemini 2.5 Ultra ships with a production-ready one-million-token context window and native tool-use capabilities that allow it to autonomously browse, code, and execute multi-step workflows. Early benchmarks show state-of-the-art performance on long-document comprehension and agentic task completion, intensifying competition in the frontier model space.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on SWE-Bench and ARC-AGI-2",
+      "summary": "DeepMind announced Gemini Ultra 2, which topped both the SWE-Bench Verified and ARC-AGI-2 benchmarks, demonstrating strong generalization in software engineering tasks and novel abstract reasoning. The model introduces a mixture-of-experts architecture with dynamic routing that significantly reduces inference cost per token compared to its predecessor.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/ai",
       "category": "AI",
-      "date": "2026-05-22"
+      "date": "2026-05-27"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facility",
-      "summary": "Figure AI has started deploying its Figure 02 humanoid robots on BMW assembly lines in Spartanburg, South Carolina, marking one of the first scaled commercial deployments of general-purpose humanoid robots in automotive manufacturing. The robots handle bin-picking, parts transfer, and quality inspection tasks, operating alongside human workers with updated safety-rated control systems.",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Autonomous Agents",
+      "summary": "Anthropic released a new orchestration layer for Claude that enables persistent, multi-step tool-use agents with built-in sandboxing, human-in-the-loop checkpoints, and audit logging. The framework targets enterprise deployments where compliance and controllability are critical, supporting up to 200 sequential tool calls in a single agent session.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai",
+      "category": "AI",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Enters Pilot Deployment at Gigafactory Texas",
+      "summary": "Tesla confirmed that roughly 100 Optimus Gen 3 humanoid robots are now performing repetitive material-handling and quality-inspection tasks at its Austin Gigafactory. The updated hardware features improved dexterous manipulation with 22-DOF hands and a new proprietary actuator design that increases payload capacity to 25 kg per arm.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
+      "date": "2026-05-22"
+    },
+    {
+      "id": "5",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Disaster-Site Navigation in DARPA Trials",
+      "summary": "Boston Dynamics demonstrated its electric Atlas platform navigating unstructured rubble environments autonomously during recent DARPA Robotics Challenge successor trials. The robot used real-time LiDAR-vision fusion and a learned locomotion policy to traverse terrain with 40-degree slopes and partially collapsed structures without human teleoperation.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-05-25"
+    },
+    {
+      "id": "6",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
+      "summary": "Figure AI closed a massive $1.5 billion Series C round led by Microsoft and NVIDIA to build a dedicated humanoid robot factory in South Carolina. The company aims to produce 10,000 Figure 03 units annually by late 2027, targeting warehouse logistics and light manufacturing verticals where labor shortages are most acute.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
       "category": "Robotics",
       "date": "2026-05-18"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Navigation and Dexterous Manipulation",
-      "summary": "Tesla showcased its third-generation Optimus humanoid robot performing end-to-end warehouse logistics tasks including shelf stocking, package sorting, and navigating dynamic environments without teleoperation. The system uses a vision-only transformer pipeline derived from Tesla's FSD stack, with significantly improved hand dexterity featuring 22 degrees of freedom per hand.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-05-26"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Formal Safety Guarantees",
-      "summary": "Anthropic released a new agentic framework for Claude that includes mathematically grounded constraint systems designed to prevent unintended actions during autonomous tool use. The framework uses a novel constitutional-AI-derived verification layer that checks planned actions against user-specified safety invariants before execution, addressing a key concern in deploying AI agents in production environments.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
-      "category": "AI",
-      "date": "2026-05-28"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm A16 Process with Backside Power Delivery",
-      "summary": "TSMC has commenced high-volume manufacturing on its A16 (1.6nm-class) process node featuring backside power delivery network (BSPDN) technology, delivering an estimated 10-15% speed improvement and 20-25% power reduction over N2. This process is expected to power next-generation AI accelerator chips from major fabless customers starting in late 2026, sustaining the pace of compute scaling critical for frontier AI training.",
+      "id": "7",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 gate-all-around process node has entered volume production at its Kaohsiung fab, approximately one quarter ahead of the originally projected timeline. The node delivers a 15% speed improvement and 30% power reduction over N2, with early yields reportedly exceeding expectations and major AI chip customers already in the pipeline.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-15"
-    },
-    {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error Correction Threshold",
-      "summary": "Microsoft and Quantinuum reported achieving below-threshold error rates on logical qubits using a new topological error correction code running on Quantinuum's latest trapped-ion system. The result marks a significant milestone toward fault-tolerant quantum computing, with logical error rates approximately 100x lower than physical qubit error rates, potentially accelerating the timeline for commercially useful quantum algorithms.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-05-24"
+      "date": "2026-05-28"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics Atlas Electric Gains Autonomous Construction Site Capabilities",
-      "summary": "Boston Dynamics demonstrated its electric Atlas robot performing autonomous inspection and light manipulation tasks on active construction sites, including climbing scaffolding, carrying tools, and documenting progress via onboard LIDAR and camera systems. The company announced partnerships with three major construction firms for pilot programs beginning in Q3 2026, expanding humanoid robotics beyond the warehouse and factory floor.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-05-29"
+      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV Testing",
+      "summary": "QuantumScape reported that its solid-state lithium-metal cells achieved over 1,000 fast-charge cycles while retaining more than 90% capacity in a real-world EV testing partnership with Volkswagen's PowerCo. This milestone addresses the durability concern that has long blocked solid-state commercialization and could enable EVs with 600+ mile range by 2028.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy",
+      "category": "Innovation",
+      "date": "2026-05-30"
     }
   ]
 }
