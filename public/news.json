@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the previous o-series reasoning models with the GPT line. The model demonstrates step-change improvements on PhD-level science benchmarks and complex agentic coding tasks, though researchers note diminishing returns on certain narrow evaluations.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and scientific reasoning benchmarks, narrowing the gap toward robust autonomous agent capabilities.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-05-28"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Benchmarks in Agentic Software Engineering",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra with state-of-the-art performance on SWE-Bench Verified and real-world agentic workflow benchmarks, narrowing the gap with OpenAI's latest models. The model introduces a novel mixture-of-experts architecture refinement that significantly reduces inference cost while maintaining top-tier accuracy on multi-step tool-use tasks.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
+      "summary": "DeepMind's latest Gemini Ultra 2 model scored above 90% on GPQA Diamond and demonstrated near-expert performance on novel graduate-level physics and biology problem sets. Google emphasized the model's improved chain-of-thought faithfulness and reduced hallucination rates, positioning it as a research co-pilot for professional scientists.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-05-30"
     },
     {
       "id": "3",
-      "title": "Anthropic Introduces Claude 4 with Breakthrough Long-Context Fidelity",
-      "summary": "Anthropic released Claude 4, emphasizing dramatically improved faithfulness over million-token context windows and reduced confabulation rates in enterprise retrieval-augmented generation workflows. The model also ships with enhanced tool use and a new constitutional AI training methodology that Anthropic claims yields more controllable and auditable outputs.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "AI",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly operations, handling component sorting, bin picking, and light assembly tasks alongside human workers. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and onboard vision-language models for real-time task adaptation without explicit reprogramming.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-05-26"
     },
     {
       "id": "4",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
-      "summary": "Figure AI announced the start of paid commercial deployment of its Figure 02 humanoid robots at BMW manufacturing facilities in South Carolina, marking one of the first scaled humanoid deployments in automotive manufacturing. The robots handle parts transfer and inspection tasks autonomously for full shifts, with Figure reporting a 95% uptime rate during the pilot phase.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
+      "summary": "Boston Dynamics officially launched its commercial electric Atlas platform tailored for construction environments, featuring autonomous navigation across unstructured terrain and the ability to carry 50 kg payloads up scaffolding and stairs. Hyundai's construction division announced pilot deployments across three major South Korean infrastructure projects beginning Q3 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-05-29"
     },
     {
       "id": "5",
-      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Disaster Response Navigation",
-      "summary": "Boston Dynamics showcased its electric Atlas robot autonomously navigating collapsed building environments in a DARPA-affiliated exercise, using on-board LiDAR and a vision-language model for real-time scene understanding and path planning. The demonstration highlighted significant progress in unstructured terrain locomotion and human-robot communication via natural language commands in the field.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
-      "date": "2026-05-27"
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Formal Verification Guardrails",
+      "summary": "Anthropic released a new agentic framework for Claude that allows persistent, multi-step tool use with built-in formal verification checkpoints to constrain agent behavior within operator-defined safety boundaries. The approach uses lightweight theorem-proving at each action step, significantly reducing the rate of unintended side effects in file system and API interactions compared to unconstrained agent baselines.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-06-01"
     },
     {
       "id": "6",
-      "title": "Tesla Begins Limited Unsupervised FSD Rollout in Austin and the Bay Area",
-      "summary": "Tesla activated its first unsupervised Full Self-Driving deployments for employee vehicles in Austin and parts of the San Francisco Bay Area, operating without a safety driver on pre-mapped routes. The rollout uses Tesla's end-to-end neural network vision stack on HW4 hardware and represents a critical regulatory milestone after months of negotiation with NHTSA and state DMVs.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC commenced high-volume manufacturing on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors, achieving an 18% speed improvement and 22% power reduction over its N2 node. Major customers including Apple, Nvidia, and Qualcomm are expected to tape out flagship chips on the node by late 2026, continuing the pace of Moore's Law scaling.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-31"
+      "date": "2026-05-27"
     },
     {
       "id": "7",
-      "title": "TSMC Begins Volume Production at Arizona Fab with 3nm Process for US Customers",
-      "summary": "TSMC's first Arizona fabrication facility has entered volume production on its N3E process node, producing chips for Apple and AMD and marking a landmark moment for US semiconductor reshoring efforts under the CHIPS Act. Yield rates are reported to be approaching parity with TSMC's Taiwan facilities, defying earlier skepticism about domestic manufacturing competitiveness.",
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold needed for practical quantum error correction, using a hybrid topological-trapped-ion architecture. This milestone represents a critical step toward scalable quantum computing, with the team projecting a 100-logical-qubit system within 18 months.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-05-25"
+      "date": "2026-06-02"
     },
     {
       "id": "8",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with 2 Trillion Parameters",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, its largest open-source model at over two trillion parameters using a massive mixture-of-experts architecture, under a permissive license for commercial use. Early community benchmarks show it rivaling proprietary frontier models on reasoning and coding tasks, intensifying the debate over the viability of open-weight models versus closed APIs.",
-      "source": "Wired",
-      "url": "https://www.wired.com/tag/artificial-intelligence",
-      "category": "AI",
-      "date": "2026-06-01"
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production to 10,000 Units Annually",
+      "summary": "Figure AI closed a $1.5 billion Series C round led by SoftBank and Microsoft Ventures, earmarking funds to build a dedicated manufacturing facility capable of producing 10,000 humanoid robots per year by 2027. The company's Figure 03 robot integrates a custom vision-language-action model co-developed with OpenAI, enabling generalized warehouse and logistics task execution with minimal per-site fine-tuning.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-05-31"
     }
   ]
 }
