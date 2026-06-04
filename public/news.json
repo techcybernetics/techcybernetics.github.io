@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and scientific reasoning benchmarks, narrowing the gap toward robust autonomous agent capabilities.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI released GPT-5 in late May 2026, featuring substantially improved long-horizon reasoning, native image and audio generation within a single model, and a dramatically expanded context window. The model demonstrates state-of-the-art performance on graduate-level STEM benchmarks and complex agentic coding tasks, narrowing the gap between AI assistants and autonomous software engineers.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,8 +12,8 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
-      "summary": "DeepMind's latest Gemini Ultra 2 model scored above 90% on GPQA Diamond and demonstrated near-expert performance on novel graduate-level physics and biology problem sets. Google emphasized the model's improved chain-of-thought faithfulness and reduced hallucination rates, positioning it as a research co-pilot for professional scientists.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves New Highs on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced Gemini Ultra 2 with a specialized math-reasoning mode that scored gold-medal level on a simulated IMO problem set, solving 5 of 6 problems with full formal proofs. The system combines chain-of-thought search with a Lean 4 proof verifier, representing a meaningful step toward AI systems that can contribute to novel mathematical research.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly operations, handling component sorting, bin picking, and light assembly tasks alongside human workers. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and onboard vision-language models for real-time task adaptation without explicit reprogramming.",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
+      "summary": "Figure AI started its first large-scale commercial deployment, placing over 200 Figure 03 humanoid robots across two BMW manufacturing plants in South Carolina. The robots handle bin picking, parts transfer, and quality inspection tasks, operating alongside human workers with an updated vision-language-action model that enables real-time task adaptation without reprogramming.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-05-26"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
-      "summary": "Boston Dynamics officially launched its commercial electric Atlas platform tailored for construction environments, featuring autonomous navigation across unstructured terrain and the ability to carry 50 kg payloads up scaffolding and stairs. Hyundai's construction division announced pilot deployments across three major South Korean infrastructure projects beginning Q3 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-05-29"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Formal Verification Guardrails",
-      "summary": "Anthropic released a new agentic framework for Claude that allows persistent, multi-step tool use with built-in formal verification checkpoints to constrain agent behavior within operator-defined safety boundaries. The approach uses lightweight theorem-proving at each action step, significantly reducing the rate of unintended side effects in file system and API interactions compared to unconstrained agent baselines.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
-      "date": "2026-06-01"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC commenced high-volume manufacturing on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors, achieving an 18% speed improvement and 22% power reduction over its N2 node. Major customers including Apple, Nvidia, and Qualcomm are expected to tape out flagship chips on the node by late 2026, continuing the pace of Moore's Law scaling.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-05-27"
-    },
-    {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold needed for practical quantum error correction, using a hybrid topological-trapped-ion architecture. This milestone represents a critical step toward scalable quantum computing, with the team projecting a 100-logical-qubit system within 18 months.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
       "date": "2026-06-02"
     },
     {
-      "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production to 10,000 Units Annually",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by SoftBank and Microsoft Ventures, earmarking funds to build a dedicated manufacturing facility capable of producing 10,000 humanoid robots per year by 2027. The company's Figure 03 robot integrates a custom vision-language-action model co-developed with OpenAI, enabling generalized warehouse and logistics task execution with minimal per-site fine-tuning.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Chaining",
+      "summary": "Tesla showcased its Optimus Gen 3 prototype performing multi-step household chores including sorting laundry, loading a dishwasher, and tidying a living room in sequence without human intervention. The demo, while still in a controlled environment, highlighted improvements in dexterous manipulation and semantic scene understanding that suggest a 2027 limited consumer release may be feasible.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
       "category": "Robotics",
-      "date": "2026-05-31"
+      "date": "2026-06-01"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude's Tool-Use Orchestration Layer for Enterprise Automation",
+      "summary": "Anthropic released a new enterprise orchestration framework that allows Claude models to autonomously plan and execute multi-step workflows across dozens of integrated business tools, including Salesforce, Jira, and internal databases. The system includes a built-in audit trail and human-in-the-loop approval gates, addressing key enterprise concerns around AI agent reliability and compliance.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "AI",
+      "date": "2026-05-27"
+    },
+    {
+      "id": "6",
+      "title": "ASML Reports Breakthrough in High-NA EUV Yield, Enabling Sub-1.4nm Process Nodes",
+      "summary": "ASML disclosed that its latest high-NA EUV lithography systems have achieved production-grade wafer yields exceeding 90% at partner fabs, clearing a critical barrier for Intel and TSMC's sub-1.4nm node roadmaps. The improvement was driven by new pellicle materials and advanced computational lithography, potentially accelerating the next generation of AI accelerator chips by 6-12 months.",
+      "source": "IEEE Spectrum",
+      "url": "https://www.spectrum.ieee.org",
+      "category": "Innovation",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Trial",
+      "summary": "The FDA granted Neuralink approval to begin human trials of its N2 implant, which features 4x the electrode density of the original device and a wireless data throughput of 200 Mbps. The expanded trial will include patients with both spinal cord injuries and ALS, with early N1 trial participants already demonstrating the ability to control robotic arms and navigate computer interfaces with high precision.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "8",
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2T Parameters",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, a 1.2-trillion-parameter mixture-of-experts model that activates roughly 200B parameters per forward pass. The model matches or exceeds proprietary frontier models on most public benchmarks and is released under a permissive license, intensifying the debate over open-weight AI safety while significantly lowering the barrier for enterprises to deploy state-of-the-art language models on-premises.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-05-26"
     }
   ]
 }
