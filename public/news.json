@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-06",
+  "lastUpdated": "2026-06-07",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex agentic coding tasks, narrowing the gap between AI assistants and domain experts in fields like materials science and legal analysis.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap with specialized domain models. Enterprise API pricing introduces a new tiered compute model based on reasoning depth.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-05-28"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Benchmarks with Real-World Tool Use",
-      "summary": "DeepMind released Gemini 2.5 Ultra, which achieves state-of-the-art performance on agentic benchmarks involving multi-step web browsing, code execution, and API orchestration. The model introduces a refined mixture-of-experts architecture that reduces inference costs by approximately 40% compared to its predecessor while improving reliability on long-horizon planning tasks.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-06-02"
     },
     {
-      "id": "3",
-      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Enterprise-Grade Autonomous Workflows",
-      "summary": "Anthropic expanded Claude's computer use capabilities with a major update enabling sustained autonomous desktop and browser workflows lasting hours with built-in checkpoint and rollback mechanisms. Targeted at enterprise IT automation and QA testing, the system includes enhanced safety guardrails such as human-in-the-loop confirmation for irreversible actions and comprehensive audit logging.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2 with a focus on autonomous agent capabilities, showing leading performance on real-world web navigation, tool-use orchestration, and multi-app workflow benchmarks. The model integrates a persistent memory layer enabling long-running task execution across sessions. Google is positioning it as the backbone for a new generation of Workspace AI agents shipping later this quarter.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-06-04"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Unveils Commercial Atlas Electric Robot for Warehouse Logistics",
-      "summary": "Boston Dynamics began shipping its first commercial electric Atlas humanoid robots to select logistics partners including DHL and Amazon. The robot features improved whole-body manipulation, enabling it to handle irregularly shaped packages up to 25 kg, and operates autonomously for up to 6-hour shifts with a new hot-swappable battery system.",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
+      "summary": "Figure AI announced that its Figure 03 humanoid robots have entered full commercial deployment at two BMW manufacturing facilities in South Carolina, performing parts inspection, kitting, and light assembly tasks alongside human workers. The robots operate autonomously for 18-hour shifts with a reported 97.3% task completion rate. This marks one of the first large-scale paid commercial humanoid deployments in automotive manufacturing.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-05-30"
+      "date": "2026-05-29"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Dexterous Object Manipulation and Unsupervised Learning",
+      "summary": "Tesla showcased the third-generation Optimus humanoid performing complex bimanual manipulation tasks including folding laundry, sorting irregularly shaped objects, and operating power tools, driven by a new vision-language-action model trained on fleet teleoperation data. Musk indicated that limited external sales would begin in Q4 2026. The sim-to-real transfer pipeline reportedly cuts new skill training time to under 48 hours.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-06-05"
     },
     {
       "id": "5",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment Across Three Additional Manufacturing Plants",
-      "summary": "Figure Inc. announced the expansion of its partnership with BMW, deploying its Figure 02 humanoid robots at three new European manufacturing facilities following a successful pilot in Spartanburg, South Carolina. The robots now handle over 20 distinct assembly-line tasks including parts inspection and bin picking, with BMW reporting a 15% throughput improvement in deployed cells.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-06-01"
+      "title": "Anthropic Introduces Claude 4 with Verified Reasoning Chains and Alignment Transparency",
+      "summary": "Anthropic released Claude 4 featuring interpretable reasoning traces that allow developers to audit the model's chain-of-thought for faithfulness and detect hallucinated logic steps. A new Constitutional AI v3 framework provides fine-grained steerability over safety-capability tradeoffs. Early benchmarks show it competing directly with GPT-5 on coding and mathematical reasoning while offering meaningfully lower confabulation rates on factual recall tasks.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-30"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm Process Node Ahead of Schedule",
-      "summary": "TSMC commenced high-volume manufacturing on its N2 process technology, which uses gate-all-around (GAA) nanosheet transistors for the first time in the company's history. The node delivers approximately 15% speed improvement at the same power or 30% power reduction at the same speed compared to N3E, with Apple and NVIDIA among the first customers expected to tape out designs.",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed the start of volume production on its A14 (1.4nm-class) process technology using gate-all-around nanosheet transistors at its Kaohsiung fab. The node delivers approximately 25% performance improvement and 35% power reduction over N2, targeting AI accelerator and mobile SoC applications. Apple and NVIDIA are reported to be among the first customers taping out designs on the new node.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-26"
+      "date": "2026-06-01"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Motor Disorders",
-      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical study to include patients with ALS and severe spinal cord injuries, allowing up to 50 new participants. Early data from existing trial participants showed the N1 implant maintaining stable signal quality over 18 months, with patients achieving cursor control speeds approaching those of able-bodied trackpad users.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 12 logical qubits with error rates below the threshold required for practical quantum error correction, using Quantinuum's H3 trapped-ion system and Microsoft's topological qubit decoding software. The demonstration ran a simplified quantum chemistry simulation that would be intractable classically. This milestone advances the timeline for commercially useful quantum computation significantly.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
       "category": "Innovation",
       "date": "2026-06-03"
     },
     {
       "id": "8",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
-      "summary": "Meta released the full Llama 4 Behemoth model, a 2-trillion-parameter mixture-of-experts model, under a permissive open-source license that allows commercial use. Benchmarks show it matching or exceeding proprietary frontier models on reasoning and code generation tasks, and Meta simultaneously released optimized quantized variants that can run inference on a single 8×H100 node.",
+      "title": "Boston Dynamics Atlas Now Operates Fully Autonomously in Unstructured Disaster Environments",
+      "summary": "Boston Dynamics released field trial results showing its electric Atlas humanoid navigating collapsed building environments, climbing rubble, and performing search-and-rescue object retrieval tasks fully autonomously for up to 4 hours without operator intervention. The system uses a foundation world model trained on photorealistic simulation to generalize locomotion across novel terrain. FEMA has initiated a pilot program to evaluate deployment at future disaster sites.",
       "source": "Wired",
       "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-05-29"
+      "category": "Robotics",
+      "date": "2026-06-06"
     }
   ]
 }
