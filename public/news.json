@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially rolled out GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation within a single model, and a 1M-token context window. Benchmarks show step-function improvements in graduate-level math, scientific reasoning, and long-document synthesis, positioning it as the most capable frontier model to date.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a reported 1M-token effective context window. Benchmarks show substantial gains in complex multi-step reasoning tasks, code generation accuracy, and scientific problem-solving, narrowing the gap toward expert-level performance in several specialized domains.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-06-02"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New State-of-the-Art on Agentic Coding Tasks",
-      "summary": "DeepMind released Gemini 2.5 Ultra with dramatically improved autonomous software engineering capabilities, scoring over 60% on the SWE-Bench Verified benchmark in a fully agentic setup. The model demonstrates the ability to plan multi-file refactors, write tests, and iteratively debug — raising the bar for AI-assisted development workflows.",
-      "source": "Google Blog",
-      "url": "https://blog.google",
-      "category": "AI",
-      "date": "2026-05-28"
-    },
-    {
-      "id": "3",
-      "title": "Figure AI Begins Commercial Deployment of Figure 03 Humanoid Robots in BMW Factories",
-      "summary": "Figure AI announced its first large-scale commercial deployment, placing Figure 03 humanoid robots on BMW assembly lines in Spartanburg, South Carolina. The robots handle bin-picking, parts transfer, and quality inspection using on-board vision-language models, marking a significant milestone in general-purpose humanoid robotics moving from demos to production.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-06-04"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Live Demo",
-      "summary": "Tesla showcased its Optimus Gen 3 humanoid performing unscripted household tasks including folding laundry, loading a dishwasher, and navigating cluttered rooms without human teleoperation. The demo highlighted a new transformer-based whole-body control policy trained in simulation and fine-tuned with real-world teleoperation data, though experts note reliability in uncontrolled environments remains an open challenge.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-06-06"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration for Enterprise Multi-Agent Workflows",
-      "summary": "Anthropic released a new enterprise platform layer allowing Claude models to orchestrate multi-agent pipelines with structured tool use, memory persistence, and human-in-the-loop approval gates. The system is designed for complex enterprise workflows like regulatory compliance review and supply chain optimization, reflecting the industry's shift from single-prompt interactions to sustained agentic systems.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
       "category": "AI",
       "date": "2026-06-03"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its N1.4 process node has entered high-volume manufacturing at its Kaohsiung fab, several months ahead of the original timeline. The node delivers approximately 20% performance gains and 30% power efficiency improvements over N2, and is expected to power next-generation AI accelerator chips from Nvidia, AMD, and Apple beginning in early 2027.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "Innovation",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2 with a focus on agentic capabilities, demonstrating autonomous multi-step task completion across web browsing, coding environments, and enterprise workflows. The model introduces a novel planning architecture that allows persistent memory and self-correction loops, pushing SWE-Bench Verified scores past 75%.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-06-05"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on logical qubits with error rates below the threshold needed for practical quantum error correction, using their hybrid trapped-ion architecture. While a general-purpose quantum computer remains years away, this milestone substantially de-risks the path to useful quantum advantage in materials science and cryptography.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "id": "3",
+      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Operations at Scale",
+      "summary": "Figure announced that its Figure 03 humanoid robots have completed a full quarter of autonomous warehouse operations at a BMW logistics facility, handling palletizing, sorting, and inter-zone transport without human intervention. The company reports a 40% throughput improvement over the prior mixed human-robot workflow, marking a milestone in commercial humanoid deployment.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Electric Gains Real-Time Whole-Body Manipulation via Foundation Model",
+      "summary": "Boston Dynamics revealed a major software update for its electric Atlas platform, integrating a robotics foundation model trained on millions of hours of simulation and real-world teleoperation data. The system enables Atlas to perform dexterous whole-body manipulation tasks—such as assembling components and navigating cluttered environments—specified via natural language instructions.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "5",
+      "title": "Meta Releases Llama 4 Behemoth Open-Weight Model with MoE Architecture",
+      "summary": "Meta released the full open-weight Llama 4 Behemoth, a massive mixture-of-experts model with over 2 trillion total parameters. The model is competitive with frontier closed-source systems on reasoning and multilingual benchmarks, and Meta's decision to release it openly has reignited debate about the safety and democratization tradeoffs of open-weight frontier models.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-05-29"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed volume production of its A14 (1.4nm-class) process node, roughly two months ahead of its original roadmap. The node leverages gate-all-around nanosheet transistors and backside power delivery, offering an estimated 20% performance uplift and 30% power reduction over N2, with major AI accelerator customers including NVIDIA and Apple among the first to tape out.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-05-30"
+      "date": "2026-06-06"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
+      "summary": "Neuralink obtained FDA clearance to begin human trials of its N2 implant, which features 4x the electrode density of its first-generation device and a fully wireless bidirectional data link. The expanded trial will include patients with spinal cord injuries and ALS, with the goal of restoring both motor control and sensory feedback via closed-loop stimulation.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-06-09"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Phase Begins with First Wave of High-Risk System Audits",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting high-risk AI systems deployed in hiring, credit scoring, and law enforcement across member states. Several major U.S. tech companies have disclosed significant engineering investments to meet transparency and documentation requirements, signaling that the regulation is already reshaping global AI development practices.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
-      "date": "2026-06-07"
+      "title": "Anthropic Introduces Constitutional Classifiers v2 for Real-Time Model Safety Enforcement",
+      "summary": "Anthropic published research on Constitutional Classifiers v2, a system that runs parallel to model inference to detect and mitigate unsafe outputs with sub-50ms latency overhead. The approach uses lightweight classifier ensembles distilled from larger models and trained on adversarial red-team data, significantly reducing jailbreak success rates while maintaining helpfulness scores on standard benchmarks.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com/research",
+      "category": "AI",
+      "date": "2026-06-08"
     }
   ]
 }
