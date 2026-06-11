@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a reported 1M-token effective context window. Benchmarks show substantial gains in complex multi-step reasoning tasks, code generation accuracy, and scientific problem-solving, narrowing the gap toward expert-level performance in several specialized domains.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the capabilities previously split across separate models. Benchmarks show substantial gains in PhD-level science QA and complex code generation, with a new 'deep thinking' mode that can chain reasoning steps over minutes for hard problems.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-06-03"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2 with a focus on agentic capabilities, demonstrating autonomous multi-step task completion across web browsing, coding environments, and enterprise workflows. The model introduces a novel planning architecture that allows persistent memory and self-correction loops, pushing SWE-Bench Verified scores past 75%.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Marks on Agentic Coding and Research Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra with a two-million-token context window and significantly improved agentic task completion. The model demonstrates state-of-the-art performance on SWE-Bench and GPQA Diamond, and introduces a new 'deep research' agent mode capable of autonomously navigating the web, synthesizing multi-source reports, and citing findings with verifiable references.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
       "date": "2026-06-05"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Operations at Scale",
-      "summary": "Figure announced that its Figure 03 humanoid robots have completed a full quarter of autonomous warehouse operations at a BMW logistics facility, handling palletizing, sorting, and inter-zone transport without human intervention. The company reports a 40% throughput improvement over the prior mixed human-robot workflow, marking a milestone in commercial humanoid deployment.",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 02 Humanoids at BMW Spartanburg Plant",
+      "summary": "Figure AI announced the start of scaled commercial deployment of its Figure 02 humanoid robots at BMW's Spartanburg, SC manufacturing facility, moving beyond pilot programs to multi-shift production roles. The robots handle bin picking, parts transfer, and visual quality inspection, using on-board vision-language models for zero-shot task adaptation without explicit reprogramming.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-06-02"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics Atlas Electric Gains Real-Time Whole-Body Manipulation via Foundation Model",
-      "summary": "Boston Dynamics revealed a major software update for its electric Atlas platform, integrating a robotics foundation model trained on millions of hours of simulation and real-world teleoperation data. The system enables Atlas to perform dexterous whole-body manipulation tasks—such as assembling components and navigating cluttered environments—specified via natural language instructions.",
+      "title": "Tesla Optimus Gen 3 Prototype Demonstrates Fluid Bipedal Walking and Dexterous Manipulation",
+      "summary": "Tesla showcased its Optimus Gen 3 humanoid robot prototype with dramatically improved locomotion and 22-degree-of-freedom hands capable of manipulating small objects like eggs and electronic components. The system uses an end-to-end neural network policy trained in simulation and transferred to hardware, marking a significant step toward Tesla's goal of deploying units in its own factories by late 2026.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "url": "https://techcrunch.com/robotics",
       "category": "Robotics",
-      "date": "2026-06-07"
+      "date": "2026-06-08"
     },
     {
       "id": "5",
-      "title": "Meta Releases Llama 4 Behemoth Open-Weight Model with MoE Architecture",
-      "summary": "Meta released the full open-weight Llama 4 Behemoth, a massive mixture-of-experts model with over 2 trillion total parameters. The model is competitive with frontier closed-source systems on reasoning and multilingual benchmarks, and Meta's decision to release it openly has reignited debate about the safety and democratization tradeoffs of open-weight frontier models.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration for Multi-Agent Enterprise Workflows",
+      "summary": "Anthropic released a new enterprise platform layer enabling Claude models to act as orchestrating agents that delegate subtasks to specialized sub-agents, manage tool calls across APIs, and maintain long-running stateful workflows. The system includes built-in guardrails, audit logging, and human-in-the-loop checkpoints designed for regulated industries such as finance and healthcare.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/ai",
       "category": "AI",
-      "date": "2026-05-29"
+      "date": "2026-06-09"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed volume production of its A14 (1.4nm-class) process node, roughly two months ahead of its original roadmap. The node leverages gate-all-around nanosheet transistors and backside power delivery, offering an estimated 20% performance uplift and 30% power reduction over N2, with major AI accelerator customers including NVIDIA and Apple among the first to tape out.",
+      "title": "TSMC Begins Risk Production of A14 2nm Node, Enabling Next-Gen AI Accelerator Chips",
+      "summary": "TSMC confirmed that risk production on its N2 (2nm) process node using gate-all-around (GAA) nanosheet transistors has begun, with initial wafers allocated to Apple and NVIDIA. The node offers approximately 15% speed improvement and 30% power reduction compared to N3E, which is expected to be transformative for next-generation AI training and inference accelerators shipping in 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubits with Record-Low Error Rates",
+      "summary": "Microsoft and Quantinuum published results showing below-threshold error rates on logical qubits using a new hybrid error-correction scheme on Quantinuum's trapped-ion hardware. The team demonstrated reliable execution of circuits with over 100 logical operations, representing a critical milestone toward fault-tolerant quantum computing and validating Microsoft's topological-hybrid roadmap.",
+      "source": "Nature",
+      "url": "https://www.nature.com/news",
       "category": "Innovation",
       "date": "2026-06-06"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
-      "summary": "Neuralink obtained FDA clearance to begin human trials of its N2 implant, which features 4x the electrode density of its first-generation device and a fully wireless bidirectional data link. The expanded trial will include patients with spinal cord injuries and ALS, with the goal of restoring both motor control and sensory feedback via closed-loop stimulation.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-06-09"
-    },
-    {
       "id": "8",
-      "title": "Anthropic Introduces Constitutional Classifiers v2 for Real-Time Model Safety Enforcement",
-      "summary": "Anthropic published research on Constitutional Classifiers v2, a system that runs parallel to model inference to detect and mitigate unsafe outputs with sub-50ms latency overhead. The approach uses lightweight classifier ensembles distilled from larger models and trained on adversarial red-team data, significantly reducing jailbreak success rates while maintaining helpfulness scores on standard benchmarks.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com/research",
-      "category": "AI",
-      "date": "2026-06-08"
+      "title": "Boston Dynamics Atlas Electric Performs Autonomous Disaster-Site Navigation in DARPA Field Trials",
+      "summary": "Boston Dynamics' fully electric Atlas humanoid completed DARPA-supervised field trials involving autonomous navigation through collapsed building environments, stair climbing over debris, and valve manipulation tasks without remote teleoperation. The robot used a combination of LiDAR SLAM, onboard vision-language models for semantic scene understanding, and whole-body MPC for dynamic balance on uneven terrain.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/robotics",
+      "category": "Robotics",
+      "date": "2026-06-10"
     }
   ]
 }
