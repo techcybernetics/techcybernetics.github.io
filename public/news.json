@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a 1M-token context window. Benchmarks show substantial gains in PhD-level science QA, competitive programming, and agentic task completion, narrowing the gap toward robust general-purpose AI assistants.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning, mathematical proof generation, and agentic tool use, narrowing the gap on several AGI benchmarks. Enterprise API access includes new structured-output guarantees and fine-tuning capabilities for domain-specific deployments.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-06-03"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind Demonstrates Gemini-Powered Robot That Learns Household Tasks from a Single Video",
-      "summary": "DeepMind unveiled a research prototype integrating Gemini 2.5 with a mobile manipulator robot that can watch a single human demonstration video and replicate multi-step household tasks like loading a dishwasher or folding laundry. The system uses a novel vision-language-action architecture that grounds language instructions into continuous motor plans, achieving a 78% first-attempt success rate in unseen kitchens.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-06-05"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration for Enterprise Multi-Agent Workflows",
-      "summary": "Anthropic released a new enterprise platform layer that allows Claude models to dynamically spawn, delegate to, and supervise sub-agents across complex business workflows with built-in safety guardrails. The system features structured audit trails, role-based permission scoping, and human-in-the-loop breakpoints, targeting regulated industries like finance and healthcare that need verifiable AI automation.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "AI",
-      "date": "2026-06-09"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen-3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing real production tasks at two of its US factories, including parts sorting, bin picking, and quality inspection along the assembly line. The company reported the robots are operating 18-hour shifts with a per-unit manipulation error rate under 0.3%, marking the first sustained industrial deployment of a general-purpose humanoid.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-06-10"
     },
     {
-      "id": "5",
-      "title": "TSMC Announces 1.4nm Process Node on Track for 2027 with Backside Power Delivery",
-      "summary": "TSMC confirmed at its annual technology symposium that its A14 (1.4nm-class) process node remains on schedule for risk production in early 2027, featuring backside power delivery network technology for improved performance density. The node promises an 18% speed improvement and 22% power reduction over the current N2 node, with Apple and Nvidia reportedly among early adopters.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-06-06"
-    },
-    {
-      "id": "6",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with Mixture-of-Experts Architecture at 2T Parameters",
-      "summary": "Meta publicly released the full weights of Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that activates roughly 400B parameters per forward pass. The model matches or exceeds proprietary frontier models on major reasoning and coding benchmarks, and Meta is positioning it as the foundation for on-premise enterprise deployments and fine-tuned domain-specific applications.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on GPQA-Diamond, MATH-500, and a newly introduced multi-step scientific discovery benchmark. The model integrates a verifier-based reinforcement learning pipeline that substantially reduces hallucination rates in chemistry and biology domains. Google is rolling the model into its research tools suite, targeting pharmaceutical and materials science applications.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-06-01"
-    },
-    {
-      "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 1,000-Cycle Durability in EV-Format Cells",
-      "summary": "QuantumScape published independently validated data showing its multilayer solid-state lithium-metal cells retained over 90% capacity after 1,000 full charge-discharge cycles at automotive-relevant conditions, a critical milestone for commercialization. The cells deliver roughly 50% higher energy density than conventional lithium-ion packs, potentially enabling 500+ mile EV range with faster charging times.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Innovation",
       "date": "2026-06-08"
     },
     {
-      "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Electric Atlas Performing Coordinated Multi-Robot Construction Tasks",
-      "summary": "Boston Dynamics demonstrated a team of three electric Atlas humanoid robots working in coordination to assemble steel framing components on a simulated construction site, including beam carrying, bolt insertion, and welding prep. The robots used a shared spatial map and real-time task negotiation protocol, representing a significant step toward multi-robot collaboration in unstructured environments.",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
+      "summary": "Figure Robotics announced that its third-generation humanoid robot, Figure 03, has entered commercial deployment at two BMW manufacturing plants in South Carolina. The robots handle parts kitting, inspection, and light assembly tasks alongside human workers, leveraging onboard vision-language models for real-time task adaptation. Figure reports a 40% improvement in manipulation dexterity over its predecessor, with plans to scale to additional OEM partners by Q4 2026.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-06-11"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Operations in Live Demo",
+      "summary": "Tesla showcased its Optimus Gen 3 humanoid performing end-to-end warehouse logistics tasks including unloading, sorting, and shelving packages without human intervention for sustained 8-hour shifts. The demo highlighted improved balance recovery, fine-grained hand manipulation, and a new sim-to-real transfer pipeline that dramatically cuts deployment training time. Tesla confirmed limited commercial availability to select logistics partners beginning late 2026.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Execution",
+      "summary": "Anthropic released a major update to its Claude platform enabling autonomous multi-step tool-use agents with persistent cross-session memory and sandboxed code execution environments. The system allows developers to deploy agents that can browse the web, write and run code, manage files, and maintain long-term project context within defined safety guardrails. Early adopters report significant productivity gains in software engineering and data analysis workflows.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors at its Kaohsiung fab. The node delivers an 18% speed improvement and 30% power reduction over N2, with initial production allocated to Apple and NVIDIA for next-generation mobile and AI accelerator chips. This milestone reinforces TSMC's roadmap dominance and has implications for the power efficiency of future AI training clusters.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum jointly announced achieving below-threshold error rates on logical qubit operations using Quantinuum's latest trapped-ion system combined with Microsoft's qubit virtualization layer. The team executed over 100,000 consecutive logical CNOT gates with an error rate of 10⁻⁸, a critical milestone for practical quantum error correction. The result puts near-term quantum advantage for certain optimization and cryptographic problems within a plausible 3-5 year horizon.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "8",
+      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas Platform with LLM-Driven Task Planning",
+      "summary": "Boston Dynamics, under Hyundai's robotics division, revealed an updated electric Atlas humanoid that integrates a large language model-based task planner for interpreting natural language instructions in unstructured environments. The system combines real-time 3D scene understanding with dynamic motion planning, allowing the robot to autonomously navigate construction sites and perform inspection routines. Field trials are underway with three major construction firms in South Korea and the United States.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "Robotics",
+      "date": "2026-06-07"
     }
   ]
 }
