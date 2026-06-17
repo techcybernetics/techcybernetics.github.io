@@ -1,37 +1,37 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially rolled out GPT-5 across its API and ChatGPT tiers, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show substantial gains on PhD-level science QA and complex code generation tasks, though independent evaluations note diminishing returns on certain narrow reasoning benchmarks compared to the GPT-4o to GPT-5 leap expectations.",
+      "title": "OpenAI Releases GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially launched GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and multi-step mathematical proofs, narrowing the gap on several AGI benchmarks. Enterprise API access is rolling out with new structured output guarantees and latency optimizations.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Reasoning Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on GPQA-Diamond, MathOdyssey, and a newly introduced scientific literature synthesis benchmark. The model incorporates a novel mixture-of-experts architecture with dynamic routing that reduces inference cost by roughly 40% compared to its predecessor. Google is integrating the model across Workspace, Cloud, and its research tools.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-06-10"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Real-Time Agentic Capabilities",
-      "summary": "DeepMind released Gemini 2.5 Ultra, emphasizing autonomous multi-step agentic workflows that can browse the web, write and execute code, and manage files with minimal human oversight. The model integrates tightly with Google Workspace and Android, positioning Google to compete directly with OpenAI's operator-style agents. Early enterprise pilots report significant productivity gains in data analysis and software engineering pipelines.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-06-08"
-    },
-    {
       "id": "3",
-      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Operations at BMW Facility",
-      "summary": "Figure's second-generation humanoid robot, Figure 02, completed a 72-hour fully autonomous warehouse shift at a BMW logistics center in South Carolina, handling palletizing, bin picking, and inter-station transport without human intervention. The demonstration marks one of the first commercially viable deployments of general-purpose humanoid robots, with BMW announcing plans to scale to 500 units across North American plants by 2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Figure Robotics Demonstrates Autonomous Warehouse Operations at Scale",
+      "summary": "Figure announced that its Figure 03 humanoid robots have completed a 90-day pilot at a major logistics facility, autonomously handling pick-pack-ship workflows with 97.3% task completion rates. The robots leverage on-device vision-language models for real-time object identification and grasp planning without pre-mapped environments. The company disclosed a $1.5B Series C to scale manufacturing to 10,000 units per year.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-06-12"
+      "date": "2026-06-15"
     },
     {
       "id": "4",
-      "title": "Tesla Optimus Begins Limited Commercial Leasing for Industrial Applications",
-      "summary": "Tesla started offering its Optimus Gen 3 humanoid robot under a commercial lease program priced at roughly $25,000 per year, targeting repetitive manufacturing and logistics tasks. The robot features improved dexterous manipulation with 22-DOF hands and on-device vision-language model inference for task adaptation. Industry analysts note the aggressive pricing could accelerate humanoid adoption but question long-term reliability data.",
+      "title": "Tesla Optimus Gen 3 Enters Limited Commercial Deployment in Factories",
+      "summary": "Tesla began deploying Optimus Gen 3 humanoid robots in its own Gigafactories and select partner manufacturing sites, performing repetitive assembly and materials-handling tasks alongside human workers. The new generation features improved actuator density, a 60% increase in battery endurance, and a transformer-based whole-body control policy trained end-to-end in simulation. Elon Musk stated the company aims for external commercial sales by Q1 2027.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
@@ -39,39 +39,39 @@
     },
     {
       "id": "5",
-      "title": "Anthropic Publishes Breakthrough Research on Mechanistic Interpretability of Large Reasoning Models",
-      "summary": "Anthropic researchers published a landmark paper demonstrating scalable methods for tracing specific reasoning chains inside transformer models back to identifiable circuit-level structures, extending their earlier work on monosemantic features to models with over 100 billion parameters. The work provides concrete tools for detecting deceptive reasoning patterns and hallucination sources, potentially reshaping how safety evaluations are conducted across the industry.",
-      "source": "arXiv / Anthropic Research Blog",
-      "url": "https://www.anthropic.com/research",
+      "title": "Anthropic Introduces Constitutional Steering: Fine-Grained Runtime Safety Controls for Claude",
+      "summary": "Anthropic published research on Constitutional Steering, a technique that allows enterprise customers to define domain-specific safety and behavior policies as declarative constraints enforced at inference time without fine-tuning. The approach uses a lightweight constitutional classifier that runs in parallel with generation, enabling per-request policy customization with under 8% latency overhead. The feature is available now in the Claude API for Teams and Enterprise tiers.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
       "category": "AI",
-      "date": "2026-06-05"
+      "date": "2026-06-16"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors at its Kaohsiung fab, with Apple and NVIDIA confirmed as early customers. The node delivers an estimated 15% speed improvement and 30% power reduction over N2, critical for next-generation AI accelerators and mobile SoCs operating under tight thermal envelopes.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "title": "ASML Ships First Production High-NA EUV Systems to Intel and Samsung",
+      "summary": "ASML confirmed the first production-grade High-NA EUV lithography systems have been delivered to Intel's Fab 52 in Ohio and Samsung's Pyeongtaek campus, enabling patterning at the 1.4nm logic node. The Twinscan EXE:5000 platform achieves 185 wafers per hour throughput, a critical milestone for economic viability. Industry analysts say this cements EUV's roadmap through the end of the decade and accelerates advanced chip availability for AI workloads.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
       "category": "Innovation",
       "date": "2026-06-11"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Error-Corrected Logical Qubits Running Useful Algorithms",
-      "summary": "Microsoft and Quantinuum jointly demonstrated 32 error-corrected logical qubits running a materials-science simulation that would be intractable for classical supercomputers, using Quantinuum's latest trapped-ion hardware combined with Microsoft's qubit virtualization layer. While not yet at commercial scale, the result crosses a key threshold where quantum computation outperforms classical methods on a scientifically relevant problem rather than a contrived benchmark.",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving below-threshold error rates on logical qubit operations using their hybrid trapped-ion architecture with real-time quantum error correction. The team executed 100,000 consecutive logical CNOT gates with a logical error rate of 1e-6, a critical engineering milestone for practical quantum computing. Microsoft announced integration of the system into Azure Quantum for early research access.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-06-13"
+      "date": "2026-06-09"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics Atlas Now Handles Unstructured Outdoor Terrain with Dynamic Replanning",
-      "summary": "Boston Dynamics released a major software update for its electric Atlas humanoid platform enabling robust locomotion over unstructured outdoor terrain including mud, loose gravel, and steep inclines, using a learned world model for real-time footstep replanning. The capability opens construction and disaster-response applications that were previously limited to tracked or wheeled platforms, with Hyundai announcing pilot deployments at active construction sites in South Korea.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Dexterous Manipulation for Construction",
+      "summary": "Boston Dynamics revealed an updated electric Atlas platform with new five-fingered hands capable of tool use, developed in partnership with Hyundai's construction division. Live demonstrations showed the robot autonomously operating a drill, carrying irregularly shaped materials, and navigating active construction environments using LiDAR-vision fusion. The system is entering pilot deployments at three Hyundai E&C sites in South Korea this summer.",
+      "source": "IEEE Spectrum",
+      "url": "https://www.spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-06-15"
+      "date": "2026-06-13"
     }
   ]
 }
