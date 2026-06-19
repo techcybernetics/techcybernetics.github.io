@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially rolled out GPT-5 across ChatGPT and its API, featuring significantly improved long-horizon reasoning, native image and audio generation, and a vastly expanded context window. Benchmarks show substantial gains on ARC-AGI-2 and GPQA, with the model demonstrating more reliable chain-of-thought across multi-step scientific and engineering tasks. Enterprise API pricing introduced a new tiered compute model reflecting the variable cost of extended thinking.",
+      "summary": "OpenAI officially rolled out GPT-5 across its API and ChatGPT tiers, featuring substantially improved long-horizon reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show significant gains on ARC-AGI-2 and GPQA, and the model demonstrates markedly better calibration and reduced hallucination rates compared to GPT-4o. Enterprise adoption is expected to accelerate given the model's improved tool-use reliability and structured output adherence.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-06-10"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Coding and Math Benchmarks",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra, which claimed state-of-the-art results on SWE-Bench Verified, MATH-500, and several competitive programming benchmarks. The model introduces a mixture-of-experts architecture with adaptive compute allocation, allowing it to dynamically scale reasoning depth per query. Google also integrated the model into a revamped Codex-style agent within Google Cloud that can autonomously execute multi-file refactors.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Breakthrough Scientific Reasoning",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra, which tops multiple scientific reasoning benchmarks including MATH-500 and SciCode. The model introduces a novel mixture-of-experts architecture with dynamic expert routing, enabling significantly lower inference costs while maintaining state-of-the-art accuracy. Google is positioning the model as a core engine for its AI-driven drug discovery and materials science partnerships.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-06-12"
     },
     {
       "id": "3",
-      "title": "Anthropic Publishes Breakthrough Interpretability Results Mapping Claude's Internal Planning",
-      "summary": "Anthropic released a major research paper demonstrating circuit-level tracing of multi-step planning inside large language models, building on their prior work in mechanistic interpretability. Researchers identified specific feature circuits responsible for deceptive reasoning shortcuts and showed they could be surgically suppressed without degrading general capability. The work is being hailed as a significant step toward practical AI safety auditing tools for frontier models.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "AI",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "4",
-      "title": "Figure Robotics Demonstrates Autonomous Warehouse Operations at BMW Facility",
-      "summary": "Figure's second-generation humanoid robot completed a month-long pilot at a BMW logistics facility in South Carolina, autonomously performing bin picking, parts transport, and simple assembly assist tasks across full 8-hour shifts. The system leverages a vision-language-action model fine-tuned on factory-specific data, achieving a reported 94% task completion rate with minimal human intervention. BMW announced plans to expand the deployment to two additional plants by Q4 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
+      "title": "Figure Robotics Deploys Humanoid Workers in BMW Manufacturing Lines at Scale",
+      "summary": "Figure announced the expansion of its Figure 02 humanoid robot deployment across three BMW manufacturing plants in the US, marking one of the largest commercial humanoid deployments to date. The robots handle bin-picking, parts transfer, and quality inspection tasks with a reported 99.2% uptime. The partnership validates the commercial viability of general-purpose humanoid form factors in structured industrial settings.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-06-14"
     },
     {
-      "id": "5",
-      "title": "Boston Dynamics Atlas Electric Achieves Real-Time Parkour Using Reinforcement Learning",
-      "summary": "Boston Dynamics released footage and a technical blog post showing the electric Atlas performing dynamic parkour sequences—including running vaults and gap jumps—driven entirely by a sim-to-real reinforcement learning policy rather than pre-scripted trajectories. The approach uses a learned world model for predictive foot placement, achieving robust recovery from perturbations that would have caused failures in prior scripted systems. The milestone signals a shift toward fully learned locomotion for commercial humanoid platforms.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/robotics/",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion",
+      "summary": "Tesla showcased its third-generation Optimus humanoid performing end-to-end household chores including laundry folding, dishwashing, and shelf organization without teleoperation. The system uses a vision-language-action model trained on large-scale simulation and real-world demonstration data. While consumer availability timelines remain uncertain, the demo represents a marked improvement in dexterous manipulation and long-horizon task planning over previous generations.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
       "date": "2026-06-16"
     },
     {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Autonomous Execution",
+      "summary": "Anthropic launched a new agentic framework for Claude that supports persistent memory across sessions, autonomous multi-step tool use, and a sandboxed code execution environment with configurable permissions. The system is aimed at software engineering and data analysis workflows, with early enterprise users reporting 40-60% reductions in repetitive engineering tasks. The release intensifies competition in the AI coding agent space against OpenAI Codex and Google Jules.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-06-17"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node for AI Accelerators",
-      "summary": "TSMC confirmed volume production has started on its A14 (1.4nm-class) process node at its Kaohsiung fab, with first customers including NVIDIA and Apple. The node delivers approximately 20% speed improvement and 30% power reduction over N2, leveraging gate-all-around nanosheet transistors with backside power delivery. The advance is critical for next-generation AI training chips projected to ship in early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed that its N1.4 process node has entered volume production at its Fab 20 facility in Hsinchu, approximately one quarter ahead of the original roadmap. The node delivers a 20% performance uplift and 30% power reduction over N2, with backside power delivery and gate-all-around transistor refinements. Leading AI chip designers including NVIDIA and Apple are expected to be first customers, with products shipping in late 2026.",
       "source": "AnandTech",
-      "url": "https://www.anandtech.com/",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-06-11"
     },
     {
       "id": "7",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Frontier Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's provisions for general-purpose AI models with systemic risk, targeting OpenAI, Google, and Meta's European operations. Auditors are examining model evaluation documentation, red-teaming reports, and compute reporting as required under the Act's transparency obligations. The enforcement action is being closely watched as a template for how algorithmic regulation will work in practice globally.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology/",
+      "title": "EU AI Act Enforcement Begins with First Wave of High-Risk System Audits",
+      "summary": "The European Union commenced formal enforcement of the AI Act's high-risk system provisions, with national authorities in France, Germany, and the Netherlands initiating compliance audits of AI systems used in hiring, credit scoring, and law enforcement. Companies found non-compliant face fines up to 35 million euros or 7% of global revenue. The enforcement is being closely watched as a template for AI governance frameworks under consideration in other jurisdictions.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-06-17"
+      "date": "2026-06-15"
     },
     {
       "id": "8",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with 2 Trillion Parameters",
-      "summary": "Meta publicly released the weights for Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model offered under an updated open-source license permitting commercial use. The model matches or exceeds GPT-5 on several academic benchmarks while running on 8-GPU clusters via aggressive expert offloading and INT4 quantization. The release intensifies the open-weight versus closed-model debate, with Meta positioning open models as the default infrastructure layer for enterprise AI.",
+      "title": "Meta Open-Sources Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, its largest open-weight model at over 2 trillion parameters using a massive mixture-of-experts architecture. The model matches or exceeds proprietary frontier models on multiple reasoning and coding benchmarks, and is released under a revised Llama license that permits commercial use with minimal restrictions. The release further accelerates the open-source AI ecosystem and raises questions about the competitive moat of closed-model providers.",
       "source": "Wired",
-      "url": "https://www.wired.com/tag/artificial-intelligence/",
+      "url": "https://www.wired.com",
       "category": "AI",
-      "date": "2026-06-13"
+      "date": "2026-06-18"
     }
   ]
 }
