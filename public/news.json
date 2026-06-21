@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially rolled out GPT-5 across ChatGPT and its API, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. Benchmarks show substantial gains on ARC-AGI-2 and GPQA-Diamond, reigniting debate about the proximity of artificial general intelligence. The model also introduces a new \"deep research agent\" mode capable of multi-step tool use over extended time horizons.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a vastly expanded context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, marking a notable jump in unified multimodal capability over GPT-4o.",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Standard for Scientific Reasoning",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra, which tops leaderboards in mathematical proof generation, competitive programming, and scientific literature synthesis. The model demonstrates an ability to produce novel conjectures in combinatorics that have been verified by domain experts. Google is positioning the model as a core component of its AI-for-science initiative, integrating it directly into Google Cloud research workflows.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "AI",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Claude 4.5 Sonnet with Improved Agentic Capabilities and Computer Use",
-      "summary": "Anthropic released Claude 4.5 Sonnet, emphasizing reliable multi-step agentic execution, improved computer-use performance, and lower hallucination rates on factual retrieval tasks. Internal red-team evaluations show measurable gains in the model's ability to refuse unsafe instructions while maintaining helpfulness. The release includes new tooling for enterprise developers to build constrained agent pipelines with verifiable safety guarantees.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
-      "category": "AI",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla announced that the third-generation Optimus humanoid robot is now operating in limited production roles at its Gigafactory in Austin, performing tasks such as bin picking, parts transport, and quality visual inspection. The robot features improved dexterous manipulation with 22-DOF hands and runs an on-board vision-language model for real-time task adaptation. Elon Musk stated the company aims to produce 10,000 units by the end of 2027 for both internal use and external sales.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
       "date": "2026-06-10"
     },
     {
-      "id": "5",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric for Commercial Warehouse Operations",
-      "summary": "Boston Dynamics, backed by Hyundai, revealed the commercial version of its fully electric Atlas humanoid robot designed for logistics and warehouse environments. The platform features whole-body MPC control, dynamic obstacle avoidance, and can carry payloads up to 25 kg across unstructured terrain. Early pilot customers include DHL and Amazon, with initial deployments focused on mixed-case palletizing and facility inspection tasks.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra with a focus on autonomous software engineering tasks, reporting top scores on SWE-Bench Verified and a new internal multi-repo refactoring benchmark. The model can sustain coherent plans across hundreds of files and execute multi-step tool use chains, intensifying the race for AI-driven software development agents.",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog",
+      "category": "AI",
       "date": "2026-06-14"
     },
     {
-      "id": "6",
-      "title": "Figure Robotics Raises $1.5B Series C to Scale Humanoid Manufacturing",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Nvidia, valuing the humanoid robotics startup at approximately $15 billion. The funding will be used to build a dedicated robot manufacturing facility in South Carolina and to expand its foundation model for general-purpose robotic manipulation. Figure's robots are currently deployed at BMW's Spartanburg plant performing repetitive assembly tasks with demonstrated uptime exceeding 90%.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
+      "summary": "Figure announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment at two BMW manufacturing facilities in South Carolina. The robots handle parts kitting, inspection, and bin-picking tasks autonomously for full 8-hour shifts, representing one of the first scaled commercial humanoid deployments in automotive manufacturing.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-06-17"
     },
     {
-      "id": "7",
-      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced that risk production of its A14 (1.4nm-class) process node has commenced at its Fab 20 facility in Hsinchu, approximately one quarter ahead of the original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, promising a 15% speed improvement and 30% power reduction over N2. Major customers including Apple, Nvidia, and AMD have reportedly taped out early test chips, with volume production targeted for late 2027.",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Dexterous Manipulation and Unsupervised Task Learning",
+      "summary": "Tesla showcased its latest Optimus Gen 3 prototype performing complex dexterous manipulation tasks including cable routing and small-object assembly, learned primarily through vision-based imitation learning with minimal human demonstration. The company announced plans to deploy several thousand units internally by end of 2026, claiming unit production costs are approaching $25,000.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Sonnet 4 with Verified Reasoning Traces and Improved Instruction Following",
+      "summary": "Anthropic released Claude Sonnet 4, featuring cryptographically verifiable reasoning traces that allow enterprises to audit the model's chain-of-thought for compliance and safety. The model shows marked improvement in following complex, multi-constraint system prompts and reduced sycophancy, addressing key enterprise adoption concerns around reliability and auditability.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news",
+      "category": "AI",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Risk Production of A14 2nm Node, Enabling Next-Generation AI Accelerators",
+      "summary": "TSMC confirmed that risk production on its N2 (2nm) process using gate-all-around transistor architecture has commenced, with initial wafers earmarked for Apple and NVIDIA AI accelerator designs. The node promises up to 25% performance gains at equivalent power or 30% power reduction at equivalent performance, critical for the next wave of data center and edge AI chips.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-06-11"
+      "date": "2026-06-15"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Fault-Tolerance Threshold",
+      "summary": "Microsoft and Atom Computing jointly announced achieving sustained logical qubit error rates below the fault-tolerance threshold using a neutral-atom quantum processor with 256 physical qubits. This milestone, verified by independent teams, brings practical fault-tolerant quantum computation closer and validates the neutral-atom approach as competitive with superconducting and trapped-ion architectures.",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles",
+      "category": "Innovation",
+      "date": "2026-06-19"
     },
     {
       "id": "8",
-      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Threshold",
-      "summary": "Microsoft and Atom Computing jointly published results showing sustained below-threshold quantum error correction on a 256-logical-qubit neutral-atom system, maintaining coherent computation over 100 error correction cycles. This represents a critical engineering milestone on the path to fault-tolerant quantum computing. Microsoft announced integration of the system into its Azure Quantum platform, offering early research access to select partners working on materials science and cryptographic applications.",
-      "source": "Nature",
-      "url": "https://www.nature.com/news",
+      "title": "EU AI Act Enforcement Begins: First Wave of High-Risk AI System Compliance Audits Launched",
+      "summary": "The European Union commenced its first formal compliance audits under the AI Act, targeting high-risk AI systems in hiring, credit scoring, and critical infrastructure. Several major US tech companies face scrutiny over transparency and bias documentation requirements, setting early precedents for how the landmark regulation will be enforced in practice across global AI deployments.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
       "category": "Innovation",
-      "date": "2026-06-19"
+      "date": "2026-06-20"
     }
   ]
 }
