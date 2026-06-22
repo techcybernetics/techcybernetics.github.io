@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-22",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a vastly expanded context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, marking a notable jump in unified multimodal capability over GPT-4o.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses previously separate models into one system. Benchmarks show substantial gains on PhD-level science questions and complex multi-step coding tasks, though independent evaluations are still underway.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com/openai",
       "category": "AI",
-      "date": "2026-06-10"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind released Gemini 2.5 Ultra with a focus on autonomous software engineering tasks, reporting top scores on SWE-Bench Verified and a new internal multi-repo refactoring benchmark. The model can sustain coherent plans across hundreds of files and execute multi-step tool use chains, intensifying the race for AI-driven software development agents.",
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google/blog",
-      "category": "AI",
-      "date": "2026-06-14"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
-      "summary": "Figure announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment at two BMW manufacturing facilities in South Carolina. The robots handle parts kitting, inspection, and bin-picking tasks autonomously for full 8-hour shifts, representing one of the first scaled commercial humanoid deployments in automotive manufacturing.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
-      "date": "2026-06-17"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Dexterous Manipulation and Unsupervised Task Learning",
-      "summary": "Tesla showcased its latest Optimus Gen 3 prototype performing complex dexterous manipulation tasks including cable routing and small-object assembly, learned primarily through vision-based imitation learning with minimal human demonstration. The company announced plans to deploy several thousand units internally by end of 2026, claiming unit production costs are approaching $25,000.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
-      "category": "Robotics",
       "date": "2026-06-18"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Sonnet 4 with Verified Reasoning Traces and Improved Instruction Following",
-      "summary": "Anthropic released Claude Sonnet 4, featuring cryptographically verifiable reasoning traces that allow enterprises to audit the model's chain-of-thought for compliance and safety. The model shows marked improvement in following complex, multi-constraint system prompts and reduced sycophancy, addressing key enterprise adoption concerns around reliability and auditability.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com/news",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Coding and Research Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra with a 2-million-token context window and state-of-the-art performance on SWE-Bench and GPQA-Diamond. The model introduces improved tool-use orchestration that allows it to autonomously chain web search, code execution, and file analysis in a single turn, positioning it as a leading model for agentic enterprise workflows.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
       "category": "AI",
-      "date": "2026-06-12"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Risk Production of A14 2nm Node, Enabling Next-Generation AI Accelerators",
-      "summary": "TSMC confirmed that risk production on its N2 (2nm) process using gate-all-around transistor architecture has commenced, with initial wafers earmarked for Apple and NVIDIA AI accelerator designs. The node promises up to 25% performance gains at equivalent power or 30% power reduction at equivalent performance, critical for the next wave of data center and edge AI chips.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-06-15"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Atom Computing jointly announced achieving sustained logical qubit error rates below the fault-tolerance threshold using a neutral-atom quantum processor with 256 physical qubits. This milestone, verified by independent teams, brings practical fault-tolerant quantum computation closer and validates the neutral-atom approach as competitive with superconducting and trapped-ion architectures.",
-      "source": "Nature",
-      "url": "https://www.nature.com/articles",
-      "category": "Innovation",
+      "id": "3",
+      "title": "Figure AI Deploys Humanoid Robots at BMW Spartanburg Plant for Full-Shift Operations",
+      "summary": "Figure AI announced that its Figure 02 humanoid robots are now operating full 8-hour shifts at BMW's Spartanburg, South Carolina facility, handling bin-picking, parts transfer, and quality inspection tasks. This marks one of the first scaled commercial deployments of general-purpose humanoid robots in automotive manufacturing, with BMW reporting a measurable reduction in ergonomic injury incidents.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Warehouse Navigation and Manipulation",
+      "summary": "Tesla showcased an updated Optimus Gen 3 prototype performing end-to-end autonomous warehouse logistics including navigation through dynamic environments, shelf stocking, and package sorting without teleoperation. The system uses a vision-only transformer pipeline similar to Tesla's FSD architecture, raising questions about whether camera-only approaches can match lidar-equipped competitors in unstructured environments.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/",
+      "category": "Robotics",
       "date": "2026-06-19"
     },
     {
-      "id": "8",
-      "title": "EU AI Act Enforcement Begins: First Wave of High-Risk AI System Compliance Audits Launched",
-      "summary": "The European Union commenced its first formal compliance audits under the AI Act, targeting high-risk AI systems in hiring, credit scoring, and critical infrastructure. Several major US tech companies face scrutiny over transparency and bias documentation requirements, setting early precedents for how the landmark regulation will be enforced in practice across global AI deployments.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
+      "id": "5",
+      "title": "Anthropic Introduces Claude's Tool-Use Sandbox for Secure Enterprise Agent Deployments",
+      "summary": "Anthropic unveiled a containerized execution environment for Claude-based agents that provides fine-grained permission controls, audit logging, and automatic rollback for actions taken against enterprise systems. The sandbox aims to address a key blocker for enterprise AI agent adoption—controllability and reversibility—by letting IT teams define strict action boundaries while still allowing agents to operate autonomously within those bounds.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/",
+      "category": "AI",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 2nm A16 Process for Next-Generation AI Accelerators",
+      "summary": "TSMC confirmed that its Arizona and Tainan fabs have begun volume production on the A16 (2nm-class) process node using backside power delivery, with initial customers including Apple and NVIDIA. The node delivers approximately 15% speed improvement and 30% power reduction over N3E, which is expected to meaningfully increase inference throughput per watt for next-generation data center GPUs.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com/",
       "category": "Innovation",
-      "date": "2026-06-20"
+      "date": "2026-06-16"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained below-threshold error rates on logical qubits using a combination of Quantinuum's trapped-ion hardware and Microsoft's qubit virtualization layer. The demonstration ran a 24-logical-qubit chemistry simulation that would be intractable classically, marking a credible milestone toward practically useful quantum computation, though scaling remains a significant engineering challenge.",
+      "source": "Nature",
+      "url": "https://www.nature.com/",
+      "category": "Innovation",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "8",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
+      "summary": "The EU AI Office initiated its first formal compliance audits under the AI Act's general-purpose AI provisions, requesting technical documentation from several large foundation model providers operating in Europe. The audits focus on systemic risk assessments, training data transparency, and red-teaming procedures, setting an early precedent for how the regulation will be practically enforced and interpreted.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/artificial-intelligence",
+      "category": "Innovation",
+      "date": "2026-06-21"
     }
   ]
 }
