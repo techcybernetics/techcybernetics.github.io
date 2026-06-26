@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring substantially improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses previously separate models into one system. Benchmarks show significant gains on ARC-AGI-2 and GPQA, narrowing the gap on tasks previously considered out of reach for autoregressive language models.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single unified model, and a 1M-token context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap with specialized domain tools.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
-      "category": "AI",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind Introduces Gemini Ultra 2 with Million-Token Persistent Context",
-      "summary": "DeepMind announced Gemini Ultra 2, extending reliable context handling to over 2 million tokens with a new persistent memory layer that allows the model to maintain coherent state across sessions. The architecture introduces a hierarchical attention mechanism that dramatically reduces inference cost at long contexts, making enterprise-scale document analysis practical in production.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-06-20"
     },
     {
-      "id": "3",
-      "title": "Figure Robotics Deploys Humanoid Workers at BMW South Carolina Plant",
-      "summary": "Figure AI expanded its commercial humanoid deployment, with its Figure 03 robots now performing multi-step assembly and material handling tasks alongside human workers at BMW's Spartanburg facility. The robots leverage on-device vision-language models for real-time task adaptation, marking one of the largest sustained humanoid deployments in automotive manufacturing.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Robotics Model Enables Dexterous Manipulation in Unstructured Environments",
+      "summary": "DeepMind unveiled Gemini Robotics, a foundation model that directly maps visual and tactile sensor inputs to fine-grained motor commands for robotic hands. In warehouse trials with partner companies, the system achieved a 94% grasp success rate on previously unseen objects, a major step toward general-purpose robotic manipulation.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "Robotics",
-      "date": "2026-06-16"
+      "date": "2026-06-18"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Demonstrates Autonomous Disaster Response in DARPA Field Trials",
-      "summary": "Boston Dynamics' electric Atlas robot completed a series of DARPA-organized disaster response scenarios, autonomously navigating collapsed structures, operating valves, and carrying 40 kg payloads over rubble without remote operator intervention. The system uses a new proprioceptive-visual foundation model trained on simulation and real-world data, dramatically improving robustness to novel terrain.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Assembly Lines",
+      "summary": "Figure AI announced its Figure 02 humanoid robots have entered full commercial deployment at BMW's Spartanburg plant, performing parts inspection, bin picking, and sub-assembly tasks across multiple shifts. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-06-22"
     },
     {
-      "id": "5",
-      "title": "Anthropic Publishes Mechanistic Interpretability Breakthrough: Full-Circuit Tracing in Claude",
-      "summary": "Anthropic released a landmark paper demonstrating end-to-end circuit-level interpretability for its Claude model family, showing how specific factual claims and reasoning chains can be traced to identifiable computational subgraphs. The work provides the first scalable methodology for auditing model outputs against internal representations, with immediate implications for AI safety assurance and regulatory compliance.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com/research",
+      "id": "4",
+      "title": "Anthropic Introduces Claude Reasoning Traces for Enterprise Compliance and Auditability",
+      "summary": "Anthropic released a new enterprise feature that exposes structured, human-readable reasoning traces for every Claude response, enabling compliance teams to audit AI decision-making in regulated industries such as finance and healthcare. The feature integrates with existing GRC tooling and addresses a key barrier to enterprise AI adoption around explainability requirements.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "AI",
-      "date": "2026-06-12"
+      "date": "2026-06-24"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node at Arizona Fab",
-      "summary": "TSMC announced that its Arizona Fab 2 has entered volume production on the N1.4 gate-all-around transistor process, the most advanced node manufactured on US soil. Early yields are reportedly within 5% of Taiwan facilities, a milestone for US semiconductor supply chain resilience and a key enabler for next-generation AI accelerator chips.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "id": "5",
+      "title": "TSMC Begins Volume Production of 2nm GAA Chips, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production of its N2 process node using gate-all-around (GAA) transistor architecture, delivering approximately 25% performance improvement and 30% power reduction over its 3nm node. The first customers are expected to be Apple and NVIDIA, with implications for the next generation of AI training and inference hardware.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
       "category": "Innovation",
       "date": "2026-06-23"
     },
     {
-      "id": "7",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with MoE Architecture at 1.2T Active Parameters",
-      "summary": "Meta publicly released the weights and training methodology for Llama 4 Behemoth, a mixture-of-experts model with 1.2 trillion active parameters that matches or exceeds proprietary frontier models on major benchmarks. The open-weight release includes fine-tuning recipes optimized for 8-GPU clusters, significantly lowering the barrier for enterprise and research adoption of frontier-class models.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "id": "6",
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture Exceeding 1 Trillion Parameters",
+      "summary": "Meta released Llama 4 Behemoth under a permissive license, its largest open-weight model featuring a sparse mixture-of-experts architecture with over 1 trillion total parameters but only ~90B active per forward pass. Benchmarks show competitive performance with proprietary frontier models, intensifying the debate around open vs. closed AI development.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
-      "date": "2026-06-14"
+      "date": "2026-06-15"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Spinal Cord Injury Patients",
+      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to include patients with spinal cord injuries, moving beyond ALS patients to test motor intent decoding and digital device control. Early data from existing participants showed stable signal quality over 18 months, addressing durability concerns around implanted neural interfaces.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-06-25"
     },
     {
       "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Production Cells",
-      "summary": "QuantumScape reported that its latest solid-state lithium-metal cells have reached 600 Wh/kg at the production-cell level, nearly doubling the energy density of conventional lithium-ion batteries. The cells completed 1,000 fast-charge cycles with under 10% capacity degradation, a result that could transform EV range, robotics endurance, and portable electronics within two years of automotive qualification.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
-      "category": "Innovation",
+      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Autonomous Construction Site Navigation",
+      "summary": "Boston Dynamics demonstrated a new iteration of its electric Atlas humanoid robot autonomously navigating active construction sites, carrying materials up scaffolding, and adapting to dynamic obstacles in real time. The system leverages onboard LiDAR and vision-language models for scene understanding, targeting deployment in hazardous industrial environments by late 2027.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
       "date": "2026-06-19"
     }
   ]
