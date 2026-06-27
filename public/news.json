@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-06-27",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single unified model, and a 1M-token context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap with specialized domain tools.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex agentic coding tasks, narrowing the gap with specialized domain models. Enterprise API pricing introduces a new tiered compute model based on reasoning depth.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Model Enables Dexterous Manipulation in Unstructured Environments",
-      "summary": "DeepMind unveiled Gemini Robotics, a foundation model that directly maps visual and tactile sensor inputs to fine-grained motor commands for robotic hands. In warehouse trials with partner companies, the system achieved a 94% grasp success rate on previously unseen objects, a major step toward general-purpose robotic manipulation.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind announced Gemini 2.5 Ultra, claiming top scores on SWE-Bench, GPQA Diamond, and a new internal agentic workflow benchmark that tests multi-step tool use across APIs. The model introduces a natively integrated code execution sandbox and improved grounding with Google Search, positioning it as a direct competitor to GPT-5 for enterprise agent deployments.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "Robotics",
+      "category": "AI",
       "date": "2026-06-18"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Assembly Lines",
-      "summary": "Figure AI announced its Figure 02 humanoid robots have entered full commercial deployment at BMW's Spartanburg plant, performing parts inspection, bin picking, and sub-assembly tasks across multiple shifts. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in two of its Gigafactory facilities for material handling and parts sorting tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for task understanding. Elon Musk stated the company aims to produce 10,000 units by end of 2026 for both internal use and external pilot customers.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-06-22"
-    },
-    {
-      "id": "4",
-      "title": "Anthropic Introduces Claude Reasoning Traces for Enterprise Compliance and Auditability",
-      "summary": "Anthropic released a new enterprise feature that exposes structured, human-readable reasoning traces for every Claude response, enabling compliance teams to audit AI decision-making in regulated industries such as finance and healthcare. The feature integrates with existing GRC tooling and addresses a key barrier to enterprise AI adoption around explainability requirements.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "AI",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "5",
-      "title": "TSMC Begins Volume Production of 2nm GAA Chips, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed volume production of its N2 process node using gate-all-around (GAA) transistor architecture, delivering approximately 25% performance improvement and 30% power reduction over its 3nm node. The first customers are expected to be Apple and NVIDIA, with implications for the next generation of AI training and inference hardware.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "Innovation",
       "date": "2026-06-23"
     },
     {
-      "id": "6",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture Exceeding 1 Trillion Parameters",
-      "summary": "Meta released Llama 4 Behemoth under a permissive license, its largest open-weight model featuring a sparse mixture-of-experts architecture with over 1 trillion total parameters but only ~90B active per forward pass. Benchmarks show competitive performance with proprietary frontier models, intensifying the debate around open vs. closed AI development.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-06-15"
-    },
-    {
-      "id": "7",
-      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Spinal Cord Injury Patients",
-      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to include patients with spinal cord injuries, moving beyond ALS patients to test motor intent decoding and digital device control. Early data from existing participants showed stable signal quality over 18 months, addressing durability concerns around implanted neural interfaces.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
+      "id": "4",
+      "title": "Figure AI Raises $1.5B Series C, Demonstrates Autonomous Warehouse Operations",
+      "summary": "Figure AI closed a massive Series C round valuing the company at over $15 billion, backed by Microsoft, NVIDIA, and Bezos Expeditions. The company demonstrated its Figure 03 humanoid performing end-to-end warehouse pick-and-pack operations with 97% reliability over 8-hour shifts. The funding will accelerate manufacturing scale-up and development of its foundation model for generalized robotic manipulation.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
       "date": "2026-06-25"
     },
     {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
+      "summary": "Anthropic released a new orchestration layer for Claude that enables complex multi-agent workflows with built-in guardrails, audit logging, and human-in-the-loop approval gates. The framework supports deterministic tool-use graphs combined with LLM-driven decision points, addressing enterprise concerns around reliability and compliance in agentic AI systems. Early adopters report 40% reduction in workflow automation development time compared to custom LangGraph implementations.",
+      "source": "VentureBeat",
+      "url": "https://www.venturebeat.com",
+      "category": "AI",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has started risk production on its A14 (1.4nm-class) process technology, approximately one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, promising 15% speed improvement and 30% power reduction over N2. Major customers including Apple, NVIDIA, and AMD are expected to tape out designs in Q4 2026 for high-volume production in late 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error Correction Threshold",
+      "summary": "Microsoft and Quantinuum jointly published results showing sustained logical qubit error rates below 10⁻⁶ using their topological-hybrid approach on Quantinuum's latest trapped-ion system. The team ran circuits with 30 logical qubits performing over 100 logical gate operations, a milestone that researchers say brings fault-tolerant quantum computing materially closer. Microsoft announced plans to offer the system through Azure Quantum in preview by early 2027.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-06-16"
+    },
+    {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Autonomous Construction Site Navigation",
-      "summary": "Boston Dynamics demonstrated a new iteration of its electric Atlas humanoid robot autonomously navigating active construction sites, carrying materials up scaffolding, and adapting to dynamic obstacles in real time. The system leverages onboard LiDAR and vision-language models for scene understanding, targeting deployment in hazardous industrial environments by late 2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-06-19"
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting six major foundation model providers including OpenAI, Google, and Meta regarding their general-purpose AI systemic risk assessments. Companies are required to demonstrate adequate safety testing, red-teaming documentation, and energy consumption reporting. The enforcement actions are being closely watched as they will set precedents for how the world's most comprehensive AI regulation is practically applied.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-06-26"
     }
   ]
 }
