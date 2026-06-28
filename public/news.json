@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-27",
+  "lastUpdated": "2026-06-28",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex agentic coding tasks, narrowing the gap with specialized domain models. Enterprise API pricing introduces a new tiered compute model based on reasoning depth.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the previously separate o-series reasoning models into a single system. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap toward expert-level performance in several professional domains.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,8 +12,8 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New State-of-the-Art on Agentic Benchmarks",
-      "summary": "DeepMind announced Gemini 2.5 Ultra, claiming top scores on SWE-Bench, GPQA Diamond, and a new internal agentic workflow benchmark that tests multi-step tool use across APIs. The model introduces a natively integrated code execution sandbox and improved grounding with Google Search, positioning it as a direct competitor to GPT-5 for enterprise agent deployments.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Marks in Agentic Task Completion",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra with a focus on agentic workflows, allowing the model to autonomously browse the web, execute multi-step plans, and interact with external APIs with minimal human oversight. Internal benchmarks show a 40% improvement over its predecessor in end-to-end task completion rates across software engineering and research assistant scenarios.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in two of its Gigafactory facilities for material handling and parts sorting tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for task understanding. Elon Musk stated the company aims to produce 10,000 units by end of 2026 for both internal use and external pilot customers.",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facilities",
+      "summary": "Figure AI announced its first scaled commercial deployment, placing over 200 of its Figure 03 humanoid robots across BMW's Spartanburg, South Carolina manufacturing complex. The robots handle material transport, parts kitting, and quality inspection tasks, operating alongside human workers with an updated vision-language-action model that enables real-time task adaptation without explicit reprogramming.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-06-23"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Demonstrates Autonomous Warehouse Operations",
-      "summary": "Figure AI closed a massive Series C round valuing the company at over $15 billion, backed by Microsoft, NVIDIA, and Bezos Expeditions. The company demonstrated its Figure 03 humanoid performing end-to-end warehouse pick-and-pack operations with 97% reliability over 8-hour shifts. The funding will accelerate manufacturing scale-up and development of its foundation model for generalized robotic manipulation.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
-      "summary": "Anthropic released a new orchestration layer for Claude that enables complex multi-agent workflows with built-in guardrails, audit logging, and human-in-the-loop approval gates. The framework supports deterministic tool-use graphs combined with LLM-driven decision points, addressing enterprise concerns around reliability and compliance in agentic AI systems. Early adopters report 40% reduction in workflow automation development time compared to custom LangGraph implementations.",
-      "source": "VentureBeat",
-      "url": "https://www.venturebeat.com",
-      "category": "AI",
-      "date": "2026-06-22"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has started risk production on its A14 (1.4nm-class) process technology, approximately one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, promising 15% speed improvement and 30% power reduction over N2. Major customers including Apple, NVIDIA, and AMD are expected to tape out designs in Q4 2026 for high-volume production in late 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-06-24"
     },
     {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Chains in Live Demo",
+      "summary": "Tesla showcased its third-generation Optimus humanoid robot performing unscripted sequences of household chores including laundry folding, dish loading, and object retrieval in a live demonstration at its Palo Alto lab. The robot leverages an end-to-end transformer-based control policy trained on large-scale teleoperation data, marking a notable step toward general-purpose domestic robotics.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Sandboxing for Enterprise Autonomous Agents",
+      "summary": "Anthropic released a new enterprise framework allowing Claude-based agents to safely execute code, manage files, and interact with databases inside cryptographically isolated sandboxes with fine-grained permission controls. The system is designed to give security-conscious organizations a path toward deploying AI agents in production environments while maintaining auditability and containment guarantees.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "6",
+      "title": "ASML Reports Breakthrough in High-NA EUV Yield, Enabling Sub-1.4nm Chip Production",
+      "summary": "ASML disclosed that its high-numerical-aperture EUV lithography systems have achieved production-viable wafer yields for the first time, clearing a critical bottleneck for sub-1.4nm semiconductor manufacturing. Leading foundries TSMC and Intel are expected to integrate the technology into high-volume production lines by early 2027, enabling continued transistor density scaling for AI accelerator chips.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "Innovation",
+      "date": "2026-06-17"
+    },
+    {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Reliable Logical Qubit Operations Below Error Correction Threshold",
-      "summary": "Microsoft and Quantinuum jointly published results showing sustained logical qubit error rates below 10⁻⁶ using their topological-hybrid approach on Quantinuum's latest trapped-ion system. The team ran circuits with 30 logical qubits performing over 100 logical gate operations, a milestone that researchers say brings fault-tolerant quantum computing materially closer. Microsoft announced plans to offer the system through Azure Quantum in preview by early 2027.",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
+      "summary": "Microsoft and Quantinuum jointly announced they performed repeated rounds of quantum error correction on logical qubits with a corrected error rate below 10⁻⁸, a threshold widely considered necessary for practical quantum algorithms. The result, achieved on Quantinuum's latest trapped-ion system using Microsoft's topological qubit encoding scheme, represents a significant milestone on the roadmap to commercially useful quantum computing.",
       "source": "Nature",
       "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-06-16"
+      "date": "2026-06-26"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting six major foundation model providers including OpenAI, Google, and Meta regarding their general-purpose AI systemic risk assessments. Companies are required to demonstrate adequate safety testing, red-teaming documentation, and energy consumption reporting. The enforcement actions are being closely watched as they will set precedents for how the world's most comprehensive AI regulation is practically applied.",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, focusing on general-purpose AI model providers including OpenAI, Google, and Meta. Auditors are evaluating systemic risk assessments, training data documentation, and red-teaming protocols, with potential fines of up to 3% of global revenue for non-compliance, setting a global precedent for AI regulation enforcement.",
       "source": "Financial Times",
       "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-06-26"
+      "date": "2026-06-23"
     }
   ]
 }
