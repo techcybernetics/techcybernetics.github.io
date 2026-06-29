@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-06-28",
+  "lastUpdated": "2026-06-29",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the previously separate o-series reasoning models into a single system. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap toward expert-level performance in several professional domains.",
+      "summary": "OpenAI officially released GPT-5, featuring substantially improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges previous o-series deliberative capabilities into a single model. Benchmarks show significant gains on PhD-level science QA and competitive coding, though independent evaluators note diminishing returns on certain narrow tasks compared to GPT-4o fine-tunes.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-06-20"
+      "date": "2026-06-22"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New Marks in Agentic Task Completion",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra with a focus on agentic workflows, allowing the model to autonomously browse the web, execute multi-step plans, and interact with external APIs with minimal human oversight. Internal benchmarks show a 40% improvement over its predecessor in end-to-end task completion rates across software engineering and research assistant scenarios.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Multi-Agent Coordination Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra with a focus on multi-agent orchestration, allowing a single model to spawn and manage subordinate agent threads for complex workflows. The system demonstrated state-of-the-art performance on SWE-Bench and real-world enterprise automation tasks, intensifying competition with OpenAI and Anthropic in the agentic AI space.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-06-18"
+      "date": "2026-06-25"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facilities",
-      "summary": "Figure AI announced its first scaled commercial deployment, placing over 200 of its Figure 03 humanoid robots across BMW's Spartanburg, South Carolina manufacturing complex. The robots handle material transport, parts kitting, and quality inspection tasks, operating alongside human workers with an updated vision-language-action model that enables real-time task adaptation without explicit reprogramming.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Fremont Factory",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing material handling and quality inspection tasks alongside human workers at the Fremont plant. The new revision features improved dexterous manipulation with 22-DOF hands and an on-device vision-language model enabling natural-language task instructions, though Tesla says fully autonomous operation remains limited to structured environments.",
       "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "url": "https://www.reuters.com/technology",
       "category": "Robotics",
       "date": "2026-06-24"
     },
     {
       "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Chains in Live Demo",
-      "summary": "Tesla showcased its third-generation Optimus humanoid robot performing unscripted sequences of household chores including laundry folding, dish loading, and object retrieval in a live demonstration at its Palo Alto lab. The robot leverages an end-to-end transformer-based control policy trained on large-scale teleoperation data, marking a notable step toward general-purpose domestic robotics.",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment Across Three European Plants",
+      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots at three additional European manufacturing facilities following a successful pilot in Spartanburg. The robots handle bin-picking, part insertion, and inter-station logistics, with Figure citing a 40% reduction in per-unit integration cost compared to first-generation deployments.",
       "source": "TechCrunch",
       "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-06-22"
+      "date": "2026-06-18"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Sandboxing for Enterprise Autonomous Agents",
-      "summary": "Anthropic released a new enterprise framework allowing Claude-based agents to safely execute code, manage files, and interact with databases inside cryptographically isolated sandboxes with fine-grained permission controls. The system is designed to give security-conscious organizations a path toward deploying AI agents in production environments while maintaining auditability and containment guarantees.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "6",
-      "title": "ASML Reports Breakthrough in High-NA EUV Yield, Enabling Sub-1.4nm Chip Production",
-      "summary": "ASML disclosed that its high-numerical-aperture EUV lithography systems have achieved production-viable wafer yields for the first time, clearing a critical bottleneck for sub-1.4nm semiconductor manufacturing. Leading foundries TSMC and Intel are expected to integrate the technology into high-volume production lines by early 2027, enabling continued transistor density scaling for AI accelerator chips.",
+      "title": "Anthropic Introduces Claude Tool-Use Sandboxing for Enterprise Agentic Workflows",
+      "summary": "Anthropic rolled out a new sandboxed execution environment for Claude's tool-use capabilities, allowing enterprise customers to grant agents controlled access to internal APIs, databases, and file systems with fine-grained permission policies. The feature includes an audit-log system and human-in-the-loop checkpoints, addressing a key barrier to production deployment of autonomous AI agents in regulated industries.",
       "source": "Ars Technica",
       "url": "https://www.arstechnica.com",
-      "category": "Innovation",
-      "date": "2026-06-17"
-    },
-    {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
-      "summary": "Microsoft and Quantinuum jointly announced they performed repeated rounds of quantum error correction on logical qubits with a corrected error rate below 10⁻⁸, a threshold widely considered necessary for practical quantum algorithms. The result, achieved on Quantinuum's latest trapped-ion system using Microsoft's topological qubit encoding scheme, represents a significant milestone on the roadmap to commercially useful quantum computing.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
+      "category": "AI",
       "date": "2026-06-26"
     },
     {
-      "id": "8",
-      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, focusing on general-purpose AI model providers including OpenAI, Google, and Meta. Auditors are evaluating systemic risk assessments, training data documentation, and red-teaming protocols, with potential fines of up to 3% of global revenue for non-compliance, setting a global precedent for AI regulation enforcement.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
+      "id": "6",
+      "title": "ASML Reports Record EUV High-NA Orders as Chip Firms Race Toward 1.4nm Nodes",
+      "summary": "ASML disclosed a record quarterly backlog for its next-generation High-NA EUV lithography systems, driven by orders from TSMC, Intel, and Samsung targeting sub-2nm process nodes expected in 2027-2028. The machines, priced at over $380 million each, are critical to sustaining Moore's Law scaling and meeting surging AI chip demand.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
       "category": "Innovation",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "7",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
+      "summary": "The EU AI Office initiated its first formal compliance audits of major foundation model providers under the AI Act's general-purpose AI provisions, which took full effect in June 2026. Companies including OpenAI, Google, and Meta are required to demonstrate systemic risk assessments, red-teaming documentation, and energy consumption disclosures, setting a global precedent for AI governance enforcement.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/technology",
+      "category": "Innovation",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "8",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction and Logistics",
+      "summary": "Boston Dynamics, backed by Hyundai, announced the commercial availability of its electric Atlas humanoid platform tailored for construction site logistics and warehouse operations. The system integrates a reinforcement-learning locomotion stack with LLM-based task planning, enabling it to navigate unstructured terrain while interpreting high-level natural-language job orders from site managers.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
       "date": "2026-06-23"
     }
   ]
