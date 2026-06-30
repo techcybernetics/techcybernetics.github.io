@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-06-30",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring substantially improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges previous o-series deliberative capabilities into a single model. Benchmarks show significant gains on PhD-level science QA and competitive coding, though independent evaluators note diminishing returns on certain narrow tasks compared to GPT-4o fine-tunes.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5 in mid-June 2026, featuring natively fused vision, audio, and text reasoning in a single architecture rather than modular adapters. The model demonstrates significant improvements in long-horizon planning tasks and supports a 1-million-token context window, raising the bar for enterprise document analysis and multi-step agentic workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai",
+      "category": "AI",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Benchmarks",
+      "summary": "DeepMind released Gemini Ultra 2, which set new records on GPQA-Diamond, MathOdyssey, and several graduate-level science benchmarks. The model introduces a mixture-of-experts architecture with dynamic routing that reduces inference cost by roughly 40% compared to its predecessor while improving accuracy on complex multi-step reasoning chains.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-06-22"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Multi-Agent Coordination Benchmarks",
-      "summary": "DeepMind released Gemini 2.5 Ultra with a focus on multi-agent orchestration, allowing a single model to spawn and manage subordinate agent threads for complex workflows. The system demonstrated state-of-the-art performance on SWE-Bench and real-world enterprise automation tasks, intensifying competition with OpenAI and Anthropic in the agentic AI space.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-06-25"
-    },
-    {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Fremont Factory",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing material handling and quality inspection tasks alongside human workers at the Fremont plant. The new revision features improved dexterous manipulation with 22-DOF hands and an on-device vision-language model enabling natural-language task instructions, though Tesla says fully autonomous operation remains limited to structured environments.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
-      "date": "2026-06-24"
-    },
-    {
-      "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment Across Three European Plants",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots at three additional European manufacturing facilities following a successful pilot in Spartanburg. The robots handle bin-picking, part insertion, and inter-station logistics, with Figure citing a 40% reduction in per-unit integration cost compared to first-generation deployments.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-06-18"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Sandboxing for Enterprise Agentic Workflows",
-      "summary": "Anthropic rolled out a new sandboxed execution environment for Claude's tool-use capabilities, allowing enterprise customers to grant agents controlled access to internal APIs, databases, and file systems with fine-grained permission policies. The feature includes an audit-log system and human-in-the-loop checkpoints, addressing a key barrier to production deployment of autonomous AI agents in regulated industries.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "AI",
-      "date": "2026-06-26"
-    },
-    {
-      "id": "6",
-      "title": "ASML Reports Record EUV High-NA Orders as Chip Firms Race Toward 1.4nm Nodes",
-      "summary": "ASML disclosed a record quarterly backlog for its next-generation High-NA EUV lithography systems, driven by orders from TSMC, Intel, and Samsung targeting sub-2nm process nodes expected in 2027-2028. The machines, priced at over $380 million each, are critical to sustaining Moore's Law scaling and meeting surging AI chip demand.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
-      "category": "Innovation",
-      "date": "2026-06-20"
-    },
-    {
-      "id": "7",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The EU AI Office initiated its first formal compliance audits of major foundation model providers under the AI Act's general-purpose AI provisions, which took full effect in June 2026. Companies including OpenAI, Google, and Meta are required to demonstrate systemic risk assessments, red-teaming documentation, and energy consumption disclosures, setting a global precedent for AI governance enforcement.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/technology",
-      "category": "Innovation",
-      "date": "2026-06-27"
-    },
-    {
-      "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction and Logistics",
-      "summary": "Boston Dynamics, backed by Hyundai, announced the commercial availability of its electric Atlas humanoid platform tailored for construction site logistics and warehouse operations. The system integrates a reinforcement-learning locomotion stack with LLM-based task planning, enabling it to navigate unstructured terrain while interpreting high-level natural-language job orders from site managers.",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
+      "summary": "Figure AI announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment across two BMW manufacturing plants in South Carolina. The robots handle parts kitting, quality inspection, and inter-station material transport, operating alongside human workers with an improved onboard vision-language-action model for real-time task adaptation.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-06-23"
+      "date": "2026-06-25"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Construction Site Navigation",
+      "summary": "Boston Dynamics showcased its electric Atlas robot autonomously navigating unstructured construction environments, climbing scaffolding, and transporting 30-kg payloads across uneven terrain. The demonstration highlighted a new reinforcement-learning-based locomotion policy that generalizes across surface types without pre-mapping, a significant step toward real-world deployment in construction and disaster response.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
+      "summary": "Anthropic launched a new orchestration layer for Claude that enables enterprises to build multi-agent systems with structured tool use, permission scoping, and audit logging built in. The framework supports deterministic handoffs between specialized sub-agents and is designed for regulated industries such as finance and healthcare where traceability of AI decision chains is a compliance requirement.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) gate-all-around transistor process, primarily serving AI accelerator and high-performance computing customers. The node delivers an estimated 20% speed improvement and 30% power reduction over N2, which is expected to power the next generation of AI training and inference chips arriving in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "Neuralink obtained FDA clearance to begin broader clinical trials of its N2 implant, which doubles the electrode count of the original device to 2,048 channels and adds bidirectional stimulation capabilities. Early trial participants with spinal cord injuries demonstrated cursor control latency under 50ms and preliminary sensory feedback, marking a milestone in closed-loop neural interfaces.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "8",
+      "title": "Toyota Research Institute Unveils Diffusion-Policy-Based Robotic Manipulation System",
+      "summary": "TRI published results on a diffusion-policy architecture that enables robotic arms to learn dexterous manipulation tasks from fewer than 50 human demonstrations, generalizing to novel objects and cluttered environments. The system achieved a 92% success rate on 20 unseen household tasks, suggesting a viable path toward general-purpose home robotics without task-specific engineering.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "Robotics",
+      "date": "2026-06-28"
     }
   ]
 }
