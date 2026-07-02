@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a vastly expanded context window. The model demonstrates step-change improvements on graduate-level science and mathematics benchmarks, and introduces a new 'deep research' mode that can autonomously browse, synthesize, and cite sources over multi-hour tasks.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a larger context window reaching 1M tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-06-24"
+      "date": "2026-06-25"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Coding and Scientific Benchmarks",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra, which achieves state-of-the-art scores on SWE-Bench Verified, GPQA Diamond, and several agentic task benchmarks. The model natively supports million-token context and introduces improved tool-use capabilities that allow it to orchestrate complex multi-step workflows with minimal human intervention.",
+      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Breakthrough Agentic Capabilities",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra, emphasizing autonomous multi-step task completion across Google Workspace and third-party APIs. The model can independently research, draft, and execute complex workflows with human-in-the-loop checkpoints, representing a major step toward production-grade AI agents in enterprise environments.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-06-19"
+      "date": "2026-06-28"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facilities",
-      "summary": "Figure AI announced that its Figure 02 humanoid robots have entered full commercial deployment at multiple BMW manufacturing plants in the US, performing bin-picking, parts transfer, and quality inspection tasks alongside human workers. The company reports the robots now operate autonomously for full 8-hour shifts with a 99.2% task completion rate, marking a milestone in real-world humanoid utility.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Factories",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for material handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and onboard vision-language models for real-time task adaptation without explicit reprogramming.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
@@ -30,48 +30,48 @@
     },
     {
       "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Chaining",
-      "summary": "Tesla showcased its Optimus Gen 3 prototype performing sequences of unsupervised household tasks including laundry folding, dish loading, and object retrieval using end-to-end vision-language-action models. The demo, while still in controlled environments, represents a significant leap in dexterous manipulation and semantic scene understanding for general-purpose humanoid robots.",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
+      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Bezos Expeditions, valuing the company at over $15 billion. The funding will go toward building a dedicated manufacturing facility in South Carolina and scaling production of its Figure 03 humanoid, which has been piloting warehouse logistics tasks with BMW and Amazon.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com",
       "category": "Robotics",
-      "date": "2026-06-26"
+      "date": "2026-06-30"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude 'Computer Use 2.0' with Full Desktop Agent Capabilities",
-      "summary": "Anthropic released a major update to Claude's computer-use abilities, enabling the model to reliably operate desktop applications, navigate complex GUI workflows, and complete multi-application tasks such as data migration between enterprise systems. Early enterprise customers report 60-70% reductions in repetitive back-office task time, raising both productivity hopes and workforce transition concerns.",
+      "title": "Anthropic Introduces Claude Tool-Use Mesh for Multi-Agent Orchestration",
+      "summary": "Anthropic launched a new multi-agent orchestration framework that allows multiple Claude instances to collaborate on complex tasks with shared memory, role specialization, and conflict resolution protocols. Early benchmarks show the mesh architecture outperforming single-agent approaches by 40% on large-scale software engineering and research synthesis tasks.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-06-28"
+      "date": "2026-06-27"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its A14 (1.4nm-class) process node has entered high-volume manufacturing, approximately one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, offering a roughly 25% performance gain and 35% power reduction over N2, with initial production allocated to Apple and NVIDIA's next-generation AI accelerators.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node has entered high-volume manufacturing at its Kaohsiung fab, several months ahead of the originally projected timeline. The node delivers a 20% performance improvement and 30% power reduction over N2, with Apple and Nvidia confirmed as lead customers for chips expected in early 2027 devices.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-06-20"
+      "date": "2026-06-26"
     },
     {
       "id": "7",
-      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Threshold",
-      "summary": "Microsoft and Atom Computing jointly announced a demonstration of fault-tolerant quantum error correction on a neutral-atom quantum processor, achieving logical error rates below the surface-code threshold across 48 logical qubits. This result is considered a critical prerequisite for building practical, scalable quantum computers and validates Microsoft's topological hybrid approach to quantum architecture.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface",
+      "summary": "Neuralink obtained FDA approval to begin broader clinical trials with its N2 implant, which doubles the electrode count to 2,048 channels and introduces bidirectional stimulation capabilities. The approval follows positive results from its initial cohort of paralysis patients who demonstrated high-bandwidth cursor control and text input exceeding 60 words per minute.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-06-25"
+      "date": "2026-06-29"
     },
     {
       "id": "8",
-      "title": "Waymo Expands Fully Driverless Robotaxi Service to 10 New US Metro Areas",
-      "summary": "Alphabet's Waymo announced its largest single expansion, launching fully autonomous ride-hailing in ten additional US metropolitan areas including Miami, Seattle, and Dallas. The expansion is powered by the company's sixth-generation hardware suite and an updated foundation model for driving that was trained on over 50 billion miles of combined real and simulated driving data.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
-      "category": "Innovation",
-      "date": "2026-06-30"
+      "title": "Boston Dynamics and Hyundai Deploy Autonomous Construction Robot Fleet in Seoul",
+      "summary": "Boston Dynamics, in partnership with Hyundai Engineering, deployed a fleet of Atlas electric humanoid robots and Spot quadrupeds on a commercial high-rise construction site in Seoul. The robots autonomously perform rebar inspection, site surveying, and heavy material transport, coordinated by a centralized fleet management system that reduces project timeline estimates by 15%.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-07-01"
     }
   ]
 }
