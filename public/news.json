@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-02",
+  "lastUpdated": "2026-07-03",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a larger context window reaching 1M tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
+      "summary": "OpenAI officially rolled out GPT-5 across ChatGPT and its API, featuring substantially improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses previous specialist models into one system. Benchmarks show significant gains on PhD-level science questions and complex multi-step coding tasks, though pricing and rate limits remain steep for high-throughput enterprise users.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-06-25"
     },
     {
       "id": "2",
-      "title": "Google DeepMind Unveils Gemini 2.5 Ultra with Breakthrough Agentic Capabilities",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra, emphasizing autonomous multi-step task completion across Google Workspace and third-party APIs. The model can independently research, draft, and execute complex workflows with human-in-the-loop checkpoints, representing a major step toward production-grade AI agents in enterprise environments.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Coding and Research Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra with a two-million-token context window and significantly improved agentic capabilities, enabling it to autonomously browse the web, execute multi-file code refactors, and synthesize research papers. Independent evaluations on SWE-Bench and GPQA Diamond place it neck-and-neck with GPT-5, intensifying the frontier model competition.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
       "date": "2026-06-28"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Factories",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for material handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and onboard vision-language models for real-time task adaptation without explicit reprogramming.",
+      "title": "Anthropic Introduces Claude 4 with Constitutional Safeguards and 'Extended Thinking' Traces",
+      "summary": "Anthropic launched Claude 4, featuring a transparent extended-thinking mode that exposes the model's chain-of-thought to users and developers for auditability. The model demonstrates state-of-the-art performance on agentic tool use while maintaining Anthropic's constitutional AI alignment approach, and introduces a new 'Guardrail API' allowing enterprises to set fine-grained policy controls.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence",
+      "category": "AI",
+      "date": "2026-06-30"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in its Austin Gigafactory for pick-and-place and quality inspection tasks alongside human workers. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for task comprehension, though Tesla acknowledges the robots still require human supervisory oversight for edge cases.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-06-22"
     },
     {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Bezos Expeditions, valuing the company at over $15 billion. The funding will go toward building a dedicated manufacturing facility in South Carolina and scaling production of its Figure 03 humanoid, which has been piloting warehouse logistics tasks with BMW and Amazon.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-06-30"
-    },
-    {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Mesh for Multi-Agent Orchestration",
-      "summary": "Anthropic launched a new multi-agent orchestration framework that allows multiple Claude instances to collaborate on complex tasks with shared memory, role specialization, and conflict resolution protocols. Early benchmarks show the mesh architecture outperforming single-agent approaches by 40% on large-scale software engineering and research synthesis tasks.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-06-27"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 process node has entered high-volume manufacturing at its Kaohsiung fab, several months ahead of the originally projected timeline. The node delivers a 20% performance improvement and 30% power reduction over N2, with Apple and Nvidia confirmed as lead customers for chips expected in early 2027 devices.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric for Warehouse Logistics at Scale",
+      "summary": "Boston Dynamics revealed the production-ready version of its electric Atlas humanoid, now purpose-built for warehouse logistics in partnership with Hyundai's supply chain division. The robot demonstrates reliable box manipulation, pallet stacking, and autonomous navigation in cluttered environments, with pilot deployments planned across Hyundai and Kia parts distribution centers in Q3 2026.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
       "date": "2026-06-26"
     },
     {
+      "id": "6",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
+      "summary": "Figure AI closed a massive $1.5 billion Series C round led by Microsoft and NVIDIA, valuing the company at approximately $15 billion. The funding will be used to build a dedicated humanoid robot manufacturing facility in South Carolina and expand its partnership with BMW, where Figure 02 robots are already performing wire harness installation and parts kitting tasks.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
+      "category": "Robotics",
+      "date": "2026-07-01"
+    },
+    {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface",
-      "summary": "Neuralink obtained FDA approval to begin broader clinical trials with its N2 implant, which doubles the electrode count to 2,048 channels and introduces bidirectional stimulation capabilities. The approval follows positive results from its initial cohort of paralysis patients who demonstrated high-bandwidth cursor control and text input exceeding 60 words per minute.",
+      "title": "TSMC's Arizona Fab Achieves Yield Parity with Taiwan on 3nm Process",
+      "summary": "TSMC announced that its Phoenix, Arizona fabrication facility has reached yield rates on its N3E process node that match its flagship Taiwanese fabs, a critical milestone for US semiconductor supply chain resilience. The achievement comes ahead of schedule and is expected to accelerate onshoring of advanced chip production for Apple, NVIDIA, and AMD, with 2nm pilot production at the Arizona site now targeted for late 2027.",
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com",
+      "category": "Innovation",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "8",
+      "title": "Neuralink Receives FDA Clearance to Expand Brain-Computer Interface Trials to 50 Patients",
+      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical study from a small initial cohort to 50 participants with spinal cord injuries and ALS, following promising early results showing participants achieving cursor control and text communication at speeds exceeding 40 words per minute. The expansion will also test a second-generation implant with 3,072 electrodes and a wireless charging system, marking a significant step toward commercial BCI applications.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
       "date": "2026-06-29"
-    },
-    {
-      "id": "8",
-      "title": "Boston Dynamics and Hyundai Deploy Autonomous Construction Robot Fleet in Seoul",
-      "summary": "Boston Dynamics, in partnership with Hyundai Engineering, deployed a fleet of Atlas electric humanoid robots and Spot quadrupeds on a commercial high-rise construction site in Seoul. The robots autonomously perform rebar inspection, site surveying, and heavy material transport, coordinated by a centralized fleet management system that reduces project timeline estimates by 15%.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-07-01"
     }
   ]
 }
