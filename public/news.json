@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Enhanced Reasoning and Multimodal Capabilities",
-      "summary": "OpenAI officially released GPT-5, featuring significant improvements in long-horizon reasoning, native multimodal understanding across text, image, audio, and video, and a substantially larger context window. Benchmarks show marked gains in graduate-level science and mathematics, with the model demonstrating more reliable chain-of-thought reasoning and reduced hallucination rates compared to GPT-4o.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single unified model, and a context window exceeding 1 million tokens. The model demonstrates marked improvements on doctoral-level science benchmarks and complex multi-step coding tasks, raising the bar for frontier model capabilities.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,44 +12,44 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra, which tops SWE-Bench Verified and a new internal agentic software engineering benchmark with over 65% autonomous resolution rates on real-world GitHub issues. The model introduces improved tool-use orchestration and a planning module that enables multi-step debugging workflows with minimal human intervention.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra, which topped SWE-Bench Verified and internal agentic workflow evaluations, demonstrating an ability to autonomously resolve complex GitHub issues across large codebases. The model integrates tightly with Google Cloud's Vertex AI platform, signaling an aggressive push into enterprise AI agent deployment.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "AI",
       "date": "2026-07-02"
     },
     {
       "id": "3",
-      "title": "Figure AI Deploys Humanoid Robots on BMW Assembly Lines at Scale",
-      "summary": "Figure AI announced that its Figure 02 humanoid robots are now operating across multiple BMW manufacturing plants in South Carolina, performing bin-picking, parts transfer, and quality inspection tasks alongside human workers. The deployment marks one of the largest commercial humanoid robot rollouts to date, with over 200 units actively working in production shifts.",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Facility",
+      "summary": "Figure AI announced that its Figure 02 humanoid robots have entered full commercial deployment at BMW's Spartanburg, South Carolina plant, performing parts inspection, bin picking, and inter-station material transport. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-06-25"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion",
-      "summary": "Tesla showcased its Optimus Gen 3 humanoid robot performing end-to-end household tasks including laundry folding, dish loading, and object retrieval using a vision-language-action model trained on large-scale teleoperation data. The demonstration highlighted improved fine-motor dexterity with its redesigned 22-DOF hands and real-time obstacle avoidance in cluttered home environments.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Code Execution",
-      "summary": "Anthropic released a major update to its Claude platform enabling persistent conversational memory across sessions and sandboxed code execution environments for agentic workflows. The system allows Claude to maintain project context over weeks, autonomously write and test code, and interface with external APIs, positioning it as a long-running AI collaborator rather than a single-turn assistant.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
       "date": "2026-07-01"
     },
     {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrated Performing Unsupervised Warehouse Tasks",
+      "summary": "Tesla showcased its third-generation Optimus humanoid robot operating autonomously in a warehouse environment, navigating dynamic obstacles, sorting packages, and recovering gracefully from manipulation failures. Elon Musk stated that limited external sales could begin in late 2026, though robotics analysts caution that reliability in unstructured environments remains a significant hurdle.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-07-05"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
+      "summary": "Anthropic released a new orchestration layer for Claude that allows enterprises to define multi-step tool-use workflows with built-in guardrails, audit logging, and human-in-the-loop approval gates. The framework targets regulated industries like finance and healthcare where autonomous AI agents need verifiable decision trails and constrained action spaces.",
+      "source": "VentureBeat",
+      "url": "https://www.venturebeat.com",
+      "category": "AI",
+      "date": "2026-07-03"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed it has started volume production on its A14 (1.4nm-class) process technology, with initial customers including NVIDIA and Apple. The node delivers approximately 25% performance improvement and 35% power efficiency gains over N2, which is expected to enable a new generation of AI training and inference chips targeting 2027 data center deployments.",
+      "title": "TSMC Begins Volume Production of 2nm GAA Chips, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production at its Fab 20 facility using its N2 gate-all-around (GAA) transistor process, with Apple and NVIDIA among the first customers. The 2nm node delivers roughly 25% better performance and 30% lower power consumption compared to 3nm, which is expected to substantially improve AI training and inference efficiency in next-generation data center GPUs.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta regarding systemic risk assessments, transparency obligations, and red-teaming documentation requirements. The audits signal the beginning of substantive regulatory enforcement and could set global precedents for how large-scale AI systems are governed.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits of High-Risk Systems",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting high-risk AI deployments in hiring, credit scoring, and law enforcement across member states. Companies found non-compliant face fines up to 7% of global revenue, and early reports suggest many organizations are still scrambling to complete required technical documentation and bias assessments.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-07-05"
+      "date": "2026-07-06"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Real-Time VLA Control for Warehouse Logistics",
-      "summary": "Boston Dynamics, backed by Hyundai, revealed an updated electric Atlas humanoid robot now powered by a vision-language-action (VLA) model that enables real-time semantic understanding of warehouse environments and adaptive manipulation of irregularly shaped packages. Field trials in Hyundai logistics centers showed a 40% throughput increase over conventional robotic arms for mixed-SKU palletizing tasks.",
+      "title": "Boston Dynamics and Hyundai Unveil Next-Gen Atlas with Dexterous Manipulation for Construction",
+      "summary": "Boston Dynamics, backed by Hyundai, debuted an updated electric Atlas humanoid robot with significantly improved dexterous hands capable of manipulating construction tools, turning valves, and threading bolts. The company announced pilot programs with three major construction firms, positioning the platform as a solution for labor shortages in physically demanding and hazardous job sites.",
       "source": "Wired",
       "url": "https://www.wired.com",
       "category": "Robotics",
-      "date": "2026-07-04"
+      "date": "2026-07-07"
     }
   ]
 }
