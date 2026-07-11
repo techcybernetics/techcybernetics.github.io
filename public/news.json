@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-11",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a 1M-token context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap with specialized domain tools.",
+      "title": "OpenAI Releases GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially launched GPT-5, featuring natively fused vision, audio, and text reasoning in a single architecture rather than bolted-on adapters. The model demonstrates significant improvements in long-horizon planning tasks and supports a 1M-token context window with near-linear attention scaling. Early benchmarks show a step-change in complex multi-step coding and scientific reasoning tasks.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-07-02"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New State-of-the-Art on Agentic Benchmarks",
-      "summary": "DeepMind announced Gemini 2.5 Ultra, which sets new records on agentic task completion benchmarks including SWE-Bench and WebArena. The model introduces improved tool-use chaining and self-verification loops, allowing it to autonomously complete multi-step software engineering workflows with significantly reduced error rates.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-07-06"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
-      "summary": "Figure AI announced the first scaled commercial deployment of its Figure 03 humanoid robots at BMW manufacturing facilities in South Carolina. The robots handle parts inspection, bin picking, and intra-facility logistics, operating alongside human workers with a reported 97% uptime over the initial pilot phase.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
       "date": "2026-07-03"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Live Demo",
-      "summary": "Tesla showcased its Optimus Gen 3 humanoid robot performing unscripted household tasks including laundry folding, dish loading, and object retrieval using end-to-end vision-language-action models. The demonstration highlighted substantial improvements in fine motor dexterity and real-time obstacle avoidance compared to previous generations.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers for Enterprise AI Safety Guardrails",
-      "summary": "Anthropic released a production-ready framework called Constitutional Classifiers that allows enterprises to define domain-specific safety policies in natural language and enforce them at inference time with minimal latency overhead. The system reduces policy-violating outputs by over 95% while preserving helpfulness scores, addressing a key barrier to enterprise AI adoption.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which surpasses previous frontier models on GPQA Diamond and a new suite of graduate-level STEM benchmarks. The model introduces a mixture-of-experts architecture with dynamic expert routing that reduces inference cost by roughly 40% compared to its predecessor. Google is integrating the model across Workspace, Cloud, and Android.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-07-05"
+      "date": "2026-07-01"
     },
     {
-      "id": "6",
-      "title": "ASML Reports Breakthrough in High-NA EUV Yield, Accelerating Sub-2nm Chip Production",
-      "summary": "ASML disclosed that its high-NA EUV lithography systems have achieved production-viable yields at partner fabs, clearing a major hurdle for sub-2nm semiconductor manufacturing. The advancement is expected to accelerate the timeline for next-generation AI accelerator chips from Intel, TSMC, and Samsung by roughly six months.",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in its Austin and Berlin factories for material handling and part inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for task adaptation without cloud connectivity. Tesla claims the robots can learn new assembly sub-tasks from a few human demonstrations in under 30 minutes.",
       "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Innovation",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
       "date": "2026-07-07"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum jointly announced sustained fault-tolerant operations on logical qubits with error rates below the critical threshold needed for practical quantum error correction. The result, achieved on Quantinuum's H3 trapped-ion system using Microsoft's qubit virtualization layer, represents a significant milestone toward scalable quantum computing.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
+      "id": "4",
+      "title": "Figure AI and BMW Expand Humanoid Robot Workforce to Full Body-in-White Production Line",
+      "summary": "Figure AI announced the expansion of its humanoid robot deployment at BMW's Spartanburg plant, moving from a pilot of 50 units to over 200 robots operating across an entire body-in-white assembly line. The Figure 03 robots use a transformer-based whole-body control policy trained in simulation and fine-tuned with real-world teleoperation data. BMW reports a 15% throughput increase in the sections where the robots operate alongside human workers.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-07-05"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Claude Reasoning Traces' for Enterprise Auditability and Compliance",
+      "summary": "Anthropic released a new feature for Claude Enterprise that exposes structured chain-of-thought reasoning traces, allowing compliance teams to audit exactly how the model arrived at decisions in regulated workflows. The traces are logged in an append-only format compatible with SOC 2 and HIPAA audit frameworks. This addresses a long-standing barrier to LLM adoption in financial services and healthcare.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "AI",
       "date": "2026-07-09"
     },
     {
-      "id": "8",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2T Parameters",
-      "summary": "Meta released Llama 4 Behemoth under a permissive open license, featuring a sparse mixture-of-experts architecture with 1.2 trillion total parameters but only 200 billion active per forward pass. The model matches or exceeds proprietary frontier models on reasoning and coding benchmarks, significantly shifting the open-source vs. closed-source competitive landscape.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed it has started high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, roughly one quarter ahead of the originally projected timeline. The node uses gate-all-around nanosheet transistors with backside power delivery, achieving a 20% speed improvement and 30% power reduction over N2. Apple and Nvidia are reported to be among the first customers for chips shipping in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-06-30"
+      "date": "2026-07-08"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation BCI Implant with 4,096 Electrodes",
+      "summary": "The FDA granted Neuralink clearance to begin clinical trials for its N2 brain-computer interface, which quadruples electrode count to 4,096 channels and features a fully wireless design with on-chip spike sorting. The first cohort will focus on restoring motor control for spinal cord injury patients. Independent neuroscientists have noted the electrode density could enable significantly higher-bandwidth communication for paralyzed individuals.",
+      "source": "Nature",
+      "url": "https://www.nature.com/news",
+      "category": "Innovation",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "8",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office commenced its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta regarding systemic risk assessments, red-teaming documentation, and energy consumption disclosures. Companies face fines of up to 3% of global revenue for non-compliance. The audits are being closely watched as a precedent for how prescriptive AI regulation will work in practice.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/technology",
+      "category": "Innovation",
+      "date": "2026-07-10"
     }
   ]
 }
