@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in early July 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show substantial gains in mathematical proof verification, complex code generation, and long-document analysis, narrowing the gap with specialized domain models.",
+      "summary": "OpenAI officially released GPT-5 in early July 2026, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger effective context window. The model demonstrates state-of-the-art performance on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between LLM capabilities and domain-expert performance in several STEM fields.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2 with breakthrough performance on FrontierMath and GPQA-Diamond benchmarks, solving previously unsolved graduate-level problems in physics and mathematics. The model integrates a novel mixture-of-experts architecture with tool-use capabilities that allow it to autonomously invoke symbolic math engines and simulation environments.",
+      "title": "Google DeepMind Demonstrates Gemini-Powered Robot That Learns Household Tasks from Video",
+      "summary": "DeepMind unveiled a system integrating Gemini 2.5's vision-language capabilities with a general-purpose humanoid platform, enabling robots to learn novel household manipulation tasks by watching a single human demonstration video. The approach eliminates the need for teleoperation data collection and achieved an 87% first-attempt success rate across 40 unseen tasks in kitchen and living-room environments.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-07-10"
-    },
-    {
-      "id": "3",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Three Additional Manufacturing Plants",
-      "summary": "Figure AI announced the expansion of its Figure 02 humanoid robot deployment across three new BMW manufacturing facilities in Europe, scaling from a pilot of 50 units to over 400 robots performing assembly, logistics, and quality inspection tasks. The robots leverage on-device vision-language models for real-time task adaptation without explicit reprogramming.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-07-11"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Multi-Step Repair Tasks in Industrial Settings",
-      "summary": "Boston Dynamics demonstrated its electric Atlas robot autonomously diagnosing and executing multi-step mechanical repair procedures in a Hyundai engine plant, including tool selection, fastener manipulation, and torque verification. The system uses a combination of reinforcement learning and foundation model-based planning that generalizes across previously unseen repair scenarios.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude's Real-Time Computer Use Agent for Enterprise Workflows",
-      "summary": "Anthropic released a production-grade computer-use agent built on Claude that can navigate enterprise software, execute multi-application workflows, and handle exception cases with human-in-the-loop escalation. Early enterprise adopters report 40-60% reduction in time spent on routine back-office processes involving ERP, CRM, and ticketing systems.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "AI",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that risk production on its A14 (1.4nm-class) process node has commenced at its Fab 20 facility in Hsinchu, approximately one quarter ahead of the original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, projecting an 18% speed improvement and 25% power reduction over N2.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-07-09"
-    },
-    {
-      "id": "7",
-      "title": "Meta Releases Open-Source Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
-      "summary": "Meta publicly released the full Llama 4 Behemoth model weights, a 2-trillion-parameter mixture-of-experts model that rivals proprietary frontier models on reasoning and coding tasks. The release includes optimized inference kernels for multi-node deployment and a distillation toolkit, accelerating the open-source ecosystem's access to frontier-class capabilities.",
+      "id": "3",
+      "title": "Meta Open-Sources Llama 4 Behemoth with 288B Active Parameters via Mixture-of-Experts",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, a massive mixture-of-experts model with 288 billion active parameters drawn from over a trillion total, under a permissive license. Early community benchmarks show it rivaling proprietary frontier models on reasoning and multilingual tasks, fueling a new wave of enterprise fine-tuning and on-premises deployments for regulated industries.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
       "category": "AI",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "4",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment to Third Factory",
+      "summary": "Figure announced the expansion of its humanoid robot workforce to a third BMW manufacturing facility in South Carolina, bringing the total deployment to over 200 units performing bin-picking, parts inspection, and kitting tasks. The robots now operate across two full shifts with a reported 96% uptime, marking one of the largest commercial humanoid deployments to date.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-07-14"
     },
     {
-      "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 500 Wh/kg in Production-Intent Cells",
-      "summary": "QuantumScape announced that its latest generation solid-state lithium-metal cells have achieved 500 Wh/kg energy density at the cell level in production-intent form factors, with over 1,000 fast-charge cycles to 80% capacity retention. The milestone could enable EVs with 600+ mile range and has drawn new investment commitments from multiple automakers for 2028 vehicle integration.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "id": "5",
+      "title": "Anthropic Introduces Claude Constitutional Classifiers for Enterprise Safety Guardrails",
+      "summary": "Anthropic released a new suite of constitutional classifiers designed to let enterprise customers define domain-specific safety boundaries using natural-language rules rather than traditional fine-tuning. The system runs as a lightweight inference-time layer that reduces harmful output rates by over 90% on adversarial red-team benchmarks while adding less than 50ms of latency, addressing a key pain point for regulated-industry AI adoption.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of A14 2nm Chips, Apple and Nvidia Among First Customers",
+      "summary": "TSMC confirmed it has started high-volume manufacturing on its N2 process node at the Kaohsiung fab, with Apple and Nvidia receiving initial wafer shipments for next-generation mobile SoCs and data-center GPUs. The 2nm node uses gate-all-around transistors to deliver roughly 15% more speed and 30% lower power versus the 3nm node, setting the stage for a new class of efficient AI inference chips.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com",
       "category": "Innovation",
-      "date": "2026-07-13"
+      "date": "2026-07-06"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
+      "summary": "Neuralink received FDA approval to begin human clinical trials of its N2 implant, which features twice the electrode count of the original device and a wireless data throughput exceeding 10 Mbps. The expanded trial will enroll up to 50 patients with spinal cord injuries and aims to demonstrate not only cursor control but also direct neural control of robotic arm manipulators.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-07-12"
+    },
+    {
+      "id": "8",
+      "title": "Boston Dynamics Atlas Shows Autonomous Construction Site Navigation with Real-Time Replanning",
+      "summary": "Boston Dynamics released footage of its electric Atlas humanoid autonomously navigating an active construction site, dynamically replanning paths around moving heavy equipment and uneven terrain without any pre-mapped environment data. The system combines onboard LiDAR SLAM with a vision-language planner that interprets safety signage and worker gestures, representing a significant step toward deploying humanoids in unstructured industrial environments.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-07-15"
     }
   ]
 }
