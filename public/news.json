@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in early July 2026, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger effective context window. The model demonstrates state-of-the-art performance on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between LLM capabilities and domain-expert performance in several STEM fields.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and real-world agentic coding tasks, narrowing the gap between AI assistants and junior software engineers on end-to-end project completion.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-07-08"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind Demonstrates Gemini-Powered Robot That Learns Household Tasks from Video",
-      "summary": "DeepMind unveiled a system integrating Gemini 2.5's vision-language capabilities with a general-purpose humanoid platform, enabling robots to learn novel household manipulation tasks by watching a single human demonstration video. The approach eliminates the need for teleoperation data collection and achieved an 87% first-attempt success rate across 40 unseen tasks in kitchen and living-room environments.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-07-11"
-    },
-    {
-      "id": "3",
-      "title": "Meta Open-Sources Llama 4 Behemoth with 288B Active Parameters via Mixture-of-Experts",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, a massive mixture-of-experts model with 288 billion active parameters drawn from over a trillion total, under a permissive license. Early community benchmarks show it rivaling proprietary frontier models on reasoning and multilingual tasks, fueling a new wave of enterprise fine-tuning and on-premises deployments for regulated industries.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment to Third Factory",
-      "summary": "Figure announced the expansion of its humanoid robot workforce to a third BMW manufacturing facility in South Carolina, bringing the total deployment to over 200 units performing bin-picking, parts inspection, and kitting tasks. The robots now operate across two full shifts with a reported 96% uptime, marking one of the largest commercial humanoid deployments to date.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Constitutional Classifiers for Enterprise Safety Guardrails",
-      "summary": "Anthropic released a new suite of constitutional classifiers designed to let enterprise customers define domain-specific safety boundaries using natural-language rules rather than traditional fine-tuning. The system runs as a lightweight inference-time layer that reduces harmful output rates by over 90% on adversarial red-team benchmarks while adding less than 50ms of latency, addressing a key pain point for regulated-industry AI adoption.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
       "category": "AI",
       "date": "2026-07-10"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of A14 2nm Chips, Apple and Nvidia Among First Customers",
-      "summary": "TSMC confirmed it has started high-volume manufacturing on its N2 process node at the Kaohsiung fab, with Apple and Nvidia receiving initial wafer shipments for next-generation mobile SoCs and data-center GPUs. The 2nm node uses gate-all-around transistors to deliver roughly 15% more speed and 30% lower power versus the 3nm node, setting the stage for a new class of efficient AI inference chips.",
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com",
-      "category": "Innovation",
-      "date": "2026-07-06"
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Discovery Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2 with a focus on autonomous scientific research workflows, including hypothesis generation, experiment design, and literature synthesis. Internal evaluations show the model can independently reproduce findings from recent Nature papers when given access to relevant datasets and compute APIs, raising questions about the future role of AI co-scientists.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-07-08"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
-      "summary": "Neuralink received FDA approval to begin human clinical trials of its N2 implant, which features twice the electrode count of the original device and a wireless data throughput exceeding 10 Mbps. The expanded trial will enroll up to 50 patients with spinal cord injuries and aims to demonstrate not only cursor control but also direct neural control of robotic arm manipulators.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
+      "id": "3",
+      "title": "Anthropic Introduces Claude's Real-Time Tool Use and Persistent Memory for Enterprise Agents",
+      "summary": "Anthropic rolled out persistent memory and real-time tool orchestration capabilities for Claude, enabling enterprise deployments where the model retains structured context across sessions and autonomously chains API calls. Early adopters in financial services report 40% reductions in analyst workflow times for compliance and due diligence tasks.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "AI",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing real production tasks at two of its U.S. factories, including parts handling, quality inspection, and bin picking. The Gen 3 units feature improved dexterous manipulation with 22-degree-of-freedom hands and on-device vision-language models for task adaptation without explicit reprogramming.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-07-12"
     },
     {
-      "id": "8",
-      "title": "Boston Dynamics Atlas Shows Autonomous Construction Site Navigation with Real-Time Replanning",
-      "summary": "Boston Dynamics released footage of its electric Atlas humanoid autonomously navigating an active construction site, dynamically replanning paths around moving heavy equipment and uneven terrain without any pre-mapped environment data. The system combines onboard LiDAR SLAM with a vision-language planner that interprets safety signage and worker gestures, representing a significant step toward deploying humanoids in unstructured industrial environments.",
+      "id": "5",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction and Logistics",
+      "summary": "Boston Dynamics officially launched its commercial Atlas platform powered by electric actuation and integrated LLM-based task planning, targeting construction site automation and warehouse logistics. The system can interpret natural language work orders, plan multi-step physical tasks, and coordinate with fleets of mobile robots, marking a significant step toward general-purpose commercial humanoids.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "6",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production",
+      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and NVIDIA, pushing its valuation past $15 billion. The funding will be used to build a dedicated manufacturing facility in Texas and expand deployment of its Figure 03 humanoid, which integrates OpenAI-powered conversational reasoning for warehouse and light industrial tasks.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Robotics",
       "date": "2026-07-15"
+    },
+    {
+      "id": "7",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node has entered volume production at its Fab 22 in Taiwan, approximately one quarter ahead of the original roadmap. The node delivers a 20% performance improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerators from NVIDIA and Apple shipping in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-07-11"
+    },
+    {
+      "id": "8",
+      "title": "EU AI Act Enforcement Phase II Takes Effect, Mandating Risk Assessments for Foundation Models",
+      "summary": "The second enforcement phase of the EU AI Act went into effect, requiring providers of general-purpose AI models with systemic risk classifications to submit detailed safety evaluations, red-team reports, and energy consumption disclosures. Major labs including OpenAI, Google, and Anthropic have published their first compliance reports, setting a de facto global transparency standard that is influencing upcoming U.S. and UK regulatory proposals.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-07-01"
     }
   ]
 }
