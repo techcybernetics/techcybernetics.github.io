@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-18",
+  "lastUpdated": "2026-07-19",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger effective context window. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a 1M-token context window. The model demonstrates substantial gains on graduate-level math and science benchmarks, and introduces a new \"deep research\" agent mode that can autonomously browse, synthesize, and cite sources over multi-step tasks.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-07-10"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind's Gemini 2.5 Ultra set new records on SWE-Bench Verified and real-world software engineering tasks, completing multi-file refactors and bug fixes with over 60% autonomous success rates. The model introduces improved tool-use orchestration and a refined chain-of-thought protocol that lets it plan, execute, and self-verify code changes across large repositories.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Begins Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robots have started operating in select third-party logistics warehouses beyond Tesla's own factories, performing bin-picking, palletizing, and inventory scanning tasks. The rollout marks the first commercial deployment of Optimus outside Tesla's vertically integrated operations and signals a push toward robotics-as-a-service revenue.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-07-14"
     },
     {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Demonstrates Conversational Task Planning on Factory Floor",
-      "summary": "Figure AI closed a massive Series C round valuing the company at over $15 billion, driven by demos showing its Figure 02 humanoid robot interpreting natural-language instructions to autonomously sequence multi-step assembly operations. The system pairs a vision-language-action model with real-time force feedback, enabling it to adapt to part variations without reprogramming.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New State of the Art on Agentic Coding Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra, which achieves top scores on SWE-Bench Verified and HumanEval-Plus, outperforming previous models on real-world software engineering tasks. The model introduces improved tool use, function calling reliability, and can maintain coherent multi-file refactoring sessions across large codebases, signaling a meaningful step toward autonomous software development agents.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
+      "date": "2026-07-11"
+    },
+    {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Fremont Factory",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing repetitive material-handling and inspection tasks alongside human workers at its Fremont, California facility. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for task comprehension, though Tesla acknowledges fully autonomous operation remains limited to structured environments.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
       "category": "Robotics",
       "date": "2026-07-15"
     },
     {
+      "id": "4",
+      "title": "Figure AI Raises $1.5B Series C, Announces Partnerships with Amazon and BMW for Warehouse Robotics",
+      "summary": "Figure AI closed a massive Series C round at a $15B valuation, backed by Microsoft, Intel Capital, and Bezos Expeditions. The company announced expanded pilot deployments of its Figure 02 humanoid robot in Amazon fulfillment centers and BMW assembly lines, focusing on pick-and-place, kitting, and quality inspection tasks that require human-like dexterity.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
+      "date": "2026-07-08"
+    },
+    {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
-      "summary": "Anthropic released a new orchestration layer for Claude that enables enterprises to build multi-step agentic workflows with structured guardrails, audit logging, and human-in-the-loop checkpoints. The framework is designed to address reliability and compliance concerns that have slowed enterprise adoption of autonomous AI agents in regulated industries such as finance and healthcare.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
+      "title": "Anthropic Introduces 'Claude Sentinel' — An AI System That Audits Other AI Systems for Safety",
+      "summary": "Anthropic unveiled Claude Sentinel, a specialized model designed to continuously monitor and red-team other deployed AI systems, flagging alignment failures, prompt injection vulnerabilities, and hallucination patterns in real time. The system represents a growing industry trend toward using AI for AI governance, and Anthropic is offering it as an enterprise API for organizations running production LLM pipelines.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/artificial-intelligence",
       "category": "AI",
       "date": "2026-07-16"
     },
     {
       "id": "6",
-      "title": "ASML Reports Record EUV Orders as Chip Firms Race to Build AI Fab Capacity",
-      "summary": "ASML reported its highest quarterly EUV lithography system bookings ever, driven by orders from TSMC, Samsung, and Intel as all three race to expand advanced-node capacity for AI accelerator production. The surge underscores how AI demand is reshaping semiconductor capital expenditure cycles and tightening the supply of cutting-edge fab equipment through 2028.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process technology, approximately one quarter ahead of its original roadmap. The node delivers a 15% speed improvement and 30% power reduction over N2, with gate-all-around nanosheet transistors and backside power delivery, and is expected to power next-generation AI accelerator chips from Nvidia, Apple, and AMD in 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-16"
+      "date": "2026-07-12"
     },
     {
       "id": "7",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 288B Active Parameters",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, a mixture-of-experts model with 288 billion active parameters and over 1.5 trillion total parameters, under a permissive license. Early benchmarks show it competing with leading proprietary models on reasoning and multilingual tasks, and its open availability is expected to accelerate fine-tuning and on-premises deployment across the research community.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-07-08"
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta. Auditors are examining systemic risk assessments, training data documentation, and red-teaming reports, marking the world's first large-scale regulatory enforcement action specifically targeting general-purpose AI systems.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/artificial-intelligence",
+      "category": "Innovation",
+      "date": "2026-07-17"
     },
     {
       "id": "8",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "Neuralink obtained FDA clearance to begin human trials of its N2 implant, which doubles the electrode count of its first-generation device and adds bidirectional stimulation capabilities. The approval opens the door to studies exploring not just motor-intent decoding for paralysis patients but also sensory feedback, potentially enabling rudimentary touch sensation through the neural interface.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-07-17"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Modular End-Effectors",
+      "summary": "Boston Dynamics, in collaboration with parent company Hyundai, revealed the commercial version of its electric Atlas humanoid robot featuring a modular end-effector system that allows rapid swapping between grippers, drills, and sensor packages. The platform targets automotive manufacturing, construction, and hazardous-environment inspection, with first customer shipments planned for Q4 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-07-10"
     }
   ]
 }
