@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially released GPT-5, featuring deeply integrated multimodal reasoning across text, image, audio, and video inputs with a context window exceeding 1 million tokens. The model demonstrates significant gains in long-horizon planning, mathematical proof generation, and agentic task completion, narrowing the gap on several benchmarks previously dominated by specialized systems.",
+      "title": "OpenAI Launches GPT-5 with Enhanced Reasoning and Multimodal Capabilities",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native multimodal input/output across text, image, audio, and video, and a larger context window exceeding 1 million tokens. Benchmarks show substantial gains on graduate-level scientific reasoning and complex code generation tasks, narrowing the gap with specialized domain models.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results showing its Gemini-powered robotics foundation model can perform complex manipulation tasks — such as folding varied clothing items and assembling IKEA furniture components — without task-specific fine-tuning. The system leverages a vision-language-action architecture trained on a massive corpus of simulated and real-world interaction data, marking a step change in generalist robot capability.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-07-11"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Harden Claude Against Jailbreaks",
-      "summary": "Anthropic detailed a new safety layer called Constitutional Classifiers that wraps its Claude models with input/output filters trained adversarially against thousands of jailbreak strategies. In red-team evaluations, the system reduced successful policy violations by over 90% while maintaining low false-positive rates on benign queries, setting a new benchmark for production-grade LLM safety.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-07-16"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Robots Begin Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robots are now operating in pilot programs at select third-party logistics and warehousing facilities beyond Tesla's own factories. The robots handle bin picking, palletizing, and inventory scanning tasks, with Tesla reporting a target unit cost below $25,000 at scale — a price point that could reshape the economics of warehouse automation.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "5",
-      "title": "Meta Releases Llama 4 Behemoth Open-Weight Model with MoE Architecture",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, a massive mixture-of-experts model with over 2 trillion total parameters but only ~200B active per forward pass. The open-weight release includes a permissive license for commercial use and is already showing competitive performance with proprietary frontier models on reasoning and coding benchmarks, further intensifying the open-source AI ecosystem.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-07-09"
-    },
-    {
-      "id": "6",
-      "title": "ASML Reports Breakthroughs in High-NA EUV Yield, Clearing Path to Sub-1.4nm Chips",
-      "summary": "ASML disclosed that its high-numerical-aperture EUV lithography systems have reached production-viable yield rates at leading foundry partners, enabling chipmakers to push toward the 14-angstrom (1.4nm) node. The milestone addresses longstanding concerns about the economic feasibility of high-NA EUV and has implications for the next generation of AI accelerators and advanced SoCs.",
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com",
-      "category": "Innovation",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
-      "summary": "Neuralink announced FDA approval to begin human trials of its N2 implant, which features double the electrode count of its first-generation device and a wireless data throughput exceeding 10 Mbps. The expanded trial will include patients with both spinal cord injuries and ALS, with early results from the first-gen cohort showing participants able to control robotic arms and software interfaces with high accuracy.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
       "date": "2026-07-18"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Robotics Model Demonstrates Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "DeepMind published results from its Gemini-powered robotics foundation model that achieves zero-shot dexterous manipulation across novel household objects without task-specific fine-tuning. The system leverages a vision-language-action architecture trained on a massive real-world and synthetic dataset, enabling robots to interpret natural language instructions and adapt grasps in real time.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Enters Limited Deployment at Gigafactories",
+      "summary": "Tesla announced that its third-generation Optimus humanoid robot has begun limited operational deployment at two Gigafactories, handling parts sorting, inventory logistics, and light assembly tasks. The Gen 3 model features improved actuator density, a 40% increase in battery endurance, and upgraded onboard inference hardware running Tesla's proprietary vision-language planning stack.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic Introduces Claude Constitutional Oversight Framework for Enterprise AI Governance",
+      "summary": "Anthropic released a new enterprise governance framework that allows organizations to define hierarchical constitutional rules for Claude deployments, enabling fine-grained policy enforcement across departments with full audit trails. The framework addresses a growing demand from regulated industries like finance and healthcare for verifiable AI alignment guardrails with deterministic policy adherence.",
+      "source": "VentureBeat",
+      "url": "https://www.venturebeat.com",
+      "category": "AI",
+      "date": "2026-07-19"
+    },
+    {
+      "id": "5",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed it has started volume production on its N1.4 process node, approximately one quarter ahead of its original roadmap, with initial customers including Apple and NVIDIA. The node delivers a 20% performance improvement and 30% power reduction over N2, enabled by next-generation gate-all-around nanosheet transistors and backside power delivery.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "6",
+      "title": "Meta Releases Open-Source Llama 4 Mixture-of-Experts Model with 1.2 Trillion Parameters",
+      "summary": "Meta open-sourced Llama 4, a sparse mixture-of-experts model with 1.2 trillion total parameters but only 120 billion active per forward pass, achieving performance competitive with GPT-5 on major benchmarks at significantly lower inference cost. The release includes model weights, training code, and a new RLHF dataset, reinforcing Meta's strategy to commoditize frontier model capabilities.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "7",
+      "title": "Solid-State Battery Startup QuantumScape Ships First Commercial Cells to Automotive Partners",
+      "summary": "QuantumScape announced the first commercial shipment of its solid-state lithium-metal battery cells to two major automotive OEMs for integration into 2027 model-year electric vehicles. The cells demonstrate over 800 Wh/L energy density with 15-minute 10-to-80% fast charging and minimal degradation over 1,000 cycles, potentially resolving key EV range and charging anxiety barriers.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Innovation",
+      "date": "2026-07-15"
+    },
+    {
       "id": "8",
-      "title": "Figure AI and BMW Scale Humanoid Robot Deployment Across Spartanburg Plant",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across multiple production lines at BMW's Spartanburg, South Carolina manufacturing facility. The robots now perform over a dozen distinct tasks including parts insertion, quality inspection, and inter-station transport, with Figure reporting a 3x improvement in autonomous uptime compared to its initial 2025 pilot.",
+      "title": "Figure AI and BMW Expand Humanoid Robot Deployment Across European Assembly Lines",
+      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across three additional European manufacturing plants, scaling from a pilot of 50 units to over 300. The robots handle ergonomically challenging sub-assembly tasks using a transformer-based imitation learning pipeline that allows new task onboarding in under four hours of human demonstration.",
       "source": "TechCrunch",
       "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-07-15"
+      "date": "2026-07-21"
     }
   ]
 }
