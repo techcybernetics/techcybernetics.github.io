@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-22",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Enhanced Reasoning and Multimodal Capabilities",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native multimodal input/output across text, image, audio, and video, and a larger context window exceeding 1 million tokens. Benchmarks show substantial gains on graduate-level scientific reasoning and complex code generation tasks, narrowing the gap with specialized domain models.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5 in mid-July 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science and mathematics benchmarks, narrowing the gap to domain-expert performance in several STEM fields.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-07-18"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Model Demonstrates Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results from its Gemini-powered robotics foundation model that achieves zero-shot dexterous manipulation across novel household objects without task-specific fine-tuning. The system leverages a vision-language-action architecture trained on a massive real-world and synthetic dataset, enabling robots to interpret natural language instructions and adapt grasps in real time.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
       "date": "2026-07-16"
     },
     {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Enters Limited Deployment at Gigafactories",
-      "summary": "Tesla announced that its third-generation Optimus humanoid robot has begun limited operational deployment at two Gigafactories, handling parts sorting, inventory logistics, and light assembly tasks. The Gen 3 model features improved actuator density, a 40% increase in battery endurance, and upgraded onboard inference hardware running Tesla's proprietary vision-language planning stack.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
+      "summary": "DeepMind's Gemini 2.5 Ultra model set new records on SWE-Bench Verified and real-world software engineering tasks, autonomously resolving complex multi-file pull requests with near-human accuracy. The model integrates tightly with Google Cloud's development tooling, signaling a shift toward AI-native software engineering workflows at enterprise scale.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-07-14"
     },
     {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla announced that its third-generation Optimus humanoid robots have started performing repetitive assembly and materials-handling tasks alongside human workers at its Austin Gigafactory. The robots leverage on-device vision-language models for task understanding and can be re-tasked via natural language instructions, though Tesla cautions full autonomy in unstructured environments remains years away.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-07-18"
+    },
+    {
       "id": "4",
-      "title": "Anthropic Introduces Claude Constitutional Oversight Framework for Enterprise AI Governance",
-      "summary": "Anthropic released a new enterprise governance framework that allows organizations to define hierarchical constitutional rules for Claude deployments, enabling fine-grained policy enforcement across departments with full audit trails. The framework addresses a growing demand from regulated industries like finance and healthcare for verifiable AI alignment guardrails with deterministic policy adherence.",
-      "source": "VentureBeat",
-      "url": "https://www.venturebeat.com",
-      "category": "AI",
-      "date": "2026-07-19"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Logistics Warehousing",
+      "summary": "Boston Dynamics revealed the commercial version of its electric Atlas humanoid robot, purpose-built for warehouse logistics in partnership with Hyundai. The platform features improved dexterous manipulation with multi-fingered hands, real-time SLAM-based navigation in dynamic environments, and a modular end-effector system for handling heterogeneous packages.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-07-10"
     },
     {
       "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed it has started volume production on its N1.4 process node, approximately one quarter ahead of its original roadmap, with initial customers including Apple and NVIDIA. The node delivers a 20% performance improvement and 30% power reduction over N2, enabled by next-generation gate-all-around nanosheet transistors and backside power delivery.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "6",
-      "title": "Meta Releases Open-Source Llama 4 Mixture-of-Experts Model with 1.2 Trillion Parameters",
-      "summary": "Meta open-sourced Llama 4, a sparse mixture-of-experts model with 1.2 trillion total parameters but only 120 billion active per forward pass, achieving performance competitive with GPT-5 on major benchmarks at significantly lower inference cost. The release includes model weights, training code, and a new RLHF dataset, reinforcing Meta's strategy to commoditize frontier model capabilities.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Critical Infrastructure",
+      "summary": "Anthropic published a comprehensive framework for deploying AI systems in critical infrastructure such as power grids and water treatment, built on its constitutional AI methodology. The framework includes formal verification layers, interpretability dashboards for operators, and mandatory human-in-the-loop checkpoints, and has already been adopted as a reference architecture by NIST in its updated AI Risk Management guidelines.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
       "date": "2026-07-20"
     },
     {
-      "id": "7",
-      "title": "Solid-State Battery Startup QuantumScape Ships First Commercial Cells to Automotive Partners",
-      "summary": "QuantumScape announced the first commercial shipment of its solid-state lithium-metal battery cells to two major automotive OEMs for integration into 2027 model-year electric vehicles. The cells demonstrate over 800 Wh/L energy density with 15-minute 10-to-80% fast charging and minimal degradation over 1,000 cycles, potentially resolving key EV range and charging anxiety barriers.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "id": "6",
+      "title": "ASML Ships First Production High-NA EUV Lithography Systems to Intel and TSMC",
+      "summary": "ASML confirmed the delivery of multiple production-grade high-numerical-aperture EUV lithography machines, enabling chipmakers to print features below 2 nanometers. Intel and TSMC are expected to use the systems for their 14A and N2P process nodes respectively, a critical milestone for sustaining Moore's Law and meeting the compute demands of frontier AI training.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "Innovation",
-      "date": "2026-07-15"
+      "date": "2026-07-12"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum jointly announced they have achieved below-threshold error rates on logical qubit operations using a hybrid topological-trapped-ion architecture, sustaining error-corrected computation across 12 logical qubits. This milestone represents a significant step toward practical quantum advantage for optimization and materials-simulation workloads within the next few years.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-07-08"
     },
     {
       "id": "8",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment Across European Assembly Lines",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across three additional European manufacturing plants, scaling from a pilot of 50 units to over 300. The robots handle ergonomically challenging sub-assembly tasks using a transformer-based imitation learning pipeline that allows new task onboarding in under four hours of human demonstration.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act, targeting major foundation model providers including OpenAI, Google, and Meta operating in the European market. Companies are required to demonstrate transparency in training data provenance, systemic risk assessments, and red-teaming documentation, marking the beginning of binding AI regulation enforcement globally.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
       "date": "2026-07-21"
     }
   ]
