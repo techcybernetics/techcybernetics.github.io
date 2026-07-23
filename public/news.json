@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in mid-July 2026, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science and mathematics benchmarks, narrowing the gap to domain-expert performance in several STEM fields.",
+      "summary": "OpenAI officially released GPT-5, featuring substantially improved long-horizon reasoning, native image and audio generation within a single model, and a 1M-token context window. Benchmarks show significant gains on ARC-AGI-2 and GPQA, and the model demonstrates notably fewer hallucinations on factual retrieval tasks compared to GPT-4o.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-07-16"
+      "date": "2026-07-15"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind's Gemini 2.5 Ultra model set new records on SWE-Bench Verified and real-world software engineering tasks, autonomously resolving complex multi-file pull requests with near-human accuracy. The model integrates tightly with Google Cloud's development tooling, signaling a shift toward AI-native software engineering workflows at enterprise scale.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves State-of-the-Art on Complex Coding Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra, which tops SWE-Bench Verified and LiveCodeBench leaderboards, outperforming previous frontier models on real-world multi-file software engineering tasks. The model integrates a refined mixture-of-experts architecture and a novel self-verification step during inference that reduces logical errors in generated code.",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog",
       "category": "AI",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla announced that its third-generation Optimus humanoid robots have started performing repetitive assembly and materials-handling tasks alongside human workers at its Austin Gigafactory. The robots leverage on-device vision-language models for task understanding and can be re-tasked via natural language instructions, though Tesla cautions full autonomy in unstructured environments remains years away.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-07-18"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Logistics Warehousing",
-      "summary": "Boston Dynamics revealed the commercial version of its electric Atlas humanoid robot, purpose-built for warehouse logistics in partnership with Hyundai. The platform features improved dexterous manipulation with multi-fingered hands, real-time SLAM-based navigation in dynamic environments, and a modular end-effector system for handling heterogeneous packages.",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
+      "summary": "Figure announced that its third-generation humanoid robot, Figure 03, has entered full commercial deployment on BMW assembly lines in Spartanburg, South Carolina. The robots handle bin-picking, part insertion, and quality inspection tasks, operating alongside human workers with sub-millimeter dexterous manipulation and real-time LLM-driven task planning.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
-      "date": "2026-07-10"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Critical Infrastructure",
-      "summary": "Anthropic published a comprehensive framework for deploying AI systems in critical infrastructure such as power grids and water treatment, built on its constitutional AI methodology. The framework includes formal verification layers, interpretability dashboards for operators, and mandatory human-in-the-loop checkpoints, and has already been adopted as a reference architecture by NIST in its updated AI Risk Management guidelines.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
       "date": "2026-07-20"
     },
     {
-      "id": "6",
-      "title": "ASML Ships First Production High-NA EUV Lithography Systems to Intel and TSMC",
-      "summary": "ASML confirmed the delivery of multiple production-grade high-numerical-aperture EUV lithography machines, enabling chipmakers to print features below 2 nanometers. Intel and TSMC are expected to use the systems for their 14A and N2P process nodes respectively, a critical milestone for sustaining Moore's Law and meeting the compute demands of frontier AI training.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "Innovation",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Tasks in Live Demo",
+      "summary": "Tesla showcased Optimus Gen 3 performing unscripted household chores including folding laundry, loading a dishwasher, and navigating cluttered environments without pre-mapped paths. The demo highlighted a new vision-language-action model trained on millions of hours of teleoperation data, marking a step toward Tesla's goal of consumer-grade humanoid assistants by 2028.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude's 'Artifact Memory' for Persistent Multi-Session Project Collaboration",
+      "summary": "Anthropic rolled out a persistent memory and project workspace feature for Claude, enabling the assistant to maintain structured context across sessions for long-running engineering and research projects. The system uses a retrieval-augmented architecture with user-controlled memory banks, addressing a key limitation of stateless LLM interactions for professional workflows.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news",
+      "category": "AI",
       "date": "2026-07-12"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum jointly announced they have achieved below-threshold error rates on logical qubit operations using a hybrid topological-trapped-ion architecture, sustaining error-corrected computation across 12 logical qubits. This milestone represents a significant step toward practical quantum advantage for optimization and materials-simulation workloads within the next few years.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node",
+      "summary": "TSMC confirmed that its Fab 21 facility in Arizona has started volume production on the A14 (1.4nm-class) process using gate-all-around nanosheet transistors. The node delivers roughly 20% speed improvement and 30% power reduction over N2, and will first appear in next-generation AI accelerator chips from major hyperscalers later this year.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-08"
+      "date": "2026-07-17"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Implant",
+      "summary": "The FDA granted Neuralink approval to proceed with broader clinical trials for its N2 implant, which features 4,096 electrodes (4x the original) and wireless charging. Early trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks, and the first trials for speech restoration in ALS patients are slated to begin in Q4 2026.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-07-22"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act, targeting major foundation model providers including OpenAI, Google, and Meta operating in the European market. Companies are required to demonstrate transparency in training data provenance, systemic risk assessments, and red-teaming documentation, marking the beginning of binding AI regulation enforcement globally.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
-      "date": "2026-07-21"
+      "title": "Meta Open-Sources Llama 4 Behemoth with 2 Trillion Parameters Under Permissive License",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, its largest open-weight model at over 2 trillion parameters using a massive mixture-of-experts design with 256 experts. The model matches or exceeds several proprietary frontier models on reasoning benchmarks while being available under a permissive license, intensifying the debate around open versus closed AI development.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
+      "date": "2026-07-19"
     }
   ]
 }
