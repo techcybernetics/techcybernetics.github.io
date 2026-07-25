@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show substantial gains in PhD-level science QA and multi-step coding tasks, with the model available across ChatGPT and the API. The release intensifies competition with Google's Gemini Ultra 2 and Anthropic's Claude 4 family.",
+      "title": "OpenAI Releases GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially launched GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger context window reaching 1M tokens. The model demonstrates measurable gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between LLM outputs and expert-level domain work.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-07-18"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
-      "summary": "DeepMind published results from its Gemini Robotics program showing that foundation models trained on simulation and video data can now perform zero-shot dexterous manipulation of novel objects in unstructured environments. The system combines a vision-language-action model with real-time compliance control, achieving human-comparable success rates on 87% of tested pick-and-place tasks. The work signals a meaningful step toward general-purpose robotic manipulation without task-specific fine-tuning.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "Robotics",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Claude 4 Opus with Autonomous Multi-Hour Task Execution",
-      "summary": "Anthropic released Claude 4 Opus, its most capable model, emphasizing reliable agentic behavior over extended sessions lasting multiple hours. The model can autonomously orchestrate tool use, browse the web, write and execute code, and self-correct across complex multi-step workflows. Anthropic highlighted new interpretability-driven safety guardrails that allow operators to audit the model's internal planning traces in near real-time.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Coding and Research Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra, which achieves state-of-the-art results on SWE-Bench Verified and agentic research tasks, outperforming prior frontier models. The model integrates tighter tool-use loops and improved self-verification, making it particularly effective for autonomous multi-file code refactoring and scientific literature synthesis.",
       "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
+      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-07-15"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robot has entered limited production deployment at two of its U.S. manufacturing facilities, performing repetitive material handling and quality inspection tasks alongside human workers. The company reports a 40% improvement in locomotion stability and fine motor control over the Gen 2 prototype. Industry analysts note this is among the first scaled deployments of a general-purpose humanoid in heavy manufacturing.",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla announced that its third-generation Optimus humanoid robot has started performing repetitive assembly and materials-handling tasks at two Gigafactory locations. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for real-time task adaptation, though Tesla cautions full autonomy in unstructured environments remains years away.",
       "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "4",
+      "title": "Figure and BMW Expand Humanoid Robot Pilot to Third Manufacturing Plant",
+      "summary": "Figure AI's partnership with BMW has scaled to a third Spartanburg-area facility, with Figure 02 robots now handling bin-picking, part inspection, and inter-station transport. The expansion follows positive ROI data from the initial pilot, with BMW reporting a measurable reduction in per-unit handling time and workplace ergonomic incidents.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
       "date": "2026-07-22"
     },
     {
       "id": "5",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 2T Parameters",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model, under a permissive open license. The model activates roughly 200B parameters per forward pass and achieves performance competitive with proprietary frontier models on major benchmarks. The release includes optimized inference kernels for commodity GPU clusters, making near-frontier capability accessible to the broader research and startup ecosystem.",
+      "title": "Anthropic Introduces Claude Tool-Use Chains for Enterprise Workflow Automation",
+      "summary": "Anthropic launched a new enterprise feature allowing Claude to orchestrate multi-step tool-use chains with human-in-the-loop checkpoints, targeting complex workflows in finance, legal, and software engineering. The system includes built-in audit trails and granular permission scoping, addressing a key compliance concern that has slowed agentic AI adoption in regulated industries.",
       "source": "VentureBeat",
-      "url": "https://venturebeat.com/ai",
+      "url": "https://venturebeat.com",
       "category": "AI",
-      "date": "2026-07-10"
-    },
-    {
-      "id": "6",
-      "title": "ASML Reports Breakthrough in High-NA EUV Yield, Accelerating Sub-2nm Chip Production",
-      "summary": "ASML disclosed that its high-numerical-aperture EUV lithography systems have achieved commercially viable wafer yields for the first time, clearing a critical bottleneck for sub-2nm semiconductor manufacturing. Intel and TSMC are both expected to integrate the technology into volume production lines by early 2027. The advancement is expected to sustain Moore's Law-adjacent scaling and support the surging transistor density demands of AI accelerator chips.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/semiconductors",
-      "category": "Innovation",
-      "date": "2026-07-17"
-    },
-    {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "Neuralink announced FDA clearance for its N2 brain-computer interface, which features 4x the electrode count of the original N1 device and a fully wireless bidirectional data link. The approval covers expanded clinical trials for patients with spinal cord injuries and ALS, with the implant enabling cursor control and text generation at speeds approaching natural typing. The milestone advances the commercialization timeline for medical-grade neural interfaces.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com/neuroscience",
-      "category": "Innovation",
       "date": "2026-07-20"
     },
     {
-      "id": "8",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment Across European Assembly Plants",
-      "summary": "Figure AI announced a major expansion of its partnership with BMW, deploying its Figure 02 humanoid robots across three additional European assembly plants for tasks including parts kitting, sub-assembly, and logistics. The robots leverage on-device vision-language models for instruction following and environment adaptation without reprogramming. The deal represents one of the largest commercial humanoid robotics contracts to date and validates the sector's rapid move from prototype to production.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
-      "category": "Robotics",
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 2nm A16 Process Node",
+      "summary": "TSMC confirmed volume production on its A16 2nm-class process using nanosheet gate-all-around transistors and backside power delivery. The node offers roughly 10-15% speed improvement and up to 30% power reduction over N3E, with Apple and NVIDIA among the first customers expected to tape out designs for 2027 consumer and data center products.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval to Expand Brain-Computer Interface Trial to 50 Patients",
+      "summary": "The FDA granted Neuralink approval to implant its N2 brain-computer interface device in up to 50 additional patients with severe paralysis, following positive 18-month safety and efficacy data from its initial cohort. Participants demonstrated sustained high-bandwidth cursor and robotic arm control, reigniting both clinical optimism and ethical debate around consumer neurotechnology timelines.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
       "date": "2026-07-23"
+    },
+    {
+      "id": "8",
+      "title": "Boston Dynamics Atlas Demonstrates Autonomous Disaster-Site Navigation in DARPA Exercise",
+      "summary": "Boston Dynamics' electric Atlas humanoid completed a DARPA-organized urban search-and-rescue exercise, autonomously navigating rubble fields, opening doors, and locating simulated survivors using onboard LiDAR-vision fusion. The demonstration marks a significant step toward deployable general-purpose disaster-response robotics, though experts note the controlled environment still differs substantially from real collapse scenarios.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-07-19"
     }
   ]
 }
