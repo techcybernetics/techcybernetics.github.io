@@ -1,55 +1,55 @@
 {
-  "lastUpdated": "2026-07-25",
+  "lastUpdated": "2026-07-26",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially launched GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger context window reaching 1M tokens. The model demonstrates measurable gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between LLM outputs and expert-level domain work.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the previously separate o-series reasoning models into a single system. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-07-18"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Coding and Research Benchmarks",
-      "summary": "DeepMind released Gemini 2.5 Ultra, which achieves state-of-the-art results on SWE-Bench Verified and agentic research tasks, outperforming prior frontier models. The model integrates tighter tool-use loops and improved self-verification, making it particularly effective for autonomous multi-file code refactoring and scientific literature synthesis.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New State of the Art on Agentic Benchmarks",
+      "summary": "Google DeepMind released Gemini 2.5 Ultra with a 2-million-token context window and advanced agentic capabilities that allow it to autonomously browse the web, write and execute code, and orchestrate multi-step workflows. The model topped SWE-Bench Verified and several new agentic evaluation suites, intensifying competition with OpenAI and Anthropic in the enterprise AI agent market.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-07-15"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla announced that its third-generation Optimus humanoid robot has started performing repetitive assembly and materials-handling tasks at two Gigafactory locations. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for real-time task adaptation, though Tesla cautions full autonomy in unstructured environments remains years away.",
+      "title": "Tesla Optimus Robots Begin Limited Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robots have started operating in select third-party logistics warehouses outside of Tesla's own factories, marking the company's first commercial deployment to external customers. The robots handle bin picking, palletizing, and inventory scanning tasks, leveraging end-to-end neural network control trained in simulation and refined with real-world teleoperation data.",
       "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "url": "https://www.reuters.com/technology",
       "category": "Robotics",
       "date": "2026-07-21"
     },
     {
       "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Pilot to Third Manufacturing Plant",
-      "summary": "Figure AI's partnership with BMW has scaled to a third Spartanburg-area facility, with Figure 02 robots now handling bin-picking, part inspection, and inter-station transport. The expansion follows positive ROI data from the initial pilot, with BMW reporting a measurable reduction in per-unit handling time and workplace ergonomic incidents.",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment Across European Assembly Lines",
+      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across multiple European manufacturing plants, scaling from a single pilot line to full body-shop and logistics roles. The robots use a vision-language-action model that allows operators to assign new tasks via natural language instructions, significantly reducing reprogramming time compared to traditional industrial automation.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
       "date": "2026-07-22"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Chains for Enterprise Workflow Automation",
-      "summary": "Anthropic launched a new enterprise feature allowing Claude to orchestrate multi-step tool-use chains with human-in-the-loop checkpoints, targeting complex workflows in finance, legal, and software engineering. The system includes built-in audit trails and granular permission scoping, addressing a key compliance concern that has slowed agentic AI adoption in regulated industries.",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
+      "summary": "Anthropic launched a new orchestration layer for Claude that enables enterprises to build complex multi-agent systems with built-in guardrails, audit logging, and human-in-the-loop approval gates. The framework addresses growing demand for controllable AI agents in regulated industries such as finance and healthcare, providing deterministic fallback paths when model confidence is low.",
       "source": "VentureBeat",
-      "url": "https://venturebeat.com",
+      "url": "https://www.venturebeat.com",
       "category": "AI",
-      "date": "2026-07-20"
+      "date": "2026-07-23"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm A16 Process Node",
-      "summary": "TSMC confirmed volume production on its A16 2nm-class process using nanosheet gate-all-around transistors and backside power delivery. The node offers roughly 10-15% speed improvement and up to 30% power reduction over N3E, with Apple and NVIDIA among the first customers expected to tape out designs for 2027 consumer and data center products.",
+      "title": "TSMC Begins Volume Production of 2nm A16 Chips with Backside Power Delivery",
+      "summary": "TSMC has commenced high-volume manufacturing of its A16 (2nm-class) process node featuring backside power delivery network technology, which routes power through the back of the wafer to free up routing resources on the front side. Early yield data reportedly exceeds expectations, and the node is expected to power next-generation AI accelerators and smartphone SoCs shipping in late 2026 and early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Approval to Expand Brain-Computer Interface Trial to 50 Patients",
-      "summary": "The FDA granted Neuralink approval to implant its N2 brain-computer interface device in up to 50 additional patients with severe paralysis, following positive 18-month safety and efficacy data from its initial cohort. Participants demonstrated sustained high-bandwidth cursor and robotic arm control, reigniting both clinical optimism and ethical debate around consumer neurotechnology timelines.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "EU AI Act Enforcement Begins with First Wave of Compliance Audits",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting providers of general-purpose AI models with systemic risk classifications. Companies including major US and Chinese AI labs operating in the EU must demonstrate adherence to transparency, safety testing, and energy reporting requirements or face fines of up to 3% of global revenue.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/technology",
       "category": "Innovation",
-      "date": "2026-07-23"
+      "date": "2026-07-20"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics Atlas Demonstrates Autonomous Disaster-Site Navigation in DARPA Exercise",
-      "summary": "Boston Dynamics' electric Atlas humanoid completed a DARPA-organized urban search-and-rescue exercise, autonomously navigating rubble fields, opening doors, and locating simulated survivors using onboard LiDAR-vision fusion. The demonstration marks a significant step toward deployable general-purpose disaster-response robotics, though experts note the controlled environment still differs substantially from real collapse scenarios.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-07-19"
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "Neuralink obtained FDA approval for its N2 implant, a second-generation brain-computer interface with four times the electrode count of its predecessor and a wireless data throughput sufficient for real-time cursor and robotic arm control. The clearance covers expanded clinical trials for patients with spinal cord injuries and ALS, building on promising data from the first cohort of human participants implanted in 2024-2025.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-07-24"
     }
   ]
 }
