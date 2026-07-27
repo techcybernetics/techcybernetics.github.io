@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-07-27",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a unified architecture that merges the previously separate o-series reasoning models into a single system. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
+      "summary": "OpenAI officially rolled out GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap with specialized domain tools. Enterprise API pricing reflects a compute-intensive architecture but offers a consolidated single-model endpoint replacing several prior specialized models.",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-07-18"
+      "date": "2026-07-20"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New State of the Art on Agentic Benchmarks",
-      "summary": "Google DeepMind released Gemini 2.5 Ultra with a 2-million-token context window and advanced agentic capabilities that allow it to autonomously browse the web, write and execute code, and orchestrate multi-step workflows. The model topped SWE-Bench Verified and several new agentic evaluation suites, intensifying competition with OpenAI and Anthropic in the enterprise AI agent market.",
+      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Agentic Coding and Research Benchmarks",
+      "summary": "DeepMind released Gemini 2.5 Ultra, which claims state-of-the-art performance on SWE-Bench Verified and several agentic research benchmarks where the model autonomously plans, executes, and iterates on multi-file codebases. The model integrates natively with Google Cloud tooling for grounded web search and code execution. Independent evaluations confirm strong performance but note increased latency compared to the smaller Pro variant.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "3",
+      "title": "Anthropic Introduces Claude 4 with Improved Instruction Following and Safety Guarantees",
+      "summary": "Anthropic launched Claude 4, emphasizing advances in precise instruction adherence, reduced hallucination rates, and a new interpretability layer that provides token-level attribution for generated claims. The model introduces a constitutional-AI-derived alignment approach that allows enterprise customers to specify behavioral policies declaratively. Early adopter feedback highlights marked improvements in long-document legal and financial analysis workflows.",
       "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "url": "https://www.technologyreview.com/ai",
       "category": "AI",
       "date": "2026-07-15"
     },
     {
-      "id": "3",
-      "title": "Tesla Optimus Robots Begin Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robots have started operating in select third-party logistics warehouses outside of Tesla's own factories, marking the company's first commercial deployment to external customers. The robots handle bin picking, palletizing, and inventory scanning tasks, leveraging end-to-end neural network control trained in simulation and refined with real-world teleoperation data.",
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has entered limited production deployment at two Gigafactory locations, performing repetitive bin-picking, parts transport, and quality-inspection tasks alongside human workers. The Gen 3 unit features upgraded actuators with higher torque density and an on-board vision-language model for flexible task instruction. Tesla plans broader third-party availability in early 2027 pending regulatory certification.",
       "source": "Reuters",
       "url": "https://www.reuters.com/technology",
       "category": "Robotics",
-      "date": "2026-07-21"
-    },
-    {
-      "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment Across European Assembly Lines",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across multiple European manufacturing plants, scaling from a single pilot line to full body-shop and logistics roles. The robots use a vision-language-action model that allows operators to assign new tasks via natural language instructions, significantly reducing reprogramming time compared to traditional industrial automation.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-07-22"
+      "date": "2026-07-24"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
-      "summary": "Anthropic launched a new orchestration layer for Claude that enables enterprises to build complex multi-agent systems with built-in guardrails, audit logging, and human-in-the-loop approval gates. The framework addresses growing demand for controllable AI agents in regulated industries such as finance and healthcare, providing deterministic fallback paths when model confidence is low.",
-      "source": "VentureBeat",
-      "url": "https://www.venturebeat.com",
-      "category": "AI",
-      "date": "2026-07-23"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas EV: A Fully Electric Commercial Humanoid Platform",
+      "summary": "Boston Dynamics, backed by Hyundai, officially announced the commercial Atlas EV platform—a fully electric humanoid designed for warehouse logistics and industrial inspection. The robot boasts 16 hours of operational runtime, hot-swappable battery packs, and an SDK enabling third-party developers to build custom manipulation skills using imitation learning. Pilot deployments with DHL and BMW are scheduled for Q4 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-07-18"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 2nm A16 Chips with Backside Power Delivery",
-      "summary": "TSMC has commenced high-volume manufacturing of its A16 (2nm-class) process node featuring backside power delivery network technology, which routes power through the back of the wafer to free up routing resources on the front side. Early yield data reportedly exceeds expectations, and the node is expected to power next-generation AI accelerators and smartphone SoCs shipping in late 2026 and early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its A14 (1.4nm-class) process node has entered high-volume manufacturing, approximately one quarter ahead of its original roadmap. The node leverages gate-all-around nanosheet transistors and backside power delivery to achieve an estimated 20% speed improvement and 30% power reduction over N2. Apple and NVIDIA are confirmed as lead customers, with AI accelerator and mobile SoC designs expected to tape out by year-end.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-14"
+      "date": "2026-07-25"
     },
     {
       "id": "7",
-      "title": "EU AI Act Enforcement Begins with First Wave of Compliance Audits",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting providers of general-purpose AI models with systemic risk classifications. Companies including major US and Chinese AI labs operating in the EU must demonstrate adherence to transparency, safety testing, and energy reporting requirements or face fines of up to 3% of global revenue.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com/technology",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on logical qubits with error rates below the threshold required for practical quantum error correction, using Quantinuum's trapped-ion H3 system and Microsoft's topological qubit decoder. The demonstration ran a 24-logical-qubit circuit performing iterative phase estimation—a core subroutine for quantum chemistry. Researchers caution that scaling to commercially relevant problem sizes still requires significant engineering work.",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles",
       "category": "Innovation",
-      "date": "2026-07-20"
+      "date": "2026-07-21"
     },
     {
       "id": "8",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "Neuralink obtained FDA approval for its N2 implant, a second-generation brain-computer interface with four times the electrode count of its predecessor and a wireless data throughput sufficient for real-time cursor and robotic arm control. The clearance covers expanded clinical trials for patients with spinal cord injuries and ALS, building on promising data from the first cohort of human participants implanted in 2024-2025.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-07-24"
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
+      "summary": "Figure AI closed a $1.5 billion Series C round at an $18 billion valuation, led by Microsoft and NVIDIA, to build out dedicated humanoid manufacturing lines in Spartanburg, South Carolina. The company's Figure 03 robot integrates a custom vision-language-action model co-developed with OpenAI, enabling it to learn warehouse manipulation tasks from a few human demonstrations. Figure targets 1,000 units deployed across Amazon and BMW facilities by mid-2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
+      "category": "Robotics",
+      "date": "2026-07-16"
     }
   ]
 }
