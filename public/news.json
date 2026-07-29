@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a 1M-token context window. Benchmarks show substantial gains on PhD-level science questions and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several specialized fields.",
+      "title": "OpenAI Announces GPT-5 Turbo with Native Multimodal Reasoning Chain",
+      "summary": "OpenAI released GPT-5 Turbo, featuring a unified reasoning architecture that natively interleaves text, image, audio, and code generation within a single chain-of-thought pass. The model demonstrates significant improvements on ARC-AGI-2 benchmarks and reduces hallucination rates by approximately 40% compared to GPT-4.5, largely attributed to a new self-consistency verification layer during inference.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Robotics Foundation Model Achieves Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "DeepMind published results showing its Gemini Robotics model can perform complex multi-step manipulation tasks in cluttered, never-before-seen household environments without fine-tuning. The system combines a vision-language-action architecture with real-time physics simulation to plan grasps and tool use, achieving an 87% success rate across 150 novel task configurations in independent evaluations.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-07-25"
+    },
+    {
+      "id": "3",
+      "title": "EU AI Act Full Enforcement Begins as Companies Race to Comply with High-Risk System Requirements",
+      "summary": "The EU AI Act's high-risk system provisions officially took effect this month, requiring companies deploying AI in hiring, credit scoring, healthcare, and law enforcement to meet strict transparency, auditing, and human-oversight mandates. Major cloud providers including AWS and Azure have rolled out compliance dashboards, while several startups report pivoting product roadmaps to avoid the high-risk classification entirely.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "AI",
       "date": "2026-07-21"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Zero-Shot Dexterous Manipulation",
-      "summary": "DeepMind demonstrated an updated Gemini Robotics foundation model that allows humanoid and multi-fingered robot hands to perform complex manipulation tasks—such as folding laundry and assembling electronic components—with zero-shot transfer from simulation. The system leverages a vision-language-action architecture that maps natural language instructions directly to fine motor control policies.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-07-23"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Publishes Comprehensive Interpretability Map of Claude's Neural Circuitry",
-      "summary": "Anthropic released a landmark paper detailing mechanistic interpretability breakthroughs that map high-level concepts and reasoning pathways inside large language models at an unprecedented scale. The research identifies specific circuits responsible for chain-of-thought faithfulness, sycophancy, and hallucination, offering concrete levers for targeted safety interventions.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-07-25"
-    },
-    {
       "id": "4",
-      "title": "Tesla Optimus Begins Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robot has started supervised operation in select third-party logistics warehouses, handling palletizing and inventory scanning tasks. The rollout marks the first commercial deployment of Optimus outside Tesla's own factories, with the company reporting a target unit cost below $25,000 at scale.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robots have started operating in select third-party logistics warehouses outside of Tesla's own factories for the first time. The robots handle bin picking, palletizing, and inventory scanning tasks, with Tesla reporting a 3x improvement in battery endurance over Gen 2, enabling full 8-hour shifts on a single charge.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-07-22"
+      "date": "2026-07-27"
     },
     {
       "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors, promising a 15% speed improvement and 30% power reduction over its N2 node. Early customers include Apple and NVIDIA, with the node expected to power next-generation AI accelerators shipping in early 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
+      "title": "Anthropic Introduces Claude Sentinel: An AI System That Audits Other AI Systems for Safety Violations",
+      "summary": "Anthropic launched Claude Sentinel, a specialized model designed to monitor and audit deployed AI systems in real time, flagging outputs that violate safety policies, exhibit reasoning failures, or drift from intended behavior. The tool integrates via API middleware and is aimed at enterprises running multi-model pipelines, addressing a growing need for automated AI governance at scale.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
       "date": "2026-07-24"
     },
     {
       "id": "6",
-      "title": "Meta Releases Llama 4 Behemoth Open-Weight Model with 2 Trillion Parameters",
-      "summary": "Meta released the full open-weight version of Llama 4 Behemoth, a 2-trillion-parameter mixture-of-experts model that rivals proprietary frontier systems on reasoning and code generation benchmarks. The release includes quantized variants optimized for single-node inference on 8×H200 setups, dramatically lowering the barrier for enterprises to deploy frontier-class AI privately.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-07-18"
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process node, roughly one quarter ahead of its original timeline. The node leverages gate-all-around nanosheet transistors and backside power delivery, promising a 25% performance gain or 35% power reduction over N2, with Apple and Nvidia confirmed as launch customers for early 2027 silicon.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-07-23"
     },
     {
       "id": "7",
-      "title": "Boston Dynamics and Hyundai Unveil Autonomous Construction Site System",
-      "summary": "Boston Dynamics, in collaboration with Hyundai Engineering, demonstrated a fully integrated autonomous construction workflow using Atlas humanoid robots and Spot quadrupeds coordinating via a centralized planning AI. The system autonomously completed structural inspection, material transport, and welding tasks on a live construction site in Seoul with minimal human oversight.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Modular End-Effector System",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform featuring a modular quick-swap end-effector system that allows operators to reconfigure the robot's hands for different industrial tasks in under 60 seconds. The platform ships with a suite of five effector types and a cloud-based task programming interface, targeting automotive and construction customers with initial deliveries in Q4 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-07-26"
     },
     {
       "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV Tests",
-      "summary": "QuantumScape reported that its lithium-metal solid-state cells achieved over 1,000 fast-charge cycles while retaining greater than 90% capacity in real-world EV pack testing with a major automaker partner. The milestone addresses the key durability concern that has kept solid-state batteries from commercialization and could enable EVs with 500+ mile range and 15-minute charging by 2028.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 1,000-Cycle Durability in Automotive Cell Format",
+      "summary": "QuantumScape published independently validated data showing its latest lithium-metal solid-state cells retain over 90% capacity after 1,000 fast-charge cycles in a full automotive pouch format, a milestone that had long eluded solid-state developers. The cells deliver roughly 500 Wh/kg at the cell level and charge from 10% to 80% in under 12 minutes, with Volkswagen's PowerCo confirming integration into a 2028 production vehicle.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "Innovation",
-      "date": "2026-07-20"
+      "date": "2026-07-28"
     }
   ]
 }
