@@ -1,64 +1,64 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-02",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science and mathematics benchmarks, narrowing the gap with domain-specific expert systems. Enterprise API pricing has been restructured around a new tiered compute-unit model.",
+      "summary": "OpenAI officially released GPT-5 in mid-July 2026, featuring substantially improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses what were previously separate models into a single system. Benchmarks show significant gains on graduate-level science, mathematics, and agentic coding tasks, with the model able to sustain coherent multi-step plans across sessions lasting hours.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves New State-of-the-Art on Scientific Research Benchmarks",
+      "summary": "Google DeepMind announced Gemini Ultra 2, which sets new records on FrontierMath and GPQA Diamond benchmarks, solving problems previously considered out of reach for AI systems. The model integrates a refined mixture-of-experts architecture with improved tool use, enabling it to autonomously write and execute verification code during complex reasoning chains.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-07-28"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind released Gemini Ultra 2, which tops SWE-Bench Verified and the new HumanEval-Agent benchmark with scores exceeding 75% on fully autonomous multi-file code generation and debugging tasks. The model integrates a built-in tool-use layer that allows it to invoke compilers, test suites, and shell commands within its reasoning loop. Google simultaneously announced deep integration across Vertex AI and Android Studio.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-07-25"
-    },
-    {
       "id": "3",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
-      "summary": "Anthropic announced a new orchestration framework that allows Claude models to autonomously compose and manage multi-step tool-use pipelines across enterprise systems including databases, APIs, and internal knowledge bases. The framework includes built-in guardrails for human-in-the-loop approval at configurable risk thresholds. Early adopters report 40-60% reduction in time spent on complex back-office workflows.",
-      "source": "VentureBeat",
-      "url": "https://www.venturebeat.com",
-      "category": "AI",
+      "title": "Tesla Optimus Begins Limited Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robots have started operating in select third-party logistics and warehousing facilities beyond Tesla's own factories. The robots handle box sorting, palletizing, and inventory scanning, with Tesla reporting sustained 18-hour operational cycles between charges. The deployment marks the first commercial sale of Optimus units outside Tesla's internal operations.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-07-30"
     },
     {
       "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robots have entered limited production deployment at two Gigafactory locations, performing bin-picking, component inspection, and inter-station material transport. The Gen 3 units feature redesigned actuators with 30% higher torque density and an overhauled vision-language-action model for more robust manipulation in unstructured environments. Tesla plans to expand deployment to logistics partners by Q1 2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-07-22"
-    },
-    {
-      "id": "5",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
-      "summary": "Boston Dynamics, backed by Hyundai, revealed the commercial version of its electric Atlas humanoid robot tailored for construction and heavy industrial use, featuring IP67 ruggedization and a 90-minute hot-swappable battery system. The robot can carry payloads up to 35 kg while navigating uneven terrain and climbing ladders. Pilot programs with three major construction firms are scheduled across the US and South Korea.",
+      "title": "Figure AI Demonstrates Conversational Multi-Robot Coordination in BMW Assembly Line",
+      "summary": "Figure AI released footage and technical details of its Figure 02 robots coordinating tasks on a BMW assembly line using natural language instructions relayed from a central AI planner. The system allows a human supervisor to issue high-level goals that are automatically decomposed into subtasks and distributed across multiple robots in real time, reducing manual programming overhead dramatically.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-07-26"
+      "date": "2026-07-25"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Autonomous Multi-App Workflows",
+      "summary": "Anthropic rolled out a major upgrade to Claude's computer use capabilities, allowing the model to autonomously navigate complex multi-application workflows across desktop and web environments with significantly improved reliability. The system now supports persistent browser sessions, file management, and chained API calls, positioning it as a practical AI agent for enterprise back-office automation.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-07-31"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Risk Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered risk production, targeting high-performance AI accelerator and data-center CPU customers. The node promises an 18% speed improvement and 25% power reduction over N2, with backside power delivery as a standard feature. Volume production is expected in the second half of 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node has entered volume production at its Fab 20 complex in Tainan, approximately one quarter ahead of the originally projected timeline. The node delivers a roughly 20% performance improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerators and mobile SoCs shipping in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-21"
+      "date": "2026-07-27"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
-      "summary": "The FDA granted Neuralink approval to begin human clinical trials of its N2 implant, which doubles the electrode count to 2,048 channels and features a wireless data throughput of 200 Mbps, enabling higher-resolution neural decoding. The trial will focus on patients with cervical spinal cord injuries, aiming to restore both cursor control and limited robotic arm manipulation. The approval follows 18 months of promising safety data from the first-generation cohort.",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "The FDA granted clearance for Neuralink's N2 implant, a second-generation brain-computer interface featuring 4x the electrode count of its predecessor, wireless high-bandwidth data streaming, and a simplified surgical insertion procedure. Early clinical trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks, marking a significant milestone for assistive neurotechnology.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
@@ -66,12 +66,12 @@
     },
     {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
-      "summary": "Figure AI closed a $1.5 billion Series C round at an $18 billion valuation, led by Microsoft and joined by NVIDIA and Bezos Expeditions, to build its first dedicated humanoid robot factory in South Carolina. The company's Figure 03 robot integrates a vision-language-action model co-developed with OpenAI for generalized warehouse and logistics tasks. Figure aims to produce 10,000 units annually by 2028.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
+      "summary": "Boston Dynamics, backed by Hyundai, officially launched the commercial version of its electric Atlas humanoid robot tailored for construction environments. The platform features ruggedized hardware, dust and water resistance rated at IP67, and an SDK that allows construction firms to program site-specific inspection, material transport, and documentation tasks. Pilot programs are underway with three major general contractors in the U.S. and South Korea.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
-      "date": "2026-07-24"
+      "date": "2026-08-01"
     }
   ]
 }
