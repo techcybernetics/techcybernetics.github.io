@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in mid-July 2026, featuring substantially improved long-horizon reasoning, native image and audio generation, and a unified architecture that collapses what were previously separate models into a single system. Benchmarks show significant gains on graduate-level science, mathematics, and agentic coding tasks, with the model able to sustain coherent multi-step plans across sessions lasting hours.",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a 1M-token context window available at launch. Benchmarks show substantial gains on PhD-level science QA and complex multi-step coding tasks, narrowing the gap with specialized domain models. The model is available through the API with a new tiered pricing structure based on reasoning depth.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-07-22"
+      "date": "2026-07-29"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves New State-of-the-Art on Scientific Research Benchmarks",
-      "summary": "Google DeepMind announced Gemini Ultra 2, which sets new records on FrontierMath and GPQA Diamond benchmarks, solving problems previously considered out of reach for AI systems. The model integrates a refined mixture-of-experts architecture with improved tool use, enabling it to autonomously write and execute verification code during complex reasoning chains.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on SWE-Bench, WebArena, and other agentic evaluation suites, demonstrating the ability to autonomously complete multi-step software engineering and web navigation tasks with minimal human oversight. The model introduces a novel self-verification loop that reduces hallucination rates by over 40% compared to its predecessor. Google is integrating the model across Workspace and Cloud Platform offerings.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-07-28"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Begins Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen-3 humanoid robots have started operating in select third-party logistics and warehousing facilities beyond Tesla's own factories. The robots handle box sorting, palletizing, and inventory scanning, with Tesla reporting sustained 18-hour operational cycles between charges. The deployment marks the first commercial sale of Optimus units outside Tesla's internal operations.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-07-30"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Demonstrates Conversational Multi-Robot Coordination in BMW Assembly Line",
-      "summary": "Figure AI released footage and technical details of its Figure 02 robots coordinating tasks on a BMW assembly line using natural language instructions relayed from a central AI planner. The system allows a human supervisor to issue high-level goals that are automatically decomposed into subtasks and distributed across multiple robots in real time, reducing manual programming overhead dramatically.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-07-25"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Autonomous Multi-App Workflows",
-      "summary": "Anthropic rolled out a major upgrade to Claude's computer use capabilities, allowing the model to autonomously navigate complex multi-application workflows across desktop and web environments with significantly improved reliability. The system now supports persistent browser sessions, file management, and chained API calls, positioning it as a practical AI agent for enterprise back-office automation.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-07-31"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
+      "summary": "Figure AI announced that its Figure 02 humanoid robots have moved beyond pilot testing and are now operating in regular production shifts at BMW's Spartanburg facility, performing parts inspection, bin picking, and material transport tasks. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing. Figure reports the units are achieving 94% task completion rates with a mean time between failures exceeding 18 hours.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Chaining",
+      "summary": "Tesla showed a live demonstration of its Optimus Gen 3 humanoid robot performing chained household tasks including laundry folding, dish loading, and floor cleanup without per-task human prompting. The robot uses an on-device vision-language-action model fine-tuned on teleoperation data, representing a shift toward generalist home robotics. Tesla indicated plans for a limited external beta program starting Q4 2026 priced under $25,000.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Persistent Memory and Tool Orchestration",
+      "summary": "Anthropic released a major upgrade to Claude's computer use capabilities, adding persistent cross-session memory, parallel tool orchestration, and a secure sandbox environment for autonomous desktop workflows. The system can now maintain context across multi-day tasks such as research projects and code refactoring efforts. Enterprise customers report up to 5x productivity gains for repetitive back-office operations in early access testing.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-02"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 process node has entered volume production at its Fab 20 complex in Tainan, approximately one quarter ahead of the originally projected timeline. The node delivers a roughly 20% performance improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerators and mobile SoCs shipping in early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 process node using next-generation gate-all-around transistor architecture, approximately one quarter ahead of its original roadmap. The node delivers a 20% performance uplift and 30% power reduction over N2, with Apple and NVIDIA confirmed as lead customers. This development intensifies competition with Samsung Foundry and Intel, both of which have faced delays on comparable nodes.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-27"
+      "date": "2026-07-30"
     },
     {
       "id": "7",
       "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "The FDA granted clearance for Neuralink's N2 implant, a second-generation brain-computer interface featuring 4x the electrode count of its predecessor, wireless high-bandwidth data streaming, and a simplified surgical insertion procedure. Early clinical trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks, marking a significant milestone for assistive neurotechnology.",
+      "summary": "The FDA granted Neuralink approval to begin clinical trials with its N2 implant, which features 4x the electrode density of the original device and bidirectional stimulation capabilities enabling both neural reading and writing. The first cohort will focus on patients with spinal cord injuries, with the goal of restoring not just cursor control but also tactile feedback. The approval follows positive 18-month safety data from the first-generation implant trials.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-07-29"
+      "date": "2026-07-27"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
-      "summary": "Boston Dynamics, backed by Hyundai, officially launched the commercial version of its electric Atlas humanoid robot tailored for construction environments. The platform features ruggedized hardware, dust and water resistance rated at IP67, and an SDK that allows construction firms to program site-specific inspection, material transport, and documentation tasks. Pilot programs are underway with three major general contractors in the U.S. and South Korea.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
+      "title": "Meta Open-Sources Llama 4 Behemoth with 2 Trillion Parameters and MoE Architecture",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, its largest open-source model to date, using a mixture-of-experts architecture with 2 trillion total parameters and 400 billion active per forward pass. The model matches or exceeds several proprietary frontier models on standard benchmarks while running efficiently on 8-GPU clusters through aggressive expert parallelism. The release has sparked rapid community fine-tuning efforts and renewed debate about the safety implications of open-weight frontier models.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "Innovation",
       "date": "2026-08-01"
     }
   ]
