@@ -1,37 +1,37 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a 1M-token context window available at launch. Benchmarks show substantial gains on PhD-level science QA and complex multi-step coding tasks, narrowing the gap with specialized domain models. The model is available through the API with a new tiered pricing structure based on reasoning depth.",
+      "summary": "OpenAI officially released GPT-5, featuring substantially improved long-horizon reasoning, native image and audio generation within a single model, and a 1M-token context window. Benchmarks show significant gains on PhD-level science questions and complex multi-step coding tasks, positioning it as a major leap over GPT-4o. Enterprise API access includes a new 'planning mode' that chains tool use autonomously.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-07-29"
+      "date": "2026-07-28"
     },
     {
       "id": "2",
       "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on SWE-Bench, WebArena, and other agentic evaluation suites, demonstrating the ability to autonomously complete multi-step software engineering and web navigation tasks with minimal human oversight. The model introduces a novel self-verification loop that reduces hallucination rates by over 40% compared to its predecessor. Google is integrating the model across Workspace and Cloud Platform offerings.",
+      "summary": "DeepMind unveiled Gemini Ultra 2 with a focus on agentic capabilities, demonstrating autonomous multi-step web browsing, code repository management, and research synthesis. The model topped new agentic benchmarks including WebArena and SWE-Bench Verified by wide margins. Google integrated it directly into Workspace as an always-on assistant capable of executing multi-hour workflows.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-07-31"
+      "date": "2026-07-30"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
-      "summary": "Figure AI announced that its Figure 02 humanoid robots have moved beyond pilot testing and are now operating in regular production shifts at BMW's Spartanburg facility, performing parts inspection, bin picking, and material transport tasks. The deployment marks one of the first scaled commercial uses of general-purpose humanoid robots in automotive manufacturing. Figure reports the units are achieving 94% task completion rates with a mean time between failures exceeding 18 hours.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Factories",
+      "summary": "Tesla started deploying its third-generation Optimus humanoid robots in two of its Gigafactories for parts sorting, inspection, and light assembly tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for real-time task adaptation. Musk stated the goal is 1,000 units operating in Tesla facilities by year-end before external sales begin in 2027.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-07-28"
+      "date": "2026-07-31"
     },
     {
       "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Chaining",
-      "summary": "Tesla showed a live demonstration of its Optimus Gen 3 humanoid robot performing chained household tasks including laundry folding, dish loading, and floor cleanup without per-task human prompting. The robot uses an on-device vision-language-action model fine-tuned on teleoperation data, representing a shift toward generalist home robotics. Tesla indicated plans for a limited external beta program starting Q4 2026 priced under $25,000.",
+      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robots Enter Warehouse Operations",
+      "summary": "Figure AI closed a $1.5 billion Series C at a $15 billion valuation, with investment from Microsoft, NVIDIA, and Amazon. The company's Figure 02 robots are now operating in BMW logistics centers and Amazon fulfillment warehouses, handling unstructured pick-and-place tasks. The funding will accelerate development of Figure 03, which promises full-body loco-manipulation for outdoor and construction environments.",
       "source": "TechCrunch",
       "url": "https://www.techcrunch.com",
       "category": "Robotics",
@@ -39,39 +39,39 @@
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude's Computer Use 2.0 with Persistent Memory and Tool Orchestration",
-      "summary": "Anthropic released a major upgrade to Claude's computer use capabilities, adding persistent cross-session memory, parallel tool orchestration, and a secure sandbox environment for autonomous desktop workflows. The system can now maintain context across multi-day tasks such as research projects and code refactoring efforts. Enterprise customers report up to 5x productivity gains for repetitive back-office operations in early access testing.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "Anthropic Introduces Constitutional Classifiers for Enterprise AI Safety at Scale",
+      "summary": "Anthropic released a production-grade safety layer called Constitutional Classifiers, enabling enterprises to define custom safety policies in natural language that are enforced across Claude deployments in real time. The system uses lightweight classifier heads trained via constitutional AI methods, adding less than 50ms latency while reducing policy violations by over 90% in red-team evaluations. The approach is positioned as a practical alternative to heavy-handed content filtering.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
       "date": "2026-08-02"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 process node using next-generation gate-all-around transistor architecture, approximately one quarter ahead of its original roadmap. The node delivers a 20% performance uplift and 30% power reduction over N2, with Apple and NVIDIA confirmed as lead customers. This development intensifies competition with Samsung Foundry and Intel, both of which have faced delays on comparable nodes.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process node at its Fab 20 facility in Tainan, several months ahead of its original timeline. The node delivers an 18% speed improvement and 25% power reduction over N2, with backside power delivery fully integrated. Apple, NVIDIA, and AMD are confirmed as launch customers, with chips expected in consumer devices by early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-30"
+      "date": "2026-07-29"
     },
     {
       "id": "7",
       "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "The FDA granted Neuralink approval to begin clinical trials with its N2 implant, which features 4x the electrode density of the original device and bidirectional stimulation capabilities enabling both neural reading and writing. The first cohort will focus on patients with spinal cord injuries, with the goal of restoring not just cursor control but also tactile feedback. The approval follows positive 18-month safety data from the first-generation implant trials.",
+      "summary": "The FDA granted Neuralink clearance to begin expanded clinical trials of its N2 implant, which doubles the electrode count to 2,048 channels and introduces wireless charging. Early trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks and preliminary speech decoding capabilities. The clearance marks a significant regulatory milestone for commercial brain-computer interfaces.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-07-27"
+      "date": "2026-08-03"
     },
     {
       "id": "8",
-      "title": "Meta Open-Sources Llama 4 Behemoth with 2 Trillion Parameters and MoE Architecture",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, its largest open-source model to date, using a mixture-of-experts architecture with 2 trillion total parameters and 400 billion active per forward pass. The model matches or exceeds several proprietary frontier models on standard benchmarks while running efficiently on 8-GPU clusters through aggressive expert parallelism. The release has sparked rapid community fine-tuning efforts and renewed debate about the safety implications of open-weight frontier models.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's provisions for general-purpose AI models, targeting OpenAI, Google, and Meta's European operations. Auditors are examining training data documentation, systemic risk assessments, and red-teaming practices. The enforcement action is being closely watched as a template for how regulators worldwide will hold foundation model developers accountable.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-08-01"
+      "date": "2026-08-04"
     }
   ]
 }
