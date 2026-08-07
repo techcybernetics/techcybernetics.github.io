@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a context window exceeding 1 million tokens. The model demonstrates substantial gains on graduate-level science benchmarks and complex multi-step coding tasks, narrowing the gap between LLM outputs and expert-level domain work.",
+      "title": "OpenAI Launches GPT-5 with Native Multimodal Reasoning and Extended Context",
+      "summary": "OpenAI officially released GPT-5, featuring natively fused vision, audio, and text reasoning in a single architecture rather than bolted-on adapters. The model demonstrates significant gains on doctoral-level science benchmarks and supports a 1-million-token context window, enabling full-codebase and book-length analysis in a single pass.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-07-28"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini 2.5 Ultra Sets New State of the Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind released Gemini 2.5 Ultra, which achieves top scores on SWE-Bench Verified and real-world repository-scale coding tasks, outperforming previous frontier models. The model introduces improved tool-use orchestration that allows it to autonomously plan, execute, and debug multi-file software projects with minimal human intervention.",
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Gold Medal Performance on International Math Olympiad 2026",
+      "summary": "DeepMind announced that Gemini Ultra 2 scored 35 out of 42 on this year's IMO problem set, surpassing the gold-medal threshold and outperforming all but a handful of human contestants. The result was verified by independent mathematicians and represents a step change over last year's near-miss results, raising questions about the remaining gaps between AI and elite human mathematical creativity.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-07-30"
+      "date": "2026-07-31"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robot in select Fremont and Austin factory lines, performing parts kitting, inspection, and light assembly tasks alongside human workers. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for real-time task adaptation.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-01"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Announces Commercial Humanoid Deployment with BMW",
-      "summary": "Figure AI closed a $1.5 billion Series C round at a $15 billion valuation, fueled by a production contract with BMW to deploy Figure 02 robots in Spartanburg plant logistics operations. The deal represents one of the first large-scale commercial deployments of general-purpose humanoid robots outside of a pilot program.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Plants",
+      "summary": "Figure's third-generation humanoid robot has entered series production deployment at two BMW manufacturing facilities in South Carolina, performing bin-picking, part transfer, and quality inspection tasks alongside human workers. The robots leverage on-board vision-language models to interpret natural-language instructions from floor supervisors, reducing retooling time for new tasks from days to minutes.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-08-03"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces Claude Tool-Use Agents with Persistent Memory and Sandboxed Execution",
-      "summary": "Anthropic released a major update to its Claude platform, enabling fully autonomous agents that can maintain persistent memory across sessions, execute code in sandboxed environments, and interact with external APIs under user-defined safety constraints. The system uses a constitutional AI-derived supervision layer to prevent unsafe tool invocations in enterprise deployments.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
+      "id": "4",
+      "title": "Meta Releases Open-Source Llama 4 Behemoth with 288B Active Parameters Under Permissive License",
+      "summary": "Meta publicly released the full weights of Llama 4 Behemoth, a mixture-of-experts model with 288 billion active parameters and nearly 2 trillion total parameters, under a revised open-source license that permits commercial use. Early benchmarks show it competitive with proprietary frontier models, and the release includes optimized quantized variants that run on a single 8×H100 node.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-08-04"
+      "date": "2026-08-01"
+    },
+    {
+      "id": "5",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Disaster Response at DARPA Exercise",
+      "summary": "Boston Dynamics showcased its all-electric Atlas robot completing a full DARPA-style disaster response course autonomously, including valve manipulation, rubble traversal, and casualty identification with zero human teleoperation. The demonstration used a new whole-body model-predictive controller that fuses LiDAR and stereo vision for real-time terrain adaptation, marking a major milestone in unstructured-environment locomotion.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-07-30"
     },
     {
       "id": "6",
-      "title": "ASML Reports Record EUV High-NA Orders as Chip Fabricators Race to 1.4nm Nodes",
-      "summary": "ASML disclosed record quarterly bookings for its next-generation high-NA EUV lithography systems, driven by TSMC and Intel orders targeting sub-2nm process nodes expected in 2027-2028. The high-NA systems enable 8nm-pitch patterning in a single exposure, reducing multi-patterning complexity and potentially lowering per-transistor costs for future AI accelerator chips.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "TSMC Begins Volume Production of 1.4nm-Class N14 Process Node",
+      "summary": "TSMC confirmed initial volume production at its Fab 20 in Kaohsiung on the N14 process node, featuring gate-all-around nanosheet transistors with backside power delivery. The node offers a 15% speed improvement or 30% power reduction compared to N2, and is expected to power next-generation AI accelerators and mobile SoCs shipping in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-07-31"
+      "date": "2026-08-05"
     },
     {
       "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 1,000-Cycle Durability in EV-Format Cells",
-      "summary": "QuantumScape published independently validated data showing its multi-layer solid-state lithium-metal cells retained over 90% capacity after 1,000 fast-charge cycles in automotive-format pouches. The results address a long-standing durability concern for solid-state technology and bring the company closer to its planned 2027 commercial production with Volkswagen's PowerCo.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "The FDA granted de novo clearance to Neuralink's N2 implant, which doubles the electrode count to 2,048 channels and adds bidirectional stimulation capability. Early clinical trial participants with spinal cord injuries demonstrated full cursor and robotic arm control with sub-100ms latency, and the bidirectional feature opens a pathway toward sensory feedback restoration.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-08-02"
+      "date": "2026-08-04"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics Atlas Electric Completes Autonomous Disaster Response Trial with FEMA",
-      "summary": "Boston Dynamics' fully electric Atlas humanoid robot completed a week-long autonomous disaster response trial in partnership with FEMA, navigating collapsed structures, opening doors, and carrying supply payloads up to 25kg without remote operator assistance. The trial marks a significant milestone in deploying legged humanoid platforms for real-world unstructured environments beyond warehouse and factory settings.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-08-05"
+      "title": "Anthropic Introduces Claude 'Computer Use 2.0' Agent Framework for Enterprise Automation",
+      "summary": "Anthropic launched an upgraded computer-use agent framework that enables Claude to autonomously operate desktop and web applications through structured action primitives with built-in safety guardrails and audit logging. The system supports multi-step workflows across enterprise tools like SAP, Salesforce, and internal dashboards, and includes a human-in-the-loop approval tier configurable by risk level.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
+      "date": "2026-08-06"
     }
   ]
 }
