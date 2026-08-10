@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-10",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Announces GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, which unifies text, vision, audio, and code generation into a single natively multimodal architecture rather than routing between specialized submodels. Benchmarks show a 35% improvement on SWE-Bench Verified over GPT-4o and significantly reduced hallucination rates. The model also introduces a persistent memory layer accessible across sessions via API, raising both capability and privacy considerations.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, video streams, and 3D scene data in a single context window. Benchmarks show a 40% improvement on SWE-Bench Full and near-human performance on novel spatial reasoning tasks. The model is available through the API with a 1M-token context and significantly reduced latency compared to the original GPT-5 launch.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Gold Medal Level on International Math Olympiad 2026",
+      "summary": "DeepMind announced that Gemini Ultra 2, paired with an enhanced AlphaProof system, solved five of six problems at the 2026 IMO, earning a score equivalent to a gold medal. The system combines large-scale language model reasoning with formal theorem proving in Lean 4 and required no human intervention during the competition window. This marks the first time an AI has independently achieved gold-level performance at a live IMO event.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
       "category": "AI",
       "date": "2026-08-04"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Silver-Medal Level on International Math Olympiad 2026 Problems",
-      "summary": "DeepMind demonstrated Gemini Ultra 2 solving four of six IMO 2026 problems at a silver-medal standard, building on last year's AlphaProof results but now using a unified end-to-end language model without a separate formal proof verifier. The system leverages a novel chain-of-thought distillation method trained on millions of synthetic proof traces. This marks a significant step toward general mathematical reasoning without domain-specific symbolic scaffolding.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-08-06"
-    },
-    {
       "id": "3",
-      "title": "Tesla Optimus Gen-3 Begins Limited Deployment in Amazon Fulfillment Centers",
-      "summary": "Amazon confirmed a pilot deployment of approximately 1,000 Tesla Optimus Gen-3 humanoid robots across three fulfillment centers in Texas and Tennessee, handling bin-picking and shelf-stocking tasks. The robots use onboard vision-language models for zero-shot object manipulation, reportedly achieving 94% grasp success on novel items. The partnership signals accelerating convergence between humanoid robotics and large-scale warehouse logistics.",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has entered supervised commercial deployment at BMW manufacturing plants in South Carolina and Amazon fulfillment centers in Texas. The robots handle bin picking, parts kitting, and palletizing with a reported 97.5% task completion rate under human oversight. Tesla says the units are operating at roughly 60% of human worker throughput but at a fraction of the per-hour cost, with full autonomous operation targeted for Q1 2027.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-08-07"
+      "date": "2026-08-06"
     },
     {
       "id": "4",
-      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robot Demonstrates Autonomous Construction Tasks",
-      "summary": "Figure AI closed a $1.5 billion Series C at a $15 billion valuation after publicly demonstrating its Figure 03 robot performing multi-step construction tasks including drywall carrying, precision screw driving, and site navigation without teleoperation. The robot runs a transformer-based world model trained on thousands of hours of construction site video. The funding will be used to scale manufacturing and pursue contracts with major homebuilders facing persistent labor shortages.",
+      "title": "Figure AI Raises $1.5B Series C, Demonstrates One-Shot Task Learning on Figure 03 Platform",
+      "summary": "Figure AI closed a $1.5 billion Series C at a $15 billion valuation, showcasing its Figure 03 humanoid robot learning warehouse and light manufacturing tasks from a single human demonstration using a new visuomotor foundation model. The company demonstrated the robot generalizing learned pick-and-place skills to novel objects with dissimilar geometry, a capability that has eluded prior sim-to-real transfer approaches. Deployment partnerships with FedEx and Caterpillar were announced alongside the round.",
       "source": "TechCrunch",
       "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-08-05"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers for Real-Time Guardrails on Agentic AI Systems",
-      "summary": "Anthropic published a paper and released an open-weight safety classifier suite designed to monitor and constrain agentic AI systems operating autonomously over extended time horizons. The classifiers evaluate tool calls, code execution, and multi-step plans against configurable constitutional principles in real time with under 50ms latency overhead. The release addresses growing industry concern about deploying AI agents that browse the web, write code, and manage infrastructure with minimal human oversight.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
-      "date": "2026-08-03"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, approximately one quarter ahead of the originally projected timeline. The node uses gate-all-around nanosheet transistors and backside power delivery to achieve a 20% speed improvement or 35% power reduction versus N2. Early customers are expected to include Apple, Nvidia, and AMD, with AI accelerator chips anticipated as the dominant initial workload.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-08-08"
     },
     {
-      "id": "7",
-      "title": "Meta Open-Sources Full Orion AR Glasses Software Stack, Announces Developer Edition Hardware",
-      "summary": "Meta released the complete software stack for its Orion AR glasses under a permissive open-source license and opened pre-orders for a $1,500 developer edition shipping in Q4 2026. The stack includes a neural interface SDK for EMG wristband input, a spatial AI framework for persistent world anchors, and integration with Llama 4 for contextual on-device assistance. The move positions Meta to build an open ecosystem ahead of Apple Vision Pro's more locked-down platform.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "id": "5",
+      "title": "Anthropic Introduces Claude 'Computer Use 2.0' with Persistent Desktop Agents for Enterprise",
+      "summary": "Anthropic launched a major update to its computer-use capabilities, enabling Claude to operate as a persistent desktop agent that can manage multi-step enterprise workflows across applications over hours or days. The system includes a new safety architecture with audit trails, human-in-the-loop checkpoints, and sandboxed execution environments designed for SOC 2 compliant deployments. Early enterprise customers report 3-5x acceleration in back-office processes like procurement, compliance reporting, and data migration.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of A14 2nm Node, Apple and Nvidia Secure First Allocations",
+      "summary": "TSMC confirmed volume production of its N2 (2nm) process node at its Kaohsiung fab, with Apple and Nvidia as anchor customers for the initial production runs. The node uses gate-all-around (GAA) nanosheet transistors, delivering an estimated 15% speed improvement and 30% power reduction over the 3nm N3E process. Industry analysts expect 2nm chips to appear in consumer devices by early 2027, with Nvidia's next-generation data center GPUs likely among the first high-volume products.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-07"
+      "date": "2026-08-05"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Implant with 4,096 Electrode Channels",
+      "summary": "The FDA granted Neuralink clearance to begin human trials of its N2 brain-computer interface, which quadruples the electrode count of the original N1 device to 4,096 channels and adds bidirectional stimulation capabilities. The approval covers a 50-patient trial focused on restoring motor control in quadriplegic patients, with preliminary N1 trial data showing participants achieving cursor control speeds approaching those of able-bodied trackpad users. The N2 implant also features a redesigned surgical robot for faster, more precise insertion.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-08-03"
     },
     {
       "id": "8",
-      "title": "Quantum Startup PsiQuantum Demonstrates First Fault-Tolerant Logical Qubit Operations in Photonic Architecture",
-      "summary": "PsiQuantum reported achieving fault-tolerant error correction with logical qubit error rates below the surface code threshold using its photonic quantum computing architecture at its GlobalFoundries-fabricated chip facility. The demonstration involved eight logical qubits performing repeated syndrome extraction cycles with error rates of approximately 0.1% per round. While still far from commercial advantage, this is the first photonic platform to reach the fault-tolerance milestone, validating a manufacturing-friendly path to large-scale quantum computing.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-08-02"
+      "title": "Meta Open-Sources Llama 4 Behemoth 700B with Mixture-of-Experts, Tops Open-Weight Benchmarks",
+      "summary": "Meta released Llama 4 Behemoth, a 700B-parameter mixture-of-experts model with 128 experts and 40B active parameters per forward pass, under a permissive open-weight license. The model matches or exceeds GPT-4.5 on major coding, reasoning, and multilingual benchmarks while being efficiently deployable on a single 8xH100 node due to its sparse architecture. Meta also released an optimized inference stack with speculative decoding support, making it the most capable open model available for self-hosted enterprise deployments.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-10"
     }
   ]
 }
