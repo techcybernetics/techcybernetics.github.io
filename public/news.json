@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-08-16",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Persistent Memory and Extended Reasoning Chains",
-      "summary": "OpenAI officially released GPT-5, featuring a native long-term memory architecture that retains context across sessions and significantly improved multi-step reasoning capabilities. Benchmarks show a 38% improvement on graduate-level STEM tasks compared to GPT-4o, with notably reduced hallucination rates on factual queries. The model also introduces a new \"deep research\" mode that can autonomously browse, synthesize, and cite sources over extended workflows.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can simultaneously process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates significant improvements in long-context coherence up to 1M tokens and reduces hallucination rates by roughly 40% compared to GPT-5's initial release. Enterprise API pricing was cut by 30%, signaling OpenAI's push to maintain dominance amid intensifying competition from Google and Anthropic.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-08-12"
+      "date": "2026-08-14"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves New State-of-the-Art on Multimodal Scientific Reasoning",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on multimodal benchmarks requiring joint interpretation of images, charts, code, and natural language. The model demonstrates near-expert-level performance in interpreting medical imaging and molecular structure prediction when paired with specialized tool-use agents. Google is integrating the model across Workspace, Cloud, and a revamped AI-powered Search experience rolling out globally.",
+      "title": "Google DeepMind's Gemini Robotics Model Achieves Zero-Shot Manipulation of Novel Objects",
+      "summary": "DeepMind published results from its Gemini Robotics Foundation Model (GRFM-2), demonstrating that a single vision-language-action model can manipulate previously unseen objects with a 92% success rate in unstructured environments without any task-specific fine-tuning. The system leverages a massive dataset of simulated and real-world robotic interactions paired with Gemini's reasoning capabilities. This represents a meaningful step toward general-purpose robotic manipulation and could accelerate deployment in warehousing and household applications.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-08-10"
+      "category": "Robotics",
+      "date": "2026-08-12"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Demonstrates Fully Autonomous Warehouse Shift with Figure 02 Humanoids",
-      "summary": "Figure completed a milestone 8-hour autonomous warehouse shift at a BMW logistics facility, with a team of Figure 02 humanoid robots performing picking, packing, and palletizing without human intervention. The robots used on-device vision-language models for real-time task adaptation and demonstrated a 99.2% successful grasp rate across heterogeneous objects. This marks a significant step toward commercial-scale deployment of general-purpose humanoid labor.",
+      "title": "Anthropic Introduces Claude 'Sentinel' System for Autonomous AI Safety Monitoring",
+      "summary": "Anthropic unveiled Sentinel, a dedicated AI oversight system designed to continuously monitor other AI agents for alignment violations, unsafe tool use, and emergent goal-seeking behavior in real time. The system operates as an independent evaluation layer that can pause or override agent actions when it detects deviation from specified safety constraints. The release comes amid growing regulatory pressure in the EU and US for companies deploying autonomous AI agents to implement verifiable safety guardrails.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Automotive Manufacturing",
+      "summary": "Boston Dynamics officially announced commercial availability of the electric Atlas humanoid robot tailored for automotive assembly lines, developed in partnership with parent company Hyundai. The platform can perform over 40 distinct manipulation tasks including precision part insertion, heavy lifting up to 25 kg per arm, and quality inspection using onboard vision systems. Initial deployments are slated for Hyundai and Kia factories in South Korea and the US, with third-party sales opening in Q1 2027.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-08-11"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Enters Limited Production, Promises Sub-$25K Price Point by 2028",
-      "summary": "Tesla announced that its Optimus Gen 3 humanoid robot has entered limited production at its Texas Gigafactory, with initial units deployed internally for manufacturing tasks. The new generation features 28 degrees of freedom in its hands, improved battery life of 14 hours under moderate workload, and a significantly revamped neural network stack for whole-body control. Musk reiterated a target retail price under $25,000 once full-scale production is achieved.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-08"
-    },
-    {
       "id": "5",
-      "title": "Anthropic Introduces Claude 'Opus 4' with Constitutional-AI-Driven Agentic Capabilities",
-      "summary": "Anthropic released Claude Opus 4, its most capable model to date, featuring advanced agentic workflows governed by a refined Constitutional AI framework designed to maintain alignment during multi-step autonomous tasks. The model can execute complex software engineering tasks end-to-end, including writing, testing, and deploying code across repositories with minimal human oversight. Early enterprise adopters report up to 60% reduction in time spent on routine engineering and data analysis workflows.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-08-13"
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Transistor Chips",
+      "summary": "TSMC confirmed that its A14 (1.4nm-class) process node using gate-all-around nanosheet transistors has entered high-volume manufacturing at its Kaohsiung fab. Early benchmark data suggests an 18% performance gain and 25% power reduction over the N2 node, with Apple and Nvidia among the first customers. The milestone reinforces TSMC's manufacturing lead and is expected to enable next-generation AI accelerators with significantly improved performance-per-watt ratios.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-08-10"
     },
     {
       "id": "6",
-      "title": "ASML Ships First Production High-NA EUV Scanner to Intel's Ohio Fab",
-      "summary": "ASML confirmed delivery of its first full-production TWINSCAN EXE:5000 high-numerical-aperture EUV lithography system to Intel's new Ohio fabrication facility, enabling sub-2nm patterning. The system achieves 0.55 NA optics with an overlay accuracy below 1nm, a critical enabler for next-generation chip architectures. This shipment represents a pivotal moment in the semiconductor industry's roadmap toward angstrom-scale transistor manufacturing.",
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com",
-      "category": "Innovation",
-      "date": "2026-08-07"
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 288B Active Parameters",
+      "summary": "Meta released the full weights and training methodology for Llama 4 Behemoth, a massive mixture-of-experts model with 288 billion active parameters routed from a 1.2 trillion total parameter pool. Benchmarks show it matching or exceeding GPT-5 on reasoning-heavy tasks like GPQA and ARC-AGI while remaining deployable on 8×H200 clusters thanks to efficient expert routing. The open-source release is expected to significantly impact the open model ecosystem and further pressure proprietary API pricing downward.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-15"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Paralysis Patients",
-      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to 50 additional patients with spinal cord injuries and ALS, following positive 18-month outcomes from its initial cohort. Participants demonstrated sustained high-bandwidth cursor and robotic arm control at over 100 bits per second, with no serious device-related adverse events reported. The expanded trial will also test a next-generation implant with twice the electrode count for finer motor decoding.",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4,096 Electrodes",
+      "summary": "The FDA granted clearance for Neuralink's N2 implant featuring 4,096 electrodes — a fourfold increase over the original N1 device — enabling significantly higher-resolution neural signal capture. Early clinical trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied benchmarks and preliminary two-handed robotic arm manipulation. The clearance covers a 50-patient expanded trial, marking a critical regulatory milestone for consumer BCI technology.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-08-14"
+      "date": "2026-08-09"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric for Commercial Construction Tasks",
-      "summary": "Boston Dynamics, in partnership with parent company Hyundai, officially announced the commercial availability of its fully electric Atlas humanoid robot tailored for construction environments. The robot can carry loads up to 35 kg, navigate unstructured terrain including scaffolding and stairs, and perform supervised drilling and fastening tasks using standard power tools. The companies are targeting pilot deployments with three major construction firms in South Korea and the United States by Q4 2026.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Full Assembly Line Integration",
+      "summary": "Figure AI announced that its Figure 02 humanoid robots have moved beyond pilot programs to full production-line integration at BMW's Spartanburg, South Carolina plant, with over 200 units operating across three shifts. The robots handle component transfer, bin picking, and inspection tasks alongside human workers with a reported 99.2% uptime. Figure disclosed a $1.5 billion Series C round to fund scaling production to 10,000 units annually by 2028, reflecting surging industrial demand for humanoid labor platforms.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-08-09"
+      "date": "2026-08-15"
     }
   ]
 }
