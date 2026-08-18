@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 with Native Multimodal Reasoning and Extended Context",
-      "summary": "OpenAI officially launched GPT-5, featuring natively fused multimodal reasoning across text, image, audio, and video with a context window exceeding 1 million tokens. The model demonstrates significant improvements in long-horizon planning tasks and complex multi-step code generation, narrowing the gap between LLM outputs and senior-engineer-level solutions in internal benchmarks.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5 in early August 2026, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger effective context window. Benchmarks show marked gains on PhD-level science questions and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-08-12"
+      "date": "2026-08-06"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Discovery Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which set new records on MathOdyssey and ScienceBench by autonomously generating and verifying novel mathematical conjectures. The system combines reinforcement learning with chain-of-thought verification, producing outputs that were independently validated by peer reviewers in two published papers.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind released Gemini Ultra 2, which sets new records on agentic task-completion benchmarks including SWE-bench and WebArena. The model introduces improved tool-use chaining and persistent memory across sessions, enabling it to autonomously complete multi-hour software engineering workflows with minimal human oversight.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Factories",
-      "summary": "Tesla started deploying its third-generation Optimus humanoid robots in three of its own manufacturing plants for materials handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models enabling real-time task adaptation without cloud connectivity.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI and BMW Expand Humanoid Robot Pilot to Full Assembly Line Integration",
-      "summary": "Figure AI announced a major expansion of its partnership with BMW, moving beyond isolated pilot stations to integrated assembly line workflows at BMW's Spartanburg plant. The Figure 02 robots now handle multi-step sub-assembly sequences with human coworkers, leveraging a foundation model for task planning that reduced retooling time by 70%.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional Oversight Protocol for Autonomous AI Agents",
-      "summary": "Anthropic published a new framework called Constitutional Oversight Protocol (COP) designed to govern autonomous AI agents operating in high-stakes environments such as infrastructure management and financial trading. COP enforces layered runtime constraints using a secondary monitor model that can halt and roll back agent actions, addressing a critical gap in agentic AI safety.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-08-13"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its N1.4 process node has entered high-volume manufacturing at its Kaohsiung fab, several months ahead of original projections. The node delivers approximately 20% performance uplift and 30% power reduction over N2, and is expected to power next-generation AI accelerators from Nvidia and Apple shipping in early 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-08-11"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
-      "summary": "Microsoft and Quantinuum reported achieving below-threshold error rates on logical qubit operations using their hybrid trapped-ion architecture, sustaining 99.9% fidelity across 100 consecutive error-corrected cycles. This milestone represents a practical step toward scalable quantum computing and could accelerate timelines for commercially relevant quantum advantage in materials simulation.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
+      "summary": "Figure's third-generation humanoid robot has entered full commercial deployment at BMW's Spartanburg plant, performing bin-picking, parts transport, and quality inspection tasks alongside human workers. The robots leverage on-device vision-language models for real-time task adaptation, marking one of the largest humanoid deployments in automotive manufacturing to date.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Multi-Floor Warehouse Operations",
+      "summary": "Boston Dynamics demonstrated an updated electric Atlas humanoid completing end-to-end warehouse fulfillment tasks across multiple building floors, including stair traversal, shelf scanning, and package manipulation. The system uses a combination of reinforcement learning-trained locomotion policies and LLM-based task planning to handle novel environments without pre-mapping.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' Framework to Defend Against Jailbreaks",
+      "summary": "Anthropic published a new safety framework called Constitutional Classifiers that layers lightweight, independently trained classifier models around a base LLM to detect and block adversarial prompt injections in real time. Internal red-team testing showed a 92% reduction in successful jailbreaks compared to instruction-tuning-only defenses, with less than 2% increase in false refusals on benign prompts.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/blog",
+      "category": "AI",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has started high-volume manufacturing on its N1.4 gate-all-around transistor process, roughly two months ahead of its original roadmap. The node delivers a 15% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerator chips from NVIDIA and Apple shipping in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-08"
+      "date": "2026-08-15"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Paralysis Patients",
+      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to 50 additional participants with spinal cord injuries and ALS. Early trial data presented at a neuroscience conference showed participants achieving cursor control speeds approaching 90% of able-bodied mouse usage, with the implant maintaining signal fidelity beyond 18 months.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-08-16"
     },
     {
       "id": "8",
-      "title": "Meta Open-Sources Llama 4 Multimodal Models with Real-Time Video Understanding",
-      "summary": "Meta released Llama 4 under a permissive open-source license, featuring a family of models capable of real-time video stream comprehension and grounded spatial reasoning. The largest 400B-parameter variant matches proprietary frontier models on multiple benchmarks, significantly shifting the open-weight ecosystem's capabilities for enterprise and research deployments.",
+      "title": "Meta Releases Open-Source Llama 4 'Behemoth' Model with 2 Trillion Parameters",
+      "summary": "Meta released the largest model in its Llama 4 family under an open-source license, featuring a mixture-of-experts architecture with over 2 trillion total parameters. The model matches or exceeds proprietary frontier models on several reasoning and code-generation benchmarks, intensifying the debate about the competitive viability of open-weight AI development.",
       "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "Innovation",
-      "date": "2026-08-16"
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-17"
     }
   ]
 }
