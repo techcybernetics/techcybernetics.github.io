@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in early August 2026, featuring significantly improved long-horizon reasoning, native image and audio generation, and a larger effective context window. Benchmarks show marked gains on PhD-level science questions and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts in several fields.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates substantial improvements on agentic coding benchmarks such as SWE-Bench Verified, scoring above 75%, and introduces a new low-latency streaming mode aimed at real-time developer copilot use cases.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-08-06"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
-      "summary": "DeepMind released Gemini Ultra 2, which sets new records on agentic task-completion benchmarks including SWE-bench and WebArena. The model introduces improved tool-use chaining and persistent memory across sessions, enabling it to autonomously complete multi-hour software engineering workflows with minimal human oversight.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-08-11"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Factories",
-      "summary": "Figure's third-generation humanoid robot has entered full commercial deployment at BMW's Spartanburg plant, performing bin-picking, parts transport, and quality inspection tasks alongside human workers. The robots leverage on-device vision-language models for real-time task adaptation, marking one of the largest humanoid deployments in automotive manufacturing to date.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-08-13"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Multi-Floor Warehouse Operations",
-      "summary": "Boston Dynamics demonstrated an updated electric Atlas humanoid completing end-to-end warehouse fulfillment tasks across multiple building floors, including stair traversal, shelf scanning, and package manipulation. The system uses a combination of reinforcement learning-trained locomotion policies and LLM-based task planning to handle novel environments without pre-mapping.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-08-09"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' Framework to Defend Against Jailbreaks",
-      "summary": "Anthropic published a new safety framework called Constitutional Classifiers that layers lightweight, independently trained classifier models around a base LLM to detect and block adversarial prompt injections in real time. Internal red-team testing showed a 92% reduction in successful jailbreaks compared to instruction-tuning-only defenses, with less than 2% increase in false refusals on benign prompts.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com/blog",
       "category": "AI",
       "date": "2026-08-14"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has started high-volume manufacturing on its N1.4 gate-all-around transistor process, roughly two months ahead of its original roadmap. The node delivers a 15% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerator chips from NVIDIA and Apple shipping in early 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-08-15"
+      "id": "2",
+      "title": "Google DeepMind's Gemini Robotics Model Enables Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "DeepMind published results showing its Gemini-powered robotics foundation model can perform complex object manipulation tasks in cluttered, previously unseen environments without task-specific fine-tuning. The system uses a vision-language-action architecture that maps natural language instructions and RGB-D input directly to motor torques, achieving an 85% success rate on novel household tasks in real-world trials.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "Robotics",
+      "date": "2026-08-12"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Approval for Expanded Brain-Computer Interface Trials in Paralysis Patients",
-      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to 50 additional participants with spinal cord injuries and ALS. Early trial data presented at a neuroscience conference showed participants achieving cursor control speeds approaching 90% of able-bodied mouse usage, with the implant maintaining signal fidelity beyond 18 months.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-08-16"
-    },
-    {
-      "id": "8",
-      "title": "Meta Releases Open-Source Llama 4 'Behemoth' Model with 2 Trillion Parameters",
-      "summary": "Meta released the largest model in its Llama 4 family under an open-source license, featuring a mixture-of-experts architecture with over 2 trillion total parameters. The model matches or exceeds proprietary frontier models on several reasoning and code-generation benchmarks, intensifying the debate about the competitive viability of open-weight AI development.",
+      "id": "3",
+      "title": "Anthropic Introduces Claude's Extended Thinking with Verified Chain-of-Thought for Safety-Critical Applications",
+      "summary": "Anthropic announced an update to its Claude model family that adds formally verified chain-of-thought reasoning steps, designed for deployment in safety-critical domains such as medical diagnostics and infrastructure monitoring. The system uses a secondary verifier model that checks logical consistency of each reasoning step before the final output is emitted, reducing hallucination rates by over 60% on clinical benchmarking suites.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-08-17"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly lines for material handling and quality inspection tasks. The Gen 3 units feature improved dexterous hands with 22 degrees of freedom and on-device vision transformers that allow sub-second part recognition, though Tesla emphasizes they still operate alongside human workers in a collaborative capacity.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "5",
+      "title": "Meta Open-Sources Llama 4 with 400B MoE Architecture and Native Tool-Use Grounding",
+      "summary": "Meta released Llama 4 under a permissive license, featuring a 400-billion-parameter mixture-of-experts architecture that activates roughly 52B parameters per forward pass. The model ships with built-in tool-use grounding that allows it to reliably generate structured API calls, SQL queries, and code execution requests, positioning it as a strong open-weight competitor for enterprise agentic workflows.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "AI",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process node using gate-all-around nanosheet transistors, with initial allocation going to AI accelerator chips. The new node delivers approximately 25% improved performance and 35% lower power consumption compared to N2, which is expected to be critical for next-generation data center GPUs and on-device AI inference processors.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "7",
+      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Full Vehicle Sub-Assembly Workflow",
+      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across an entire vehicle sub-assembly workflow at BMW's Spartanburg plant, moving beyond the single-station pilot that began in 2025. The robots now handle multi-step sequences including part retrieval, insertion, and fastening, coordinated through a centralized task planner that dynamically re-allocates work based on real-time throughput data.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "8",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 1,000-Cycle Durability in EV-Format Cells",
+      "summary": "QuantumScape disclosed independently validated test results showing its multi-layer solid-state lithium-metal battery cells retained over 90% capacity after 1,000 full charge-discharge cycles at automotive-relevant conditions. The achievement addresses the key durability concern that has delayed solid-state commercialization and puts the company on track for its announced 2027 partnership vehicle launch with Volkswagen's PowerCo division.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Innovation",
+      "date": "2026-08-18"
     }
   ]
 }
