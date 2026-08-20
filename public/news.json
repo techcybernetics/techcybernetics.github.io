@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates substantial improvements on agentic coding benchmarks such as SWE-Bench Verified, scoring above 75%, and introduces a new low-latency streaming mode aimed at real-time developer copilot use cases.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially rolled out GPT-5 to ChatGPT Plus and Enterprise users, featuring significantly improved long-horizon reasoning, native image and audio generation within a single unified model, and a 1M-token context window. Benchmarks show marked gains on PhD-level science QA and multi-step coding tasks, though independent evaluators note diminishing returns on common-sense reasoning compared to GPT-4o.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Model Enables Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results showing its Gemini-powered robotics foundation model can perform complex object manipulation tasks in cluttered, previously unseen environments without task-specific fine-tuning. The system uses a vision-language-action architecture that maps natural language instructions and RGB-D input directly to motor torques, achieving an 85% success rate on novel household tasks in real-world trials.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Benchmarks",
+      "summary": "DeepMind released Gemini Ultra 2 with a focus on agentic tool use, demonstrating the model autonomously completing multi-step workflows across web browsers, IDEs, and enterprise APIs. The system sets new records on the SWE-Bench and WebArena benchmarks, raising both excitement about autonomous AI agents and renewed discussion around safe deployment guardrails.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "Robotics",
+      "category": "AI",
       "date": "2026-08-12"
     },
     {
       "id": "3",
-      "title": "Anthropic Introduces Claude's Extended Thinking with Verified Chain-of-Thought for Safety-Critical Applications",
-      "summary": "Anthropic announced an update to its Claude model family that adds formally verified chain-of-thought reasoning steps, designed for deployment in safety-critical domains such as medical diagnostics and infrastructure monitoring. The system uses a secondary verifier model that checks logical consistency of each reasoning step before the final output is emitted, reducing hallucination rates by over 60% on clinical benchmarking suites.",
+      "title": "Meta Open-Sources Llama 4 Herd with Mixture-of-Experts Architecture",
+      "summary": "Meta released the Llama 4 family under a permissive open license, featuring a sparse mixture-of-experts design that delivers frontier-class performance while requiring roughly 40% less inference compute than dense equivalents. The release includes a 400B-parameter MoE flagship and distilled variants down to 8B, accelerating the open-source AI ecosystem and putting competitive pressure on proprietary API providers.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-08-17"
+      "date": "2026-08-08"
     },
     {
       "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly lines for material handling and quality inspection tasks. The Gen 3 units feature improved dexterous hands with 22 degrees of freedom and on-device vision transformers that allow sub-second part recognition, though Tesla emphasizes they still operate alongside human workers in a collaborative capacity.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid in BMW Plants",
+      "summary": "Figure announced the start of paid commercial operations with its Figure 03 humanoid robot at two BMW manufacturing facilities in South Carolina, marking one of the first revenue-generating deployments of a general-purpose humanoid. The robots are performing parts kitting, inspection, and bin-picking tasks alongside human workers, with BMW reporting a measurable throughput increase on target assembly lines.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "5",
+      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Construction-Site Navigation",
+      "summary": "Boston Dynamics released footage showing its electric Atlas robot autonomously traversing an active construction site, climbing ladders, stepping over debris, and delivering tools to workers on elevated platforms. The demo leverages a new vision-language-action model trained on construction environments, suggesting a viable near-term commercial path beyond warehouse logistics.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
       "date": "2026-08-15"
     },
     {
-      "id": "5",
-      "title": "Meta Open-Sources Llama 4 with 400B MoE Architecture and Native Tool-Use Grounding",
-      "summary": "Meta released Llama 4 under a permissive license, featuring a 400-billion-parameter mixture-of-experts architecture that activates roughly 52B parameters per forward pass. The model ships with built-in tool-use grounding that allows it to reliably generate structured API calls, SQL queries, and code execution requests, positioning it as a strong open-weight competitor for enterprise agentic workflows.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "AI",
-      "date": "2026-08-11"
-    },
-    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process node using gate-all-around nanosheet transistors, with initial allocation going to AI accelerator chips. The new node delivers approximately 25% improved performance and 35% lower power consumption compared to N2, which is expected to be critical for next-generation data center GPUs and on-device AI inference processors.",
+      "title": "TSMC Begins Volume Production of 2nm N2 Process with Gate-All-Around Transistors",
+      "summary": "TSMC confirmed volume production at its Fab 20 in Hsinchu on the N2 node, the foundry's first process to use nanosheet gate-all-around transistors. The node promises 10-15% speed improvement and 25-30% power reduction over N3E, with Apple and NVIDIA expected among the first customers—a critical enabler for next-generation AI accelerators and mobile SoCs.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-13"
+      "date": "2026-08-11"
     },
     {
       "id": "7",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Full Vehicle Sub-Assembly Workflow",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across an entire vehicle sub-assembly workflow at BMW's Spartanburg plant, moving beyond the single-station pilot that began in 2025. The robots now handle multi-step sequences including part retrieval, insertion, and fastening, coordinated through a centralized task planner that dynamically re-allocates work based on real-time throughput data.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-08-16"
+      "title": "Neuralink Receives FDA Approval to Expand Brain-Computer Interface Trial to 50 Patients",
+      "summary": "The FDA granted Neuralink approval to implant its N1 brain-computer interface in up to 50 additional patients with paralysis, following positive 18-month safety and efficacy data from its initial cohort. Participants have demonstrated reliable cursor control and text entry at speeds approaching 40 words per minute, advancing the prospect of high-bandwidth neural interfaces for people with severe motor impairments.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-08-17"
     },
     {
       "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 1,000-Cycle Durability in EV-Format Cells",
-      "summary": "QuantumScape disclosed independently validated test results showing its multi-layer solid-state lithium-metal battery cells retained over 90% capacity after 1,000 full charge-discharge cycles at automotive-relevant conditions. The achievement addresses the key durability concern that has delayed solid-state commercialization and puts the company on track for its announced 2027 partnership vehicle launch with Volkswagen's PowerCo division.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Innovation",
-      "date": "2026-08-18"
+      "title": "Anthropic Introduces 'Constitutional Classifiers' to Harden Claude Against Jailbreak Attacks",
+      "summary": "Anthropic published a paper and deployed a new safety layer called Constitutional Classifiers across its Claude model family, which uses a hierarchy of lightweight classifier models to detect and refuse adversarial prompt injections in real time. Internal red-team results show a 90%+ reduction in successful jailbreaks compared to instruction-tuning-only defenses, sparking industry debate about whether competing labs will adopt similar architectures.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-08-19"
     }
   ]
 }
