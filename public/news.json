@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-08-22",
+  "lastUpdated": "2026-08-23",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved chain-of-thought reasoning, native image and audio generation, and a 1M-token context window. Benchmarks show substantial gains in graduate-level math, scientific reasoning, and complex code generation, narrowing the gap with specialized domain models.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 34% improvement on SWE-Bench over GPT-5 base, with significantly reduced hallucination rates on complex multi-step engineering tasks. The model is available via API with a new structured-output guarantee mode aimed at production agentic workflows.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
-      "date": "2026-08-18"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind Introduces Gemini Ultra 2 with Real-Time Agentic Capabilities",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which integrates persistent memory and autonomous multi-step task execution across Google's ecosystem. The model can independently manage workflows spanning Gmail, Docs, and third-party APIs, marking a significant step toward production-grade AI agents with robust tool use.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-08-20"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Factories",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has entered limited deployment at two of its manufacturing facilities, performing parts sorting, bin picking, and simple assembly tasks. The company reports a 40% improvement in dexterous manipulation over Gen 2, driven by a new sim-to-real reinforcement learning pipeline.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI and BMW Expand Humanoid Robot Pilot to Full Assembly Line Integration",
-      "summary": "Figure AI announced that its Figure 02 humanoid robots have moved beyond pilot testing at BMW's Spartanburg plant and are now integrated into a full vehicle assembly line. The robots handle ergonomically challenging tasks using vision-language model-driven planning, reducing worker injury reports in target zones by over 60%.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
       "date": "2026-08-19"
     },
     {
-      "id": "5",
-      "title": "Anthropic Publishes Breakthrough Interpretability Framework for Large Language Models",
-      "summary": "Anthropic released a comprehensive mechanistic interpretability framework that can trace specific model behaviors to identifiable circuit-level features in transformer architectures with over 100B parameters. The work enables engineers to diagnose and selectively suppress hallucination pathways, representing a major advance in AI safety and model debugging.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad 2026 problems at a gold-medal level, a marked jump from last year's performance. The system combines advanced chain-of-thought search with a learned formal verification step that checks proof validity before outputting solutions. Researchers say the architecture's self-verification loop has broad implications for reliable reasoning in safety-critical AI applications.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-08-14"
+      "date": "2026-08-17"
+    },
+    {
+      "id": "3",
+      "title": "Figure Robotics Deploys Humanoid Workers at BMW's Spartanburg Plant at Scale",
+      "summary": "Figure announced that over 200 of its Figure 03 humanoid robots are now operating across multiple production lines at BMW's South Carolina manufacturing facility, handling bin-picking, parts transfer, and quality inspection tasks. The deployment marks the largest commercial humanoid workforce in automotive manufacturing to date. BMW reports a 17% throughput improvement in augmented lines with a target of 500 units deployed by early 2027.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Public Demo",
+      "summary": "Tesla showcased its Optimus Gen 3 humanoid robot completing a sequence of unsupervised household tasks including laundry folding, dish loading, and navigating cluttered rooms at an invite-only event in Palo Alto. The robot uses an end-to-end vision-language-action model trained on both simulation and real-world teleoperation data. Musk indicated limited consumer availability could begin in late 2027, with factory deployment at Tesla's Gigafactories accelerating this quarter.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Claude Constitution 2.0' Framework for Enterprise AI Governance",
+      "summary": "Anthropic published its updated Constitutional AI governance framework designed for enterprise deployment, featuring granular policy layers that let organizations define domain-specific safety constraints, audit trails, and compliance rules declaratively. The system integrates with Claude's reasoning trace to provide explainable enforcement decisions for regulated industries. Early adopters in financial services and healthcare report significantly reduced review overhead for AI-assisted decision-making.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-08-15"
     },
     {
       "id": "6",
       "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process technology, several months ahead of its original roadmap. The node delivers an 18% speed improvement and 22% power reduction over N2, with early yields reportedly exceeding expectations, positioning it for next-generation AI accelerator chips in 2027.",
+      "summary": "TSMC confirmed that its N1.4 process node has entered volume production at its Fab 20 facility in Hsinchu, roughly one quarter ahead of the original roadmap. The node delivers a 20% power efficiency gain over N2 with gate-all-around nanosheet transistors and backside power delivery. Apple, Nvidia, and Qualcomm are reportedly among the first customers, with chips expected in consumer devices by mid-2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-21"
+      "date": "2026-08-18"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
-      "summary": "Microsoft and Quantinuum jointly demonstrated fault-tolerant operations on logical qubits with error rates below 10⁻⁶, a critical milestone for practical quantum computing. The achievement leverages Microsoft's new qubit virtualization layer and Quantinuum's H3 trapped-ion hardware, moving the industry closer to commercially relevant quantum advantage.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Implant",
+      "summary": "The FDA granted approval for Neuralink's N2 implant, a second-generation brain-computer interface with 4,096 electrodes and wireless charging, for expanded clinical trials in patients with quadriplegia and ALS. Early trial data from the first-generation device showed participants achieving cursor control speeds approaching able-bodied benchmarks. The N2 doubles channel count and adds bidirectional stimulation capability, opening pathways toward sensory feedback applications.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-08-17"
+      "date": "2026-08-22"
     },
     {
       "id": "8",
-      "title": "Meta Releases Llama 4 Behemoth as Open-Weight Model with MoE Architecture",
-      "summary": "Meta released Llama 4 Behemoth, a massive mixture-of-experts open-weight model with 288B active parameters routed from a reported 2T total. It matches or exceeds proprietary frontier models on major benchmarks while remaining available under a permissive license, intensifying the open-source vs. closed-source AI capabilities debate.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "Innovation",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform purpose-built for construction environments, featuring reinforced IP67 housing, 20-hour battery life, and integration APIs for BIM software. The electric humanoid can autonomously navigate unfinished building sites, transport materials up stairs, and perform basic inspection routines using onboard lidar and thermal imaging. Three major construction firms have signed pilot contracts for deployment on active jobsites starting Q4 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
       "date": "2026-08-16"
     }
   ]
