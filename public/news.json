@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
-      "summary": "OpenAI launched GPT-5 Turbo in early August, featuring a natively multimodal architecture that unifies text, image, audio, and video understanding in a single forward pass rather than relying on adapter modules. The model demonstrates significant gains on graduate-level science benchmarks and agentic coding tasks, while reducing inference costs by roughly 40% compared to the original GPT-5 release thanks to a new mixture-of-experts routing scheme.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI released GPT-5, featuring significantly improved multi-step reasoning, native image and audio generation within a single model, and a larger effective context window. The model demonstrates state-of-the-art performance on graduate-level science benchmarks and complex coding tasks, narrowing the gap toward robust agentic workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-08-12"
+      "date": "2026-08-20"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Complex Multi-Step Agent Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which tops the newly released GAIA-2 and WebArena-Hard benchmarks for autonomous tool-using agents. The model introduces a persistent scratchpad memory mechanism that lets it maintain coherent plans across hundreds of sequential tool calls, marking a step change in reliable long-horizon task completion for enterprise automation workflows.",
+      "title": "Google DeepMind Unveils Gemini Ultra 2 with Real-Time Tool Use and Long-Context Grounding",
+      "summary": "DeepMind's Gemini Ultra 2 introduces improved grounded generation with citation-level attribution and the ability to orchestrate dozens of external tools in a single turn. Early benchmarks show substantial gains in factual accuracy and reduced hallucination rates, positioning it as a strong contender for enterprise RAG applications.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Meta Open-Sources Llama 4 Herd with 400B MoE Model and Multilingual Specialization",
-      "summary": "Meta released the full Llama 4 model family under a permissive open license, headlined by a 400B-parameter mixture-of-experts model that activates roughly 52B parameters per token. The release includes language-specialized expert shards for over 100 languages and a distillation toolkit, enabling the open-source community to fine-tune competitive domain-specific models on consumer-grade multi-GPU setups.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-08-20"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive and Warehouse Facilities",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has entered limited production deployment at three of its own manufacturing plants and two partner logistics warehouses. Gen 3 features redesigned actuators providing 30% more payload capacity and a new vision-language-action model that allows operators to issue natural-language task instructions, reducing task programming time from hours to minutes.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-14"
-    },
-    {
-      "id": "5",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Industrial Inspection",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform targeting industrial inspection in oil and gas, utilities, and heavy manufacturing. The electric humanoid robot can autonomously navigate catwalks, climb ladders, and use standard handheld instruments, powered by an onboard multimodal perception stack that fuses lidar, thermal, and visual data for real-time anomaly detection and digital twin updates.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly stations, handling component sorting and light manipulation tasks alongside human workers. The robots leverage on-device vision transformers and reinforcement learning policies trained in simulation, marking one of the first scaled humanoid deployments in heavy manufacturing.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-08-22"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Multi-Floor Warehouse Inspections",
+      "summary": "Boston Dynamics announced that its electric Atlas humanoid can now autonomously navigate multi-story warehouses, climb stairs, open doors, and perform visual inspections using onboard LiDAR and a fine-tuned vision-language model. The system reduces manual inspection time by an estimated 70% and can flag anomalies in real time via a centralized dashboard.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Claude 4 with Constitutional Safeguards for Autonomous Agent Tasks",
+      "summary": "Anthropic released Claude 4, emphasizing safe agentic behavior through an updated constitutional AI framework that allows the model to self-audit action plans before execution. The model supports long-running autonomous tasks such as multi-file codebase refactoring and research synthesis while maintaining alignment guardrails, targeting enterprise developer and research workflows.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-24"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its A14 (1.4nm-class) process has entered high-volume manufacturing at its Kaohsiung fab, several months ahead of its original timeline. The node uses gate-all-around nanosheet transistors with backside power delivery, delivering approximately 25% better performance and 35% lower power at iso-speed compared to N2, with key AI accelerator customers expected to tape out by Q4 2026.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node for Next-Gen AI Accelerators",
+      "summary": "TSMC has commenced high-volume manufacturing on its A14 (1.4nm-class) process, expected to power the next generation of AI training and inference chips from major fabless customers. The node delivers approximately 20% performance improvement and 30% power reduction over N2, critical for sustaining the scaling of large model training clusters.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-10"
+      "date": "2026-08-21"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Expanded Access Approval for Motor-Impairment BCI in 50 Patients",
-      "summary": "The FDA granted Neuralink an expanded access protocol allowing its N2 brain-computer interface implant to be used in up to 50 patients with severe motor impairments such as ALS and spinal cord injuries. Early clinical data from the initial cohort showed participants achieving cursor control speeds approaching able-bodied benchmarks, with the device's on-chip spike sorting enabling over 3,000 simultaneously recorded channels.",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
+      "summary": "The FDA has approved Neuralink's second-generation BCI implant for an expanded clinical trial involving patients with spinal cord injuries. The new device features 4x the electrode density of the N1 chip and a wireless data throughput sufficient for real-time cursor and robotic arm control, advancing the path toward commercial neural interface products.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-08-16"
+      "date": "2026-08-23"
     },
     {
       "id": "8",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment Across Five European Assembly Plants",
-      "summary": "Figure AI announced a major expansion of its partnership with BMW, deploying its Figure 02 humanoid robots across five European assembly plants for tasks including parts kitting, quality inspection, and sub-assembly insertion. The robots leverage a new foundation world model trained on over 50,000 hours of factory teleoperation data, enabling zero-shot generalization to previously unseen part geometries and bin configurations.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production for Logistics",
+      "summary": "Figure AI closed a $1.5 billion Series C round to expand manufacturing capacity for its Figure 02 humanoid robot, which is being piloted at BMW and Amazon fulfillment centers. The funding will also accelerate development of foundation models for dexterous manipulation, aiming to generalize pick-and-place skills across thousands of SKU categories.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
       "category": "Robotics",
-      "date": "2026-08-23"
+      "date": "2026-08-25"
     }
   ]
 }
