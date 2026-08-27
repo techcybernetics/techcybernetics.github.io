@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI released GPT-5, featuring significantly improved multi-step reasoning, native image and audio generation within a single model, and a larger effective context window. The model demonstrates state-of-the-art performance on graduate-level science benchmarks and complex coding tasks, narrowing the gap toward robust agentic workflows.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
+      "summary": "OpenAI launched GPT-5 Turbo in mid-August, featuring deeply integrated multimodal reasoning across text, image, audio, and video with a 1-million-token context window. Benchmarks show a 35% improvement on complex multi-step reasoning tasks compared to GPT-4.5, with significantly reduced hallucination rates. The model also introduces a new structured output mode that produces verified, schema-compliant JSON natively.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,8 +12,8 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind Unveils Gemini Ultra 2 with Real-Time Tool Use and Long-Context Grounding",
-      "summary": "DeepMind's Gemini Ultra 2 introduces improved grounded generation with citation-level attribution and the ability to orchestrate dozens of external tools in a single turn. Early benchmarks show substantial gains in factual accuracy and reduced hallucination rates, positioning it as a strong contender for enterprise RAG applications.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on GPQA-Diamond and several scientific reasoning benchmarks, approaching expert-level performance in graduate-level physics and molecular biology. The model incorporates a novel chain-of-verification architecture that cross-checks intermediate reasoning steps. Google is integrating the model into its research tools across Google Cloud and Google Labs.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory assembly stations, handling component sorting and light manipulation tasks alongside human workers. The robots leverage on-device vision transformers and reinforcement learning policies trained in simulation, marking one of the first scaled humanoid deployments in heavy manufacturing.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla announced that its third-generation Optimus humanoid robot has begun operating in limited production roles at two of its Gigafactories, handling component sorting, quality inspection, and light assembly tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for dynamic task adaptation. Tesla plans to scale to external industrial customers by Q1 2027.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-08-22"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Multi-Floor Warehouse Inspections",
-      "summary": "Boston Dynamics announced that its electric Atlas humanoid can now autonomously navigate multi-story warehouses, climb stairs, open doors, and perform visual inspections using onboard LiDAR and a fine-tuned vision-language model. The system reduces manual inspection time by an estimated 70% and can flag anomalies in real time via a centralized dashboard.",
+      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robot Demonstrates Autonomous Warehouse Operations",
+      "summary": "Figure AI closed a massive $1.5 billion Series C round, valuing the company at over $12 billion, following demonstrations of its Figure 02 robot autonomously managing pick-and-pack warehouse workflows for over 8-hour shifts. The robot leverages a foundation world model for spatial reasoning and adapts to novel objects without retraining. Major logistics partners including a top-three US retailer have signed pilot agreements.",
       "source": "TechCrunch",
       "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-08-19"
+      "date": "2026-08-25"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude 4 with Constitutional Safeguards for Autonomous Agent Tasks",
-      "summary": "Anthropic released Claude 4, emphasizing safe agentic behavior through an updated constitutional AI framework that allows the model to self-audit action plans before execution. The model supports long-running autonomous tasks such as multi-file codebase refactoring and research synthesis while maintaining alignment guardrails, targeting enterprise developer and research workflows.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Anthropic Introduces Constitutional AI Auditing Framework for Enterprise Deployments",
+      "summary": "Anthropic released a comprehensive open-source framework for auditing and certifying AI system alignment in enterprise environments, building on its constitutional AI research. The toolkit provides automated red-teaming pipelines, behavioral boundary verification, and continuous monitoring for deployed models. Several Fortune 500 companies in finance and healthcare have already adopted the framework as part of their AI governance stack.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
       "date": "2026-08-24"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC has commenced high-volume manufacturing on its A14 (1.4nm-class) process, expected to power the next generation of AI training and inference chips from major fabless customers. The node delivers approximately 20% performance improvement and 30% power reduction over N2, critical for sustaining the scaling of large model training clusters.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed that its A14 (1.4nm-class) process node has entered volume production at its Fab 22 facility in Kaohsiung, with initial capacity allocated to next-generation AI accelerator chips. The node delivers approximately 25% performance gains and 30% power efficiency improvements over N2, critical for training increasingly large foundation models. First customer silicon is expected to ship in products by early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-21"
+      "date": "2026-08-19"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trial",
-      "summary": "The FDA has approved Neuralink's second-generation BCI implant for an expanded clinical trial involving patients with spinal cord injuries. The new device features 4x the electrode density of the N1 chip and a wireless data throughput sufficient for real-time cursor and robotic arm control, advancing the path toward commercial neural interface products.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "Meta Unveils AR Glasses with Full Holographic Display and On-Device LLM Processing",
+      "summary": "Meta officially launched its Orion consumer AR glasses featuring a full-color holographic waveguide display and a custom silicon chip capable of running a distilled Llama 4 model entirely on-device. The glasses support real-time contextual AI assistance, spatial computing interactions, and all-day battery life in a form factor resembling conventional eyewear. Priced at $1,299, they represent a significant step toward mainstream mixed-reality adoption.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
       "category": "Innovation",
-      "date": "2026-08-23"
+      "date": "2026-08-26"
     },
     {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production for Logistics",
-      "summary": "Figure AI closed a $1.5 billion Series C round to expand manufacturing capacity for its Figure 02 humanoid robot, which is being piloted at BMW and Amazon fulfillment centers. The funding will also accelerate development of foundation models for dexterous manipulation, aiming to generalize pick-and-place skills across thousands of SKU categories.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Robotics",
-      "date": "2026-08-25"
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting High-Risk Systems",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the EU AI Act, targeting high-risk AI systems in healthcare diagnostics, credit scoring, and border surveillance across multiple member states. Companies face requirements including mandatory technical documentation, bias testing, and human oversight provisions, with penalties of up to 7% of global revenue for non-compliance. The enforcement wave is reshaping how global tech companies architect and document their AI pipelines for the European market.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-08-21"
     }
   ]
 }
