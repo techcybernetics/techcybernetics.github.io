@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
-      "summary": "OpenAI launched GPT-5 Turbo in mid-August, featuring deeply integrated multimodal reasoning across text, image, audio, and video with a 1-million-token context window. Benchmarks show a 35% improvement on complex multi-step reasoning tasks compared to GPT-4.5, with significantly reduced hallucination rates. The model also introduces a new structured output mode that produces verified, schema-compliant JSON natively.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5 in mid-August 2026, featuring deeply integrated chain-of-thought reasoning and the ability to natively generate images, audio, and code artifacts in a single inference pass. The model demonstrates substantial gains on graduate-level science benchmarks and real-world agentic task completion, narrowing the gap between AI assistants and autonomous software engineers.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-08-20"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which sets new records on GPQA-Diamond and several scientific reasoning benchmarks, approaching expert-level performance in graduate-level physics and molecular biology. The model incorporates a novel chain-of-verification architecture that cross-checks intermediate reasoning steps. Google is integrating the model into its research tools across Google Cloud and Google Labs.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-08-18"
     },
     {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla announced that its third-generation Optimus humanoid robot has begun operating in limited production roles at two of its Gigafactories, handling component sorting, quality inspection, and light assembly tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for dynamic task adaptation. Tesla plans to scale to external industrial customers by Q1 2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Multimodal Scientific Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2 with a two-million-token context window and improved scientific reasoning capabilities, scoring record results on GPQA Diamond and novel protein-function prediction tasks. The model is being integrated across Google Cloud's Vertex AI platform, giving enterprise customers access to advanced multi-step research workflows.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-08-22"
     },
     {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robot Demonstrates Autonomous Warehouse Operations",
-      "summary": "Figure AI closed a massive $1.5 billion Series C round, valuing the company at over $12 billion, following demonstrations of its Figure 02 robot autonomously managing pick-and-pack warehouse workflows for over 8-hour shifts. The robot leverages a foundation world model for spatial reasoning and adapts to novel objects without retraining. Major logistics partners including a top-three US retailer have signed pilot agreements.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
+      "id": "3",
+      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
+      "summary": "Anthropic released a new agentic orchestration layer for Claude that allows enterprises to define complex multi-tool workflows with built-in safety constraints and audit trails. The framework supports sandboxed code execution, database queries, and API chaining while maintaining constitutional AI guardrails, targeting regulated industries like finance and healthcare.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
       "date": "2026-08-25"
     },
     {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing repetitive assembly and materials-handling tasks at two of its U.S. Gigafactories. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for real-time task adaptation, though Tesla acknowledged the robots still require human supervisory oversight.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-08-20"
+    },
+    {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Auditing Framework for Enterprise Deployments",
-      "summary": "Anthropic released a comprehensive open-source framework for auditing and certifying AI system alignment in enterprise environments, building on its constitutional AI research. The toolkit provides automated red-teaming pipelines, behavioral boundary verification, and continuous monitoring for deployed models. Several Fortune 500 companies in finance and healthcare have already adopted the framework as part of their AI governance stack.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-08-24"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Logistics Warehouses",
+      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot, targeting warehouse logistics and heavy-parcel manipulation use cases in partnership with Hyundai's supply chain division. The platform includes a fleet-management SDK and simulation-to-real transfer pipeline, allowing operators to train new manipulation behaviors in digital twins before deploying to physical hardware.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-08-15"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed that its A14 (1.4nm-class) process node has entered volume production at its Fab 22 facility in Kaohsiung, with initial capacity allocated to next-generation AI accelerator chips. The node delivers approximately 25% performance gains and 30% power efficiency improvements over N2, critical for training increasingly large foundation models. First customer silicon is expected to ship in products by early 2027.",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production",
+      "summary": "Figure AI closed a massive $1.5 billion funding round led by Microsoft and Nvidia to scale manufacturing of its Figure 02 humanoid robot for commercial deployment. The company plans to open a dedicated production facility in South Carolina and is targeting 1,000 units deployed across logistics and manufacturing partners by mid-2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Robotics",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "7",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process node using gate-all-around nanosheet transistors, delivering an estimated 15% speed improvement and 30% power reduction over its N2 node. The first customers are expected to be Apple and Nvidia, with AI accelerator and mobile SoC designs taping out for early 2027 products.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-08-19"
     },
     {
-      "id": "7",
-      "title": "Meta Unveils AR Glasses with Full Holographic Display and On-Device LLM Processing",
-      "summary": "Meta officially launched its Orion consumer AR glasses featuring a full-color holographic waveguide display and a custom silicon chip capable of running a distilled Llama 4 model entirely on-device. The glasses support real-time contextual AI assistance, spatial computing interactions, and all-day battery life in a form factor resembling conventional eyewear. Priced at $1,299, they represent a significant step toward mainstream mixed-reality adoption.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "Innovation",
-      "date": "2026-08-26"
-    },
-    {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting High-Risk Systems",
-      "summary": "The European Union's AI Office initiated its first formal compliance audits under the EU AI Act, targeting high-risk AI systems in healthcare diagnostics, credit scoring, and border surveillance across multiple member states. Companies face requirements including mandatory technical documentation, bias testing, and human oversight provisions, with penalties of up to 7% of global revenue for non-compliance. The enforcement wave is reshaping how global tech companies architect and document their AI pipelines for the European market.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
+      "title": "Neuralink Receives FDA Clearance to Expand Brain-Computer Interface Trials to 50 Patients",
+      "summary": "The FDA granted Neuralink approval to expand its N1 brain-computer interface clinical trial from a small initial cohort to 50 patients with spinal cord injuries and ALS. Early trial data showed participants achieving cursor control speeds approaching 90% of able-bodied benchmarks, representing a significant milestone for assistive neurotechnology and direct neural-to-device communication.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-08-21"
+      "date": "2026-08-27"
     }
   ]
 }
