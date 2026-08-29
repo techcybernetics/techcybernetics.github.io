@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in mid-August 2026, featuring deeply integrated chain-of-thought reasoning and the ability to natively generate images, audio, and code artifacts in a single inference pass. The model demonstrates substantial gains on graduate-level science benchmarks and real-world agentic task completion, narrowing the gap between AI assistants and autonomous software engineers.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, codebases, and audio in a single context window of 1M tokens. Benchmarks show a 38% improvement on complex agentic coding tasks compared to GPT-5, with significantly reduced hallucination rates. The model is available through the API with a new structured-output guarantee layer that ensures schema compliance.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-08-18"
+      "date": "2026-08-27"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Multimodal Scientific Reasoning",
-      "summary": "DeepMind announced Gemini Ultra 2 with a two-million-token context window and improved scientific reasoning capabilities, scoring record results on GPQA Diamond and novel protein-function prediction tasks. The model is being integrated across Google Cloud's Vertex AI platform, giving enterprise customers access to advanced multi-step research workflows.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored a gold-medal-equivalent 94% on the 2026 International Mathematical Olympiad problem set, surpassing all previous AI systems. The model leverages a novel chain-of-thought verification loop that self-checks proof steps against formal logic engines. Researchers say the approach generalizes to scientific reasoning tasks including physics derivations and protein folding energy calculations.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-08-22"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Claude Tool-Use Orchestration Framework for Enterprise Agents",
-      "summary": "Anthropic released a new agentic orchestration layer for Claude that allows enterprises to define complex multi-tool workflows with built-in safety constraints and audit trails. The framework supports sandboxed code execution, database queries, and API chaining while maintaining constitutional AI guardrails, targeting regulated industries like finance and healthcare.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
       "category": "AI",
       "date": "2026-08-25"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing repetitive assembly and materials-handling tasks at two of its U.S. Gigafactories. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for real-time task adaptation, though Tesla acknowledged the robots still require human supervisory oversight.",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Amazon Fulfillment Centers",
+      "summary": "Amazon confirmed that Tesla's third-generation Optimus humanoid robots are now operating in a supervised capacity across five U.S. fulfillment centers, handling bin picking, packing, and palletizing tasks. The robots use on-device vision-language models for real-time object identification and grasp planning, reportedly achieving 96% pick success rates. The deployment marks the largest commercial humanoid robot rollout to date, with plans to scale to 20 facilities by year-end.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-20"
-    },
-    {
-      "id": "5",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Logistics Warehouses",
-      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot, targeting warehouse logistics and heavy-parcel manipulation use cases in partnership with Hyundai's supply chain division. The platform includes a fleet-management SDK and simulation-to-real transfer pipeline, allowing operators to train new manipulation behaviors in digital twins before deploying to physical hardware.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-08-15"
-    },
-    {
-      "id": "6",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production",
-      "summary": "Figure AI closed a massive $1.5 billion funding round led by Microsoft and Nvidia to scale manufacturing of its Figure 02 humanoid robot for commercial deployment. The company plans to open a dedicated production facility in South Carolina and is targeting 1,000 units deployed across logistics and manufacturing partners by mid-2027.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
       "category": "Robotics",
       "date": "2026-08-26"
     },
     {
-      "id": "7",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced the start of volume production on its A14 (1.4nm-class) process node using gate-all-around nanosheet transistors, delivering an estimated 15% speed improvement and 30% power reduction over its N2 node. The first customers are expected to be Apple and Nvidia, with AI accelerator and mobile SoC designs taping out for early 2027 products.",
+      "id": "4",
+      "title": "Figure AI Demonstrates Autonomous Multi-Robot Coordination in Construction Site Pilot",
+      "summary": "Figure AI showcased a fleet of six Figure 03 humanoid robots autonomously coordinating to frame a residential wall structure on a live construction site in Austin, Texas. The robots communicated through a shared spatial world model, dynamically reassigning tasks when one unit encountered an obstacle. Construction industry analysts see the demo as a milestone toward addressing chronic labor shortages in the trades.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' for Real-Time Enterprise AI Safety Monitoring",
+      "summary": "Anthropic released a new enterprise safety product that uses lightweight constitutional classifier models to monitor AI agent outputs in real time, flagging policy violations, data leakage, and unsafe tool-use patterns before they reach end users. The system operates as a sidecar process with sub-50ms latency overhead and integrates with major orchestration frameworks including LangChain and CrewAI. Early adopters in financial services report a 70% reduction in compliance-related AI incidents.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Gen AI Accelerators",
+      "summary": "TSMC announced volume production of its N1.4 process node using gate-all-around transistor architecture at its Kaohsiung fab, targeting next-generation AI training and inference chips. The node offers a 25% power efficiency gain over the 2nm node, enabling projected chip-level TDP reductions critical for dense data center deployments. Nvidia and Broadcom are confirmed as lead customers, with first silicon-based products expected in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-19"
+      "date": "2026-08-24"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Correction Threshold",
+      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 32 logical qubits with error rates below 10⁻⁸ per logical gate cycle, crossing a key threshold for practical quantum computation. The system uses Microsoft's topological error-correction codes running on Quantinuum's latest trapped-ion hardware. The teams assert this milestone opens a credible path to quantum advantage for materials simulation and cryptographic workloads within two to three years.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-08-21"
     },
     {
       "id": "8",
-      "title": "Neuralink Receives FDA Clearance to Expand Brain-Computer Interface Trials to 50 Patients",
-      "summary": "The FDA granted Neuralink approval to expand its N1 brain-computer interface clinical trial from a small initial cohort to 50 patients with spinal cord injuries and ALS. Early trial data showed participants achieving cursor control speeds approaching 90% of able-bodied benchmarks, representing a significant milestone for assistive neurotechnology and direct neural-to-device communication.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "EU AI Act Enforcement Phase II Takes Effect, Mandating Risk Assessments for Foundation Model Deployers",
+      "summary": "The second enforcement phase of the EU AI Act went into effect on August 25, requiring all companies deploying general-purpose AI models within the EU to submit standardized risk assessments and maintain publicly accessible model cards with transparency disclosures. Non-compliance penalties can reach 3% of global annual revenue. Major cloud providers including AWS, Azure, and GCP have released automated compliance toolkits, but mid-market SaaS companies report significant implementation overhead.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-08-27"
+      "date": "2026-08-25"
     }
   ]
 }
