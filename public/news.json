@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-29",
+  "lastUpdated": "2026-08-30",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, codebases, and audio in a single context window of 1M tokens. Benchmarks show a 38% improvement on complex agentic coding tasks compared to GPT-5, with significantly reduced hallucination rates. The model is available through the API with a new structured-output guarantee layer that ensures schema compliance.",
+      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
+      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a vastly expanded context window exceeding 1 million tokens. The model demonstrates substantial gains on PhD-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-08-27"
+      "date": "2026-08-22"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored a gold-medal-equivalent 94% on the 2026 International Mathematical Olympiad problem set, surpassing all previous AI systems. The model leverages a novel chain-of-thought verification loop that self-checks proof steps against formal logic engines. Researchers say the approach generalizes to scientific reasoning tasks including physics derivations and protein folding energy calculations.",
+      "title": "Google DeepMind's Gemini Robotics Models Enable Dexterous Manipulation in Unstructured Environments",
+      "summary": "DeepMind unveiled its latest Gemini Robotics foundation models that combine vision-language understanding with fine-grained motor control, allowing robots to manipulate deformable and fragile objects like fabric and glassware with near-human dexterity. The system uses a sim-to-real transfer pipeline that drastically reduces the real-world training data required for new tasks.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
+      "category": "Robotics",
       "date": "2026-08-25"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Amazon Fulfillment Centers",
-      "summary": "Amazon confirmed that Tesla's third-generation Optimus humanoid robots are now operating in a supervised capacity across five U.S. fulfillment centers, handling bin picking, packing, and palletizing tasks. The robots use on-device vision-language models for real-time object identification and grasp planning, reportedly achieving 96% pick success rates. The deployment marks the largest commercial humanoid robot rollout to date, with plans to scale to 20 facilities by year-end.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-26"
+      "title": "Anthropic Introduces Constitutional Classifiers v2 to Harden AI Systems Against Jailbreaks",
+      "summary": "Anthropic published research on Constitutional Classifiers v2, a defense-in-depth system that reduced successful jailbreak rates on Claude to under 1% across comprehensive red-team evaluations. The approach layers input and output classifiers trained via constitutional AI principles, providing a composable safety layer that other model providers can also integrate.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/research",
+      "category": "AI",
+      "date": "2026-08-27"
     },
     {
       "id": "4",
-      "title": "Figure AI Demonstrates Autonomous Multi-Robot Coordination in Construction Site Pilot",
-      "summary": "Figure AI showcased a fleet of six Figure 03 humanoid robots autonomously coordinating to frame a residential wall structure on a live construction site in Austin, Texas. The robots communicated through a shared spatial world model, dynamically reassigning tasks when one unit encountered an obstacle. Construction industry analysts see the demo as a milestone toward addressing chronic labor shortages in the trades.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Tesla Optimus Robots Begin Limited Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that a small fleet of Optimus Gen-3 humanoid robots has begun supervised pick-and-pack operations in select third-party logistics warehouses, marking the first commercial deployment outside Tesla's own factories. The robots leverage onboard vision transformers for object recognition and path planning, though they still require human teleoperation fallback for roughly 8% of encountered edge cases.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-08-22"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' for Real-Time Enterprise AI Safety Monitoring",
-      "summary": "Anthropic released a new enterprise safety product that uses lightweight constitutional classifier models to monitor AI agent outputs in real time, flagging policy violations, data leakage, and unsafe tool-use patterns before they reach end users. The system operates as a sidecar process with sub-50ms latency overhead and integrates with major orchestration frameworks including LangChain and CrewAI. Early adopters in financial services report a 70% reduction in compliance-related AI incidents.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
       "date": "2026-08-28"
     },
     {
+      "id": "5",
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2 Trillion Parameters",
+      "summary": "Meta released Llama 4 Behemoth, its largest open-weight model to date, using a sparse mixture-of-experts design that activates only a fraction of its 1.2T parameters per forward pass, making inference feasible on multi-GPU clusters rather than supercomputers. Early benchmarks show it rivaling proprietary frontier models on code generation and multilingual reasoning, further shifting the competitive dynamics between open and closed AI ecosystems.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-19"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC announced volume production of its N1.4 process node using gate-all-around transistor architecture at its Kaohsiung fab, targeting next-generation AI training and inference chips. The node offers a 25% power efficiency gain over the 2nm node, enabling projected chip-level TDP reductions critical for dense data center deployments. Nvidia and Broadcom are confirmed as lead customers, with first silicon-based products expected in early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm-Class N14P Process Node",
+      "summary": "TSMC announced that its N14P process node—utilizing gate-all-around nanosheet transistors at a 1.4nm-class density—has entered high-volume manufacturing ahead of schedule. The node delivers an estimated 15% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerator and mobile SoC designs shipping in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-24"
+      "date": "2026-08-26"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Correction Threshold",
-      "summary": "Microsoft and Quantinuum published results showing sustained fault-tolerant operations on 32 logical qubits with error rates below 10⁻⁸ per logical gate cycle, crossing a key threshold for practical quantum computation. The system uses Microsoft's topological error-correction codes running on Quantinuum's latest trapped-ion hardware. The teams assert this milestone opens a credible path to quantum advantage for materials simulation and cryptographic workloads within two to three years.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "title": "Neuralink Receives FDA Clearance for Expanded Brain-Computer Interface Trial in Spinal Cord Injury Patients",
+      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to include patients with spinal cord injuries, beyond the initial ALS cohort, allowing participants to control robotic limbs and digital interfaces via implanted electrode arrays. Early data from the initial cohort showed sustained high-bandwidth neural decoding exceeding 12 months without signal degradation, a milestone for long-term BCI viability.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-08-21"
+      "date": "2026-08-29"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Phase II Takes Effect, Mandating Risk Assessments for Foundation Model Deployers",
-      "summary": "The second enforcement phase of the EU AI Act went into effect on August 25, requiring all companies deploying general-purpose AI models within the EU to submit standardized risk assessments and maintain publicly accessible model cards with transparency disclosures. Non-compliance penalties can reach 3% of global annual revenue. Major cloud providers including AWS, Azure, and GCP have released automated compliance toolkits, but mid-market SaaS companies report significant implementation overhead.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
-      "date": "2026-08-25"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Swappable Tool Hands",
+      "summary": "Boston Dynamics and parent company Hyundai launched the commercial Atlas platform featuring a modular quick-swap hand system that lets operators reconfigure the humanoid for welding, inspection, or heavy lifting in under 60 seconds. The platform ships with an updated autonomy stack built on transformer-based world models, enabling the robot to plan multi-step manipulation sequences from natural language task descriptions.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-08-24"
     }
   ]
 }
