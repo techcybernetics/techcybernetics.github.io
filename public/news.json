@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-08-30",
+  "lastUpdated": "2026-08-31",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation within a single model, and a vastly expanded context window exceeding 1 million tokens. The model demonstrates substantial gains on PhD-level science benchmarks and complex multi-step coding tasks, narrowing the gap between AI assistants and domain experts.",
+      "summary": "OpenAI officially rolled out GPT-5 to ChatGPT Plus and Enterprise users, featuring significantly improved long-horizon reasoning, native image and audio generation within a single unified model, and a 1M-token context window. Benchmarks show substantial gains on ARC-AGI-2 and GPQA Diamond, narrowing the gap on tasks previously considered out of reach for language models.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
+      "category": "AI",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
+      "summary": "DeepMind released Gemini Ultra 2, which sets new records on FrontierMath and ScienceQA benchmarks while demonstrating the ability to autonomously design and propose novel experimental protocols in materials science. The model integrates a tool-use framework that can orchestrate simulations, database lookups, and code execution in agentic research workflows.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/ai",
       "category": "AI",
       "date": "2026-08-22"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Models Enable Dexterous Manipulation in Unstructured Environments",
-      "summary": "DeepMind unveiled its latest Gemini Robotics foundation models that combine vision-language understanding with fine-grained motor control, allowing robots to manipulate deformable and fragile objects like fabric and glassware with near-human dexterity. The system uses a sim-to-real transfer pipeline that drastically reduces the real-world training data required for new tasks.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "Robotics",
-      "date": "2026-08-25"
-    },
-    {
       "id": "3",
-      "title": "Anthropic Introduces Constitutional Classifiers v2 to Harden AI Systems Against Jailbreaks",
-      "summary": "Anthropic published research on Constitutional Classifiers v2, a defense-in-depth system that reduced successful jailbreak rates on Claude to under 1% across comprehensive red-team evaluations. The approach layers input and output classifiers trained via constitutional AI principles, providing a composable safety layer that other model providers can also integrate.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com/research",
+      "title": "Anthropic Introduces Claude's Computer Use Agent for Enterprise Automation",
+      "summary": "Anthropic expanded Claude's computer-use capabilities into a fully managed enterprise agent platform, allowing Claude to operate desktop applications, navigate internal tools, and complete multi-step business workflows with human-in-the-loop oversight. Early adopter reports from Fortune 500 firms indicate 40-60% reductions in time spent on repetitive back-office processes, with built-in audit trails for compliance.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
       "category": "AI",
-      "date": "2026-08-27"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Robots Begin Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that a small fleet of Optimus Gen-3 humanoid robots has begun supervised pick-and-pack operations in select third-party logistics warehouses, marking the first commercial deployment outside Tesla's own factories. The robots leverage onboard vision transformers for object recognition and path planning, though they still require human teleoperation fallback for roughly 8% of encountered edge cases.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-08-28"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics Unveils Electric Atlas Production Line for Commercial Deployment",
+      "summary": "Boston Dynamics announced the first commercial production run of its fully electric Atlas humanoid robot, targeting automotive and logistics warehouse partners for initial deployments in Q4 2026. The new Atlas features improved manipulation dexterity with 30-DOF hands and onboard vision-language models for natural-language task instruction and real-time environment adaptation.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-08-20"
+    },
+    {
       "id": "5",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2 Trillion Parameters",
-      "summary": "Meta released Llama 4 Behemoth, its largest open-weight model to date, using a sparse mixture-of-experts design that activates only a fraction of its 1.2T parameters per forward pass, making inference feasible on multi-GPU clusters rather than supercomputers. Early benchmarks show it rivaling proprietary frontier models on code generation and multilingual reasoning, further shifting the competitive dynamics between open and closed AI ecosystems.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-08-19"
+      "title": "Tesla Optimus Robots Begin Limited Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that Optimus Gen 3 humanoid robots have started performing pick-and-pack tasks at select third-party logistics facilities outside of Tesla's own factories, marking the company's first external commercial deployment. The robots leverage end-to-end neural network control trained in simulation and fine-tuned with real-world teleoperation data, handling a reported 85% of standard SKU manipulation tasks autonomously.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
+      "category": "Robotics",
+      "date": "2026-08-27"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm-Class N14P Process Node",
-      "summary": "TSMC announced that its N14P process node—utilizing gate-all-around nanosheet transistors at a 1.4nm-class density—has entered high-volume manufacturing ahead of schedule. The node delivers an estimated 15% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerator and mobile SoC designs shipping in early 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-08-26"
+      "title": "Figure AI Raises $1.5B Series C as Humanoid Robot Sector Heats Up",
+      "summary": "Figure AI closed a $1.5 billion Series C round at a $15 billion valuation, fueled by its partnership with BMW and demonstrated ability to integrate large language models for on-the-fly task planning in manufacturing settings. The funding will accelerate scaling production of Figure 02 robots and expanding into healthcare logistics, intensifying the humanoid robotics arms race.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
+      "date": "2026-08-18"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Expanded Brain-Computer Interface Trial in Spinal Cord Injury Patients",
-      "summary": "The FDA granted Neuralink approval to expand its PRIME clinical trial to include patients with spinal cord injuries, beyond the initial ALS cohort, allowing participants to control robotic limbs and digital interfaces via implanted electrode arrays. Early data from the initial cohort showed sustained high-bandwidth neural decoding exceeding 12 months without signal degradation, a milestone for long-term BCI viability.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced volume production on its A14 (1.4nm-class) gate-all-around nanosheet process, delivering an estimated 20% speed improvement and 30% power reduction over its N2 node. The node is expected to power next-generation AI accelerator chips from major fabless customers beginning in early 2027, addressing the surging compute demand from frontier model training.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-29"
+      "date": "2026-08-19"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Swappable Tool Hands",
-      "summary": "Boston Dynamics and parent company Hyundai launched the commercial Atlas platform featuring a modular quick-swap hand system that lets operators reconfigure the humanoid for welding, inspection, or heavy lifting in under 60 seconds. The platform ships with an updated autonomy stack built on transformer-based world models, enabling the robot to plan multi-step manipulation sequences from natural language task descriptions.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-08-24"
+      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in Automotive Testing",
+      "summary": "QuantumScape reported that its solid-state lithium-metal battery cells have surpassed 1,000 full charge-discharge cycles while retaining over 90% capacity in automotive-grade testing conditions, a key threshold for commercial EV viability. The achievement, validated by an independent lab, could accelerate partnerships with major automakers and represents a significant step toward energy-dense, fast-charging EVs with reduced fire risk.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
+      "category": "Innovation",
+      "date": "2026-08-26"
     }
   ]
 }
