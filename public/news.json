@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-02",
+  "lastUpdated": "2026-09-03",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
-      "summary": "OpenAI launched GPT-5 Turbo in late August 2026, featuring a native 1-million-token context window and deeply integrated multimodal reasoning across text, image, audio, and video inputs. Benchmarks show significant gains in long-horizon planning tasks and multi-step code generation, with latency improvements of roughly 40% over the initial GPT-5 release. The model is available via API with tiered pricing that undercuts previous generation costs.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
+      "summary": "OpenAI released GPT-5 Turbo, featuring unified multimodal reasoning that can jointly process code repositories, video streams, and 3D scene representations in a single context. Benchmarks show a 38% improvement on SWE-Bench Full and near-human performance on novel spatial reasoning tasks. The model also introduces a persistent memory layer that retains developer-defined project context across sessions.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,65 +12,65 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on GPQA-Diamond and a newly introduced graduate-level multi-domain science benchmark called SciArena. The model demonstrates substantially improved chain-of-thought calibration and can autonomously design and critique experimental protocols in biology and chemistry. Google is integrating it across Workspace, Cloud, and a new research-assistant product aimed at pharmaceutical and materials-science R&D.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Gold Medal Performance on International Math Olympiad 2026",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved five out of six problems at the 2026 IMO, scoring 40 out of 42 points and earning a gold medal equivalent. The system uses a novel neuro-symbolic architecture that combines chain-of-thought transformer reasoning with a formal proof verifier. This marks a significant milestone in AI's ability to perform open-ended mathematical discovery rather than pattern matching on known problem types.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-08-30"
-    },
-    {
-      "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
-      "summary": "Figure Robotics confirmed that its third-generation humanoid robot, Figure 03, has entered full commercial deployment at two BMW manufacturing plants in South Carolina. The robots handle bin-picking, parts transfer, and quality-inspection tasks autonomously, guided by a vision-language-action model trained on factory-specific data. BMW reports a 22% throughput increase in pilot lines, marking one of the first large-scale commercial humanoid deployments in automotive manufacturing.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-08-26"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Task Completion in Public Demo",
-      "summary": "Tesla showcased its Optimus Gen 3 humanoid performing extended household routines including laundry folding, dish loading, and table clearing with minimal teleoperation. The robot uses an end-to-end transformer-based motor policy trained largely in simulation with real-world fine-tuning. Elon Musk stated limited external sales would begin in Q1 2027, with an initial price target under $25,000, though analysts remain cautious about timeline feasibility.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers 2.0' to Mitigate Jailbreaks Across Frontier Models",
-      "summary": "Anthropic published a new paper and open-source toolkit for Constitutional Classifiers 2.0, a defense-in-depth framework that reduced successful jailbreak rates to under 1% on red-team evaluations across Claude and third-party frontier models. The system layers input classifiers, latent-space probes, and output validators, all trained against a continuously updated adversarial corpus. The toolkit is model-agnostic and has already been adopted by several enterprise AI platforms for production safety filtering.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com/blog",
-      "category": "AI",
-      "date": "2026-08-27"
-    },
-    {
-      "id": "6",
-      "title": "ASML Reports Breakthrough in High-NA EUV Yields, Accelerating Sub-2nm Chip Production",
-      "summary": "ASML disclosed that its high-numerical-aperture EUV lithography systems have achieved production-grade yields exceeding 90% on critical layers for sub-2nm process nodes at partner fabs. This milestone removes a major bottleneck that had slowed the transition from standard EUV, and both TSMC and Intel confirmed accelerated timelines for their 1.4nm and 14A nodes respectively. The development is expected to sustain Moore's Law scaling through the end of the decade.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-08-25"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance to Expand BCI Trial to 50 Patients with Spinal Cord Injuries",
-      "summary": "The FDA granted Neuralink expanded approval to implant its N2 brain-computer interface in up to 50 patients with cervical spinal cord injuries, following positive 12-month safety and efficacy data from its initial cohort. Patients demonstrated reliable cursor control, text entry, and robotic arm manipulation at speeds approaching 40 words per minute. The expansion makes it the largest intracortical BCI trial to date and includes a new wireless charging system that eliminates percutaneous connectors.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Shifts in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has started supervised deployment in BMW's Spartanburg plant and select Amazon fulfillment centers, performing bin-picking, parts-kitting, and inventory scanning tasks. The Gen 3 units feature upgraded dexterous hands with 22 degrees of freedom and on-device vision-language models for interpreting natural language task instructions. Early reports cite a 4x improvement in task completion reliability over Gen 2.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-08-30"
+    },
+    {
+      "id": "4",
+      "title": "Figure AI Raises $1.5B Series C, Demonstrates Autonomous Multi-Robot Coordination",
+      "summary": "Figure AI closed a $1.5 billion Series C at a $15 billion valuation after publicly demonstrating four Figure 02 humanoid robots autonomously coordinating to assemble furniture without human teleoperation. The system uses a shared world model and decentralized planning algorithm that allows real-time task decomposition and conflict resolution. The company plans to begin commercial deployments in automotive manufacturing by Q1 2027.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional Oversight Protocol for Autonomous AI Agents",
+      "summary": "Anthropic published a new framework called Constitutional Oversight Protocol (COP) designed to provide real-time safety guardrails for long-running autonomous AI agents operating in production environments. COP uses a secondary monitor model that continuously evaluates an agent's planned actions against a configurable constitution before execution, with cryptographic audit logs. Several enterprise customers including Stripe and Notion are piloting the system for autonomous coding and customer support agents.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its 1.4nm A14 process has entered volume production at its Kaohsiung fab, roughly two months ahead of the originally projected timeline. The node uses gate-all-around nanosheet transistors with backside power delivery, yielding approximately 25% performance gains and 35% power efficiency improvements over N2. Apple and Nvidia are expected to be lead customers, with first commercial chips shipping in early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-29"
+      "date": "2026-08-27"
+    },
+    {
+      "id": "7",
+      "title": "Meta Open-Sources Llama 4 Behemoth with 1 Trillion Active Parameters Under Permissive License",
+      "summary": "Meta released Llama 4 Behemoth, a mixture-of-experts model with over 1 trillion active parameters, under a newly permissive commercial license with no revenue cap. The model achieves performance competitive with GPT-5 on most public benchmarks and includes native tool-use and agentic capabilities out of the box. The release includes optimized serving infrastructure code that enables inference on a single 8xH200 node using aggressive quantization and speculative decoding.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-08-22"
     },
     {
       "id": "8",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2 Trillion Parameters",
-      "summary": "Meta released Llama 4 Behemoth, a 1.2-trillion-parameter mixture-of-experts model with 128 experts and 16 active per token, under a permissive open-source license. The model matches or exceeds proprietary frontier model performance on major benchmarks while requiring significantly less inference compute than dense models of equivalent capability. The release includes optimized serving code for multi-node deployments and has catalyzed a wave of enterprise self-hosted AI adoption, intensifying the open-vs-closed model debate.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in Automotive Testing",
+      "summary": "QuantumScape reported that its QSE-5 solid-state lithium-metal cells have surpassed 1,000 fast-charge cycles while retaining over 90% capacity in automotive-grade testing conditions, a key threshold for EV manufacturer adoption. The cells deliver an energy density of 500 Wh/kg, roughly double that of current lithium-ion packs, enabling projected ranges exceeding 600 miles. Volkswagen's PowerCo unit confirmed plans to integrate the cells into a production vehicle platform by late 2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Innovation",
       "date": "2026-09-01"
     }
   ]
