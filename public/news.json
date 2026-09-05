@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-05",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D Assets",
-      "summary": "OpenAI released GPT-5 Turbo, featuring significantly improved long-context reasoning up to 1M tokens and native generation across text, image, audio, video, and 3D modalities within a single unified model. Benchmarks show substantial gains in complex multi-step coding tasks and scientific reasoning, with latency reduced by roughly 40% compared to the initial GPT-5 release earlier this year.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Text, Image, Audio, and Video",
+      "summary": "OpenAI released GPT-5 Turbo, featuring substantially improved long-context reasoning up to 1M tokens and native real-time video understanding capabilities. Benchmarks show a 35% improvement on complex multi-step reasoning tasks over GPT-4o, with latency reduced by half, making it viable for real-time agentic workflows in production systems.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Mathematics and Formal Verification",
-      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on the FrontierMath and MathOlympiad benchmarks, solving over 80% of problems that previously stumped all frontier models. The model integrates a built-in formal proof assistant loop, allowing it to verify its own mathematical reasoning steps against Lean 4, dramatically reducing hallucinated proofs.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2, which scored record-high results on GPQA Diamond and newly introduced SciArena benchmarks, demonstrating PhD-level proficiency across physics, biology, and chemistry. The model integrates a novel chain-of-verification architecture that significantly reduces hallucination rates in scientific citation and data interpretation tasks.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-08-28"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Third-Party Warehouses",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Amazon and DHL warehouse facilities for supervised pick-and-pack operations. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models enabling natural language task instruction, though they still require human oversight for edge cases.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-09-01"
     },
     {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robot Demonstrates Autonomous Retail Shelf Stocking",
-      "summary": "Figure AI closed a massive $1.5 billion Series C round at a $15 billion valuation after publicly demonstrating its Figure 02 robot autonomously stocking shelves at a pilot BMW retail parts facility. The robot leverages a transformer-based world model trained on thousands of hours of teleoperation data, enabling generalization to novel object geometries without retraining.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for parts sorting, quality inspection, and lightweight assembly tasks. The Gen 3 units feature upgraded dexterous hands with 22 degrees of freedom and an on-board vision-language model enabling natural language task instruction from floor supervisors.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-08-30"
+      "date": "2026-08-29"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform tailored for construction environments, capable of navigating unstructured terrain, carrying 50kg payloads, and performing coordinated tasks with other robotic units. The system uses a foundation world model trained on thousands of hours of real construction site data to anticipate environmental changes and plan multi-step manipulation sequences.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-09-03"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers 2.0 to Defend Against Jailbreaks at the Infrastructure Level",
-      "summary": "Anthropic published a technical paper and deployed Constitutional Classifiers 2.0 across its Claude model family, a layered defense system that reduces successful jailbreak rates to under 0.5% on adversarial benchmarks. The system uses lightweight classifier cascades trained via constitutional AI principles, operating at both the prompt and decoding stages with minimal latency overhead, addressing growing enterprise concerns about LLM security.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
+      "title": "Anthropic Introduces Constitutional AI Agents Framework for Enterprise Autonomous Workflows",
+      "summary": "Anthropic released a new framework for deploying Claude-based autonomous agents in enterprise settings with built-in constitutional guardrails, audit logging, and human-in-the-loop escalation protocols. The framework supports multi-agent orchestration with fine-grained permission scoping, addressing key security and compliance concerns that have slowed enterprise AI agent adoption.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "AI",
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     },
     {
       "id": "6",
-      "title": "ASML Reports Record EUV High-NA Orders as Intel and TSMC Race to Produce 1.4nm Node Chips",
-      "summary": "ASML disclosed record quarterly bookings for its next-generation High-NA EUV lithography systems, driven by aggressive orders from both Intel and TSMC targeting 14A and N1.4 process nodes respectively for 2027 production. The High-NA systems achieve 0.55 numerical aperture, enabling patterning of features below 8nm pitch, a critical enabler for continued transistor density scaling.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Gen AI Accelerators",
+      "summary": "TSMC announced volume production on its N1.4 process node using second-generation gate-all-around transistor architecture, promising a 25% performance uplift and 35% power reduction over its 2nm node. Major customers including NVIDIA and Apple are expected to tape out designs in Q4 2026, enabling a new generation of energy-efficient AI inference chips for edge and data center deployment.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-27"
+      "date": "2026-08-28"
     },
     {
       "id": "7",
-      "title": "Meta Open-Sources Llama 4 Behemoth, a 1.5-Trillion-Parameter MoE Model, Shifting the Open-Source AI Landscape",
-      "summary": "Meta released the full weights of Llama 4 Behemoth, a 1.5-trillion-parameter mixture-of-experts model with 128 experts, under a permissive license that now allows commercial use without revenue thresholds. Early community benchmarks place it competitive with proprietary frontier models on reasoning and coding tasks, further compressing the gap between open and closed-source AI capabilities and raising questions about safety governance.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-08-25"
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
+      "summary": "Microsoft and Quantinuum reported achieving 99.8% fidelity on logical qubit operations using their hybrid trapped-ion architecture with real-time error correction, a critical milestone toward practical quantum computing. The team executed a 48-logical-qubit circuit solving a materials science simulation that would take classical supercomputers an estimated several weeks, completing it in under four hours.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-09-04"
     },
     {
       "id": "8",
-      "title": "Neuralink Receives FDA Clearance to Expand Brain-Computer Interface Trial to 50 Patients with Spinal Cord Injuries",
-      "summary": "The FDA granted Neuralink expanded approval to implant its N2 brain-computer interface device in up to 50 patients with cervical spinal cord injuries, following positive 12-month safety and efficacy data from its initial cohort. Participants demonstrated cursor control speeds approaching 60 bits per minute, with the latest firmware enabling direct control of robotic arm prosthetics in a research setting, marking a significant milestone for assistive neurotechnology.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-09-03"
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production and Household AI Integration",
+      "summary": "Figure AI closed a $1.5 billion Series C round at a $15 billion valuation to scale manufacturing of its Figure 02 humanoid robot and develop household-specific AI models for domestic tasks. The company announced partnerships with major home appliance manufacturers to create interoperable smart home ecosystems where the robot can interface with and orchestrate connected devices.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Robotics",
+      "date": "2026-08-31"
     }
   ]
 }
