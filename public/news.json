@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-05",
+  "lastUpdated": "2026-09-06",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Text, Image, Audio, and Video",
-      "summary": "OpenAI released GPT-5 Turbo, featuring substantially improved long-context reasoning up to 1M tokens and native real-time video understanding capabilities. Benchmarks show a 35% improvement on complex multi-step reasoning tasks over GPT-4o, with latency reduced by half, making it viable for real-time agentic workflows in production systems.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can simultaneously process and cross-reference video, audio, and code inputs in a single context window. Benchmarks show a 40% improvement over GPT-5 on complex agentic coding tasks and real-time video understanding. The model also introduces a new structured tool-use protocol that significantly reduces hallucination in multi-step agent workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-09-02"
+      "date": "2026-09-03"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Research Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2, which scored record-high results on GPQA Diamond and newly introduced SciArena benchmarks, demonstrating PhD-level proficiency across physics, biology, and chemistry. The model integrates a novel chain-of-verification architecture that significantly reduces hallucination rates in scientific citation and data interpretation tasks.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Scientific Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2, which surpasses previous frontier models on the GPQA Diamond and new SciArena benchmarks designed to test PhD-level reasoning in physics, biology, and mathematics. The model leverages a new mixture-of-experts architecture with over 50 specialized expert modules. Google is integrating Ultra 2 into its research tools across Google Cloud and Google Labs, positioning it as a scientific co-pilot.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for parts sorting, quality inspection, and lightweight assembly tasks. The Gen 3 units feature upgraded dexterous hands with 22 degrees of freedom and an on-board vision-language model enabling natural language task instruction from floor supervisors.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-08-29"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform tailored for construction environments, capable of navigating unstructured terrain, carrying 50kg payloads, and performing coordinated tasks with other robotic units. The system uses a foundation world model trained on thousands of hours of real construction site data to anticipate environmental changes and plan multi-step manipulation sequences.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-09-03"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Agents Framework for Enterprise Autonomous Workflows",
-      "summary": "Anthropic released a new framework for deploying Claude-based autonomous agents in enterprise settings with built-in constitutional guardrails, audit logging, and human-in-the-loop escalation protocols. The framework supports multi-agent orchestration with fine-grained permission scoping, addressing key security and compliance concerns that have slowed enterprise AI agent adoption.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Anthropic Introduces Claude's 'Extended Thinking Chains' for Multi-Hour Autonomous Research Tasks",
+      "summary": "Anthropic unveiled an update to its Claude model family enabling persistent, multi-hour extended thinking chains that allow the model to autonomously conduct research, synthesize literature, and produce structured reports with minimal human supervision. The system includes built-in self-verification checkpoints and citation auditing. Early enterprise adopters in pharma and legal report significant reductions in analyst workload for due diligence tasks.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-09-04"
     },
     {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has entered limited commercial deployment at BMW manufacturing facilities in South Carolina and Amazon fulfillment centers in Texas. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and can autonomously navigate dynamic warehouse environments using onboard vision transformers. Tesla reports the robots are handling bin-picking and parts-kitting tasks at roughly 70% of human worker throughput.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "5",
+      "title": "Figure Robotics Partners with Microsoft to Deploy Foundation-Model-Powered Humanoids in Data Centers",
+      "summary": "Figure announced a strategic partnership with Microsoft to deploy its Figure 03 humanoid robots in Azure data centers for hardware maintenance tasks including cable management, drive replacement, and thermal system inspection. The robots run a jointly developed foundation model for physical reasoning that allows zero-shot generalization to new server rack configurations. The partnership signals growing industry confidence that humanoid form factors can address labor shortages in critical infrastructure.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-08-29"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC announced volume production on its N1.4 process node using second-generation gate-all-around transistor architecture, promising a 25% performance uplift and 35% power reduction over its 2nm node. Major customers including NVIDIA and Apple are expected to tape out designs in Q4 2026, enabling a new generation of energy-efficient AI inference chips for edge and data center deployment.",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced volume production on its A14 (1.4nm-class) process node, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors and backside power delivery, yielding an estimated 20% performance gain and 30% power reduction over the N2 node. Apple, Nvidia, and Qualcomm are confirmed first customers, with chips expected in consumer devices by early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-08-28"
+      "date": "2026-09-05"
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations at Record Fidelity",
-      "summary": "Microsoft and Quantinuum reported achieving 99.8% fidelity on logical qubit operations using their hybrid trapped-ion architecture with real-time error correction, a critical milestone toward practical quantum computing. The team executed a 48-logical-qubit circuit solving a materials science simulation that would take classical supercomputers an estimated several weeks, completing it in under four hours.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-09-04"
+      "title": "Meta Releases Llama 4 Under Open Weights with Unprecedented 1M-Token Native Context",
+      "summary": "Meta released Llama 4, its latest open-weights large language model, featuring a native context window of one million tokens without quality degradation. The model uses a novel ring attention variant combined with sparse retrieval heads that maintain coherence over ultra-long documents. Available under a permissive license for both research and commercial use, it is expected to accelerate open-source agentic application development significantly.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-08-28"
     },
     {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production and Household AI Integration",
-      "summary": "Figure AI closed a $1.5 billion Series C round at a $15 billion valuation to scale manufacturing of its Figure 02 humanoid robot and develop household-specific AI models for domestic tasks. The company announced partnerships with major home appliance manufacturers to create interoperable smart home ecosystems where the robot can interface with and orchestrate connected devices.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Robotics",
-      "date": "2026-08-31"
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with Bidirectional Stimulation",
+      "summary": "The FDA granted clearance for Neuralink's N2 implant, a second-generation brain-computer interface that supports both high-bandwidth neural recording (over 16,000 channels) and targeted microstimulation for sensory feedback. Clinical trial data showed paralyzed participants achieving cursor control speeds approaching able-bodied baselines and reporting rudimentary tactile sensations through the stimulation pathways. The approval covers a 50-patient expansion trial focused on motor restoration and communication.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-09-04"
     }
   ]
 }
