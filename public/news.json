@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-09",
+  "lastUpdated": "2026-09-10",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 34% improvement on SWE-Bench and near-human performance on graduate-level scientific reasoning tasks. The model also introduces a persistent memory layer that maintains context across sessions without explicit retrieval augmentation.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, audio, and code repositories in a single context window exceeding 1 million tokens. Benchmarks show a 38% improvement on ARC-AGI-2 over the previous generation, with significantly reduced hallucination rates. The model is available via API with new structured-output guarantees that make agentic tool-use pipelines substantially more reliable.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-09-03"
+      "date": "2026-09-08"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Automated Theorem Proving",
-      "summary": "DeepMind announced that Gemini Ultra 2 has solved 78% of problems from the International Mathematical Olympiad 2026 qualifying set, a significant leap from last year's 62%. The system combines a chain-of-thought verifier with a reinforcement learning loop trained on formal proof assistants like Lean 4. Researchers say the approach generalizes to software verification and could transform how critical systems are formally validated.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored a verified 92% on a curated set of International Mathematical Olympiad problems, surpassing all prior AI systems. The model uses a novel chain-of-verification architecture that cross-checks intermediate proof steps against a formal theorem prover. Researchers say the approach could accelerate automated theorem proving and scientific discovery workflows.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,8 +21,8 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Deployment in BMW Manufacturing Plants",
-      "summary": "BMW confirmed the first large-scale deployment of Tesla's Optimus Gen 3 humanoid robots at its Spartanburg, South Carolina plant, with 200 units performing sub-assembly, materials handling, and quality inspection tasks. The robots leverage onboard vision-language models for zero-shot task adaptation, reducing reprogramming time from days to minutes. This marks the first major third-party industrial deployment of Optimus outside Tesla's own factories.",
+      "title": "Figure Robotics Deploys 500 Humanoid Workers Across BMW Manufacturing Lines",
+      "summary": "Figure announced that its Figure 03 humanoid robots have reached a deployment milestone of 500 units actively working across three BMW assembly plants in the US and Germany. The robots handle complex multi-step tasks including wire harness routing and quality inspection using on-board vision-language models. BMW reports a 22% throughput increase in deployed sections with a significant reduction in repetitive-strain injuries among human workers.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
@@ -30,26 +30,26 @@
     },
     {
       "id": "4",
-      "title": "Figure AI Demonstrates Autonomous Warehouse Robot Operating 20-Hour Shifts with 99.6% Pick Accuracy",
-      "summary": "Figure AI showcased its Figure 02 humanoid robot completing full warehouse pick-and-pack workflows autonomously across 20-hour shifts, achieving 99.6% accuracy across 15,000 SKU variations. The system uses a proprietary world model for spatial reasoning and dexterous manipulation of deformable and fragile objects. Several major logistics providers including DHL are reportedly in advanced procurement discussions.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Disaster Search-and-Rescue Missions",
+      "summary": "Boston Dynamics demonstrated its electric Atlas humanoid robot completing a fully autonomous search-and-rescue scenario in a collapsed building environment, navigating rubble, opening doors, and identifying simulated victims. The system combines LiDAR-based SLAM with a fine-tuned vision-language model for semantic scene understanding and real-time path replanning. FEMA has begun a pilot evaluation program for potential deployment alongside human first responders.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-09-04"
+      "date": "2026-09-03"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional Auditing Framework for Enterprise AI Compliance",
-      "summary": "Anthropic released a new open-source constitutional auditing toolkit that allows enterprises to formally specify, test, and certify behavioral guardrails on large language models before deployment. The framework integrates with CI/CD pipelines and generates compliance reports aligned with the EU AI Act and the newly enacted US AI Accountability Act. Early adopters report a 60% reduction in time-to-compliance for regulated industry deployments.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "Anthropic Introduces Constitutional AI Monitoring Framework as Open-Source Safety Standard",
+      "summary": "Anthropic open-sourced its internal Constitutional AI monitoring framework, providing real-time interpretability dashboards and automated red-teaming pipelines that other labs and enterprises can integrate into their own model deployments. The toolkit includes mechanistic interpretability probes that can surface deceptive reasoning patterns in chain-of-thought outputs. Several major AI labs and the EU AI Office have signaled interest in adopting it as a baseline compliance tool under the EU AI Act.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 gate-all-around (GAA) process node has entered volume production at its Kaohsiung fab, approximately two months ahead of the originally projected timeline. The node delivers a 20% performance uplift and 30% power reduction over N2, and is expected to power next-generation AI accelerator chips from Nvidia, AMD, and Apple in 2027. Analysts note this cements TSMC's lead over Samsung Foundry, which has struggled with GAA yields.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed that its A14 (1.4nm-class) process node has entered high-volume manufacturing at its Arizona Fab 2 facility, marking the first sub-2nm volume production on US soil. The node delivers a 30% power efficiency gain over N2, which is critical for next-generation AI training and inference chips. Apple, Nvidia, and AMD are reported to be among the first customers with tape-outs expected to reach products by early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4x Electrode Density",
-      "summary": "The FDA granted Neuralink clearance to begin human trials of its N2 implant, which quadruples electrode density to 4,096 channels and incorporates on-chip signal processing to reduce wireless bandwidth requirements. The first cohort will focus on restoring full cursor and keyboard control for patients with spinal cord injuries. Independent reviewers noted significant improvements in biocompatibility and projected device longevity of over 10 years.",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "Neuralink announced FDA clearance for its N2 implant, a second-generation BCI device with 4,096 electrodes — quadruple the channel count of its first-generation chip — and fully wireless high-bandwidth data streaming. Early clinical trial participants with spinal cord injuries demonstrated cursor control speeds approaching able-bodied typing rates. The clearance covers a pivotal trial expansion to 50 patients across multiple US medical centers.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric with Real-Time LLM-Driven Task Planning",
-      "summary": "Boston Dynamics revealed a major Atlas Electric update integrating a locally-run large language model for real-time natural language task decomposition and planning in unstructured construction environments. In live demos, operators issued high-level verbal commands and the robot autonomously sequenced multi-step tasks including material transport, tool selection, and debris clearing. Hyundai announced plans to deploy 500 units across its construction and shipbuilding divisions by mid-2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Toyota Research Institute Unveils Dexterous Bi-Manual Robot That Learns Household Tasks from 10-Minute Demonstrations",
+      "summary": "TRI presented a new diffusion-policy-based learning system that enables a bi-manual mobile manipulator to acquire complex household skills — such as folding laundry, loading dishwashers, and organizing shelves — from just a few minutes of human teleoperation data. The system generalizes across object shapes and cluttered environments without task-specific engineering. TRI plans to integrate the platform into a consumer home-assistant prototype slated for limited beta testing in 2027.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-09-08"
+      "date": "2026-09-09"
     }
   ]
 }
