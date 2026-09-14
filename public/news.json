@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-13",
+  "lastUpdated": "2026-09-14",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
-      "summary": "OpenAI has rolled out GPT-5 Turbo, featuring deeply integrated multimodal reasoning across text, image, audio, and video with a 1-million-token context window. Benchmarks show a significant leap in long-horizon planning tasks and complex code generation, narrowing the gap between LLM outputs and expert-level software engineering. The model also introduces persistent memory across sessions via a new stateful API endpoint.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 40% improvement on SWE-Bench Full over GPT-4.5, with notably stronger performance on multi-file refactoring and architectural reasoning tasks. The model also introduces persistent project memory, allowing it to maintain context across sessions for long-running engineering workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,8 +12,8 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Discovery Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which set new records on ScienceBench and MathOlympiad datasets, demonstrating the ability to propose novel hypotheses in materials science that were subsequently validated in the lab. The model leverages a mixture-of-experts architecture scaled to over 3 trillion parameters with improved inference efficiency. Researchers highlighted its potential to accelerate drug discovery and climate modeling pipelines.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves New SOTA on Scientific Literature Synthesis",
+      "summary": "DeepMind announced Gemini Ultra 2 with a 2-million-token effective context window and new retrieval-augmented chain-of-thought capabilities purpose-built for scientific research. The model demonstrated the ability to synthesize findings across hundreds of papers and identify novel cross-domain research hypotheses that were subsequently validated by human reviewers. Google is integrating it directly into Google Scholar and its internal drug discovery pipelines at Isomorphic Labs.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,8 +21,8 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Enters Pilot Deployment at Third-Party Warehouses",
-      "summary": "Tesla has begun deploying its third-generation Optimus humanoid robots at Amazon and DHL fulfillment centers in a paid pilot program, marking the first commercial use outside Tesla's own factories. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and can autonomously learn new pick-and-place tasks via demonstration within minutes. Early reports indicate a 40% throughput improvement over the Gen 2 prototypes shown earlier this year.",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Third-Party Warehouses",
+      "summary": "Tesla has started deploying its Optimus Gen 3 humanoid robots in Amazon and DHL warehouses under supervised autonomy, marking the first large-scale third-party commercial rollout. The robots handle bin picking, pallet stacking, and inventory scanning with a reported 97.3% task completion rate. Tesla credits its end-to-end vision-to-action transformer architecture, trained on over 18 months of teleoperation data from its own factories.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
@@ -30,26 +30,26 @@
     },
     {
       "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Modular Tool Swapping",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform, featuring a modular end-effector system that allows the humanoid to swap between grippers, drills, and inspection tools in under 30 seconds. The system is targeting construction and energy infrastructure inspection markets, with Hyundai committing to deploy 500 units across its shipbuilding operations by mid-2027. The new platform runs on an on-board foundation model for real-time scene understanding and task planning.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Figure AI Raises $1.5B Series C as Its Robots Begin Autonomous Assembly Line Tasks at BMW",
+      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, fueled by production deployments of its Figure 02 humanoid at BMW's Spartanburg plant. The robots now autonomously perform wiring harness installation and quality inspection steps that were previously manual-only. Figure's approach leverages large behavior models fine-tuned on task-specific demonstration data, with human-in-the-loop oversight gradually being reduced.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
       "date": "2026-09-06"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI 2.0 Framework with Formal Verification Guarantees",
-      "summary": "Anthropic published a major update to its Constitutional AI alignment methodology, incorporating formal verification techniques borrowed from hardware design to mathematically prove certain safety properties of model outputs. The framework enables developers to specify invariant safety constraints that the model is guaranteed not to violate within defined operational domains. The approach has drawn significant interest from regulated industries including healthcare and aviation seeking auditable AI safety assurances.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Anthropic Introduces Constitutional Classifiers for Enterprise AI Governance",
+      "summary": "Anthropic released a new suite of constitutional classifier tools that allow enterprises to define custom safety and compliance policies in natural language and enforce them as hard constraints on model outputs. The system uses a lightweight auxiliary model that runs in parallel with Claude during inference, enabling real-time policy adherence without significant latency overhead. Early adopters in financial services and healthcare report a 90% reduction in policy-violating outputs compared to prompt-based guardrails alone.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
       "category": "AI",
       "date": "2026-09-12"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC has commenced high-volume manufacturing on its N1.4 process node using gate-all-around transistor architecture at its Kaohsiung fab. The node delivers a 25% performance uplift and 35% power reduction over N2, and is expected to be the foundation for NVIDIA's next-generation Blackwell Ultra GPUs and AMD's MI450 accelerators shipping in early 2027. The ramp is seen as critical for meeting surging global demand for AI training and inference compute.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process for Next-Gen AI Accelerators",
+      "summary": "TSMC has commenced high-volume manufacturing on its N1.4 gate-all-around (GAA) transistor process node at its Kaohsiung fab, with NVIDIA and Broadcom confirmed as launch customers. The node delivers a 25% performance uplift and 35% power reduction over N2, which is critical for next-generation AI training chips expected to debut in early 2027. This represents a major inflection in transistor architecture as the industry fully transitions away from FinFET designs.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Meta Demonstrates Orion AR Glasses with Real-Time Neural Interface Typing at 120 WPM",
-      "summary": "Meta showcased an updated version of its Orion augmented reality glasses integrated with a wrist-based EMG neural interface that enables text input at 120 words per minute without any physical keyboard. The system uses a lightweight on-device transformer model to decode motor neuron signals with 97% accuracy. Meta announced a limited developer edition shipping in Q1 2027, positioning the device as a laptop replacement for knowledge workers.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "Innovation",
-      "date": "2026-09-07"
-    },
-    {
-      "id": "8",
       "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
-      "summary": "The European Union's AI Office has initiated its first formal compliance audits under the AI Act's provisions for general-purpose AI models, targeting OpenAI, Google, and Mistral's operations in Europe. Auditors are examining training data documentation, systemic risk assessments, and energy consumption reporting as required under the Act's transparency obligations. The enforcement actions are being closely watched as a bellwether for how the world's most comprehensive AI regulation will function in practice.",
+      "summary": "The European Union's AI Office has initiated its first formal compliance audits under the AI Act's general-purpose AI model provisions, with OpenAI, Google, and Meta among the initial targets. Auditors are evaluating systemic risk assessments, compute reporting disclosures, and red-teaming documentation that foundation model providers were required to file by August 2026. The enforcement actions are being closely watched as they will set precedents for how the world's most comprehensive AI regulation is applied in practice.",
       "source": "Financial Times",
       "url": "https://www.ft.com",
       "category": "Innovation",
       "date": "2026-09-13"
+    },
+    {
+      "id": "8",
+      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2 Trillion Active Parameters",
+      "summary": "Meta released Llama 4 Behemoth as a fully open-weight model featuring a sparse mixture-of-experts architecture with 1.2 trillion active parameters routed from a 4.8 trillion total parameter pool. The model matches or exceeds GPT-5 on major reasoning and coding benchmarks while being deployable on a single 8xH200 node thanks to aggressive expert pruning and quantization techniques. The release includes a new permissive license that removes the previous 700M monthly active user restriction, accelerating enterprise adoption.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-09-07"
     }
   ]
 }
