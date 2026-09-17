@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-09-16",
+  "lastUpdated": "2026-09-17",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Images, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring tightly integrated multimodal reasoning that can simultaneously process and generate code, images, and audio within a single inference pass. Benchmarks show a 40% improvement on ARC-AGI-2 tasks over the previous generation, with dramatically reduced hallucination rates. The model is available via API with a new streaming architecture that reduces time-to-first-token by roughly 60%.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Six Modalities",
+      "summary": "OpenAI launched GPT-5 Turbo, which natively processes text, images, audio, video, 3D assets, and structured data within a single unified architecture. The model demonstrates substantial gains on ARC-AGI-2 benchmarks and introduces persistent memory across sessions, marking a significant step toward more general-purpose AI systems. Enterprise API pricing dropped roughly 40% compared to the original GPT-5 release earlier this year.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Scientific Reasoning",
+      "summary": "DeepMind published results showing Gemini Ultra 2 scoring above 90% on GPQA Diamond across physics, chemistry, and biology, surpassing domain-expert human baselines in several sub-categories. The model uses a new mixture-of-experts architecture with over 50 specialized expert modules that dynamically activate based on query domain. Researchers highlighted its ability to generate and verify multi-step mathematical proofs with minimal hallucination.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-09-12"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Model Achieves Zero-Shot Manipulation of Novel Objects",
-      "summary": "DeepMind published results from its Gemini Robotics Foundation Model showing that a single policy can zero-shot manipulate previously unseen household objects with a 92% success rate across 150 object categories. The system combines a vision-language-action model with a learned physics prior, removing the need for task-specific fine-tuning. This marks a significant step toward general-purpose robotic manipulation in unstructured home environments.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-09-10"
-    },
-    {
       "id": "3",
-      "title": "Meta Releases Llama 4 Under Permissive License, Matches Frontier Closed Models on Reasoning",
-      "summary": "Meta publicly released Llama 4, a 400B-parameter mixture-of-experts model that matches or exceeds GPT-5 on several graduate-level reasoning benchmarks including GPQA and MATH. The model is released under an updated Llama Community License that permits commercial use without revenue caps. The open-source AI community has already begun producing quantized variants and fine-tunes within days of release.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-09-08"
-    },
-    {
-      "id": "4",
       "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robot has entered limited commercial deployment at BMW's Spartanburg plant and two Amazon fulfillment centers in Texas. The robots are handling bin-picking, parts transfer, and light palletizing tasks with reported uptime above 95%. This marks one of the first scaled commercial deployments of general-purpose humanoid robots outside of controlled demo environments.",
+      "summary": "Tesla's Optimus Gen 3 humanoid robot has entered pilot deployment at select BMW manufacturing plants and Amazon fulfillment centers, performing bin picking, parts transport, and light assembly tasks. The new generation features 28 degrees of freedom in each hand and a significantly improved vision-language-action model trained on over 100,000 hours of teleoperation data. Early reports indicate the units can operate autonomously for 6-hour shifts with a task completion reliability above 94%.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-09-14"
     },
     {
+      "id": "4",
+      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robot Demonstrates Generalized Tool Use",
+      "summary": "Figure AI closed a $1.5 billion Series C round at a $15 billion valuation after demonstrating its Figure 03 robot using previously unseen hand tools by interpreting natural language instructions and inferring grip mechanics in real time. The system leverages a foundation world model jointly developed with Microsoft that enables sim-to-real transfer with minimal fine-tuning. The company plans to scale manufacturing to 1,000 units per month by mid-2027.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-09-10"
+    },
+    {
       "id": "5",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has entered volume production on its N1.4 (1.4nm-class) process node, approximately one quarter ahead of its originally projected timeline. The node uses gate-all-around nanosheet transistors and backside power delivery to achieve an 18% speed improvement and 25% power reduction over N2. Apple and Nvidia are expected to be lead customers, with chips appearing in products by early 2027.",
+      "title": "Anthropic Introduces 'Constitutional Classifiers 2.0' for Real-Time AI Safety Monitoring in Production",
+      "summary": "Anthropic released Constitutional Classifiers 2.0, an open-weight safety monitoring layer designed to sit alongside any LLM deployment and detect harmful outputs with sub-10ms latency overhead. The system uses a distilled classifier trained against Anthropic's constitutional AI principles and supports customizable organizational policies. Early adopters report a 75% reduction in flagged outputs escaping content filters compared to previous rule-based approaches.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Generation AI Accelerators",
+      "summary": "TSMC announced volume production on its N1.4 process using second-generation gate-all-around transistors at its Fab 20 in Tainan, with initial wafers allocated to NVIDIA's next-generation Blackwell Ultra GPUs and custom AI accelerators for major hyperscalers. The node delivers approximately 25% better performance per watt compared to N2, with transistor density exceeding 250 million per square millimeter. This advancement is expected to meaningfully reduce the cost-per-token for large-scale AI inference workloads starting in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-09-11"
     },
     {
-      "id": "6",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreaks in Enterprise Deployments",
-      "summary": "Anthropic published a technical report detailing a new Constitutional Classifier layer that wraps around Claude deployments to intercept adversarial prompts in real time with sub-10ms latency overhead. In red-team evaluations, the system reduced successful jailbreak rates from around 8% to below 0.2% across known attack taxonomies. The feature is now generally available for Claude Enterprise API customers and represents a shift toward treating safety as a deployable infrastructure component.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "id": "7",
+      "title": "Meta Open-Sources Llama 4 Behemoth with 1.2 Trillion Active Parameters Under Permissive License",
+      "summary": "Meta released Llama 4 Behemoth, its largest open-weight model with 1.2 trillion active parameters in a mixture-of-experts configuration totaling nearly 5 trillion total parameters. Benchmarks place it competitive with GPT-5 and Gemini Ultra 2 on coding, reasoning, and multilingual tasks, making frontier-level capabilities broadly accessible. The model is released under a revised Llama Community License that permits commercial use for organizations with under $10 billion in annual revenue.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
       "category": "AI",
-      "date": "2026-09-15"
+      "date": "2026-09-13"
     },
     {
-      "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in Automotive Form Factor",
-      "summary": "QuantumScape reported that its QSE-5 solid-state lithium-metal cells have surpassed 1,000 charge-discharge cycles while retaining over 90% capacity in a full automotive prismatic form factor. The cells demonstrate energy density of 450 Wh/kg, roughly double that of conventional NMC lithium-ion packs. The company says pilot production with its Volkswagen-backed line is on track for late 2027 vehicle integration.",
+      "id": "8",
+      "title": "Solid-State Battery Startup QuantumScape Ships First Commercial Cells to Volkswagen EV Production Line",
+      "summary": "QuantumScape confirmed its first commercial shipment of solid-state lithium-metal battery cells to Volkswagen's Salzgitter gigafactory for integration into a next-generation EV platform launching in 2027. The QSE-5 cells reportedly achieve 450 Wh/kg energy density and can charge from 10% to 80% in under 12 minutes while maintaining over 90% capacity after 1,000 cycles. This milestone represents the first large-scale automotive deployment of solid-state battery technology after over a decade of industry development.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com",
       "category": "Innovation",
       "date": "2026-09-09"
-    },
-    {
-      "id": "8",
-      "title": "Figure AI and Microsoft Partner on Cloud-Connected Humanoid Robot Fleet Management Platform",
-      "summary": "Figure AI announced a strategic partnership with Microsoft to build a cloud-native fleet management platform on Azure for orchestrating large numbers of humanoid robots in industrial settings. The system uses a centralized world model that aggregates sensor data across all robots to enable shared spatial understanding and coordinated task planning. Early trials reportedly show a 35% throughput improvement over individually autonomous operation in warehouse logistics scenarios.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-09-13"
     }
   ]
 }
