@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-09-18",
+  "lastUpdated": "2026-09-19",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can simultaneously process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 40% improvement on SWE-Bench and near-human performance on graduate-level scientific reasoning tasks, signaling a major step toward general-purpose AI assistants for professional workflows.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Chain",
+      "summary": "OpenAI released GPT-5 Turbo, featuring a unified architecture that natively fuses text, image, audio, and video reasoning within a single chain-of-thought pass. Benchmarks show a 34% improvement on GPQA-Diamond and near-human performance on several doctoral-level science exams, raising questions about evaluation saturation.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-09-15"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 88% of International Mathematical Olympiad problems from the past decade, up from 72% in earlier iterations. The model uses a novel chain-of-verification architecture that self-checks intermediate proof steps, reducing hallucinated reasoning chains and making it a credible tool for formal mathematics research.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-09-12"
     },
     {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Amazon Fulfillment Centers",
-      "summary": "Tesla's third-generation Optimus humanoid robot has started pilot deployments at select Amazon warehouses, performing bin-picking, pallet stacking, and inventory scanning tasks. The robots leverage on-device vision-language models for real-time task adaptation, reportedly handling 85% of targeted warehouse tasks without human intervention, raising both productivity hopes and workforce displacement concerns.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-09-16"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Dexterous Manipulation",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform featuring new hands with 22 degrees of freedom and force-feedback tactile sensors, enabling fine manipulation tasks like connector insertion and tool use. The system runs on a hybrid reinforcement-learning and model-predictive-control stack, targeting automotive manufacturing and construction applications with a 2027 volume production timeline.",
+      "id": "2",
+      "title": "Google DeepMind's RT-4 Enables Robots to Generalize Across Unseen Kitchens in Zero-Shot",
+      "summary": "DeepMind published results on RT-4, a vision-language-action model trained on 150K hours of demonstration data that achieves 87% task success in previously unseen residential kitchens with no fine-tuning. The system leverages a world-model pre-training stage that predicts physical outcomes before committing to motor plans, significantly reducing failure-recovery loops.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-09-10"
     },
     {
+      "id": "3",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids at BMW Spartanburg Plant",
+      "summary": "Figure announced its first paid commercial deployment, with 50 Figure 03 humanoid robots performing parts kitting and inspection at BMW's South Carolina facility. The robots operate alongside human workers on mixed assembly lines, each handling roughly 600 pick-and-place cycles per shift with a reported error rate under 0.3%.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic Introduces 'Constitutional Classifiers 2.0' to Mitigate Jailbreaks at Inference Time",
+      "summary": "Anthropic published a new paper and shipped Constitutional Classifiers 2.0, an inference-time safety layer that reduced successful adversarial jailbreak rates from 4.8% to under 0.2% on red-team benchmarks without measurable increases in refusal of benign queries. The approach uses lightweight auxiliary models trained via constitutional AI principles to score and intercept harmful reasoning chains mid-generation.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-09-17"
+    },
+    {
       "id": "5",
-      "title": "Meta Open-Sources Llama 4 with 1 Trillion Parameters and Mixture-of-Depths Architecture",
-      "summary": "Meta released Llama 4 under a permissive open license, introducing a mixture-of-depths architecture that dynamically allocates compute across transformer layers based on input complexity. Early community benchmarks show it matching proprietary frontier models on coding and reasoning tasks while running efficiently on clusters of consumer-grade GPUs, dramatically lowering the barrier to state-of-the-art AI deployment.",
+      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed that its A14 (1.4nm-class) process has entered risk production at Fab 20 in Hsinchu, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, promising a 12% speed gain and 25% power reduction over N2, with volume production targeted for late 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "6",
+      "title": "Meta Releases Llama 4 Behemoth as Open Weights, Surpassing GPT-4.5 on Code and Math",
+      "summary": "Meta made Llama 4 Behemoth, its largest model at roughly 2 trillion parameters in a mixture-of-experts configuration, available under a permissive open-weights license. Independent evaluations show it outperforming GPT-4.5 on HumanEval+, SWE-bench Verified, and MATH-500, intensifying the debate over whether frontier capabilities can remain proprietary.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-09-14"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Risk Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 process node using gate-all-around transistor architecture has entered risk production three months ahead of the original roadmap. The node promises a 25% performance gain and 35% power reduction over N2, with early wafers showing competitive yields, positioning TSMC to supply next-generation AI accelerator and mobile SoC customers by late 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-09-11"
-    },
-    {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Trials",
-      "summary": "Neuralink secured FDA approval to begin human trials of its N2 implant, which doubles electrode density to 2,048 channels and introduces bidirectional stimulation capabilities. The expanded trial will enroll 50 patients with spinal cord injuries and ALS, aiming to demonstrate not only motor intent decoding but also rudimentary sensory feedback, a critical milestone for closed-loop neuroprosthetics.",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Implant with 4,096-Electrode Array",
+      "summary": "The FDA granted Neuralink de novo clearance for its N2 brain-computer interface featuring a 4,096-electrode array, quadruple the channel count of its first-generation device. Early clinical data from the ongoing PRIME trial show participants achieving cursor control latencies under 100ms and free-form typing speeds exceeding 30 words per minute, a major step toward restoring communication for people with paralysis.",
       "source": "STAT News",
       "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-09-17"
+      "date": "2026-09-16"
     },
     {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production for Industrial Clients",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Saudi Aramco's venture arm, valuing the company at $12 billion. The funding will expand its manufacturing facility in South Carolina to produce 10,000 Figure 03 humanoid units annually, targeting automotive assembly, logistics, and energy sector deployments where labor shortages are most acute.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric for Warehouse Logistics with 20-Hour Runtime",
+      "summary": "Boston Dynamics and parent company Hyundai revealed the production-ready Atlas Electric humanoid, featuring a swappable solid-state battery pack enabling a 20-hour continuous operational cycle. The robot targets warehouse logistics with autonomous pallet loading and can handle payloads up to 30 kg, with pilot deployments beginning at Hyundai Mobis distribution centers in Q4 2026.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-09-13"
+      "date": "2026-09-18"
     }
   ]
 }
