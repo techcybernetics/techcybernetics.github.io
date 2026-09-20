@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-09-19",
+  "lastUpdated": "2026-09-20",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Chain",
-      "summary": "OpenAI released GPT-5 Turbo, featuring a unified architecture that natively fuses text, image, audio, and video reasoning within a single chain-of-thought pass. Benchmarks show a 34% improvement on GPQA-Diamond and near-human performance on several doctoral-level science exams, raising questions about evaluation saturation.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
+      "summary": "OpenAI released GPT-5 Turbo, which introduces unified multimodal reasoning that can jointly process code repositories, video streams, and 3D scene data in a single context window. Benchmarks show a 40% improvement in complex multi-step planning tasks over GPT-5's initial release. The model is available via API with a 1M-token context window and significantly reduced latency compared to its predecessor.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-09-12"
+      "date": "2026-09-18"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's RT-4 Enables Robots to Generalize Across Unseen Kitchens in Zero-Shot",
-      "summary": "DeepMind published results on RT-4, a vision-language-action model trained on 150K hours of demonstration data that achieves 87% task success in previously unseen residential kitchens with no fine-tuning. The system leverages a world-model pre-training stage that predicts physical outcomes before committing to motor plans, significantly reducing failure-recovery loops.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-09-10"
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Breakthrough on ARC-AGI-2 Benchmark",
+      "summary": "DeepMind announced that Gemini Ultra 2 has scored 91% on the ARC-AGI-2 benchmark, a significant leap in abstract reasoning capability that approaches human-level performance on novel problem types. The achievement leverages a new architecture called Adaptive Compute Graphs that dynamically allocates inference-time compute to harder sub-problems. Researchers caution this doesn't equate to AGI but marks a notable milestone in generalizable reasoning.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-09-16"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids at BMW Spartanburg Plant",
-      "summary": "Figure announced its first paid commercial deployment, with 50 Figure 03 humanoid robots performing parts kitting and inspection at BMW's South Carolina facility. The robots operate alongside human workers on mixed assembly lines, each handling roughly 600 pick-and-place cycles per shift with a reported error rate under 0.3%.",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Amazon Fulfillment Centers",
+      "summary": "Amazon confirmed a pilot program deploying 1,000 Tesla Optimus Gen 3 humanoid robots across five U.S. fulfillment centers for pick-and-pack operations, supervised by human operators at a 1:10 ratio. Early data suggests a 25% throughput increase for mixed-SKU handling compared to existing robotic arms. The partnership signals growing confidence in general-purpose humanoid platforms for real-world logistics at scale.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "4",
+      "title": "Figure AI Demonstrates Fully Autonomous Kitchen Workflow with Figure 03 Robot",
+      "summary": "Figure AI released a demo showing its Figure 03 humanoid robot completing a 45-minute multi-course meal preparation entirely autonomously, including tool use, heat management, and plating. The system combines a vision-language-action model with real-time tactile feedback for dexterous manipulation of kitchen utensils and fragile ingredients. The company says commercial availability for hospitality applications is targeted for Q2 2027.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
       "date": "2026-09-15"
     },
     {
-      "id": "4",
-      "title": "Anthropic Introduces 'Constitutional Classifiers 2.0' to Mitigate Jailbreaks at Inference Time",
-      "summary": "Anthropic published a new paper and shipped Constitutional Classifiers 2.0, an inference-time safety layer that reduced successful adversarial jailbreak rates from 4.8% to under 0.2% on red-team benchmarks without measurable increases in refusal of benign queries. The approach uses lightweight auxiliary models trained via constitutional AI principles to score and intercept harmful reasoning chains mid-generation.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
-      "date": "2026-09-17"
-    },
-    {
       "id": "5",
-      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its A14 (1.4nm-class) process has entered risk production at Fab 20 in Hsinchu, roughly one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, promising a 12% speed gain and 25% power reduction over N2, with volume production targeted for late 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-09-08"
+      "title": "Anthropic Publishes Mechanistic Interpretability Framework That Maps Claude's Internal World Model",
+      "summary": "Anthropic released a landmark paper detailing a scalable mechanistic interpretability framework that identifies coherent world-model representations inside large transformer networks, tested on Claude 4. The work maps causal circuits responsible for spatial reasoning, temporal logic, and ethical deliberation, enabling targeted fine-tuning with far fewer failure modes. The framework is open-sourced and is already being adopted by alignment research labs worldwide.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "AI",
+      "date": "2026-09-19"
     },
     {
       "id": "6",
-      "title": "Meta Releases Llama 4 Behemoth as Open Weights, Surpassing GPT-4.5 on Code and Math",
-      "summary": "Meta made Llama 4 Behemoth, its largest model at roughly 2 trillion parameters in a mixture-of-experts configuration, available under a permissive open-weights license. Independent evaluations show it outperforming GPT-4.5 on HumanEval+, SWE-bench Verified, and MATH-500, intensifying the debate over whether frontier capabilities can remain proprietary.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Gen AI Accelerators",
+      "summary": "TSMC announced volume production on its N1.4 process node using second-generation gate-all-around transistors, with NVIDIA and Broadcom confirmed as lead customers for AI accelerator chips. The node delivers a 30% power efficiency gain and 20% performance uplift over N2, critical for addressing data center energy constraints. First commercial chips on N1.4 are expected in products shipping by early 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
       "date": "2026-09-14"
     },
     {
       "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Implant with 4,096-Electrode Array",
-      "summary": "The FDA granted Neuralink de novo clearance for its N2 brain-computer interface featuring a 4,096-electrode array, quadruple the channel count of its first-generation device. Early clinical data from the ongoing PRIME trial show participants achieving cursor control latencies under 100ms and free-form typing speeds exceeding 30 words per minute, a major step toward restoring communication for people with paralysis.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "Microsoft and Quantinuum Demonstrate Useful Quantum Error Correction at 100 Logical Qubits",
+      "summary": "Microsoft and Quantinuum jointly demonstrated a 100-logical-qubit system with error rates below the threshold needed for practical quantum chemistry simulations, using Microsoft's topological qubit encoding scheme. The team ran a catalyst optimization simulation relevant to industrial ammonia synthesis that outperformed classical HPC baselines. This marks the first widely acknowledged instance of quantum advantage on a commercially relevant chemistry problem.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-09-16"
+      "date": "2026-09-12"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Electric for Warehouse Logistics with 20-Hour Runtime",
-      "summary": "Boston Dynamics and parent company Hyundai revealed the production-ready Atlas Electric humanoid, featuring a swappable solid-state battery pack enabling a 20-hour continuous operational cycle. The robot targets warehouse logistics with autonomous pallet loading and can handle payloads up to 30 kg, with pilot deployments beginning at Hyundai Mobis distribution centers in Q4 2026.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Boston Dynamics Atlas Electric Receives FDA Clearance for Assisted Patient Mobility in Hospitals",
+      "summary": "Boston Dynamics announced FDA 510(k) clearance for a healthcare-specific configuration of its electric Atlas humanoid robot designed to assist with patient transfers, mobility support, and equipment transport in hospital settings. The clearance follows an 18-month clinical trial across four U.S. hospital systems showing a 60% reduction in staff musculoskeletal injuries during patient handling. Deployment begins at partner institutions in Q1 2027 with full-time nursing staff oversight.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Robotics",
-      "date": "2026-09-18"
+      "date": "2026-09-20"
     }
   ]
 }
