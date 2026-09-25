@@ -1,55 +1,55 @@
 {
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-25",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Text, Image, Audio, and Video",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can process and cross-reference video, audio, images, and text in a single inference pass. Benchmarks show a 38% improvement over GPT-5 on complex multi-step reasoning tasks, with significantly reduced hallucination rates. The model also introduces a new structured tool-use protocol that allows more reliable agentic workflows in production environments.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring significantly improved latency and a unified architecture that natively reasons across text, code, video streams, and 3D spatial data without separate encoder modules. Benchmarks show a 38% improvement on SWE-bench and near-human performance on novel PhD-level science questions, raising the bar for agentic coding and research workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-09-20"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Foundation Model Demonstrates Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results from its Gemini Robotics model, which enables humanoid and multi-arm robots to perform dexterous manipulation tasks in cluttered, never-before-seen environments without task-specific fine-tuning. The system combines a vision-language-action architecture with real-time sim-to-real transfer, achieving an 87% success rate on novel household object rearrangement. This represents a significant step toward general-purpose robotic assistants that can operate outside controlled factory settings.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-09-18"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreak Attacks at Scale",
-      "summary": "Anthropic published a technical report detailing its new Constitutional Classifiers framework, a layered defense system that reduced successful jailbreak attempts on Claude models to under 2% across a battery of red-team evaluations. The approach trains lightweight classifier heads on constitutionally-generated adversarial examples and can be hot-swapped without retraining the base model. The work addresses growing enterprise concern about deploying LLMs in regulated industries where prompt injection remains a serious attack vector.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-09-22"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Enters Pilot Deployment at BMW Manufacturing Facilities",
-      "summary": "BMW confirmed that Tesla's third-generation Optimus humanoid robots have begun pilot deployment at two German manufacturing plants, performing parts kitting, quality inspection, and inter-station transport tasks alongside human workers. The robots leverage on-device vision transformers and a new compliant actuation system that allows safe close-proximity human-robot collaboration. This marks the first large-scale deployment of general-purpose humanoid robots by a major automaker outside of Tesla's own factories.",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Long-Context Retrieval at 5M Tokens",
+      "summary": "DeepMind announced Gemini Ultra 2 with a verified 5-million-token context window that maintains near-perfect recall on needle-in-a-haystack benchmarks at scale. The model uses a new sparse ring-attention mechanism that reduces memory overhead quadratically, making enterprise-scale document analysis and full-codebase reasoning practical for production deployments.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Shifts at Fremont Factory",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robots have started performing supervised logistics and parts-sorting tasks on the Fremont assembly line alongside human workers. The Gen 3 units feature upgraded dexterous hands with 24 degrees of freedom and an onboard vision-language model for interpreting verbal instructions, though they still require a human safety operator within line of sight.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-09-17"
+      "date": "2026-09-20"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Autonomous Warehouse Navigation",
+      "summary": "Boston Dynamics officially launched its commercial Atlas platform powered by an end-to-end learned locomotion and manipulation policy trained in simulation and fine-tuned in real warehouses. The system demonstrated fully autonomous pallet building, irregular package handling, and dynamic obstacle avoidance across a 100,000-square-foot Hyundai logistics facility in Georgia, marking a major milestone in general-purpose humanoid deployment.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-09-23"
     },
     {
       "id": "5",
-      "title": "Meta Releases Open-Source 'Llama 4 Behemoth' — A 2-Trillion Parameter Mixture-of-Experts Model",
-      "summary": "Meta open-sourced Llama 4 Behemoth, a 2-trillion parameter MoE model that activates roughly 200 billion parameters per forward pass, making it runnable on high-end multi-GPU server configurations. Early benchmarks place it competitive with GPT-5 on coding, mathematical reasoning, and multilingual tasks. The release includes a new distillation toolkit enabling teams to create specialized sub-10B parameter models that retain up to 90% of the parent model's domain-specific performance.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Anthropic Introduces Constitutional Classifiers 2.0 to Defend Against Jailbreaks at the Architecture Level",
+      "summary": "Anthropic published research on Constitutional Classifiers 2.0, an inference-time safety layer embedded directly into the transformer attention mechanism rather than applied as a post-hoc filter. In red-team evaluations, the system reduced successful jailbreak rates to under 0.3% while adding less than 5ms of latency, representing a significant advance in aligning deployed language models against adversarial inputs.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
       "category": "AI",
-      "date": "2026-09-15"
+      "date": "2026-09-24"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node for AI Accelerators",
-      "summary": "TSMC announced volume production of its A14 (1.4nm-class) gate-all-around nanosheet process, with first customers including NVIDIA and Apple. The node delivers a 20% performance uplift and 30% power reduction compared to N2, critical for next-generation AI training and inference chips facing thermal and energy constraints. Industry analysts expect this process to underpin the next wave of AI accelerator hardware shipping in early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 gate-all-around (GAA) nanosheet process has entered high-volume manufacturing at Fab 20 in Tainan, roughly one quarter ahead of its original roadmap. The node delivers a 20% power reduction and 15% performance uplift over N2, and is expected to power next-generation AI accelerators from NVIDIA and AMD shipping in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independent Testing",
-      "summary": "QuantumScape's latest solid-state lithium-metal cells achieved a verified 600 Wh/kg energy density in independent testing at Argonne National Laboratory, roughly double that of current state-of-the-art lithium-ion pouch cells. The cells retained over 90% capacity after 1,200 charge cycles at aggressive C-rates, addressing the longevity concerns that have plagued solid-state approaches. The technology has immediate implications for electric aviation, robotics, and portable AI inference hardware where weight and energy density are critical constraints.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4,096 Electrodes",
+      "summary": "The FDA granted Neuralink de novo clearance for its N2 implant featuring 4,096 electrode channels — a 4x increase over the first-generation device — along with wireless data transfer rates sufficient for real-time speech decoding. Two participants in the expanded clinical trial have demonstrated cursor control and text generation at speeds exceeding 90 words per minute, approaching natural typing rates.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
       "date": "2026-09-21"
     },
     {
       "id": "8",
-      "title": "Figure AI and Microsoft Partner to Deploy Autonomous Humanoid Robots in Commercial Logistics",
-      "summary": "Figure AI announced a strategic partnership with Microsoft to deploy its Figure 03 humanoid robots in Azure-connected warehouse and logistics operations, using Microsoft's cloud-based AI orchestration for fleet coordination and task planning. The robots use on-board LLM-powered reasoning for natural language instruction following and can autonomously navigate dynamic warehouse environments. Initial deployments are planned across three major U.S. distribution centers by year-end, targeting palletizing, inventory scanning, and last-mile loading tasks.",
+      "title": "Figure AI and BMW Expand Humanoid Robot Deployment Across Three European Assembly Plants",
+      "summary": "Figure AI announced a major expansion of its partnership with BMW, deploying its Figure 02 humanoid robots to three additional European manufacturing facilities after a successful 12-month pilot in Spartanburg. The robots handle flexible sub-assembly tasks using a foundation world model that allows them to generalize across new part geometries with minimal re-training, reducing integration time from weeks to hours.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-09-23"
+      "date": "2026-09-25"
     }
   ]
 }
