@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-09-27",
+  "lastUpdated": "2026-09-28",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Video and Audio Streams",
-      "summary": "OpenAI released GPT-5 Turbo, featuring real-time reasoning over continuous video and audio input streams with significantly reduced latency. The model demonstrates substantial improvements in long-context coherence and agentic task completion, scoring notably higher on newly introduced benchmarks for multi-step real-world planning. Enterprise API pricing has been reduced 40% compared to the original GPT-5 launch earlier this year.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning across text, image, audio, and video with a 1-million-token context window. Benchmarks show significant improvements in long-horizon planning and multi-step mathematical proof generation, narrowing the gap with domain-specific expert systems. The model also introduces a refined reinforcement learning from human feedback (RLHF) pipeline that substantially reduces hallucination rates.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on ARC-AGI-2 Benchmark",
+      "summary": "DeepMind announced that Gemini Ultra 2 has set a new record on the ARC-AGI-2 abstract reasoning benchmark, scoring 91.4% — a task suite specifically designed to resist brute-force memorization. The result reignites debate about whether frontier LLMs are developing genuine compositional generalization or leveraging increasingly sophisticated pattern matching. Researchers noted the model's novel test-time compute scaling strategy as a key architectural innovation.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-09-25"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves New State-of-the-Art on Graduate-Level Scientific Reasoning",
-      "summary": "DeepMind announced Gemini Ultra 2, which surpasses previous models on the GPQA Diamond benchmark with 82% accuracy and demonstrates PhD-level competence across physics, chemistry, and biology question sets. The model introduces a novel chain-of-verification architecture that internally fact-checks its own reasoning steps, significantly reducing hallucination rates. Google is integrating the model across Workspace and Cloud Platform products.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-09-23"
-    },
-    {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in two of its Gigafactories for material handling and parts inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and can operate autonomously for full 8-hour shifts with a reported 99.1% task completion rate. Tesla plans to offer the robots to external manufacturers by mid-2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at select BMW manufacturing plants and Amazon fulfillment centers, handling bin picking, parts transfer, and light assembly tasks. The Gen 3 units feature upgraded dexterous hands with 24 degrees of freedom and an on-board vision-language model for real-time task instruction. Early reports suggest 40% higher throughput than the Gen 2 prototype but highlight challenges in unstructured edge-case handling.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-09-22"
+      "date": "2026-09-24"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
-      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot, targeting construction and heavy industrial environments. The platform features enhanced perception through a LiDAR-vision fusion stack, can carry loads up to 50kg across uneven terrain, and integrates with BIM software for autonomous site navigation. Early pilots with three major construction firms have shown a 30% reduction in manual material transport labor.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
+      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Saudi Arabia's PIF, valuing the company at $18 billion. The funding will go toward building a dedicated humanoid robot factory in Texas with a target capacity of 10,000 units per year by 2028. Figure's robots use a foundation model co-developed with OpenAI for generalized manipulation, and the company says it already has binding purchase agreements from three Fortune 100 logistics companies.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
       "category": "Robotics",
-      "date": "2026-09-20"
+      "date": "2026-09-19"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Claude's Persistent Memory and Long-Running Agent Framework",
-      "summary": "Anthropic released a major update enabling Claude models to maintain persistent memory across sessions and execute multi-day agentic workflows with checkpoint-based state management. The framework allows developers to deploy Claude agents that can autonomously manage complex software engineering tasks, including cross-repository refactoring and CI/CD pipeline monitoring, with built-in safety guardrails and human-in-the-loop approval gates. Early adopters report significant reductions in time spent on routine engineering operations.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Anthropic Introduces Constitutional AI Guardrails as an Open Standard for Enterprise Deployments",
+      "summary": "Anthropic published an open specification for Constitutional AI (CAI) guardrails, providing enterprises with a standardized framework for constraining model behavior within auditable policy boundaries. The spec includes formal verification hooks, red-team test suites, and integrations with SOC 2 and ISO 42001 compliance workflows. Several major cloud providers, including AWS and Azure, have announced day-one support for the standard in their managed AI services.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "AI",
       "date": "2026-09-26"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its A14 (1.4nm-class) process node, approximately one quarter ahead of its original roadmap. The node delivers an 18% performance improvement and 22% power reduction over the N2 node, utilizing gate-all-around nanosheet transistors with backside power delivery. Apple, Nvidia, and AMD are expected to be launch customers with chips arriving in consumer products by early 2027.",
+      "title": "TSMC Begins Risk Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed it has commenced risk production on its N1.4 process node using next-generation gate-all-around (GAA) transistor architecture at its Kaohsiung fab, several months ahead of its original timeline. The node promises a 25% performance uplift and 35% power reduction over N2, targeting high-performance AI accelerator and data center SoC designs. Apple, Nvidia, and AMD are reported to be among the first customers with tape-out slots reserved for mid-2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-09-24"
+      "date": "2026-09-23"
     },
     {
       "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV Road Tests",
-      "summary": "QuantumScape reported that its solid-state lithium-metal batteries have surpassed 1,000 full charge-discharge cycles in real-world EV testing with less than 10% capacity degradation, a critical commercial viability threshold. The cells achieve energy densities exceeding 400 Wh/kg, potentially enabling EVs with 600+ mile ranges. The company has begun scaling its pilot production line with partner Volkswagen's PowerCo for a targeted 2027 vehicle integration.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Innovation",
-      "date": "2026-09-21"
+      "title": "MIT and Boston Dynamics Demonstrate Learned Parkour for Quadrupeds in Unstructured Outdoor Terrain",
+      "summary": "A joint MIT CSAIL and Boston Dynamics research team published results showing the Spot robot performing dynamic parkour maneuvers — including precision jumps, wall runs, and gap traversals — in fully unstructured outdoor environments using a sim-to-real reinforcement learning pipeline. The system requires no pre-mapped terrain data and adapts in real time using proprioceptive and depth sensing feedback. The work advances the state of the art in agile legged locomotion and has implications for search-and-rescue and defense applications.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-09-20"
     },
     {
       "id": "8",
-      "title": "Meta Releases Open-Source Llama 4 with Mixture-of-Experts Architecture at 1.2 Trillion Parameters",
-      "summary": "Meta released Llama 4 under a permissive open-source license, featuring a sparse mixture-of-experts architecture with 1.2 trillion total parameters but only 140 billion active per forward pass, making it efficient to run on clusters of consumer-grade GPUs. The model matches or exceeds GPT-4o on most standard benchmarks and introduces native tool-use and structured output capabilities. The release includes fine-tuning recipes and RLHF datasets, setting a new bar for open-weight foundation models.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-09-19"
+      "title": "EU AI Act Enforcement Begins with First Wave of High-Risk System Audits Across Financial Sector",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act, targeting high-risk AI systems deployed in credit scoring, insurance underwriting, and fraud detection by major European banks. Regulators are examining algorithmic transparency documentation, bias testing records, and human oversight mechanisms. The enforcement action is being closely watched globally as a potential template for AI governance, with several non-EU jurisdictions signaling intent to adopt similar frameworks.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-09-27"
     }
   ]
 }
