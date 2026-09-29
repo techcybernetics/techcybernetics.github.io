@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-09-29",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning across text, image, audio, and video with a 1-million-token context window. Benchmarks show significant improvements in long-horizon planning and multi-step mathematical proof generation, narrowing the gap with domain-specific expert systems. The model also introduces a refined reinforcement learning from human feedback (RLHF) pipeline that substantially reduces hallucination rates.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, audio, and code repositories in a single context window of up to 1 million tokens. Early benchmarks show a 38% improvement over GPT-5 on complex software engineering tasks and near-human performance on graduate-level scientific reasoning. The model also introduces a new 'chain-of-tools' capability that autonomously orchestrates API calls and tool use without explicit prompting.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-09-22"
+      "date": "2026-09-27"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on ARC-AGI-2 Benchmark",
-      "summary": "DeepMind announced that Gemini Ultra 2 has set a new record on the ARC-AGI-2 abstract reasoning benchmark, scoring 91.4% — a task suite specifically designed to resist brute-force memorization. The result reignites debate about whether frontier LLMs are developing genuine compositional generalization or leveraging increasingly sophisticated pattern matching. Researchers noted the model's novel test-time compute scaling strategy as a key architectural innovation.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad problems from the past decade, a significant leap from the 68% achieved by its predecessor earlier this year. The system combines advanced formal reasoning with a novel self-verification loop that checks proofs against the Lean 4 theorem prover in real time. Researchers say this marks a milestone toward AI systems capable of genuine mathematical discovery rather than pattern matching.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,35 +21,35 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
-      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at select BMW manufacturing plants and Amazon fulfillment centers, handling bin picking, parts transfer, and light assembly tasks. The Gen 3 units feature upgraded dexterous hands with 24 degrees of freedom and an on-board vision-language model for real-time task instruction. Early reports suggest 40% higher throughput than the Gen 2 prototype but highlight challenges in unstructured edge-case handling.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Boston Dynamics Unveils Atlas Gen-3 with Dexterous Manipulation and Real-Time Adaptive Gait",
+      "summary": "Boston Dynamics revealed the third generation of its electric Atlas humanoid robot, featuring new five-fingered hands with 22 degrees of freedom per hand and tactile sensing at each fingertip. The robot demonstrated assembling automotive wiring harnesses in a factory pilot with Hyundai, completing tasks previously requiring human dexterity. A new real-time adaptive gait controller allows Atlas Gen-3 to traverse unstructured terrain including loose gravel and stairs while carrying up to 25 kg payloads.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-09-24"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Saudi Arabia's PIF, valuing the company at $18 billion. The funding will go toward building a dedicated humanoid robot factory in Texas with a target capacity of 10,000 units per year by 2028. Figure's robots use a foundation model co-developed with OpenAI for generalized manipulation, and the company says it already has binding purchase agreements from three Fortune 100 logistics companies.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Robotics",
-      "date": "2026-09-19"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Guardrails as an Open Standard for Enterprise Deployments",
-      "summary": "Anthropic published an open specification for Constitutional AI (CAI) guardrails, providing enterprises with a standardized framework for constraining model behavior within auditable policy boundaries. The spec includes formal verification hooks, red-team test suites, and integrations with SOC 2 and ISO 42001 compliance workflows. Several major cloud providers, including AWS and Azure, have announced day-one support for the standard in their managed AI services.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "AI",
       "date": "2026-09-26"
     },
     {
+      "id": "4",
+      "title": "Figure and BMW Expand Humanoid Robot Deployment to Three Additional Manufacturing Plants",
+      "summary": "Figure Inc. announced that its Figure 02 humanoid robots will be deployed to three additional BMW manufacturing plants in Germany and the US following a successful 12-month pilot in Spartanburg, South Carolina. The robots now handle bin picking, parts inspection, and ergonomically challenging above-head assembly tasks, reportedly reducing workplace injury claims by 34% on pilot lines. BMW plans to scale to over 500 units by mid-2027, making it one of the largest humanoid deployments in automotive history.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreaks in Production AI Systems",
+      "summary": "Anthropic published a technical report detailing Constitutional Classifiers, a new safety architecture that reduces successful jailbreak rates on Claude models to under 0.2% across a battery of over 50,000 adversarial prompts. The system trains lightweight classifier heads on synthetically generated attack-defense pairs derived from the model's own constitution. The approach is model-agnostic and Anthropic has open-sourced the training framework, inviting the industry to adopt it as a shared safety standard.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/blog",
+      "category": "AI",
+      "date": "2026-09-24"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Risk Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed it has commenced risk production on its N1.4 process node using next-generation gate-all-around (GAA) transistor architecture at its Kaohsiung fab, several months ahead of its original timeline. The node promises a 25% performance uplift and 35% power reduction over N2, targeting high-performance AI accelerator and data center SoC designs. Apple, Nvidia, and AMD are reported to be among the first customers with tape-out slots reserved for mid-2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC confirmed that its N1.4 process node has entered high-volume manufacturing at its Fab 20 facility in Hsinchu, roughly one quarter ahead of the originally projected timeline. The node delivers a 20% performance gain and 30% power reduction over N2, with backside power delivery and gate-all-around nanosheet transistors as standard. Initial customers include Apple and Nvidia, with chips expected in consumer and data center products by early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "MIT and Boston Dynamics Demonstrate Learned Parkour for Quadrupeds in Unstructured Outdoor Terrain",
-      "summary": "A joint MIT CSAIL and Boston Dynamics research team published results showing the Spot robot performing dynamic parkour maneuvers — including precision jumps, wall runs, and gap traversals — in fully unstructured outdoor environments using a sim-to-real reinforcement learning pipeline. The system requires no pre-mapped terrain data and adapts in real time using proprioceptive and depth sensing feedback. The work advances the state of the art in agile legged locomotion and has implications for search-and-rescue and defense applications.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-09-20"
-    },
-    {
-      "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Wave of High-Risk System Audits Across Financial Sector",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act, targeting high-risk AI systems deployed in credit scoring, insurance underwriting, and fraud detection by major European banks. Regulators are examining algorithmic transparency documentation, bias testing records, and human oversight mechanisms. The enforcement action is being closely watched globally as a potential template for AI governance, with several non-EU jurisdictions signaling intent to adopt similar frameworks.",
+      "title": "EU AI Act Enforcement Begins: First Wave of Compliance Deadlines Hit Enterprise Providers",
+      "summary": "The European Union's AI Act entered its broadest enforcement phase on September 15, requiring all high-risk AI system providers operating in the EU to register in the bloc's centralized AI database and submit conformity assessments. Several major US tech firms including Microsoft, Google, and Meta disclosed compliance costs exceeding €200 million each, while a number of smaller startups announced they will geo-fence EU users rather than meet the requirements. Legal experts expect the first enforcement actions by year-end.",
       "source": "Financial Times",
       "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-09-27"
+      "date": "2026-09-22"
+    },
+    {
+      "id": "8",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with Wireless Charging",
+      "summary": "Neuralink announced FDA clearance for its N2 brain-computer interface implant, which doubles the electrode count to 2,048 channels and introduces wireless inductive charging, eliminating the need for any percutaneous connectors. The second-generation device also features on-chip spike sorting using a custom neuromorphic processor, reducing data transmission bandwidth by 90%. Expanded clinical trials for patients with quadriplegia and ALS are set to begin in Q1 2027 across five US medical centers.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-09-29"
     }
   ]
 }
