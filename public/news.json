@@ -1,75 +1,75 @@
 {
-  "lastUpdated": "2026-09-29",
+  "lastUpdated": "2026-09-30",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, audio, and code repositories in a single context window of up to 1 million tokens. Early benchmarks show a 38% improvement over GPT-5 on complex software engineering tasks and near-human performance on graduate-level scientific reasoning. The model also introduces a new 'chain-of-tools' capability that autonomously orchestrates API calls and tool use without explicit prompting.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can simultaneously process and cross-reference code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 40% improvement over GPT-5 on complex software architecture tasks. The model introduces a new 'chain-of-thought grounding' mechanism that significantly reduces hallucination rates in technical domains.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-09-27"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad problems from the past decade, a significant leap from the 68% achieved by its predecessor earlier this year. The system combines advanced formal reasoning with a novel self-verification loop that checks proofs against the Lean 4 theorem prover in real time. Researchers say this marks a milestone toward AI systems capable of genuine mathematical discovery rather than pattern matching.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-09-25"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad problems from the last decade, a significant leap from the previous best of 72%. The system uses a novel reinforcement learning approach combining formal proof verification with natural-language reasoning. Researchers say the architecture could accelerate automated theorem proving and formal verification in production software systems.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-09-22"
+    },
+    {
       "id": "3",
-      "title": "Boston Dynamics Unveils Atlas Gen-3 with Dexterous Manipulation and Real-Time Adaptive Gait",
-      "summary": "Boston Dynamics revealed the third generation of its electric Atlas humanoid robot, featuring new five-fingered hands with 22 degrees of freedom per hand and tactile sensing at each fingertip. The robot demonstrated assembling automotive wiring harnesses in a factory pilot with Hyundai, completing tasks previously requiring human dexterity. A new real-time adaptive gait controller allows Atlas Gen-3 to traverse unstructured terrain including loose gravel and stairs while carrying up to 25 kg payloads.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robots have started supervised shifts in Amazon and DHL fulfillment centers, performing bin-picking, palletizing, and inventory scanning tasks. The robots operate with a new vision-language-action model that allows them to interpret natural-language task descriptions and adapt to novel object geometries in real time. Tesla reports a 3x improvement in manipulation dexterity over Gen 2, though human oversight remains required for edge cases.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-09-26"
+      "date": "2026-09-27"
     },
     {
       "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Deployment to Three Additional Manufacturing Plants",
-      "summary": "Figure Inc. announced that its Figure 02 humanoid robots will be deployed to three additional BMW manufacturing plants in Germany and the US following a successful 12-month pilot in Spartanburg, South Carolina. The robots now handle bin picking, parts inspection, and ergonomically challenging above-head assembly tasks, reportedly reducing workplace injury claims by 34% on pilot lines. BMW plans to scale to over 500 units by mid-2027, making it one of the largest humanoid deployments in automotive history.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Whole-Body Predictive Control",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform built on a new whole-body model-predictive control stack that enables the humanoid to carry up to 35 kg while navigating unstructured construction environments. The system integrates real-time 3D scene reconstruction with dynamic balance algorithms, allowing it to traverse rubble and climb ladders. Initial deployments are planned with Hyundai's construction and shipbuilding divisions in Q1 2027.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-09-28"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreaks in Production AI Systems",
-      "summary": "Anthropic published a technical report detailing Constitutional Classifiers, a new safety architecture that reduces successful jailbreak rates on Claude models to under 0.2% across a battery of over 50,000 adversarial prompts. The system trains lightweight classifier heads on synthetically generated attack-defense pairs derived from the model's own constitution. The approach is model-agnostic and Anthropic has open-sourced the training framework, inviting the industry to adopt it as a shared safety standard.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com/blog",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' for Enterprise AI Safety Compliance",
+      "summary": "Anthropic released a new framework called Constitutional Classifiers, which layers lightweight classifier heads on top of foundation models to enforce domain-specific safety and compliance policies without retraining. The system allows enterprises to define behavioral constraints in natural language that are compiled into real-time inference-time guardrails. Early adopters in healthcare and finance report near-zero policy violation rates with less than 4% latency overhead.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "AI",
       "date": "2026-09-24"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its N1.4 process node has entered high-volume manufacturing at its Fab 20 facility in Hsinchu, roughly one quarter ahead of the originally projected timeline. The node delivers a 20% performance gain and 30% power reduction over N2, with backside power delivery and gate-all-around nanosheet transistors as standard. Initial customers include Apple and Nvidia, with chips expected in consumer and data center products by early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced volume production of its N14G process, the company's first 1.4nm gate-all-around (GAA) nanosheet node, with Apple and Nvidia confirmed as lead customers for 2027 silicon. The node delivers a 20% performance gain and 30% power reduction over the N2 node, critical for next-generation AI accelerators constrained by datacenter power budgets. Yield rates are reportedly exceeding TSMC's internal targets, suggesting aggressive ramp-up timelines are feasible.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-09-23"
+      "date": "2026-09-26"
     },
     {
       "id": "7",
-      "title": "EU AI Act Enforcement Begins: First Wave of Compliance Deadlines Hit Enterprise Providers",
-      "summary": "The European Union's AI Act entered its broadest enforcement phase on September 15, requiring all high-risk AI system providers operating in the EU to register in the bloc's centralized AI database and submit conformity assessments. Several major US tech firms including Microsoft, Google, and Meta disclosed compliance costs exceeding €200 million each, while a number of smaller startups announced they will geo-fence EU users rather than meet the requirements. Legal experts expect the first enforcement actions by year-end.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
-      "date": "2026-09-22"
+      "title": "Meta Open-Sources Llama 4 Mixture-of-Experts Model with 1.2 Trillion Parameters",
+      "summary": "Meta released Llama 4 under a permissive open license, featuring a sparse mixture-of-experts architecture with 1.2 trillion total parameters but only 90 billion active per forward pass. The model matches or exceeds GPT-5 on most public benchmarks while being runnable on a single 8×H200 node, dramatically lowering the hardware barrier for frontier-class AI research. The release includes training recipes, RLHF datasets, and a new distributed inference framework optimized for commodity clusters.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-09-19"
     },
     {
       "id": "8",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with Wireless Charging",
-      "summary": "Neuralink announced FDA clearance for its N2 brain-computer interface implant, which doubles the electrode count to 2,048 channels and introduces wireless inductive charging, eliminating the need for any percutaneous connectors. The second-generation device also features on-chip spike sorting using a custom neuromorphic processor, reducing data transmission bandwidth by 90%. Expanded clinical trials for patients with quadriplegia and ALS are set to begin in Q1 2027 across five US medical centers.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV Road Tests",
+      "summary": "QuantumScape reported that its solid-state lithium-metal batteries have surpassed 1,000 full charge-discharge cycles in real-world EV testing with a partner automaker, retaining over 90% capacity. The cells achieve an energy density of 500 Wh/kg, nearly double conventional lithium-ion, and support 15-minute charging to 80%. This milestone addresses the key durability concern that has historically blocked solid-state commercialization, with pilot production slated for mid-2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
       "category": "Innovation",
       "date": "2026-09-29"
     }
