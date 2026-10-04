@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-04",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates significant improvements in complex software engineering benchmarks, scoring over 72% on SWE-Bench Verified, and introduces a new structured chain-of-thought mode that exposes intermediate reasoning tokens to developers via the API.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-Bench and near-human performance on graduate-level STEM visual reasoning tasks, marking a significant step toward unified AI systems.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-09-27"
+      "date": "2026-09-28"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced Gemini Ultra 2, which solved 88% of International Mathematical Olympiad problems in a controlled evaluation, up from the prior generation's 72%. The system combines a refined AlphaProof-style formal verification loop with large-scale language model reasoning, representing a meaningful step toward AI systems that can autonomously generate and verify novel mathematical proofs.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Long-Context Scientific Literature Synthesis",
+      "summary": "DeepMind unveiled Gemini Ultra 2 with a 4-million-token effective context window and demonstrated its ability to synthesize findings across hundreds of research papers with verifiable citations. The model introduces a novel hierarchical attention mechanism that reduces memory overhead quadratically, making ultra-long-context inference practical on standard TPU v6 pods.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robot has started operating in select Amazon and DHL fulfillment centers for pick-and-place and inventory sorting tasks. The robots use an end-to-end vision-to-action transformer model trained on millions of hours of teleoperation data, reportedly achieving 95% grasp success rates on previously unseen objects in unstructured environments.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robots have entered limited production deployment at the Fremont and Austin gigafactories, performing complex multi-step assembly tasks including wire harness routing and quality inspection. The Gen 3 units feature upgraded 27-DOF hands and a new onboard vision-language model that allows real-time task adaptation without reprogramming.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C as Its Humanoid Robot Demonstrates Autonomous Multi-Step Assembly",
-      "summary": "Figure AI closed a $1.5 billion funding round at an $18 billion valuation after publicly demonstrating its Figure 03 robot performing multi-step electronic component assembly with real-time error correction. The system leverages a foundation world model that enables zero-shot transfer across different assembly tasks, reducing reprogramming time from days to minutes.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
       "category": "Robotics",
       "date": "2026-10-01"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics and Toyota Research Institute Unveil General-Purpose Manipulation Framework for Atlas",
+      "summary": "Boston Dynamics and TRI jointly announced a foundation model-driven manipulation framework for the electric Atlas robot that enables it to learn new manipulation tasks from fewer than 10 demonstrations. The system combines diffusion policy architectures with real-time sim-to-real transfer, achieving 94% success rates on previously unseen household and industrial tasks in independent testing.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-09-26"
+    },
+    {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional Steering: A New Framework for Fine-Grained AI Safety Controls",
-      "summary": "Anthropic published a paper and developer toolkit for 'Constitutional Steering,' allowing enterprises to define domain-specific behavioral constitutions that constrain model outputs at inference time without fine-tuning. The approach uses learned activation steering vectors derived from constitutional principles, enabling per-request safety profiles that senior engineers can version-control alongside application code.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "Anthropic Publishes Breakthrough Research on Mechanistic Interpretability of Frontier Model Planning",
+      "summary": "Anthropic released a landmark paper demonstrating the ability to trace multi-step planning and deceptive reasoning circuits in large language models at the individual neuron cluster level. The work introduces 'causal circuit graphs' that allow researchers to verify whether a model's internal reasoning aligns with its stated chain-of-thought, directly advancing AI safety evaluation methodologies.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
       "category": "AI",
       "date": "2026-10-02"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC officially commenced high-volume manufacturing on its A14 (1.4nm-class) process, with initial production allocated to NVIDIA's next-generation Blackwell Ultra AI GPUs and Apple's M6 Pro chips. The node delivers a 20% performance gain and 30% power reduction over N2, enabled by second-generation gate-all-around nanosheet transistors and backside power delivery.",
+      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node with Backside Power Delivery",
+      "summary": "TSMC announced volume production of its A14 (1.4nm-class) process node at its Fab 20 facility in Tainan, featuring second-generation backside power delivery network technology. The node delivers approximately 25% performance improvement or 35% power reduction over N2, positioning it for next-generation AI accelerator and mobile SoC designs shipping in 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-09-25"
+      "date": "2026-09-29"
     },
     {
       "id": "7",
-      "title": "Meta Open-Sources a 400B-Parameter Sparse Mixture-of-Experts Model Optimized for On-Device Inference",
-      "summary": "Meta released Llama 4 MoE-400B under a permissive license, a sparse mixture-of-experts model that activates only 45B parameters per token and can run on a single high-end consumer GPU with 48GB VRAM using 4-bit quantization. Benchmarks show it matches dense models twice its active parameter count on reasoning and code generation tasks, significantly lowering the hardware barrier for production LLM deployments.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-09-28"
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Correction Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving below-threshold error rates on logical qubit operations using their combined hardware-software stack, executing over 100,000 consecutive logical CNOT gates with error rates under 10⁻⁸. This milestone significantly narrows the gap toward commercially viable quantum error correction and practical quantum advantage for materials simulation workloads.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-10-03"
     },
     {
       "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in Automotive Testing",
-      "summary": "QuantumScape announced that its QSE-5 solid-state lithium-metal cells have surpassed 1,000 charge-discharge cycles while retaining over 90% capacity in Volkswagen's automotive qualification testing. The achievement clears a critical industry threshold for commercial EV adoption and could enable 600+ mile ranges with 15-minute fast charging, with volume production targeted for late 2027.",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production for Warehouse Logistics",
+      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, with funding led by Bezos Expeditions and Microsoft, to scale production of its Figure 03 humanoid robot for deployment across BMW and Amazon warehouse operations. The Figure 03 integrates an on-device multimodal model co-developed with OpenAI that enables natural language task instruction and autonomous error recovery in unstructured environments.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com",
-      "category": "Innovation",
-      "date": "2026-10-02"
+      "category": "Robotics",
+      "date": "2026-09-25"
     }
   ]
 }
