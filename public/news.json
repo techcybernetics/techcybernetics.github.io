@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-06",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring significantly improved chain-of-thought reasoning that unifies text, image, audio, and code generation in a single forward pass rather than relying on separate specialist modules. Benchmarks show a 35% improvement on SWE-bench and near-human performance on graduate-level scientific reasoning tasks. The model also introduces a persistent memory layer accessible via API, enabling long-running agentic workflows without context window workarounds.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement over GPT-5 on complex software architecture tasks, with significantly reduced hallucination rates on factual retrieval. The model is available via API with a new structured-output guarantee mode aimed at enterprise integration.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-10-02"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored a verified 92% on a curated set of International Mathematical Olympiad problems, surpassing the previous best AI system by a wide margin. The model uses a novel reinforcement learning approach that rewards formally verified proof steps rather than just final answers, substantially reducing hallucinated reasoning chains. Researchers note the system can now autonomously generate and verify proofs in Lean 4, opening pathways for AI-assisted formal mathematics.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "3",
-      "title": "Meta Open-Sources Llama 4 with 400B MoE Architecture and Full Training Recipe",
-      "summary": "Meta released Llama 4, a 400-billion-parameter mixture-of-experts model that activates roughly 52B parameters per forward pass, along with the complete training codebase, dataset composition details, and RLHF pipeline. The open-source release includes optimized inference kernels for consumer GPUs enabling the model to run on a single 48GB card at acceptable throughput. The move intensifies competition in the open-weight ecosystem and gives researchers unprecedented reproducibility for frontier-scale model training.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-09-25"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Unveils Atlas Gen-3 with Real-Time Adaptive Manipulation in Unstructured Environments",
-      "summary": "Boston Dynamics demonstrated its third-generation electric Atlas robot performing complex warehouse logistics tasks including identifying, grasping, and sorting irregularly shaped objects at near-human speed. The system uses an on-board vision-language-action model that allows it to interpret natural language task instructions and adapt its manipulation strategy in real time without pre-programmed object models. Commercial pilot deployments with DHL and Amazon are slated to begin in Q1 2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "5",
-      "title": "Figure AI's Humanoid Robot Completes 8-Hour Autonomous Shift at BMW Manufacturing Plant",
-      "summary": "Figure AI reported that its Figure 03 humanoid robot successfully completed a full 8-hour shift on a BMW assembly line in Spartanburg, South Carolina, handling sub-assembly tasks including cable routing, snap-fit component insertion, and quality inspection. The robot operated alongside human workers with zero safety incidents, using a combination of imitation learning and sim-to-real transfer. BMW confirmed plans to expand the pilot from 5 to 50 units across two additional plants by mid-2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-09-30"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 process node using gate-all-around transistor architecture has entered high-volume manufacturing, approximately one quarter ahead of the original roadmap. The node delivers an 18% performance improvement and 30% power reduction over the N2 node, with early yields reportedly exceeding expectations. Apple and NVIDIA are confirmed as launch customers, with chips expected in consumer devices by late 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
       "date": "2026-10-03"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4,096 Electrodes",
-      "summary": "The FDA granted Neuralink clearance to begin human trials of its N2 implant, which quadruples the electrode count of the original device to 4,096 channels and features wireless data transfer at over 200 Mbps. Early primate testing demonstrated the ability to decode complex motor intentions including individual finger movements and handwriting at near-natural speeds. The expanded trial will enroll 30 patients with spinal cord injuries across five clinical sites, with a focus on restoring fine motor control of robotic limbs.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Near-Human Performance on Graduate-Level Scientific Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2, which scores above the 90th percentile on curated graduate-level physics, chemistry, and biology exam suites, narrowing the gap with domain experts. The model leverages a new chain-of-thought distillation technique that compresses multi-step reasoning into fewer tokens while preserving logical fidelity. Google is integrating the model across Workspace products with real-time research-assistant capabilities.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in limited supervised roles at its Austin Gigafactory, handling component sorting, bin picking, and inter-station transport. The robots use an updated vision-language-action model trained on millions of hours of factory teleoperation data, enabling generalized manipulation without task-specific programming. Tesla reports a 4x improvement in mean-time-between-interventions compared to Gen 2.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Dexterous Bi-Manual Manipulation",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform featuring new high-DOF hands capable of tool use, cable routing, and delicate part insertion with sub-millimeter precision. The system pairs whole-body model-predictive control with learned manipulation policies, allowing it to adapt to unstructured warehouse and construction environments. Initial commercial partners include DHL and Bechtel for logistics and infrastructure inspection tasks.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional Oversight Layer for Autonomous AI Agent Deployments",
+      "summary": "Anthropic published a new framework called Constitutional Oversight, a runtime monitoring layer that intercepts and audits autonomous AI agent actions against a configurable set of safety constraints before execution. The system uses a lightweight verifier model that adds under 200ms latency per action and has been shown to catch 97% of policy-violating tool calls in red-team evaluations. The framework is open-sourced and designed to be model-agnostic, targeting the growing ecosystem of agentic coding and workflow-automation tools.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node using gate-all-around (GAA) nanosheet transistors has entered high-volume manufacturing, several months ahead of its original Q1 2027 timeline. The node delivers a 20% performance uplift and 30% power reduction over N2, which is critical for next-generation AI accelerator and mobile SoC designs. Apple, Nvidia, and AMD are confirmed as launch customers with products expected in the first half of 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-09-27"
+      "date": "2026-09-30"
+    },
+    {
+      "id": "7",
+      "title": "Meta Open-Sources Llama 4 Nemotron with 1T MoE Architecture and 512K Native Context",
+      "summary": "Meta released Llama 4 Nemotron, a 1-trillion-parameter mixture-of-experts model with 128 experts and 512K native context length, under a permissive open-source license. The model achieves frontier-level performance on coding, multilingual, and long-document benchmarks while requiring only 64 active expert parameters per token, making it feasible to serve on a single 8xH200 node. The release includes quantized variants, fine-tuning recipes, and a reference RLHF pipeline.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
+      "date": "2026-10-05"
     },
     {
       "id": "8",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework Adopted by EU AI Office as Reference Standard",
-      "summary": "Anthropic published a detailed technical framework for runtime constitutional AI monitoring that provides formal guarantees around output safety boundaries, and the EU AI Office announced its adoption as a reference implementation for high-risk AI system compliance under the AI Act. The framework includes open-source tooling for real-time constraint verification, interpretability dashboards, and automated red-teaming pipelines. Industry observers note this positions Anthropic's safety methodology as a de facto regulatory standard in Europe, potentially shaping global AI governance norms.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "AI",
-      "date": "2026-10-04"
+      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independently Verified Tests",
+      "summary": "QuantumScape disclosed independently verified results showing its latest lithium-metal solid-state cells reaching 600 Wh/kg gravimetric energy density with over 1,000 cycle durability at 80% depth of discharge. This nearly doubles the energy density of current production lithium-ion cells and could enable EVs with 600+ mile range or significantly lighter battery packs for robotics and aerospace applications. The company expects pilot production lines to begin shipping qualification samples to automotive OEMs by mid-2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Innovation",
+      "date": "2026-09-28"
     }
   ]
 }
