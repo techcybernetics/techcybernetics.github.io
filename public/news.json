@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-10-09",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5 in late September 2026, featuring deeply integrated chain-of-thought reasoning and native image, audio, and video generation within a single model. The architecture unifies previously separate modalities into one transformer backbone, substantially reducing latency for compound tasks. Benchmarks show significant gains on ARC-AGI-2 and GPQA-Diamond, reigniting debate around capability scaling trajectories.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Video and Audio Streams",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring real-time reasoning over continuous video and audio inputs with significantly reduced latency compared to earlier GPT-5 variants. The model demonstrates state-of-the-art performance on complex agentic benchmarks and introduces a new 'structured planning' mode that allows multi-step tool use with verifiable intermediate outputs. This positions it as a serious contender for enterprise automation pipelines requiring auditable AI decision-making.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-09-30"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Problem Solving",
-      "summary": "DeepMind announced Gemini Ultra 2, which sets new records on FrontierMath and several graduate-level STEM benchmarks, including solving previously unsolved competition-level problems in combinatorics and number theory. The model leverages a novel mixture-of-experts architecture with over 3 trillion parameters and a 2-million-token context window. Google is integrating it across Workspace, Cloud, and a new research-assistant product aimed at academic institutions.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Factories",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in three of its own manufacturing facilities, performing bin-picking, parts transport, and quality inspection tasks alongside human workers. Gen 3 features improved actuator density in the hands, enabling manipulation of sub-centimeter components, and runs an on-device vision-language model for real-time task adaptation. Tesla says it plans to offer Optimus leasing to external manufacturers by mid-2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "4",
-      "title": "Figure and BMW Expand Humanoid Robot Pilot to Full Assembly Line Integration",
-      "summary": "Figure AI announced it is scaling its partnership with BMW from a single-station pilot to multi-station deployment across BMW's Spartanburg plant, with Figure 03 robots now handling door sub-assembly and wiring harness routing. The robots use a foundation world model trained on thousands of hours of teleoperation data, enabling few-shot generalization to novel fixture configurations. This marks one of the largest commercial humanoid deployments in automotive manufacturing to date.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude 4 with Strengthened Constitutional AI and Agentic Tool Use",
-      "summary": "Anthropic released Claude 4 featuring a significantly expanded agentic framework that allows the model to autonomously orchestrate multi-step workflows involving code execution, web browsing, and file manipulation with built-in safety guardrails. The new Constitutional AI v3 training pipeline reportedly reduces harmful compliance rates by an additional 60% over Claude 3.5 while maintaining frontier-level helpfulness. Enterprise customers can now deploy persistent Claude agents that maintain state across sessions.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
-      "category": "AI",
-      "date": "2026-10-05"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for Next-Gen AI Accelerators",
-      "summary": "TSMC has commenced high-volume manufacturing on its N1.4 gate-all-around (GAA) process technology at its Kaohsiung fab, with first customer shipments expected in Q4 2026. The node delivers approximately 25% performance improvement and 35% power reduction over N2, directly targeting the power-efficiency bottleneck in large-scale AI training clusters. Nvidia, AMD, and Broadcom are reported to be among the first design-win customers.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-02"
-    },
-    {
-      "id": "7",
-      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Correction Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Atom Computing jointly published results showing their neutral-atom quantum processor sustained logical error rates below 10⁻⁶ per gate cycle using a new topological error correction code, crossing a key threshold for fault-tolerant quantum computation. The 1,225-physical-qubit system encodes 12 logical qubits with real-time decoding at microsecond latencies. The teams say a roadmap to 100 logical qubits by 2028 is now technically credible.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
       "date": "2026-10-07"
     },
     {
-      "id": "8",
-      "title": "Boston Dynamics Atlas Electric Now Commercially Available for Hazardous Environment Inspection",
-      "summary": "Boston Dynamics has opened commercial orders for its fully electric Atlas humanoid robot, initially targeting oil and gas, nuclear, and chemical plant inspection use cases. The robot integrates a LiDAR-vision fusion perception stack and can autonomously navigate cluttered industrial environments, climb ladders, and operate valve wheels. Pricing starts at a leasing model of roughly $150K annually, positioning it against traditional remote inspection solutions.",
-      "source": "IEEE Spectrum",
-      "url": "https://www.spectrum.ieee.org",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Silver Medal Level on International Mathematics Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 scored above the silver medal threshold on a held-out set of recent IMO-level competition problems, building on last year's AlphaProof results. The system combines a large language model with a formal verification backend in Lean 4, allowing it to generate proofs that are machine-checkable. Researchers note this marks a meaningful step toward AI systems that can assist in novel mathematical research rather than merely solving textbook exercises.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing supervised tasks at two Fremont sub-assembly stations, handling wire harness routing and component bin sorting. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and an on-board vision-language model for interpreting natural language task instructions. Tesla plans to scale to dozens of units across its factories by Q1 2027, though current operation still requires a human supervisor per two robots.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with 48-Hour Autonomous Operation",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform targeting warehouse logistics and construction site inspection, featuring hot-swappable battery packs enabling up to 48 hours of continuous autonomous operation. The system leverages a new proprioceptive transformer architecture for whole-body dynamic balancing that dramatically reduces fall rates on uneven terrain. Early partners include DHL and Bechtel, with pilot deployments beginning in November 2026.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces 'Claude Architect' for Autonomous Multi-File Codebase Refactoring",
+      "summary": "Anthropic released Claude Architect, a specialized agentic coding system capable of autonomously planning and executing large-scale codebase refactors across hundreds of files while maintaining test suite integrity. The system uses a hierarchical planning approach with rollback capabilities and has demonstrated a 94% success rate on real-world open-source repository migration tasks. It integrates directly with GitHub and GitLab CI pipelines, targeting senior engineering teams managing complex legacy codebases.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 process node at its Kaohsiung fab, approximately one quarter ahead of the originally projected timeline. The node delivers a 25% power efficiency improvement over N2 and is expected to power next-generation AI accelerator chips from Nvidia and Apple beginning mid-2027. The early ramp is seen as a significant competitive move against Samsung Foundry and Intel, both of which have faced delays at comparable nodes.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
       "date": "2026-10-04"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
+      "summary": "The FDA granted Neuralink de novo clearance for its N2 implant, which doubles the electrode count to 2,048 channels and introduces bidirectional stimulation capabilities for both motor decoding and sensory feedback. Early clinical trial participants with spinal cord injuries demonstrated cursor control latencies under 50 milliseconds and rudimentary tactile feedback perception through the device. The approval clears the path for an expanded 200-patient clinical trial expected to begin in early 2027.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
+      "category": "Innovation",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "8",
+      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Full Vehicle Pre-Assembly Workflow",
+      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across the complete pre-assembly workflow at BMW's Spartanburg plant, moving beyond the initial pilot that covered only single-station tasks. The robots now coordinate in teams of up to six units using a shared spatial awareness model, handling tasks from parts inspection to sub-component fitting. BMW reports a 30% throughput improvement in pilot areas, with plans to replicate the setup across European manufacturing facilities.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-10-08"
     }
   ]
 }
