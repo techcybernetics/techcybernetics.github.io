@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-09",
+  "lastUpdated": "2026-10-10",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Video and Audio Streams",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring real-time reasoning over continuous video and audio inputs with significantly reduced latency compared to earlier GPT-5 variants. The model demonstrates state-of-the-art performance on complex agentic benchmarks and introduces a new 'structured planning' mode that allows multi-step tool use with verifiable intermediate outputs. This positions it as a serious contender for enterprise automation pipelines requiring auditable AI decision-making.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement over GPT-5 on complex software engineering tasks from SWE-Bench Verified, with significantly reduced hallucination rates on factual retrieval. The model introduces a new 'structured planning' layer that exposes chain-of-thought traces developers can inspect and constrain via the API.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
       "category": "AI",
       "date": "2026-10-07"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Silver Medal Level on International Mathematics Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 scored above the silver medal threshold on a held-out set of recent IMO-level competition problems, building on last year's AlphaProof results. The system combines a large language model with a formal verification backend in Lean 4, allowing it to generate proofs that are machine-checkable. Researchers note this marks a meaningful step toward AI systems that can assist in novel mathematical research rather than merely solving textbook exercises.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad-level problems in a controlled evaluation, surpassing the previous best AI result of 76%. The system combines a refined AlphaProof-style formal verification loop with large-scale language model reasoning, enabling it to generate and verify proofs end-to-end. Researchers noted this represents a qualitative shift toward AI systems that can perform genuinely novel mathematical reasoning rather than pattern-matching on training data.",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles",
       "category": "AI",
-      "date": "2026-10-06"
+      "date": "2026-10-05"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robot has started performing supervised tasks at two Fremont sub-assembly stations, handling wire harness routing and component bin sorting. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and an on-board vision-language model for interpreting natural language task instructions. Tesla plans to scale to dozens of units across its factories by Q1 2027, though current operation still requires a human supervisor per two robots.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
+      "title": "Boston Dynamics Unveils Atlas Gen-3 with Dexterous Manipulation for Warehouse Logistics",
+      "summary": "Boston Dynamics demonstrated the third generation of its electric Atlas humanoid robot, now equipped with high-dexterity hands capable of handling irregularly shaped objects, transparent packaging, and fragile items at near-human speeds. The robot uses a transformer-based visuomotor policy trained on millions of simulated grasps and fine-tuned with real-world teleoperation data. Initial deployment partnerships with DHL and Amazon suggest commercial pilots will begin in Q1 2027 across distribution centers in the US and Germany.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
       "category": "Robotics",
       "date": "2026-10-08"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with 48-Hour Autonomous Operation",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform targeting warehouse logistics and construction site inspection, featuring hot-swappable battery packs enabling up to 48 hours of continuous autonomous operation. The system leverages a new proprioceptive transformer architecture for whole-body dynamic balancing that dramatically reduces fall rates on uneven terrain. Early partners include DHL and Bechtel, with pilot deployments beginning in November 2026.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Figure AI's Humanoid Robot Achieves 20-Hour Autonomous Operation in BMW Factory Trial",
+      "summary": "Figure AI reported that its Figure 03 humanoid robot completed a 20-hour continuous autonomous shift at a BMW manufacturing plant in Spartanburg, South Carolina, performing bin picking, part inspection, and conveyor tending without human intervention. The robot leveraged on-device LLM-based task planning combined with reinforcement learning locomotion policies, recovering autonomously from 14 fault scenarios during the trial. This milestone marks the longest publicly documented fully autonomous humanoid deployment in a production manufacturing environment.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
       "category": "Robotics",
-      "date": "2026-10-05"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces 'Claude Architect' for Autonomous Multi-File Codebase Refactoring",
-      "summary": "Anthropic released Claude Architect, a specialized agentic coding system capable of autonomously planning and executing large-scale codebase refactors across hundreds of files while maintaining test suite integrity. The system uses a hierarchical planning approach with rollback capabilities and has demonstrated a 94% success rate on real-world open-source repository migration tasks. It integrates directly with GitHub and GitLab CI pipelines, targeting senior engineering teams managing complex legacy codebases.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 process node at its Kaohsiung fab, approximately one quarter ahead of the originally projected timeline. The node delivers a 25% power efficiency improvement over N2 and is expected to power next-generation AI accelerator chips from Nvidia and Apple beginning mid-2027. The early ramp is seen as a significant competitive move against Samsung Foundry and Intel, both of which have faced delays at comparable nodes.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-04"
-    },
-    {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "The FDA granted Neuralink de novo clearance for its N2 implant, which doubles the electrode count to 2,048 channels and introduces bidirectional stimulation capabilities for both motor decoding and sensory feedback. Early clinical trial participants with spinal cord injuries demonstrated cursor control latencies under 50 milliseconds and rudimentary tactile feedback perception through the device. The approval clears the path for an expanded 200-patient clinical trial expected to begin in early 2027.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
       "date": "2026-10-03"
     },
     {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional Classifiers for Real-Time Enterprise AI Safety Monitoring",
+      "summary": "Anthropic released a new enterprise safety framework called Constitutional Classifiers, which provides real-time monitoring and intervention for AI outputs in production systems. The system uses a hierarchy of lightweight classifier models trained against constitutional principles to flag policy violations, toxic outputs, and factual inconsistencies with sub-20ms latency overhead. Early adopters in financial services and healthcare report a 72% reduction in harmful outputs reaching end users compared to prompt-engineering-only guardrails.",
+      "source": "Wired",
+      "url": "https://www.wired.com/tag/artificial-intelligence",
+      "category": "AI",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed it has started volume production on its N14G (1.4nm-class) gate-all-around nanosheet transistor process, achieving a 20% power efficiency improvement and 12% speed gain over its previous 2nm N2 node. The process is expected to power next-generation AI accelerators and mobile SoCs shipping in mid-2027, with Apple, Nvidia, and Qualcomm among the first customers. This advancement keeps TSMC ahead of Samsung Foundry and Intel in the race to extend Moore's Law into the sub-2nm era.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "7",
+      "title": "Meta Open-Sources Llama 4 with 1.2 Trillion MoE Parameters and a Permissive Commercial License",
+      "summary": "Meta released Llama 4, a mixture-of-experts model with 1.2 trillion total parameters (approximately 140 billion active per forward pass), under an updated permissive license that removes previous revenue-cap restrictions for commercial use. The model matches or exceeds proprietary alternatives on coding, multilingual, and long-context benchmarks while running efficiently on clusters of 8 H100 GPUs using expert parallelism. The release includes full training recipes, RLHF data pipelines, and quantized variants down to 4-bit for on-premises deployment.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "Innovation",
+      "date": "2026-10-02"
+    },
+    {
       "id": "8",
-      "title": "Figure AI and BMW Expand Humanoid Robot Deployment to Full Vehicle Pre-Assembly Workflow",
-      "summary": "Figure AI announced an expanded partnership with BMW to deploy its Figure 02 humanoid robots across the complete pre-assembly workflow at BMW's Spartanburg plant, moving beyond the initial pilot that covered only single-station tasks. The robots now coordinate in teams of up to six units using a shared spatial awareness model, handling tasks from parts inspection to sub-component fitting. BMW reports a 30% throughput improvement in pilot areas, with plans to replicate the setup across European manufacturing facilities.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-10-08"
+      "title": "Solid-State Battery Startup QuantumScape Ships First Commercial Cells to Volkswagen for EV Production",
+      "summary": "QuantumScape announced its first commercial shipment of solid-state lithium-metal battery cells to Volkswagen's PowerCo division for integration into production electric vehicles slated for 2027 model-year launches. The cells deliver approximately 450 Wh/kg energy density with 15-minute fast charging from 10% to 80%, representing a generational leap over conventional lithium-ion pouch cells. This milestone validates a technology that has been in development for over a decade and could reshape EV range expectations and charging infrastructure requirements.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
+      "category": "Innovation",
+      "date": "2026-10-04"
     }
   ]
 }
