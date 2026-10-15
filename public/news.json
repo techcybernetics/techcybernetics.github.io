@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-14",
+  "lastUpdated": "2026-10-15",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Images, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring tightly integrated multimodal reasoning that can jointly process code, images, audio, and text in a single forward pass rather than routing through separate encoders. Benchmarks show a 38% improvement on complex multi-step software engineering tasks over GPT-5 base. The model also introduces a persistent working-memory mechanism that maintains context fidelity across sessions up to 500K tokens.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement over GPT-5 on complex software engineering tasks, with significantly reduced hallucination rates on factual retrieval. The model is available through the API with a new structured-output guarantee layer that enforces schema compliance at the decoding level.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-10-11"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Gold Medal Performance on International Math Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 5 out of 6 problems on the 2026 International Mathematical Olympiad qualifying set, earning an equivalent gold-medal score. The system combines a chain-of-thought verifier with a formal proof assistant trained on Lean 4 corpora. This marks the first time an AI system has achieved gold-level performance on a full, contemporaneous IMO problem set without human-guided decomposition.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "3",
-      "title": "Boston Dynamics Unveils Atlas Gen-3 with Dexterous Manipulation and Tool Use in Unstructured Environments",
-      "summary": "Boston Dynamics demonstrated the third generation of its electric Atlas humanoid performing multi-step tool-use tasks in a simulated disaster site, including turning valves, cutting drywall, and carrying irregularly shaped objects across rubble. The new hands feature 22 degrees of freedom with tactile-sensing fingertips. The company says commercial pilot deployments for industrial inspection will begin in Q1 2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-07"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Robots Begin Limited Warehouse Operations at Third-Party Logistics Facilities",
-      "summary": "Tesla confirmed that approximately 200 Optimus Gen-2 humanoid robots are now operating picking and packing tasks at two third-party logistics warehouses in Texas, marking the first commercial deployment outside Tesla's own factories. Early data shows the robots achieve roughly 70% of human throughput on standardized bin-picking tasks but operate continuously across three shifts. Tesla plans to scale to 1,000 deployed units by mid-2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-10-12"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional Steering: A New Framework for Fine-Grained AI Behavior Control",
-      "summary": "Anthropic published a paper and released tooling for 'Constitutional Steering,' a method that allows deployers to specify nuanced behavioral policies as structured natural-language constitutions that are compiled into activation-space steering vectors at inference time. Unlike RLHF or prompt-based approaches, the technique reportedly enables precise control over model behavior dimensions—such as verbosity, hedging, and domain specificity—without retraining. Independent red-team evaluations show a significant reduction in policy-violation rates compared to system-prompt-only approaches.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2, which scores 92.4% on the GPQA Diamond benchmark and surpasses human expert baselines on several graduate-level physics and biology question sets. The model leverages a new mixture-of-experts architecture with dynamic routing that reduces inference cost by approximately 45% compared to its predecessor. Google is integrating the model across Workspace products with enterprise-grade data residency controls.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of A14 2nm Node, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed volume production on its N2 process node using gate-all-around (GAA) nanosheet transistors at its Kaohsiung fab, with initial capacity allocated to AI accelerator chips from Nvidia and Apple. The node delivers approximately 25% higher transistor density and 15% performance gains at iso-power versus the N3E process. Industry analysts expect N2-based data center GPUs to ship in systems by Q2 2027, enabling significantly denser HBM4-equipped accelerator designs.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-08"
-    },
-    {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 4,096 Electrodes",
-      "summary": "The FDA granted Neuralink clearance to begin a clinical trial for its N2 implant, which quadruples electrode count to 4,096 channels and incorporates on-chip spike sorting to reduce wireless bandwidth requirements. The trial will enroll 30 patients with cervical spinal cord injuries, targeting full cursor control and limited robotic arm manipulation. The approval follows 18 months of data from the first-generation PRIME trial showing stable signal quality beyond one year in the initial cohort.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
       "date": "2026-10-10"
     },
     {
-      "id": "8",
-      "title": "Figure AI and BMW Expand Humanoid Deployment to Full Assembly Line Integration at Spartanburg Plant",
-      "summary": "Figure AI announced an expansion of its partnership with BMW, deploying its Figure 02 humanoid robots across multiple stations on the X-series assembly line in Spartanburg, South Carolina. The robots now perform sub-assembly insertion, quality visual inspection, and inter-station parts transport using vision-language-action models fine-tuned on BMW's manufacturing data. This represents one of the largest integrated humanoid deployments in automotive manufacturing to date.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in its Austin and Berlin Gigafactories for parts handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and an on-board vision-language model for interpreting natural-language task instructions from floor supervisors. Tesla reports the robots are operating at roughly 60% of human worker throughput but improving weekly through over-the-air policy updates.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-10-13"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Toyota Research Unveil Collaborative Mobile Manipulation Platform",
+      "summary": "Boston Dynamics and Toyota Research Institute jointly announced Atlas-TRI, a mobile manipulation platform combining Boston Dynamics' electric Atlas humanoid hardware with TRI's Large Behavior Model for generalizable household and warehouse tasks. The system demonstrates zero-shot transfer of manipulation skills across novel objects with an 87% grasp success rate in cluttered environments. The partnership aims to bring commercially viable general-purpose robots to logistics customers by late 2027.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional Steering: Fine-Grained Runtime Control Over Model Behavior",
+      "summary": "Anthropic published research on Constitutional Steering, a technique that allows API consumers to dynamically adjust model behavior along interpretable safety and style dimensions at inference time without fine-tuning. The approach uses learned steering vectors in activation space, enabling enterprises to enforce domain-specific compliance policies programmatically. Early adopters in healthcare and legal sectors report significant reductions in manual output review while maintaining regulatory compliance.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Chips for AI Accelerator Customers",
+      "summary": "TSMC announced that its N1.4 process node using gate-all-around (GAA) nanosheet transistors has entered volume production, with first customers including NVIDIA and Broadcom for next-generation AI accelerator silicon. The node delivers a 20% performance uplift and 30% power reduction compared to N2, critically important for data center power efficiency as AI training clusters scale beyond 100,000 GPUs. Yield rates are reportedly exceeding initial projections, suggesting competitive pricing by mid-2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Correction Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving sustained logical error rates below 10⁻⁶ on their trapped-ion quantum computing platform using a new topological error correction code, crossing a key threshold for practical fault-tolerant quantum computation. The demonstration involved executing 50 consecutive logical CNOT gates on 4 logical qubits with errors remaining correctable throughout. This milestone brings forward timelines for quantum advantage in molecular simulation and combinatorial optimization problems relevant to drug discovery.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "8",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European AI Office commenced its first formal compliance audits under the EU AI Act's provisions for general-purpose AI systems, with initial reviews targeting major foundation model providers including OpenAI, Google, and Meta. Auditors are evaluating systemic risk assessments, training data documentation, and red-teaming procedures against the Act's technical standards finalized in August 2026. The enforcement actions are being closely watched as a bellwether for how prescriptive AI regulation will function in practice and its impact on model release cadences in the EU market.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-10-14"
     }
   ]
 }
