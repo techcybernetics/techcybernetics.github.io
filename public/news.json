@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-17",
+  "lastUpdated": "2026-10-18",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code, images, video, and audio within a single chain-of-thought pass. Benchmarks show a 37% improvement over GPT-5 on complex multi-step engineering tasks, with significantly reduced hallucination rates. The model also introduces a new 'structured tool use' protocol that lets it orchestrate multi-agent workflows natively.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI announced GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly analyze video, audio, and code in a single inference pass rather than relying on separate encoders. Benchmarks show a 34% improvement on complex software engineering tasks (SWE-Bench Ultra) and near-human performance on graduate-level scientific reasoning. The model is available via API with significantly reduced latency compared to the original GPT-5 release.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Gold Medal Performance on International Math Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 5 out of 6 problems on a held-out set of 2026 IMO-level competition problems, matching gold-medal human performance. The system combines a refined AlphaProof-style formal verification loop with Gemini's natural language reasoning, enabling it to self-check proofs for logical soundness. This marks a significant step toward AI systems that can perform rigorous mathematical discovery.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves New State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind published results showing Gemini Ultra 2 solving 89% of International Mathematical Olympiad problems at a gold-medal level, up from 72% with the previous generation. The system combines enhanced chain-of-thought with a novel formal verification loop that checks proof validity during generation. Researchers say this represents a significant step toward AI systems that can contribute original mathematical proofs.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,57 +21,57 @@
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Supervised Deployment in Amazon Warehouses",
-      "summary": "Amazon confirmed that Tesla's Optimus Gen 3 humanoid robots have begun supervised shifts at two fulfillment centers in Texas, performing pick-and-place and bin-sorting tasks alongside human workers. The robots use an end-to-end vision-language-action model for task understanding and can adapt to novel object geometries without retraining. Amazon reports a 22% throughput improvement in mixed human-robot zones during the pilot phase.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Third-Party Warehouses",
+      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robot has begun pilot operations at two major logistics partner facilities, performing picking, packing, and palletizing tasks with reported 97% grasp success rates. The new generation features improved actuators providing 40% more torque and an overhauled vision-language-action model for real-time task adaptation. Tesla aims to scale to 20 deployment sites by Q1 2027.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
+      "category": "Robotics",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Dexterous Manipulation",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform featuring new hands with 22 degrees of freedom, enabling fine-grained manipulation tasks such as connector insertion and tool use in automotive assembly lines. The system uses a transformer-based motor control policy trained in simulation and fine-tuned with real-world teleoperation data. Hyundai plans to integrate 50 units into its Ulsan manufacturing complex by early 2027.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-10-12"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Demonstrates Autonomous Construction Site Navigation and Tool Use",
-      "summary": "Boston Dynamics released a video and technical blog detailing Atlas performing multi-step construction tasks including carrying materials up stairs, operating a power drill, and navigating unstructured debris fields without teleoperation. The system uses a hierarchical planning stack that combines a foundation world model with reactive low-level locomotion controllers. Industry observers note this is the most compelling demonstration yet of humanoid robots in unstructured real-world environments.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-13"
-    },
-    {
       "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Enable Safer Fine-Tuning of Open-Weight Models",
-      "summary": "Anthropic published a paper and open-source toolkit for Constitutional Classifiers, a method that embeds safety constraints directly into the fine-tuning objective so that downstream model adaptations provably preserve alignment properties. The approach uses formal specification of behavioral boundaries combined with adversarial training, and has been validated against red-team attacks that bypass conventional RLHF guardrails. The release is aimed at enterprise teams deploying fine-tuned models in regulated industries.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
-      "date": "2026-10-16"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered volume production at its Kaohsiung fab, with Apple and Nvidia among the first customers. The node delivers an 18% speed improvement and 30% power reduction over N2, making it critical for next-generation AI accelerators with tighter thermal envelopes. TSMC also confirmed backside power delivery is integrated by default at this node.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-10"
-    },
-    {
-      "id": "7",
-      "title": "Meta Releases Llama 4 Under Permissive License with 1 Trillion Parameter Mixture-of-Experts Architecture",
-      "summary": "Meta released Llama 4, a 1T-parameter sparse MoE model activating roughly 140B parameters per forward pass, under a revised open license that permits commercial use with minimal restrictions. The model matches or exceeds GPT-5 on standard benchmarks while running on commodity 8×H100 clusters thanks to aggressive expert routing and quantization. The release includes fine-tuning recipes, a reference RLHF pipeline, and deployment tooling for Kubernetes-based inference at scale.",
+      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Enterprise Autonomous Agents",
+      "summary": "Anthropic released a new enterprise framework that enables Claude-based autonomous agents to operate in multi-step workflows while adhering to company-defined safety constitutions and human escalation policies. The framework includes audit logging, interpretability dashboards, and real-time constraint verification at each agent action step. Early adopters in financial services and healthcare report a 60% reduction in AI-related compliance incidents.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
       "category": "AI",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 process node using next-generation gate-all-around transistors, roughly three months ahead of its original roadmap. The node delivers an 18% speed improvement and 30% power reduction over N2, with initial production allocated to major AI accelerator customers. This positions TSMC to supply chips for the next wave of AI training clusters expected to come online in 2027.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
+      "summary": "Microsoft and Quantinuum reported achieving logical qubit error rates of 10⁻⁸ on their latest trapped-ion quantum system using improved topological error correction codes, crossing below the widely accepted threshold for fault-tolerant quantum computing. The demonstration used 56 physical qubits to encode 4 logical qubits and sustained error suppression over 10,000 operational cycles. Researchers say practical quantum advantage for specific chemistry and optimization problems could now be achievable within 2-3 years.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
       "date": "2026-10-11"
     },
     {
       "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independent Testing",
-      "summary": "QuantumScape's latest lithium-metal solid-state cell achieved a verified 600 Wh/kg energy density in independent tests conducted by Argonne National Laboratory, nearly doubling the density of current production lithium-ion cells. The cells maintained over 90% capacity after 1,000 fast-charge cycles, addressing the key durability concern that has stalled solid-state commercialization. The company announced a partnership with Volkswagen to begin integration into EV platforms starting in late 2027.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
+      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI model provisions, requesting detailed documentation from six major foundation model providers on training data, evaluation results, and systemic risk mitigation measures. Companies face potential fines of up to 3% of global revenue for non-compliance. The audits are being closely watched as a precedent for how regulators will practically enforce AI governance at scale.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-10-09"
+      "date": "2026-10-18"
     }
   ]
 }
