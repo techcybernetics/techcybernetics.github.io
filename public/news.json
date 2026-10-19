@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-18",
+  "lastUpdated": "2026-10-19",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
-      "summary": "OpenAI announced GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly analyze video, audio, and code in a single inference pass rather than relying on separate encoders. Benchmarks show a 34% improvement on complex software engineering tasks (SWE-Bench Ultra) and near-human performance on graduate-level scientific reasoning. The model is available via API with significantly reduced latency compared to the original GPT-5 release.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code, images, video, and audio within a single inference pass rather than routing to separate sub-models. Benchmarks show a 38% improvement on complex multi-step software engineering tasks compared to GPT-5 base. The model also introduces a persistent memory architecture that maintains coherent context across sessions without explicit user re-prompting.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-10-16"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves New State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind published results showing Gemini Ultra 2 solving 89% of International Mathematical Olympiad problems at a gold-medal level, up from 72% with the previous generation. The system combines enhanced chain-of-thought with a novel formal verification loop that checks proof validity during generation. Researchers say this represents a significant step toward AI systems that can contribute original mathematical proofs.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-10-14"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Third-Party Warehouses",
-      "summary": "Tesla confirmed that its Optimus Gen 3 humanoid robot has begun pilot operations at two major logistics partner facilities, performing picking, packing, and palletizing tasks with reported 97% grasp success rates. The new generation features improved actuators providing 40% more torque and an overhauled vision-language-action model for real-time task adaptation. Tesla aims to scale to 20 deployment sites by Q1 2027.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
       "date": "2026-10-15"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Dexterous Manipulation",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform featuring new hands with 22 degrees of freedom, enabling fine-grained manipulation tasks such as connector insertion and tool use in automotive assembly lines. The system uses a transformer-based motor control policy trained in simulation and fine-tuned with real-world teleoperation data. Hyundai plans to integrate 50 units into its Ulsan manufacturing complex by early 2027.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Scientific Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored 91.4% on the GPQA Diamond benchmark for PhD-level science questions, surpassing all previous models by a significant margin. The model leverages a new mixture-of-experts architecture with over 50 specialized expert modules and a novel chain-of-verification technique that self-checks intermediate reasoning steps. Google is integrating the model across Workspace, Cloud, and a new Research Assistant product aimed at accelerating drug discovery and materials science.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-10-12"
     },
     {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Enterprise Autonomous Agents",
-      "summary": "Anthropic released a new enterprise framework that enables Claude-based autonomous agents to operate in multi-step workflows while adhering to company-defined safety constitutions and human escalation policies. The framework includes audit logging, interpretability dashboards, and real-time constraint verification at each agent action step. Early adopters in financial services and healthcare report a 60% reduction in AI-related compliance incidents.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at BMW manufacturing plants in South Carolina and Amazon fulfillment centers in Texas. The Gen 3 units feature improved dexterous manipulation with 22-degree-of-freedom hands and a new on-board vision-language model enabling natural language task instruction without pre-programming. Initial reports indicate the robots can autonomously handle bin-picking, parts sorting, and basic assembly tasks with a 96% success rate under supervised operation.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-10-17"
     },
     {
+      "id": "4",
+      "title": "Figure AI and Microsoft Partner on Foundation Models for General-Purpose Robotic Control",
+      "summary": "Figure AI announced a deep partnership with Microsoft to co-develop large-scale foundation models specifically trained for embodied robotic control, combining Figure's real-world teleoperation datasets with Microsoft's Azure compute infrastructure. The resulting model, codenamed Atlas-1, demonstrates zero-shot transfer across manipulation tasks it was never explicitly trained on, including tool use and compliant assembly. The partnership aims to establish an open robotics model ecosystem similar to what Hugging Face built for NLP.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional AI Monitoring for Enterprise Agentic Systems",
+      "summary": "Anthropic released a new enterprise product called Claude Sentinel, a real-time monitoring and guardrail layer designed for autonomous AI agent deployments that enforces constitutional AI principles during multi-step agentic workflows. The system can detect and intervene when agents attempt actions that violate predefined safety and compliance policies, including unauthorized data access, financial transactions beyond thresholds, or code execution with unreviewed side effects. Early adopters including Stripe and Bridgewater report significant reductions in agent-related incidents during production rollouts.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-10-18"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced it has commenced high-volume manufacturing on its N1.4 process node using next-generation gate-all-around transistors, roughly three months ahead of its original roadmap. The node delivers an 18% speed improvement and 30% power reduction over N2, with initial production allocated to major AI accelerator customers. This positions TSMC to supply chips for the next wave of AI training clusters expected to come online in 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production at its 1.4nm (A14) process node at its Arizona Fab 2 facility, marking the first sub-2nm volume production on U.S. soil. The node delivers a 25% performance uplift and 35% power efficiency gain over the N2 node, and is expected to underpin next-generation AI training chips from Nvidia, AMD, and Apple shipping in 2027. The achievement is seen as a critical milestone in U.S. semiconductor reshoring efforts under the CHIPS Act.",
+      "source": "Ars Technica",
+      "url": "https://www.arstechnica.com",
+      "category": "Innovation",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "7",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with Bidirectional Stimulation",
+      "summary": "Neuralink's N2 implant received FDA breakthrough device clearance for clinical trials enabling both neural signal reading and targeted microstimulation for sensory feedback. The second-gen device features 4,096 electrodes (up from 1,024) and wireless data throughput of 200 Mbps, enough for real-time high-fidelity cursor and robotic arm control. The expanded trial will enroll 50 patients with spinal cord injuries and ALS, with the bidirectional capability opening the door to restoring tactile sensation in prosthetic limbs.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
       "date": "2026-10-13"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Quantinuum reported achieving logical qubit error rates of 10⁻⁸ on their latest trapped-ion quantum system using improved topological error correction codes, crossing below the widely accepted threshold for fault-tolerant quantum computing. The demonstration used 56 physical qubits to encode 4 logical qubits and sustained error suppression over 10,000 operational cycles. Researchers say practical quantum advantage for specific chemistry and optimization problems could now be achievable within 2-3 years.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-10-11"
-    },
-    {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act's general-purpose AI model provisions, requesting detailed documentation from six major foundation model providers on training data, evaluation results, and systemic risk mitigation measures. Companies face potential fines of up to 3% of global revenue for non-compliance. The audits are being closely watched as a precedent for how regulators will practically enforce AI governance at scale.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
-      "date": "2026-10-18"
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial for Construction Site Autonomy",
+      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot, targeting construction and heavy industry applications in partnership with parent company Hyundai. The robot can autonomously navigate unstructured construction environments, carry 50kg payloads up scaffolding, and perform tasks like rebar tying and drywall transport using reinforcement-learning-based locomotion policies trained in simulation and fine-tuned on real job sites. Pricing starts at a leasing model of $18,000 per month with a dedicated support SLA.",
+      "source": "IEEE Spectrum",
+      "url": "https://www.spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-10-11"
     }
   ]
 }
