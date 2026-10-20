@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-19",
+  "lastUpdated": "2026-10-20",
   "articles": [
     {
       "id": "1",
       "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code, images, video, and audio within a single inference pass rather than routing to separate sub-models. Benchmarks show a 38% improvement on complex multi-step software engineering tasks compared to GPT-5 base. The model also introduces a persistent memory architecture that maintains coherent context across sessions without explicit user re-prompting.",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-Bench over GPT-4o and significantly reduced hallucination rates on factual retrieval tasks. The model is available via API with a new structured-output guarantee mode aimed at enterprise agent workflows.",
       "source": "The Verge",
-      "url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/ai",
+      "category": "AI",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Silver-Medal Performance on International Math Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved 4 out of 6 problems on a held-out set of recent IMO-level competition problems, reaching silver-medal equivalence without human-in-the-loop assistance. The system uses a novel chain-of-verification architecture that iteratively checks proof steps against a formal verifier. This marks a significant milestone in AI-driven formal mathematical reasoning and has implications for automated theorem proving in research mathematics.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/ai",
       "category": "AI",
       "date": "2026-10-15"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Scientific Reasoning",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored 91.4% on the GPQA Diamond benchmark for PhD-level science questions, surpassing all previous models by a significant margin. The model leverages a new mixture-of-experts architecture with over 50 specialized expert modules and a novel chain-of-verification technique that self-checks intermediate reasoning steps. Google is integrating the model across Workspace, Cloud, and a new Research Assistant product aimed at accelerating drug discovery and materials science.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-10-12"
-    },
-    {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
-      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at BMW manufacturing plants in South Carolina and Amazon fulfillment centers in Texas. The Gen 3 units feature improved dexterous manipulation with 22-degree-of-freedom hands and a new on-board vision-language model enabling natural language task instruction without pre-programming. Initial reports indicate the robots can autonomously handle bin-picking, parts sorting, and basic assembly tasks with a 96% success rate under supervised operation.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-10-17"
+      "title": "Anthropic Introduces Claude's Real-Time Computer Use Agent for Enterprise IT Automation",
+      "summary": "Anthropic expanded Claude's computer-use capabilities into a fully autonomous IT operations agent that can navigate enterprise software, execute multi-step workflows across applications, and handle exception cases with human escalation protocols. Early deployments at Fortune 500 companies report 60% reductions in tier-1 IT support ticket resolution times. The system includes comprehensive audit logging and role-based access controls designed for SOC 2 compliance.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai",
+      "category": "AI",
+      "date": "2026-10-18"
     },
     {
       "id": "4",
-      "title": "Figure AI and Microsoft Partner on Foundation Models for General-Purpose Robotic Control",
-      "summary": "Figure AI announced a deep partnership with Microsoft to co-develop large-scale foundation models specifically trained for embodied robotic control, combining Figure's real-world teleoperation datasets with Microsoft's Azure compute infrastructure. The resulting model, codenamed Atlas-1, demonstrates zero-shot transfer across manipulation tasks it was never explicitly trained on, including tool use and compliant assembly. The partnership aims to establish an open robotics model ecosystem similar to what Hugging Face built for NLP.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at BMW manufacturing facilities in South Carolina and Amazon fulfillment centers in Texas, performing bin-picking, parts transport, and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and a new vision-language-action model trained on over 100,000 hours of teleoperation data. Initial reports indicate the robots can operate autonomously for 14-hour shifts with minimal human intervention.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology",
       "category": "Robotics",
       "date": "2026-10-14"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Monitoring for Enterprise Agentic Systems",
-      "summary": "Anthropic released a new enterprise product called Claude Sentinel, a real-time monitoring and guardrail layer designed for autonomous AI agent deployments that enforces constitutional AI principles during multi-step agentic workflows. The system can detect and intervene when agents attempt actions that violate predefined safety and compliance policies, including unauthorized data access, financial transactions beyond thresholds, or code execution with unreviewed side effects. Early adopters including Stripe and Bridgewater report significant reductions in agent-related incidents during production rollouts.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
-      "category": "AI",
-      "date": "2026-10-18"
+      "title": "Boston Dynamics Atlas Electric Achieves Parkour-Level Agility in Unstructured Construction Sites",
+      "summary": "Boston Dynamics released video demonstrations and technical documentation showing its electric Atlas robot navigating active construction environments, climbing scaffolding, traversing debris fields, and carrying 30kg payloads up ladders. The system uses a reinforcement-learning locomotion policy trained in simulation and fine-tuned with real-world data, enabling robust recovery from unexpected perturbations. Several major construction firms have signed pilot agreements for site inspection and materials transport applications.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/robotics",
+      "category": "Robotics",
+      "date": "2026-10-12"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed volume production at its 1.4nm (A14) process node at its Arizona Fab 2 facility, marking the first sub-2nm volume production on U.S. soil. The node delivers a 25% performance uplift and 35% power efficiency gain over the N2 node, and is expected to underpin next-generation AI training chips from Nvidia, AMD, and Apple shipping in 2027. The achievement is seen as a critical milestone in U.S. semiconductor reshoring efforts under the CHIPS Act.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com",
+      "title": "Figure Robotics Partners with Microsoft to Deploy AI-Powered Humanoids in Data Center Operations",
+      "summary": "Figure announced a partnership with Microsoft to deploy its Figure 03 humanoid robots in Azure data centers for server rack installation, cable management, and hardware swap-out procedures. The robots leverage a Microsoft-trained foundation model for spatial reasoning and tool use, reducing mean-time-to-repair for hardware failures by an estimated 45%. The collaboration signals growing industry confidence in humanoid robots for precision infrastructure tasks.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/robotics",
+      "category": "Robotics",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "7",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, Enabling Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed it has begun high-volume manufacturing on its N1.4 gate-all-around (GAA) transistor process, delivering approximately 35% power efficiency gains and 20% performance uplift over the N2 node. First customers include NVIDIA and Apple, with AI accelerator and mobile SoC designs expected to tape out in Q1 2027. The node's improved transistor density—over 300 billion transistors per reticle—will be critical for scaling next-generation large language model inference chips.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com/semiconductors",
       "category": "Innovation",
       "date": "2026-10-16"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with Bidirectional Stimulation",
-      "summary": "Neuralink's N2 implant received FDA breakthrough device clearance for clinical trials enabling both neural signal reading and targeted microstimulation for sensory feedback. The second-gen device features 4,096 electrodes (up from 1,024) and wireless data throughput of 200 Mbps, enough for real-time high-fidelity cursor and robotic arm control. The expanded trial will enroll 50 patients with spinal cord injuries and ALS, with the bidirectional capability opening the door to restoring tactile sensation in prosthetic limbs.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "id": "8",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independent Testing",
+      "summary": "QuantumScape announced that its latest solid-state lithium-metal battery cells achieved 600 Wh/kg energy density in independent third-party testing, roughly doubling the density of current commercial lithium-ion cells. The cells maintained over 80% capacity after 1,000 fast-charge cycles, addressing a long-standing durability concern for solid-state designs. If manufacturing scales as planned through a partnership with Volkswagen's PowerCo, the technology could transform EV range, robotics endurance, and portable electronics by late 2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
       "category": "Innovation",
       "date": "2026-10-13"
-    },
-    {
-      "id": "8",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial for Construction Site Autonomy",
-      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot, targeting construction and heavy industry applications in partnership with parent company Hyundai. The robot can autonomously navigate unstructured construction environments, carry 50kg payloads up scaffolding, and perform tasks like rebar tying and drywall transport using reinforcement-learning-based locomotion policies trained in simulation and fine-tuned on real job sites. Pricing starts at a leasing model of $18,000 per month with a dedicated support SLA.",
-      "source": "IEEE Spectrum",
-      "url": "https://www.spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-11"
     }
   ]
 }
