@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-Bench over GPT-4o and significantly reduced hallucination rates on factual retrieval tasks. The model is available via API with a new structured-output guarantee mode aimed at enterprise agent workflows.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly analyze code repositories, video feeds, and 3D scene representations in a single context window. The model demonstrates significant improvements on ARC-AGI-2 benchmarks and software engineering tasks, narrowing the gap on problems that previously required specialized pipelines. Enterprise API pricing was cut 40% compared to the original GPT-5 release earlier this year.",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai",
-      "category": "AI",
-      "date": "2026-10-17"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Silver-Medal Performance on International Math Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 4 out of 6 problems on a held-out set of recent IMO-level competition problems, reaching silver-medal equivalence without human-in-the-loop assistance. The system uses a novel chain-of-verification architecture that iteratively checks proof steps against a formal verifier. This marks a significant milestone in AI-driven formal mathematical reasoning and has implications for automated theorem proving in research mathematics.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
-      "category": "AI",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "3",
-      "title": "Anthropic Introduces Claude's Real-Time Computer Use Agent for Enterprise IT Automation",
-      "summary": "Anthropic expanded Claude's computer-use capabilities into a fully autonomous IT operations agent that can navigate enterprise software, execute multi-step workflows across applications, and handle exception cases with human escalation protocols. Early deployments at Fortune 500 companies report 60% reductions in tier-1 IT support ticket resolution times. The system includes comprehensive audit logging and role-based access controls designed for SOC 2 compliance.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai",
+      "url": "https://www.theverge.com",
       "category": "AI",
       "date": "2026-10-18"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
-      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at BMW manufacturing facilities in South Carolina and Amazon fulfillment centers in Texas, performing bin-picking, parts transport, and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and a new vision-language-action model trained on over 100,000 hours of teleoperation data. Initial reports indicate the robots can operate autonomously for 14-hour shifts with minimal human intervention.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/technology",
-      "category": "Robotics",
-      "date": "2026-10-14"
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored over 90% on the GPQA Diamond benchmark for PhD-level science questions and set new records on MATH-500 and FrontierMath subsets. The model introduces a novel chain-of-verification architecture that self-checks intermediate reasoning steps, substantially reducing hallucination rates in long-form scientific analysis. Google is integrating it across Workspace and Google Cloud Vertex AI.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-10-16"
     },
     {
-      "id": "5",
-      "title": "Boston Dynamics Atlas Electric Achieves Parkour-Level Agility in Unstructured Construction Sites",
-      "summary": "Boston Dynamics released video demonstrations and technical documentation showing its electric Atlas robot navigating active construction environments, climbing scaffolding, traversing debris fields, and carrying 30kg payloads up ladders. The system uses a reinforcement-learning locomotion policy trained in simulation and fine-tuned with real-world data, enabling robust recovery from unexpected perturbations. Several major construction firms have signed pilot agreements for site inspection and materials transport applications.",
+      "id": "3",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Automotive Manufacturing",
+      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot tailored for Hyundai and Kia automotive assembly lines. The robot handles heavy part manipulation up to 25 kg, performs quality inspection using onboard vision, and dynamically adapts to line stoppages without human re-programming. Initial deployments across three Korean factories are expected to begin in Q1 2027.",
       "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
-      "category": "Robotics",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "6",
-      "title": "Figure Robotics Partners with Microsoft to Deploy AI-Powered Humanoids in Data Center Operations",
-      "summary": "Figure announced a partnership with Microsoft to deploy its Figure 03 humanoid robots in Azure data centers for server rack installation, cable management, and hardware swap-out procedures. The robots leverage a Microsoft-trained foundation model for spatial reasoning and tool use, reducing mean-time-to-repair for hardware failures by an estimated 45%. The collaboration signals growing industry confidence in humanoid robots for precision infrastructure tasks.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/robotics",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-10-19"
     },
     {
-      "id": "7",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, Enabling Next-Gen AI Accelerators",
-      "summary": "TSMC confirmed it has begun high-volume manufacturing on its N1.4 gate-all-around (GAA) transistor process, delivering approximately 35% power efficiency gains and 20% performance uplift over the N2 node. First customers include NVIDIA and Apple, with AI accelerator and mobile SoC designs expected to tape out in Q1 2027. The node's improved transistor density—over 300 billion transistors per reticle—will be critical for scaling next-generation large language model inference chips.",
+      "id": "4",
+      "title": "Figure AI Raises $1.5B Series C, Demonstrates Autonomous Warehouse Operations at Scale",
+      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, backed by Microsoft and NVIDIA, after demonstrating its Figure 03 humanoid robot operating autonomously in a BMW logistics warehouse for 10-hour shifts. The robots use a foundation world model trained on millions of hours of manipulation data, enabling zero-shot generalization to novel package types. The company plans to deploy 1,000 units across multiple partners by mid-2027.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Robotics",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional AI Monitoring Framework for Enterprise Deployments",
+      "summary": "Anthropic released a new open-source Constitutional AI Monitoring (CAIM) framework designed to provide real-time oversight of AI agent behavior in production enterprise systems. The framework uses a lightweight supervisor model that audits tool calls, data access patterns, and decision chains against configurable policy constitutions, flagging violations before actions execute. Early adopters report a 75% reduction in unsafe autonomous actions in financial services workflows.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC confirmed the start of volume production on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors at its Fab 20 facility in Hsinchu. The node delivers an 18% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerators from Apple and NVIDIA shipping in late 2027. This positions TSMC further ahead of Samsung Foundry and Intel, both of whom target comparable nodes for 2028.",
       "source": "AnandTech",
-      "url": "https://www.anandtech.com/semiconductors",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-10-16"
+      "date": "2026-10-17"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
+      "summary": "Microsoft and Atom Computing jointly published results from their neutral-atom quantum computing platform showing logical qubit error rates of 10⁻⁶, crossing below the threshold needed for practical fault-tolerant quantum computation. The system used 256 physical qubits to encode 24 logical qubits with real-time error correction running on classical co-processors. The milestone makes near-term quantum advantage for certain optimization and chemistry problems increasingly plausible.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-10-14"
     },
     {
       "id": "8",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independent Testing",
-      "summary": "QuantumScape announced that its latest solid-state lithium-metal battery cells achieved 600 Wh/kg energy density in independent third-party testing, roughly doubling the density of current commercial lithium-ion cells. The cells maintained over 80% capacity after 1,000 fast-charge cycles, addressing a long-standing durability concern for solid-state designs. If manufacturing scales as planned through a partnership with Volkswagen's PowerCo, the technology could transform EV range, robotics endurance, and portable electronics by late 2027.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
+      "title": "NVIDIA Announces Rubin Ultra GPU Architecture with 384GB HBM4 for Trillion-Parameter Training",
+      "summary": "At its fall GTC event, NVIDIA detailed the Rubin Ultra GPU featuring 384GB of HBM4 memory at 12 TB/s bandwidth, a new FP4 tensor core architecture delivering 2.5 PFLOPs per chip, and NVLink 6 with 3.6 TB/s bisection bandwidth across 72-GPU nodes. The platform is purpose-built for training and inference of trillion-plus parameter models, with hyperscaler partners including AWS, Azure, and Google Cloud expected to offer Rubin Ultra instances by mid-2027.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "Innovation",
-      "date": "2026-10-13"
+      "date": "2026-10-21"
     }
   ]
 }
