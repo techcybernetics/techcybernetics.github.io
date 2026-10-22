@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-21",
+  "lastUpdated": "2026-10-22",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly analyze code repositories, video feeds, and 3D scene representations in a single context window. The model demonstrates significant improvements on ARC-AGI-2 benchmarks and software engineering tasks, narrowing the gap on problems that previously required specialized pipelines. Enterprise API pricing was cut 40% compared to the original GPT-5 release earlier this year.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates significant gains on agentic software engineering benchmarks, reportedly resolving 71% of SWE-bench Verified issues autonomously. The release intensifies competition with Google's Gemini Ultra 2 and Anthropic's Claude 4 family, both of which shipped comparable agentic capabilities in recent months.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Reasoning",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored over 90% on the GPQA Diamond benchmark for PhD-level science questions and set new records on MATH-500 and FrontierMath subsets. The model introduces a novel chain-of-verification architecture that self-checks intermediate reasoning steps, substantially reducing hallucination rates in long-form scientific analysis. Google is integrating it across Workspace and Google Cloud Vertex AI.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-10-16"
-    },
-    {
-      "id": "3",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Automotive Manufacturing",
-      "summary": "Boston Dynamics officially launched the commercial version of its electric Atlas humanoid robot tailored for Hyundai and Kia automotive assembly lines. The robot handles heavy part manipulation up to 25 kg, performs quality inspection using onboard vision, and dynamically adapts to line stoppages without human re-programming. Initial deployments across three Korean factories are expected to begin in Q1 2027.",
+      "title": "Google DeepMind's RT-4 Robot Foundation Model Enables Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "DeepMind unveiled RT-4, a vision-language-action model trained on a massive cross-embodiment dataset spanning over 30 robot morphologies. The model achieves zero-shot generalization to novel household manipulation tasks with a 68% first-attempt success rate, a substantial improvement over RT-3's 47%. The work represents a milestone toward general-purpose robotic foundation models that can be deployed without task-specific fine-tuning.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-10-19"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Demonstrates Autonomous Warehouse Operations at Scale",
-      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, backed by Microsoft and NVIDIA, after demonstrating its Figure 03 humanoid robot operating autonomously in a BMW logistics warehouse for 10-hour shifts. The robots use a foundation world model trained on millions of hours of manipulation data, enabling zero-shot generalization to novel package types. The company plans to deploy 1,000 units across multiple partners by mid-2027.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Robotics",
-      "date": "2026-10-20"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Monitoring Framework for Enterprise Deployments",
-      "summary": "Anthropic released a new open-source Constitutional AI Monitoring (CAIM) framework designed to provide real-time oversight of AI agent behavior in production enterprise systems. The framework uses a lightweight supervisor model that audits tool calls, data access patterns, and decision chains against configurable policy constitutions, flagging violations before actions execute. Early adopters report a 75% reduction in unsafe autonomous actions in financial services workflows.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
-      "category": "AI",
       "date": "2026-10-15"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC confirmed the start of volume production on its A14 (1.4nm-class) process using gate-all-around nanosheet transistors at its Fab 20 facility in Hsinchu. The node delivers an 18% speed improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerators from Apple and NVIDIA shipping in late 2027. This positions TSMC further ahead of Samsung Foundry and Intel, both of whom target comparable nodes for 2028.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
+      "id": "3",
+      "title": "Meta Open-Sources Llama 4 with 400B MoE Architecture and 1M Token Context",
+      "summary": "Meta released Llama 4 under a permissive license, featuring a 400-billion-parameter mixture-of-experts architecture with 32 active experts per forward pass and a native 1-million-token context window. Benchmarks show it competing with proprietary frontier models on reasoning and long-document analysis tasks. The open release has already spawned community fine-tunes optimized for legal, medical, and codebase-scale retrieval-augmented generation workflows.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "4",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla confirmed that its third-generation Optimus humanoid robots have begun performing repetitive pick-and-place and quality inspection tasks across two Fremont assembly sub-lines. The Gen 3 units incorporate improved force-feedback hands with 22 degrees of freedom and on-device vision-language models for defect classification. Tesla says it aims to produce 10,000 units in 2027 for both internal use and commercial sale.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Robotics",
       "date": "2026-10-17"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Atom Computing jointly published results from their neutral-atom quantum computing platform showing logical qubit error rates of 10⁻⁶, crossing below the threshold needed for practical fault-tolerant quantum computation. The system used 256 physical qubits to encode 24 logical qubits with real-time error correction running on classical co-processors. The milestone makes near-term quantum advantage for certain optimization and chemistry problems increasingly plausible.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "id": "5",
+      "title": "TSMC Begins Risk Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered risk production, with high-volume manufacturing targeted for late 2027. The node promises an 18% speed improvement and 25% power reduction over the N2 node, critical for next-generation AI accelerator and mobile SoC designs. Apple, Nvidia, and Qualcomm are reportedly among the first customers taping out designs on the new process.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-10-14"
     },
     {
-      "id": "8",
-      "title": "NVIDIA Announces Rubin Ultra GPU Architecture with 384GB HBM4 for Trillion-Parameter Training",
-      "summary": "At its fall GTC event, NVIDIA detailed the Rubin Ultra GPU featuring 384GB of HBM4 memory at 12 TB/s bandwidth, a new FP4 tensor core architecture delivering 2.5 PFLOPs per chip, and NVLink 6 with 3.6 TB/s bisection bandwidth across 72-GPU nodes. The platform is purpose-built for training and inference of trillion-plus parameter models, with hyperscaler partners including AWS, Azure, and Google Cloud expected to offer Rubin Ultra instances by mid-2027.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "Innovation",
+      "id": "6",
+      "title": "Anthropic Introduces Constitutional Steering Vectors for Fine-Grained AI Safety Control",
+      "summary": "Anthropic published research on 'constitutional steering vectors,' a mechanistic interpretability technique that allows operators to dynamically adjust model behavior along safety-relevant dimensions without retraining. The approach decomposes refusal and compliance behavior into interpretable activation directions, enabling per-deployment calibration of risk tolerance. The technique has been integrated into Claude's enterprise API, giving customers auditable knobs for domain-specific safety policies.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
       "date": "2026-10-21"
+    },
+    {
+      "id": "7",
+      "title": "Boston Dynamics and Hyundai Unveil Electric Atlas Platform for Commercial Logistics",
+      "summary": "Boston Dynamics formally launched the commercial Electric Atlas platform in partnership with Hyundai, targeting warehouse logistics and heavy industrial environments. The humanoid robot features hot-swappable battery modules enabling 6-hour operational cycles and a payload capacity of 25 kg per arm. Pilot deployments with DHL and Hyundai's Kia division are underway, with the companies reporting a 30% throughput increase in mixed palletizing tasks compared to conventional automation.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "8",
+      "title": "Microsoft and Helion Energy Confirm First Commercial Fusion Electricity Delivery for 2028 Datacenter",
+      "summary": "Microsoft and Helion Energy announced they have completed key engineering milestones for Polaris, Helion's seventh-generation fusion prototype, clearing the path toward delivering fusion-generated electricity to a Microsoft datacenter in Washington state by 2028. The pulsed field-reversed configuration system has demonstrated sustained net energy gain in lab conditions. If the commercial timeline holds, it would mark the first sale of fusion-generated electricity and a potential inflection point for the energy demands of large-scale AI infrastructure.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Innovation",
+      "date": "2026-10-19"
     }
   ]
 }
