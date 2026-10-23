@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-23",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates significant gains on agentic software engineering benchmarks, reportedly resolving 71% of SWE-bench Verified issues autonomously. The release intensifies competition with Google's Gemini Ultra 2 and Anthropic's Claude 4 family, both of which shipped comparable agentic capabilities in recent months.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Chain",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring a unified architecture that natively interleaves text, image, audio, and video reasoning within a single chain-of-thought pass. The model demonstrates significant improvements in complex scientific problem-solving benchmarks, scoring 92% on GPQA Diamond. This marks a shift from bolted-on multimodal adapters to truly integrated cross-modal inference.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-10-18"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's RT-4 Robot Foundation Model Enables Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind unveiled RT-4, a vision-language-action model trained on a massive cross-embodiment dataset spanning over 30 robot morphologies. The model achieves zero-shot generalization to novel household manipulation tasks with a 68% first-attempt success rate, a substantial improvement over RT-3's 47%. The work represents a milestone toward general-purpose robotic foundation models that can be deployed without task-specific fine-tuning.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "3",
-      "title": "Meta Open-Sources Llama 4 with 400B MoE Architecture and 1M Token Context",
-      "summary": "Meta released Llama 4 under a permissive license, featuring a 400-billion-parameter mixture-of-experts architecture with 32 active experts per forward pass and a native 1-million-token context window. Benchmarks show it competing with proprietary frontier models on reasoning and long-document analysis tasks. The open release has already spawned community fine-tunes optimized for legal, medical, and codebase-scale retrieval-augmented generation workflows.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-10-20"
-    },
-    {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla confirmed that its third-generation Optimus humanoid robots have begun performing repetitive pick-and-place and quality inspection tasks across two Fremont assembly sub-lines. The Gen 3 units incorporate improved force-feedback hands with 22 degrees of freedom and on-device vision-language models for defect classification. Tesla says it aims to produce 10,000 units in 2027 for both internal use and commercial sale.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-10-17"
-    },
-    {
-      "id": "5",
-      "title": "TSMC Begins Risk Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced that its A14 (1.4nm-class) process using gate-all-around nanosheet transistors has entered risk production, with high-volume manufacturing targeted for late 2027. The node promises an 18% speed improvement and 25% power reduction over the N2 node, critical for next-generation AI accelerator and mobile SoC designs. Apple, Nvidia, and Qualcomm are reportedly among the first customers taping out designs on the new process.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-14"
-    },
-    {
-      "id": "6",
-      "title": "Anthropic Introduces Constitutional Steering Vectors for Fine-Grained AI Safety Control",
-      "summary": "Anthropic published research on 'constitutional steering vectors,' a mechanistic interpretability technique that allows operators to dynamically adjust model behavior along safety-relevant dimensions without retraining. The approach decomposes refusal and compliance behavior into interpretable activation directions, enabling per-deployment calibration of risk tolerance. The technique has been integrated into Claude's enterprise API, giving customers auditable knobs for domain-specific safety policies.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-10-21"
     },
     {
-      "id": "7",
-      "title": "Boston Dynamics and Hyundai Unveil Electric Atlas Platform for Commercial Logistics",
-      "summary": "Boston Dynamics formally launched the commercial Electric Atlas platform in partnership with Hyundai, targeting warehouse logistics and heavy industrial environments. The humanoid robot features hot-swappable battery modules enabling 6-hour operational cycles and a payload capacity of 25 kg per arm. Pilot deployments with DHL and Hyundai's Kia division are underway, with the companies reporting a 30% throughput increase in mixed palletizing tasks compared to conventional automation.",
+      "id": "2",
+      "title": "Google DeepMind's RT-4 Enables Robots to Generalize Manipulation Across Unseen Objects",
+      "summary": "DeepMind published results for RT-4, a vision-language-action model trained on a massive cross-embodiment dataset that allows robots to manipulate novel objects with zero-shot generalization. In real-world trials, a single policy controlled multiple robot form factors with an 87% task success rate on previously unseen household items. The work substantially narrows the sim-to-real transfer gap that has long plagued robotic manipulation research.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "3",
+      "title": "Meta Releases Llama 4 Under Permissive Open License, Challenges Proprietary Frontier Models",
+      "summary": "Meta open-sourced Llama 4, a 1.2-trillion-parameter mixture-of-experts model that rivals GPT-5 and Gemini Ultra 2 on major benchmarks while remaining available under an Apache 2.0-style license. The release includes distilled variants at 8B and 70B active parameters, optimized for single-node inference. The move is expected to accelerate open-source AI development and intensify the debate around competitive dynamics between open and closed model ecosystems.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "4",
+      "title": "Boston Dynamics Unveils Commercial Atlas Electric With Autonomous Warehouse Deployment",
+      "summary": "Boston Dynamics announced the first large-scale commercial deployment of its electric Atlas humanoid robot, with logistics partner DHL rolling out 150 units across three distribution centers in the US and Germany. The robots autonomously handle irregular package sorting and palletizing using onboard vision and learned manipulation policies. This represents the most significant commercial humanoid deployment to date and a potential inflection point for humanoid robotics in logistics.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com",
       "category": "Robotics",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "5",
+      "title": "TSMC Begins Volume Production of 1.4nm-Class N14P Node for AI Accelerators",
+      "summary": "TSMC commenced high-volume manufacturing on its N14P process node, which uses backside power delivery and gate-all-around nanosheet transistors to achieve a 20% performance uplift and 30% power reduction over its N2 node. First customers include NVIDIA and Apple, with AI accelerator chips expected to ship in Q1 2027. The node is critical for sustaining the compute scaling roadmap that underpins frontier AI model training.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "6",
+      "title": "Anthropic Introduces Constitutional Steering Vectors for Fine-Grained Model Alignment",
+      "summary": "Anthropic published a paper detailing constitutional steering vectors, a technique that applies learned activation-space directions at inference time to dynamically adjust model behavior along multiple alignment dimensions without retraining. The approach allows enterprise customers to configure safety-helpfulness tradeoffs for specific deployment contexts via a simple API parameter. Early evaluations show the method reduces over-refusal rates by 45% while maintaining safety benchmarks.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "7",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Production Cells",
+      "summary": "QuantumScape reported that its latest solid-state lithium-metal cells achieved 600 Wh/kg energy density in production-representative form factors, nearly doubling the density of current lithium-ion cells. The cells sustained over 1,000 fast-charge cycles with less than 10% capacity degradation. If scaled successfully with manufacturing partner Volkswagen, this could transform EV range economics and enable viable electric aviation for short-haul routes.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Innovation",
       "date": "2026-10-16"
     },
     {
       "id": "8",
-      "title": "Microsoft and Helion Energy Confirm First Commercial Fusion Electricity Delivery for 2028 Datacenter",
-      "summary": "Microsoft and Helion Energy announced they have completed key engineering milestones for Polaris, Helion's seventh-generation fusion prototype, clearing the path toward delivering fusion-generated electricity to a Microsoft datacenter in Washington state by 2028. The pulsed field-reversed configuration system has demonstrated sustained net energy gain in lab conditions. If the commercial timeline holds, it would mark the first sale of fusion-generated electricity and a potential inflection point for the energy demands of large-scale AI infrastructure.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act's provisions for general-purpose AI systems, targeting major foundation model providers including OpenAI, Google, and Mistral. Auditors are evaluating systemic risk assessments, compute reporting, and red-teaming documentation requirements. The enforcement actions are being closely watched globally as a template for AI governance and could influence regulatory frameworks in the US and Asia.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-10-19"
+      "date": "2026-10-15"
     }
   ]
 }
