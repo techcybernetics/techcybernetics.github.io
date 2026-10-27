@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-27",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, audio, and codebases in a single context window of up to 1 million tokens. The model demonstrates significant gains on software engineering benchmarks, scoring 78% on SWE-Bench Verified, and introduces real-time streaming tool use. This positions it as a serious contender for autonomous coding and multimedia analysis workflows.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement over GPT-5 on complex software engineering tasks requiring cross-modal understanding, with latency reduced to near-GPT-4 Turbo levels through aggressive distillation and speculative decoding.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,8 +12,8 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced Gemini Ultra 2, which solved 88% of International Mathematical Olympiad problems in formal proof format, surpassing all prior AI systems. The model uses a novel chain-of-verification architecture that generates candidate proofs and formally validates them using Lean 4 integration. Researchers say this marks a turning point for AI-assisted formal verification in both mathematics and safety-critical software.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Scientific Reasoning",
+      "summary": "DeepMind announced Gemini Ultra 2, which scores above 90% on the GPQA Diamond benchmark and demonstrates significant gains in multi-step mathematical proof generation and experimental design in chemistry and biology. The model leverages a new mixture-of-experts architecture with over 50 specialized expert modules and a refined RLHF pipeline trained with feedback from domain scientists.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,8 +21,8 @@
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoids in BMW Factories",
-      "summary": "Figure Robotics announced the first large-scale commercial deployment of its Figure 03 humanoid robots at BMW's Spartanburg, South Carolina manufacturing plant, with 200 units performing complex assembly and logistics tasks. The robots operate alongside human workers with a new collaborative safety framework certified by TÜV SÜD. BMW reports a 31% improvement in throughput in pilot assembly lines, signaling a potential inflection point for humanoid adoption in automotive manufacturing.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for material handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models that allow natural language task reassignment by floor supervisors without reprogramming.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
@@ -30,8 +30,8 @@
     },
     {
       "id": "4",
-      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Disaster Response in DARPA Trials",
-      "summary": "Boston Dynamics showcased its fully electric Atlas robot completing a DARPA-organized urban disaster response course with no human teleoperation, navigating collapsed structures, opening doors, and carrying 40 kg payloads over rubble. The robot used an on-board vision-language model for real-time scene understanding and task planning. The demonstration has renewed interest from FEMA and military branches in deploying humanoid platforms for search-and-rescue operations.",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Whole-Body Predictive Control",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform powered by a new whole-body model predictive control stack that enables real-time dynamic replanning at 500Hz. The system can recover from significant perturbations while carrying payloads up to 25kg, and integrates with standard ROS 2 Jazzy middleware for fleet orchestration in warehouse and construction environments.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
@@ -39,39 +39,39 @@
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional Classifiers 2.0, Dramatically Reducing Jailbreak Success Rates",
-      "summary": "Anthropic published research on Constitutional Classifiers 2.0, an updated safety layer for Claude models that reduces jailbreak success rates to under 0.3% across a comprehensive red-team evaluation while preserving helpfulness scores. The system uses a learned constitution derived from adversarial training against over 50,000 novel attack patterns. The approach is being offered as a licensable safety module for other AI labs, signaling a shift toward shared AI safety infrastructure.",
-      "source": "Anthropic Research Blog",
+      "title": "Anthropic Publishes Research on Constitutional AI Scaling Laws and Alignment Tax Reduction",
+      "summary": "Anthropic released a detailed technical paper showing that alignment overhead—the performance cost of safety training—shrinks predictably with model scale under their Constitutional AI framework. At their largest model scales the alignment tax drops below 2% on capability benchmarks, challenging the assumption that safety and capability are fundamentally at odds.",
+      "source": "ArXiv / Anthropic Research Blog",
       "url": "https://www.anthropic.com",
       "category": "AI",
-      "date": "2026-10-23"
+      "date": "2026-10-25"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that volume production on its A14 (1.4nm-class) process node has begun at its Fab 20 facility in Hsinchu, roughly one quarter ahead of the originally projected timeline. The node delivers an estimated 20% performance improvement and 30% power reduction over N2, leveraging gate-all-around nanosheet transistors with backside power delivery. Apple and NVIDIA are expected to be the first major customers, with chips taping out for 2027 consumer products.",
+      "title": "TSMC Begins Risk Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced it has entered risk production on its A14 (1.4nm-class) gate-all-around transistor process, roughly one quarter ahead of its original roadmap. Early test chips show a 20% performance gain and 30% power reduction over N2, which could significantly benefit next-generation AI accelerator designs from Nvidia, AMD, and Apple slated for late 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "7",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV-Format Cells",
+      "summary": "QuantumScape reported that its multi-layer solid-state lithium-metal cells have surpassed 1,000 charge-discharge cycles while retaining over 90% capacity at automotive-relevant discharge rates. This milestone addresses the key durability concern that has delayed solid-state battery commercialization and puts the company on track for its partnership deliveries to Volkswagen's Scout EV line in 2027.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "Innovation",
       "date": "2026-10-21"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface Implant",
-      "summary": "Neuralink obtained FDA clearance for its N2 brain-computer interface device, which doubles the electrode count to 2,048 channels and features a fully wireless design with on-chip signal processing. The approval covers expanded clinical trials for patients with quadriplegia and ALS, with three major medical centers now enrolling participants. Early data from the N1 cohort showed patients achieving cursor control speeds approaching able-bodied benchmarks, generating significant interest from the neuroscience community.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
-      "date": "2026-10-25"
-    },
-    {
       "id": "8",
-      "title": "Meta Open-Sources Llama 4 Behemoth with Mixture-of-Experts Architecture at 1.2 Trillion Parameters",
-      "summary": "Meta released Llama 4 Behemoth, a 1.2 trillion parameter mixture-of-experts model with 128 experts and 16 active per token, as a fully open-weight model under a permissive license. Benchmarks show it matching or exceeding GPT-5 on reasoning and code generation tasks while requiring significantly fewer active FLOPs per inference. The release includes optimized serving code for commodity GPU clusters, lowering the barrier for enterprises to run frontier-class models on their own infrastructure.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-10-18"
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production and On-Device Foundation Models",
+      "summary": "Figure AI closed a $1.5 billion Series C at a reported $15 billion valuation, with the funding earmarked for building its first dedicated humanoid robot manufacturing facility in Texas and expanding its on-device multimodal foundation model team. The company claims its Figure 03 robot can autonomously learn novel manipulation tasks from fewer than 10 demonstrations using a proprietary few-shot imitation learning framework.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Robotics",
+      "date": "2026-10-26"
     }
   ]
 }
