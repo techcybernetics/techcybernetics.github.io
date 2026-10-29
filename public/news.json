@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-10-28",
+  "lastUpdated": "2026-10-29",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-Bench over GPT-5 base and near-human performance on graduate-level scientific reasoning tasks. The model also introduces a new structured chain-of-thought API for enterprise customers needing auditable reasoning traces.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates significant improvements in long-context software engineering tasks, reportedly resolving 64% of SWE-bench Verified issues autonomously. This marks a shift from bolted-on modality adapters to a unified architecture trained end-to-end.",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai",
-      "category": "AI",
-      "date": "2026-10-25"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Frontier Math and Protein Interaction Prediction",
-      "summary": "DeepMind announced Gemini Ultra 2 with breakthrough results on the FrontierMath benchmark, solving 85% of problems that previously stumped all AI systems. The model also integrates an updated AlphaFold module capable of predicting multi-protein complex interactions with experimentally validated accuracy, opening new avenues for drug discovery pipelines.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/ai",
       "category": "AI",
       "date": "2026-10-22"
     },
     {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored a verified 92% on the IMO 2026 problem set using a novel chain-of-thought reinforcement learning approach combined with formal verification via Lean 4. The system's ability to generate human-readable proofs that are simultaneously machine-checkable represents a major step toward trustworthy AI-assisted mathematics. Researchers note the technique generalizes to formal verification of software correctness proofs.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-10-25"
+    },
+    {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
-      "summary": "Tesla's third-generation Optimus humanoid robot has entered limited commercial deployment at BMW manufacturing plants and Amazon fulfillment centers, handling bin-picking, parts transport, and light assembly tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and an on-device vision-language model enabling natural language task instruction from floor supervisors.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Amazon Fulfillment Centers",
+      "summary": "Amazon confirmed a pilot program deploying approximately 1,000 Tesla Optimus Gen 3 humanoid robots across three U.S. fulfillment centers for bin-picking and inventory transport tasks. The robots leverage on-device vision-language models for zero-shot object manipulation, reducing the need for task-specific programming. Early reports indicate a 40% throughput improvement in mixed-SKU picking compared to existing robotic arm systems.",
       "source": "Reuters",
       "url": "https://www.reuters.com/technology",
       "category": "Robotics",
-      "date": "2026-10-26"
-    },
-    {
-      "id": "4",
-      "title": "Figure AI Raises $1.5B Series C, Demonstrates Autonomous Multi-Robot Coordination in Factory Trials",
-      "summary": "Figure AI closed a $1.5 billion Series C round at an $18 billion valuation after demonstrating its Figure 03 humanoid robots autonomously coordinating complex multi-step assembly workflows without human orchestration. The system uses a shared world model and decentralized planning architecture that allows up to 12 robots to dynamically allocate tasks and recover from failures in real time.",
-      "source": "TechCrunch",
-      "url": "https://www.techcrunch.com/robotics",
-      "category": "Robotics",
-      "date": "2026-10-23"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Monitoring Framework for Critical Infrastructure Deployments",
-      "summary": "Anthropic released an open-source Constitutional AI Monitoring (CAIM) framework designed for deploying LLM-based agents in critical infrastructure contexts such as power grids and healthcare systems. The framework provides formal verification of agent behavior boundaries, real-time constraint satisfaction monitoring, and automated rollback mechanisms, addressing a key barrier to enterprise AI adoption in regulated industries.",
-      "source": "Ars Technica",
-      "url": "https://www.arstechnica.com/ai",
-      "category": "AI",
       "date": "2026-10-27"
     },
     {
+      "id": "4",
+      "title": "Boston Dynamics Atlas Now Handles Unstructured Outdoor Terrain with Real-Time Adaptive Gait Planning",
+      "summary": "Boston Dynamics released a major software update for the electric Atlas platform enabling real-time terrain classification and adaptive gait generation using a sim-to-real transformer policy. The robot demonstrated reliable traversal of rocky hillsides, muddy slopes, and debris fields in live demonstrations at a DARPA evaluation event. The update brings Atlas closer to practical deployment in disaster response and construction site inspection scenarios.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Publishes Breakthrough Research on Mechanistic Interpretability of Billion-Parameter Models",
+      "summary": "Anthropic released a landmark paper demonstrating scalable mechanistic interpretability techniques that can identify and causally trace specific reasoning circuits in models exceeding 100 billion parameters. The research introduces 'circuit grafting,' a method allowing engineers to surgically edit model behaviors by transplanting verified reasoning subgraphs. The work has immediate implications for AI safety, enabling more precise detection of deceptive or misaligned reasoning patterns before deployment.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-10-26"
+    },
+    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, First Chips Slated for AI Accelerators",
-      "summary": "TSMC announced volume production of its N1.4 process node using next-generation gate-all-around transistor architecture at its Kaohsiung fab. First customers include NVIDIA and Broadcom for next-generation AI accelerator chips expected in Q2 2027, promising a 25% power efficiency improvement and 15% performance uplift over the current N2 node.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, Promising 25% Efficiency Gains",
+      "summary": "TSMC announced the start of volume production on its N1.4 gate-all-around (GAA) transistor process at its Kaohsiung fab, with Apple and NVIDIA as anchor customers. The node delivers a 25% power efficiency improvement and 15% performance uplift over N2, critical for next-generation AI accelerators operating under tightening data center power constraints. Industry analysts expect the first consumer chips on N1.4 to ship in Q2 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-10-24"
+      "date": "2026-10-23"
     },
     {
       "id": "7",
       "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Correction Threshold",
-      "summary": "Microsoft and Quantinuum jointly published results showing sustained fault-tolerant operations on 32 logical qubits with error rates below the threshold needed for practical quantum error correction. This milestone, achieved on Quantinuum's H3 trapped-ion system paired with Microsoft's Majorana-based topological qubits, represents a significant step toward commercially useful quantum computation for materials science and cryptography applications.",
+      "summary": "Microsoft and Quantinuum jointly announced sustained fault-tolerant operations on 32 logical qubits with error rates below 10⁻⁸ per gate cycle, crossing a critical threshold for practical quantum computation. The achievement uses Microsoft's topological error correction codes running on Quantinuum's latest trapped-ion hardware. While general-purpose quantum advantage remains years away, the milestone opens the door to near-term applications in materials simulation and cryptographic research.",
       "source": "Nature",
       "url": "https://www.nature.com/news",
       "category": "Innovation",
-      "date": "2026-10-21"
+      "date": "2026-10-28"
     },
     {
       "id": "8",
-      "title": "Boston Dynamics Atlas Now Performs Full Automotive Subassembly with Tool Use and Bimanual Coordination",
-      "summary": "Boston Dynamics showcased its electric Atlas robot performing end-to-end automotive subassembly tasks including torque-wrench fastening, sealant application, and connector insertion using bimanual coordination with force-feedback tooling. The system leverages a new sim-to-real transfer pipeline trained on over 50 billion simulation steps, dramatically reducing the time needed to teach new assembly sequences from weeks to hours.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org/robotics",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing and On-Device Foundation Models",
+      "summary": "Figure AI closed a $1.5 billion Series C at an $18 billion valuation, with backing from Intel Capital, Samsung, and existing investor Microsoft. The funding will be used to build a dedicated humanoid robot manufacturing facility in Texas and to develop proprietary on-device vision-language-action models that reduce cloud dependency. The company plans to produce 10,000 units of its Figure 03 robot annually by late 2027 for logistics and light manufacturing verticals.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
-      "date": "2026-10-20"
+      "date": "2026-10-29"
     }
   ]
 }
