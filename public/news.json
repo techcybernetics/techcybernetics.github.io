@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-01",
+  "lastUpdated": "2026-11-02",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 with Extended Reasoning and Native Multimodal Generation",
-      "summary": "OpenAI officially released GPT-5, featuring significantly improved long-horizon reasoning, native image and audio generation, and a reported 3x improvement on PhD-level science benchmarks compared to GPT-4o. The model introduces a unified architecture that removes the need for separate pipelines for different modalities, simplifying deployment for enterprise customers.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Audio, Video, and Code",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can process interleaved video, audio, and code inputs in a single context window of up to 1 million tokens. Benchmarks show a 38% improvement over GPT-5 on complex agentic coding tasks, and the model demonstrates near-human performance on novel scientific reasoning challenges. The release intensifies competition with Google DeepMind's Gemini Ultra 2, which launched weeks earlier.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,44 +12,44 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Agentic Coding Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored 78.4% on SWE-Bench Verified and demonstrated the ability to autonomously resolve multi-file GitHub issues across large codebases. The model leverages a new reinforcement learning from execution feedback (RLEF) pipeline that trains on real CI/CD outcomes, marking a significant step toward fully autonomous software engineering agents.",
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google",
-      "category": "AI",
+      "title": "Google DeepMind's RT-4 Robot Foundation Model Enables Zero-Shot Task Transfer Across Humanoid Platforms",
+      "summary": "DeepMind unveiled RT-4, a robotics transformer model trained on a massive cross-embodiment dataset spanning over 30 robot form factors. The model achieves zero-shot generalization to unseen humanoid hardware, allowing a policy trained on one platform to execute complex manipulation tasks on another without fine-tuning. This represents a major step toward universal robot foundation models and has drawn significant interest from manufacturing and logistics partners.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
       "date": "2026-10-25"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Begins Commercial Deployment of Humanoid Workers at BMW Plants",
-      "summary": "Figure AI announced that its Figure 02 humanoid robots have entered full commercial deployment at two BMW manufacturing facilities in South Carolina, performing parts inspection, kitting, and light assembly tasks. The robots operate alongside human workers in three shifts and use onboard vision-language models for real-time task adaptation without explicit reprogramming.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Anthropic Introduces Constitutional Steering: Fine-Grained Runtime Control of LLM Behavior Without Retraining",
+      "summary": "Anthropic published a research paper and shipped an API feature called Constitutional Steering, which allows developers to dynamically adjust model behavior along interpretable safety and capability axes at inference time without any fine-tuning. The technique builds on their mechanistic interpretability work by identifying and manipulating specific activation directions in the residual stream. Early adopters report significantly reduced need for prompt engineering and custom RLHF runs.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/blog",
+      "category": "AI",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "4",
+      "title": "Figure Robotics Begins Commercial Deployment of Figure 03 Humanoid Workers at BMW Spartanburg Plant",
+      "summary": "Figure announced the first large-scale commercial deployment of its Figure 03 humanoid robots, with 150 units now operational at BMW's Spartanburg, South Carolina manufacturing facility. The robots handle material transport, parts kitting, and quality inspection tasks alongside human workers, operating autonomously for full 8-hour shifts. BMW reports a 22% throughput improvement in the deployed zones, marking a landmark moment for humanoid robotics in real industrial settings.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
       "date": "2026-10-22"
     },
     {
-      "id": "4",
-      "title": "Tesla Optimus Gen 3 Demonstrates Autonomous Household Tasks in Live Demo",
-      "summary": "Tesla showcased the third generation of its Optimus humanoid robot performing unscripted household chores including folding laundry, loading a dishwasher, and navigating cluttered rooms. The demo highlighted a new transformer-based whole-body control policy trained end-to-end in simulation and transferred to hardware with minimal fine-tuning, though analysts remain cautious about the timeline to consumer availability.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-10-30"
-    },
-    {
       "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreaks at Scale",
-      "summary": "Anthropic published a technical paper and deployed a new safety layer called Constitutional Classifiers, which reduced successful jailbreak rates on Claude models to under 1% across adversarial red-team evaluations. The system uses a hierarchy of lightweight classifier models trained on synthetically generated attack patterns, adding minimal latency while providing defense-in-depth against prompt injection and indirect attacks.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
+      "title": "Meta Releases Open-Source Llama 4 Behemoth: A 1.2 Trillion Parameter MoE Model Rivaling Closed-Source Leaders",
+      "summary": "Meta released the full weights of Llama 4 Behemoth, a 1.2 trillion parameter mixture-of-experts model that matches or exceeds GPT-5 on most public benchmarks while being fully open-weight under a permissive license. The model uses a novel grouped-query routing mechanism that reduces inference costs by roughly 60% compared to dense models of similar capability. The release has galvanized the open-source AI community and raised fresh regulatory debate in the EU and US Congress.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-10-20"
+      "date": "2026-10-31"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed that its N1.4 process node has entered volume production at its Kaohsiung fab, roughly one quarter ahead of the originally announced schedule. The node delivers a 20% performance improvement and 30% power reduction over N2, and is expected to power next-generation AI accelerator chips from Nvidia and AMD shipping in late 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Chips at Arizona Fab 2",
+      "summary": "TSMC confirmed that its second Arizona fabrication facility has entered volume production on the A14 (1.4nm-class) process node using gate-all-around nanosheet transistors. The node delivers a 20% performance uplift and 30% power reduction over the N2 process, with early customers including Apple and NVIDIA for next-generation AI accelerators. This marks a milestone for advanced semiconductor manufacturing on US soil and a major win for the CHIPS Act initiative.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum jointly announced they have executed over 14,000 consecutive logical qubit operations with error rates below the fault-tolerance threshold on their hybrid ion-trap system. This milestone represents a critical step toward practical quantum error correction and brings commercially useful quantum computation meaningfully closer, particularly for materials science and cryptographic applications.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
+      "title": "Neuralink Receives FDA Clearance for Second-Generation Brain-Computer Interface with 16,384-Electrode Array",
+      "summary": "Neuralink announced FDA clearance for its N2 implant, which quadruples the electrode count of its first-generation device to 16,384 channels and introduces bidirectional stimulation capabilities. Early clinical trial participants with spinal cord injuries demonstrated real-time cursor and robotic arm control with latency under 10 milliseconds. The approval opens the door for expanded clinical trials targeting motor restoration and treatment-resistant neurological conditions in 2027.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
-      "date": "2026-10-24"
+      "date": "2026-10-29"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The European AI Office initiated its first formal compliance audits under the EU AI Act, targeting major foundation model providers including OpenAI, Google, and Meta to assess adherence to transparency, systemic risk evaluation, and red-teaming requirements. Early reports suggest that several providers are struggling with the Act's data provenance documentation mandates, raising questions about potential fines and operational adjustments.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Innovation",
-      "date": "2026-10-29"
+      "title": "Boston Dynamics and Toyota Research Institute Unveil Joint Dexterous Manipulation Platform for Home Robotics",
+      "summary": "Boston Dynamics and the Toyota Research Institute announced a joint venture combining Boston Dynamics' Atlas platform with TRI's diffusion-policy-based manipulation stack to target home assistance use cases. The combined system demonstrated reliable performance on 47 out of 50 household tasks in unstructured environments, including laundry folding, dish loading, and cluttered-surface cleanup. A limited consumer pilot program is planned for late 2027 at a projected price point under $75,000.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "Robotics",
+      "date": "2026-10-26"
     }
   ]
 }
