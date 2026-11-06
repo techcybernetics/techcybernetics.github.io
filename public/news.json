@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process and generate across code, video, and audio modalities in a single inference pass. The model demonstrates significant improvements in complex multi-step reasoning benchmarks and reduces hallucination rates by roughly 40% compared to GPT-5's initial release. Enterprise API pricing was cut by 30%, signaling OpenAI's push to maintain dominance against surging competition from Google and Anthropic.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 35% improvement over GPT-5 on complex software engineering tasks, with significantly reduced hallucination rates on factual retrieval. The model is available via API with a new structured-output guarantee mode aimed at enterprise integration.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-11-03"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Discovery Benchmarks",
-      "summary": "DeepMind unveiled Gemini Ultra 2 with a new architecture it calls 'recursive self-verification,' enabling the model to iteratively check and refine its own reasoning chains during inference. On newly released ScienceBench-2026 evaluations, the model outperformed all competitors in mathematical theorem proving and molecular property prediction. Researchers highlight the model's ability to propose novel hypotheses that were subsequently validated in wet-lab experiments in materials science.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-10-29"
     },
     {
-      "id": "3",
-      "title": "Anthropic Introduces Claude 4 with Real-Time Tool Use and Persistent Memory Across Sessions",
-      "summary": "Anthropic launched Claude 4, which features a persistent memory layer allowing the model to retain user context and preferences across sessions without re-prompting. The release also includes a dramatically improved agentic tool-use framework that enables Claude to autonomously orchestrate multi-step workflows across APIs, file systems, and databases. Early enterprise adopters report up to 60% reductions in workflow automation development time compared to previous agent frameworks.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad problems from the last decade, surpassing all previous AI systems. The model uses a novel chain-of-thought verification loop that cross-checks intermediate proof steps against a formal theorem prover. Researchers say this hybrid neuro-symbolic approach could accelerate automated theorem proving and scientific discovery workflows.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-11-01"
+      "date": "2026-10-31"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Unveils Atlas Gen-3 with Autonomous Construction Site Capabilities",
-      "summary": "Boston Dynamics demonstrated the third generation of its electric Atlas humanoid robot performing autonomous construction tasks including bricklaying, rebar placement, and debris clearing on a live job site. The robot uses an on-board vision-language model for real-time task planning and can adapt to unexpected obstacles without human intervention. The company announced commercial pilot programs with three major construction firms, targeting a 2027 general availability date.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-28"
-    },
-    {
-      "id": "5",
-      "title": "Figure AI's Humanoid Robot Begins Warehouse Shifts Alongside Human Workers at Amazon Facilities",
-      "summary": "Figure AI's Figure 03 humanoid robot has started performing full 8-hour shifts at select Amazon fulfillment centers, handling pick-and-place, palletizing, and inventory scanning tasks. The robots leverage a foundation world model trained on millions of hours of manipulation data, enabling generalization to novel package geometries without retraining. Amazon confirmed plans to expand deployment to 20 additional warehouses by Q2 2027, reigniting debate around automation and workforce displacement.",
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for parts handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and can adapt to novel objects using on-device vision-language models. Tesla reports a 40% reduction in task error rates compared to Gen 2 prototypes demonstrated earlier this year.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-11-02"
+      "date": "2026-11-03"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Chips for Next-Gen AI Accelerators",
-      "summary": "TSMC announced it has started high-volume manufacturing on its N1.4 process node using gate-all-around (GAA) nanosheet transistors, marking a major milestone in semiconductor fabrication. The node delivers a 25% performance uplift and 35% power reduction over the 2nm node, with first customer shipments going to Nvidia and Apple. Industry analysts say the node is critical for enabling the next generation of AI training accelerators that will support models with tens of trillions of parameters.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-30"
+      "id": "4",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
+      "summary": "Boston Dynamics, backed by Hyundai, revealed the commercial Atlas platform designed for autonomous operation on active construction sites, including rebar carrying, site surveying, and hazard detection. The system integrates real-time 3D SLAM with LLM-based task planning, enabling natural language work orders from site supervisors. Pilot programs are scheduled across South Korean and U.S. infrastructure projects starting Q1 2027.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-11-01"
     },
     {
-      "id": "7",
-      "title": "Meta Releases Open-Source Photorealistic 3D World Generation Model for AR and VR Applications",
-      "summary": "Meta open-sourced 'WorldGen-3D,' a diffusion-based model that generates fully navigable, photorealistic 3D environments from text or image prompts in under 60 seconds. The model produces geometry, textures, and physically plausible lighting suitable for direct import into Unreal Engine and Unity. The release is seen as a strategic move to accelerate content creation for Meta's Quest headset ecosystem and lower barriers for independent VR developers.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Innovation",
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Autonomous Agent Systems",
+      "summary": "Anthropic published a new constitutional AI framework specifically designed to govern long-running autonomous agents that execute multi-step tasks with real-world side effects. The framework includes a formal specification language for safety constraints and a runtime monitor that can interrupt agent execution when behavioral drift is detected. The release is accompanied by an open-source reference implementation and a benchmark suite for evaluating agent alignment under adversarial conditions.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
       "date": "2026-11-04"
     },
     {
-      "id": "8",
-      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface with Bidirectional Stimulation",
-      "summary": "The FDA granted Neuralink approval to begin human trials of its N2 implant, which features 4,096 electrodes and bidirectional stimulation capability, enabling both reading and writing of neural signals. The device aims to restore not just motor control but also tactile feedback for paralysis patients, a significant leap from the read-only first-generation device. The approval comes after 18 months of successful primate trials showing stable performance over extended periods with minimal electrode degradation.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
+      "summary": "TSMC has commenced high-volume manufacturing on its N1.4 process node at its Kaohsiung fab, with first customer shipments expected by early 2027. The node delivers approximately 25% performance gains and 35% power efficiency improvements over N2, critical for next-generation AI training and inference chips. Major customers including Nvidia and Apple are reported to have secured early capacity allocations.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-10-31"
+      "date": "2026-10-28"
+    },
+    {
+      "id": "7",
+      "title": "Meta Demonstrates Real-Time Neural Holographic Display Prototype for AR Glasses",
+      "summary": "Meta's Reality Labs showcased a working prototype of AR glasses using neural holographic displays that render true 3D light fields in real time, eliminating the vergence-accommodation conflict that plagues current headsets. The system uses a custom AI rendering pipeline that compresses holographic computation by 100x, running on a belt-mounted mobile compute unit. Meta says a developer edition could ship by late 2027, positioning the technology as a successor to waveguide-based displays.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "Innovation",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "8",
+      "title": "EU AI Act Enforcement Phase Begins with First Compliance Audits of Foundation Model Providers",
+      "summary": "The European Union's AI Office has initiated the first formal compliance audits under the AI Act's general-purpose AI model provisions, targeting major foundation model providers operating in the EU. Companies must demonstrate adequate risk assessments, red-teaming documentation, and compute reporting for models trained above the 10^25 FLOP threshold. The enforcement actions mark a pivotal moment in global AI regulation and are expected to set precedents for similar frameworks under development in the U.S. and Japan.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
+      "date": "2026-11-02"
     }
   ]
 }
