@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-11-06",
+  "lastUpdated": "2026-11-07",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 35% improvement over GPT-5 on complex software engineering tasks, with significantly reduced hallucination rates on factual retrieval. The model is available via API with a new structured-output guarantee mode aimed at enterprise integration.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Audio, Video, and Code",
+      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can simultaneously process video streams, audio, and codebases in a single context window exceeding 1M tokens. Benchmarks show a significant leap in complex multi-step reasoning tasks, particularly in mathematical proof generation and large-scale code refactoring. The model also introduces a new \"chain-of-tools\" capability that autonomously orchestrates API calls and tool use without explicit prompting.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-10-29"
+      "date": "2026-11-04"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 89% of International Mathematical Olympiad problems from the last decade, surpassing all previous AI systems. The model uses a novel chain-of-thought verification loop that cross-checks intermediate proof steps against a formal theorem prover. Researchers say this hybrid neuro-symbolic approach could accelerate automated theorem proving and scientific discovery workflows.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on ARC-AGI-2 Benchmark",
+      "summary": "DeepMind announced that Gemini Ultra 2 has scored 82% on the ARC-AGI-2 benchmark, a significant jump from previous frontier model performance and approaching human-level abstract reasoning. The result was achieved through a novel architecture combining neurosymbolic program synthesis with large-scale transformer reasoning. Researchers caution that the benchmark, while indicative, does not equate to general intelligence but represents a meaningful milestone in fluid reasoning capability.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-10-31"
+      "date": "2026-11-01"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in select Gigafactory production lines for parts handling and quality inspection tasks. The Gen 3 units feature improved dexterous manipulation with 22 degrees of freedom per hand and can adapt to novel objects using on-device vision-language models. Tesla reports a 40% reduction in task error rates compared to Gen 2 prototypes demonstrated earlier this year.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robot in select Gigafactory assembly stations, handling component sorting, quality inspection, and light material transport tasks. The Gen 3 model features improved dexterous manipulation with 22-DOF hands and a vision-language-action model trained on millions of hours of factory teleoperation data. Tesla claims the units are operating with less than 0.3% error rates in structured tasks, though union representatives have raised workforce displacement concerns.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
@@ -30,48 +30,48 @@
     },
     {
       "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
-      "summary": "Boston Dynamics, backed by Hyundai, revealed the commercial Atlas platform designed for autonomous operation on active construction sites, including rebar carrying, site surveying, and hazard detection. The system integrates real-time 3D SLAM with LLM-based task planning, enabling natural language work orders from site supervisors. Pilot programs are scheduled across South Korean and U.S. infrastructure projects starting Q1 2027.",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
+      "summary": "Boston Dynamics officially launched its commercial Atlas platform tailored for construction environments, featuring autonomous navigation across uneven terrain, heavy payload manipulation up to 30kg, and real-time BIM integration for task planning. The electric humanoid can operate for up to 6 hours on a single charge and leverages a foundation model for interpreting natural language instructions from site supervisors. Pilot programs are underway with three major construction firms in South Korea and the United States.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-11-01"
+      "date": "2026-10-29"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Autonomous Agent Systems",
-      "summary": "Anthropic published a new constitutional AI framework specifically designed to govern long-running autonomous agents that execute multi-step tasks with real-world side effects. The framework includes a formal specification language for safety constraints and a runtime monitor that can interrupt agent execution when behavioral drift is detected. The release is accompanied by an open-source reference implementation and a benchmark suite for evaluating agent alignment under adversarial conditions.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
-      "date": "2026-11-04"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Enabling Next-Gen AI Accelerators",
-      "summary": "TSMC has commenced high-volume manufacturing on its N1.4 process node at its Kaohsiung fab, with first customer shipments expected by early 2027. The node delivers approximately 25% performance gains and 35% power efficiency improvements over N2, critical for next-generation AI training and inference chips. Major customers including Nvidia and Apple are reported to have secured early capacity allocations.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-10-28"
-    },
-    {
-      "id": "7",
-      "title": "Meta Demonstrates Real-Time Neural Holographic Display Prototype for AR Glasses",
-      "summary": "Meta's Reality Labs showcased a working prototype of AR glasses using neural holographic displays that render true 3D light fields in real time, eliminating the vergence-accommodation conflict that plagues current headsets. The system uses a custom AI rendering pipeline that compresses holographic computation by 100x, running on a belt-mounted mobile compute unit. Meta says a developer edition could ship by late 2027, positioning the technology as a successor to waveguide-based displays.",
+      "title": "Anthropic Publishes Breakthrough Research on Mechanistic Interpretability of Frontier Models",
+      "summary": "Anthropic released a landmark paper demonstrating scalable mechanistic interpretability techniques that can identify and map complete reasoning circuits in models with over 500 billion parameters. The research introduces 'circuit tracing at scale,' enabling engineers to pinpoint exactly which internal representations drive specific model behaviors including deception and sycophancy. The work has immediate implications for AI safety, as it allows targeted intervention on undesirable behaviors without broad capability degradation.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com",
-      "category": "Innovation",
+      "category": "AI",
       "date": "2026-11-05"
     },
     {
-      "id": "8",
-      "title": "EU AI Act Enforcement Phase Begins with First Compliance Audits of Foundation Model Providers",
-      "summary": "The European Union's AI Office has initiated the first formal compliance audits under the AI Act's general-purpose AI model provisions, targeting major foundation model providers operating in the EU. Companies must demonstrate adequate risk assessments, red-teaming documentation, and compute reporting for models trained above the 10^25 FLOP threshold. The enforcement actions mark a pivotal moment in global AI regulation and are expected to set precedents for similar frameworks under development in the U.S. and Japan.",
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC has commenced high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, with first customers including NVIDIA and Apple expected to tape out AI-focused chips in early 2027. The node delivers approximately 25% performance improvement and 35% power reduction over N2, enabled by second-generation gate-all-around nanosheet transistors. This advancement is critical for the next generation of AI training chips that are increasingly constrained by power envelope limitations in hyperscale data centers.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-10-30"
+    },
+    {
+      "id": "7",
+      "title": "EU AI Act Enforcement Phase II Takes Effect, Mandating Transparency for Foundation Models",
+      "summary": "The second major enforcement phase of the EU AI Act went into effect on November 1, requiring all providers of general-purpose AI models operating in the EU to publish detailed technical documentation including training data summaries, evaluation results, and energy consumption metrics. Companies deploying high-risk AI systems must now implement real-time monitoring and human oversight mechanisms. Several major US-based AI companies have announced compliance frameworks, while industry groups warn of potential fragmentation in global AI governance standards.",
       "source": "Financial Times",
       "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-11-02"
+      "date": "2026-11-01"
+    },
+    {
+      "id": "8",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production to 10,000 Units Annually",
+      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Bezos Expeditions, valuing the company at $12 billion, with plans to build a dedicated manufacturing facility in Texas capable of producing 10,000 humanoid robots per year by late 2027. The funding will also accelerate development of Figure's second-generation robot featuring an on-board vision-language-action model co-developed with OpenAI. The company reports active pilot deployments with BMW, Amazon, and two major logistics providers.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "Robotics",
+      "date": "2026-11-06"
     }
   ]
 }
