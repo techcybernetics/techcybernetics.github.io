@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-07",
+  "lastUpdated": "2026-11-08",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Audio, Video, and Code",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can simultaneously process video streams, audio, and codebases in a single context window exceeding 1M tokens. Benchmarks show a significant leap in complex multi-step reasoning tasks, particularly in mathematical proof generation and large-scale code refactoring. The model also introduces a new \"chain-of-tools\" capability that autonomously orchestrates API calls and tool use without explicit prompting.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring significantly improved chain-of-thought reasoning that operates natively across text, image, audio, and code modalities simultaneously. Benchmarks show a 38% improvement on SWE-bench and near-human performance on graduate-level scientific reasoning tasks. The model also introduces a persistent memory architecture that maintains coherent context across sessions without explicit retrieval augmentation.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,65 +12,65 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on ARC-AGI-2 Benchmark",
-      "summary": "DeepMind announced that Gemini Ultra 2 has scored 82% on the ARC-AGI-2 benchmark, a significant jump from previous frontier model performance and approaching human-level abstract reasoning. The result was achieved through a novel architecture combining neurosymbolic program synthesis with large-scale transformer reasoning. Researchers caution that the benchmark, while indicative, does not equate to general intelligence but represents a meaningful milestone in fluid reasoning capability.",
+      "title": "Google DeepMind's Gemini Robotics Foundation Model Enables Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "DeepMind published results from its Gemini Robotics foundation model, demonstrating that a single vision-language-action model can perform complex manipulation tasks in novel environments without task-specific fine-tuning. The system was tested across 14 different robot embodiments and achieved an 87% success rate on previously unseen household tasks. This represents a major step toward general-purpose robotic intelligence that transfers across hardware platforms.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-11-01"
+      "category": "Robotics",
+      "date": "2026-11-06"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robot in select Gigafactory assembly stations, handling component sorting, quality inspection, and light material transport tasks. The Gen 3 model features improved dexterous manipulation with 22-DOF hands and a vision-language-action model trained on millions of hours of factory teleoperation data. Tesla claims the units are operating with less than 0.3% error rates in structured tasks, though union representatives have raised workforce displacement concerns.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-11-03"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Sites",
-      "summary": "Boston Dynamics officially launched its commercial Atlas platform tailored for construction environments, featuring autonomous navigation across uneven terrain, heavy payload manipulation up to 30kg, and real-time BIM integration for task planning. The electric humanoid can operate for up to 6 hours on a single charge and leverages a foundation model for interpreting natural language instructions from site supervisors. Pilot programs are underway with three major construction firms in South Korea and the United States.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-10-29"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Publishes Breakthrough Research on Mechanistic Interpretability of Frontier Models",
-      "summary": "Anthropic released a landmark paper demonstrating scalable mechanistic interpretability techniques that can identify and map complete reasoning circuits in models with over 500 billion parameters. The research introduces 'circuit tracing at scale,' enabling engineers to pinpoint exactly which internal representations drive specific model behaviors including deception and sycophancy. The work has immediate implications for AI safety, as it allows targeted intervention on undesirable behaviors without broad capability degradation.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "category": "AI",
-      "date": "2026-11-05"
-    },
-    {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Process Node, Powering Next-Gen AI Accelerators",
-      "summary": "TSMC has commenced high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, with first customers including NVIDIA and Apple expected to tape out AI-focused chips in early 2027. The node delivers approximately 25% performance improvement and 35% power reduction over N2, enabled by second-generation gate-all-around nanosheet transistors. This advancement is critical for the next generation of AI training chips that are increasingly constrained by power envelope limitations in hyperscale data centers.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node using gate-all-around (GAA) transistor architecture has entered volume production, roughly two months ahead of the original timeline. The node delivers a 20% performance uplift and 30% power reduction compared to N2, targeting AI accelerator and high-performance computing workloads. Major customers including NVIDIA and Apple are expected to tape out designs within the first quarter of 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-10-30"
+      "date": "2026-11-05"
     },
     {
-      "id": "7",
-      "title": "EU AI Act Enforcement Phase II Takes Effect, Mandating Transparency for Foundation Models",
-      "summary": "The second major enforcement phase of the EU AI Act went into effect on November 1, requiring all providers of general-purpose AI models operating in the EU to publish detailed technical documentation including training data summaries, evaluation results, and energy consumption metrics. Companies deploying high-risk AI systems must now implement real-time monitoring and human oversight mechanisms. Several major US-based AI companies have announced compliance frameworks, while industry groups warn of potential fragmentation in global AI governance standards.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "Innovation",
+      "id": "4",
+      "title": "Anthropic Introduces Constitutional Classifiers v2 to Defend Against Jailbreak and Prompt Injection Attacks",
+      "summary": "Anthropic published a technical report on Constitutional Classifiers v2, a layered defense system that reduces successful jailbreak rates to under 0.2% on adversarial benchmarks while maintaining low refusal rates on benign queries. The system uses a novel approach of training lightweight classifier heads on constitutionally generated attack-and-defense pairs. The technique is model-agnostic and Anthropic is releasing the training framework as open source to improve ecosystem-wide safety.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "5",
+      "title": "Boston Dynamics and Hyundai Unveil Commercial Atlas Fleet for Automotive Manufacturing Lines",
+      "summary": "Boston Dynamics officially launched the commercial deployment of its electric Atlas humanoid robot fleet in three Hyundai-Kia automotive plants in South Korea. The robots handle heavy part transfer, quality inspection via onboard vision, and adaptive assembly tasks alongside human workers. Each unit operates autonomously for 8-hour shifts with a reported 99.1% uptime, marking the most significant real-world humanoid deployment in manufacturing to date.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "6",
+      "title": "Meta Open-Sources Llama 4 Scout and Maverick Models with 10M Token Context and MoE Architecture",
+      "summary": "Meta released Llama 4 Scout (17B active parameters, 109B total) and Maverick (17B active/128B total) under a permissive license, both leveraging mixture-of-experts with native support for up to 10 million token context windows. Scout achieves competitive performance with GPT-4o on major benchmarks while being deployable on a single H100 node. The release includes optimized inference code for vLLM and TensorRT-LLM, significantly lowering the cost of long-context enterprise deployments.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "AI",
       "date": "2026-11-01"
     },
     {
+      "id": "7",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independently Verified Tests",
+      "summary": "QuantumScape reported independently verified results for its latest solid-state lithium-metal cell achieving 600 Wh/kg gravimetric energy density with over 1,000 cycle durability at 80% capacity retention. This nearly doubles the energy density of current state-of-the-art lithium-ion cells used in EVs and drones. The company announced a partnership with Volkswagen to begin pilot production in early 2027, potentially transforming range economics for electric vehicles and eVTOL aircraft.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "Innovation",
+      "date": "2026-11-02"
+    },
+    {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production to 10,000 Units Annually",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Bezos Expeditions, valuing the company at $12 billion, with plans to build a dedicated manufacturing facility in Texas capable of producing 10,000 humanoid robots per year by late 2027. The funding will also accelerate development of Figure's second-generation robot featuring an on-board vision-language-action model co-developed with OpenAI. The company reports active pilot deployments with BMW, Amazon, and two major logistics providers.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "category": "Robotics",
+      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
+      "summary": "The European Commission initiated its first formal compliance audits under the EU AI Act, targeting six major foundation model providers including OpenAI, Google, and Meta to assess systemic risk evaluations, red-teaming documentation, and energy consumption reporting. Companies face fines of up to 7% of global annual revenue for non-compliance with general-purpose AI model obligations. The enforcement actions are being closely watched as a precedent that could shape global AI governance frameworks.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "Innovation",
       "date": "2026-11-06"
     }
   ]
