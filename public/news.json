@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-08",
+  "lastUpdated": "2026-11-09",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring significantly improved chain-of-thought reasoning that operates natively across text, image, audio, and code modalities simultaneously. Benchmarks show a 38% improvement on SWE-bench and near-human performance on graduate-level scientific reasoning tasks. The model also introduces a persistent memory architecture that maintains coherent context across sessions without explicit retrieval augmentation.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Text, Image, Audio, and Video",
+      "summary": "OpenAI released GPT-5 Turbo, which features deeply integrated multimodal reasoning that can process and cross-reference video, audio, images, and text in a single inference pass. Benchmarks show a 40% improvement on complex multi-step reasoning tasks compared to GPT-4o, with significantly reduced hallucination rates. The model is available via API with a new tiered pricing structure aimed at enterprise adoption.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -12,66 +12,66 @@
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Robotics Foundation Model Enables Zero-Shot Manipulation in Unstructured Environments",
-      "summary": "DeepMind published results from its Gemini Robotics foundation model, demonstrating that a single vision-language-action model can perform complex manipulation tasks in novel environments without task-specific fine-tuning. The system was tested across 14 different robot embodiments and achieved an 87% success rate on previously unseen household tasks. This represents a major step toward general-purpose robotic intelligence that transfers across hardware platforms.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Scientific Discovery Benchmarks",
+      "summary": "DeepMind unveiled Gemini Ultra 2, which set new records on ScienceBench and MathOdyssey, demonstrating an ability to generate novel hypotheses in materials science that were subsequently validated in the lab. The model leverages a new architecture combining mixture-of-experts with chain-of-thought verification layers, enabling more rigorous self-consistency in long-form scientific reasoning.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "3",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot has entered pilot deployment at select BMW manufacturing plants and Amazon fulfillment centers for bin-picking, parts transport, and light assembly tasks. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and on-device vision-language models for natural language task instruction. Early reports suggest the robots achieve roughly 85% of human worker throughput on targeted repetitive tasks.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-11-06"
     },
     {
-      "id": "3",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 process node using gate-all-around (GAA) transistor architecture has entered volume production, roughly two months ahead of the original timeline. The node delivers a 20% performance uplift and 30% power reduction compared to N2, targeting AI accelerator and high-performance computing workloads. Major customers including NVIDIA and Apple are expected to tape out designs within the first quarter of 2027.",
+      "id": "4",
+      "title": "Figure AI and Microsoft Partner on Foundation Models for General-Purpose Humanoid Control",
+      "summary": "Figure AI announced a deep partnership with Microsoft to co-develop large-scale foundation models specifically trained for humanoid robot control, combining sim-to-real transfer learning with massive real-world teleoperation datasets. The collaboration aims to create a general-purpose locomotion and manipulation stack that can be fine-tuned across different robot morphologies. Initial demos showed a Figure 03 robot autonomously navigating a cluttered construction site and performing tool use.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-11-02"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional AI v3 with Formal Verification Guarantees for Safety-Critical Deployments",
+      "summary": "Anthropic published research on Constitutional AI v3, which integrates formal verification methods to provide mathematical guarantees that model outputs stay within defined safety boundaries for specific deployment domains. The approach uses a combination of constrained decoding and proof-carrying responses in domains like medical advice and legal analysis. This marks a significant step toward AI systems that can be certified for use in regulated industries.",
+      "source": "Anthropic Research Blog",
+      "url": "https://www.anthropic.com",
+      "category": "AI",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, Enabling Next-Gen AI Accelerators",
+      "summary": "TSMC announced volume production on its N1.4 process node using next-generation gate-all-around transistors at its Kaohsiung fab, with first customers including NVIDIA and Apple. The node delivers a 25% performance uplift and 35% power reduction compared to N2, which is critical for scaling AI training and inference chips beyond current thermal limits. NVIDIA's next-generation Blackwell Ultra GPUs are expected to be among the first AI accelerators fabricated on this process.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
       "date": "2026-11-05"
     },
     {
-      "id": "4",
-      "title": "Anthropic Introduces Constitutional Classifiers v2 to Defend Against Jailbreak and Prompt Injection Attacks",
-      "summary": "Anthropic published a technical report on Constitutional Classifiers v2, a layered defense system that reduces successful jailbreak rates to under 0.2% on adversarial benchmarks while maintaining low refusal rates on benign queries. The system uses a novel approach of training lightweight classifier heads on constitutionally generated attack-and-defense pairs. The technique is model-agnostic and Anthropic is releasing the training framework as open source to improve ecosystem-wide safety.",
-      "source": "Anthropic Research Blog",
-      "url": "https://www.anthropic.com",
-      "category": "AI",
-      "date": "2026-11-03"
-    },
-    {
-      "id": "5",
-      "title": "Boston Dynamics and Hyundai Unveil Commercial Atlas Fleet for Automotive Manufacturing Lines",
-      "summary": "Boston Dynamics officially launched the commercial deployment of its electric Atlas humanoid robot fleet in three Hyundai-Kia automotive plants in South Korea. The robots handle heavy part transfer, quality inspection via onboard vision, and adaptive assembly tasks alongside human workers. Each unit operates autonomously for 8-hour shifts with a reported 99.1% uptime, marking the most significant real-world humanoid deployment in manufacturing to date.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "6",
-      "title": "Meta Open-Sources Llama 4 Scout and Maverick Models with 10M Token Context and MoE Architecture",
-      "summary": "Meta released Llama 4 Scout (17B active parameters, 109B total) and Maverick (17B active/128B total) under a permissive license, both leveraging mixture-of-experts with native support for up to 10 million token context windows. Scout achieves competitive performance with GPT-4o on major benchmarks while being deployable on a single H100 node. The release includes optimized inference code for vLLM and TensorRT-LLM, significantly lowering the cost of long-context enterprise deployments.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com",
-      "category": "AI",
-      "date": "2026-11-01"
-    },
-    {
       "id": "7",
-      "title": "Breakthrough Solid-State Battery from QuantumScape Achieves 600 Wh/kg in Independently Verified Tests",
-      "summary": "QuantumScape reported independently verified results for its latest solid-state lithium-metal cell achieving 600 Wh/kg gravimetric energy density with over 1,000 cycle durability at 80% capacity retention. This nearly doubles the energy density of current state-of-the-art lithium-ion cells used in EVs and drones. The company announced a partnership with Volkswagen to begin pilot production in early 2027, potentially transforming range economics for electric vehicles and eVTOL aircraft.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target Foundation Model Providers",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the AI Act, targeting major foundation model providers including OpenAI, Google, and Meta for their general-purpose AI systems classified as systemic risk. Companies are required to demonstrate red-teaming procedures, compute reporting, and downstream risk assessments. The audits are being closely watched as a template for AI governance worldwide and have already prompted several providers to publish detailed model cards and safety evaluations.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
       "category": "Innovation",
-      "date": "2026-11-02"
+      "date": "2026-11-08"
     },
     {
       "id": "8",
-      "title": "EU AI Act Enforcement Begins with First Compliance Audits Targeting Foundation Model Providers",
-      "summary": "The European Commission initiated its first formal compliance audits under the EU AI Act, targeting six major foundation model providers including OpenAI, Google, and Meta to assess systemic risk evaluations, red-teaming documentation, and energy consumption reporting. Companies face fines of up to 7% of global annual revenue for non-compliance with general-purpose AI model obligations. The enforcement actions are being closely watched as a precedent that could shape global AI governance frameworks.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Innovation",
-      "date": "2026-11-06"
+      "title": "Boston Dynamics and Hyundai Unveil New Electric Atlas with 4-Hour Runtime and Enhanced Autonomous Navigation",
+      "summary": "Boston Dynamics, backed by Hyundai, revealed a major update to its electric Atlas humanoid platform featuring a redesigned battery system that extends operational runtime to over four hours under load and a new autonomous navigation stack built on 3D Gaussian splatting for real-time scene understanding. The updated Atlas completed a public demo navigating a multi-story construction site, climbing stairs, and carrying 30 kg payloads. Hyundai plans to deploy units in its Ulsan shipyard by Q1 2027.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
+      "date": "2026-11-03"
     }
   ]
 }
