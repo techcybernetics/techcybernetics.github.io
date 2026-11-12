@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-11-11",
+  "lastUpdated": "2026-11-12",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI launched GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-Bench over GPT-4.5 and significantly reduced hallucination rates on factual retrieval tasks. The model is available through the API with a new streaming architecture that reduces time-to-first-token by over 50%.",
+      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
+      "summary": "OpenAI launched GPT-5 Turbo in late October 2026, featuring a natively multimodal architecture that jointly reasons over text, images, audio, and video within a single forward pass. The model supports a 1-million-token context window with significantly improved recall accuracy, marking a step change in long-document and multi-session agentic workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-11-08"
+      "date": "2026-10-29"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Silver Medal Performance on International Math Olympiad Problems",
-      "summary": "DeepMind announced that Gemini Ultra 2 solved 4 out of 6 problems on a held-out set of recent IMO-level competition problems, achieving an effective silver medal. The system leverages a novel chain-of-thought search process combined with formal verification using Lean 4, representing a major step toward AI systems that can perform rigorous mathematical reasoning with provable correctness.",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored a verified 92% on the 2026 International Mathematical Olympiad qualifying problem set, surpassing all previous AI systems. The model employs a novel chain-of-verification architecture that self-checks logical steps before committing to a proof path, significantly reducing hallucinated reasoning chains.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
-      "date": "2026-11-05"
+      "date": "2026-11-04"
     },
     {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Pilot Deployment in Amazon Fulfillment Centers",
-      "summary": "Amazon confirmed a pilot program deploying 1,000 Tesla Optimus Gen 3 humanoid robots across three fulfillment centers in Texas and Ohio for pick-and-pack operations. The robots use on-device vision-language models for zero-shot object manipulation and reportedly achieve 85% of human pick rates. The partnership signals accelerating commercialization of general-purpose humanoid robotics in logistics.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
+      "summary": "Tesla's third-generation Optimus humanoid robot entered pilot deployment at BMW's Spartanburg plant and select Amazon fulfillment centers in early November. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and can autonomously adapt to new pick-and-place tasks after fewer than 10 human demonstrations, leveraging onboard vision-language-action models.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
@@ -30,46 +30,46 @@
     },
     {
       "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Multi-Floor Building Inspections",
-      "summary": "Boston Dynamics demonstrated its electric Atlas robot autonomously navigating multi-story commercial buildings, climbing stairs, opening doors, and conducting visual and thermal inspections without human teleoperation. The system uses a combination of LiDAR SLAM and foundation-model-based scene understanding to build real-time 3D maps and flag structural or mechanical anomalies. Several commercial real estate firms have signed contracts for 2027 deployments.",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Construction Site Inspections",
+      "summary": "Boston Dynamics revealed that its electric Atlas humanoid robot is conducting fully autonomous structural inspections at Skanska construction sites in the UK and US. The system combines real-time LiDAR SLAM with a fine-tuned vision model to identify defects, deviations from BIM plans, and safety hazards, generating compliance reports without human intervention.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-11-03"
+      "date": "2026-11-01"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces 'Constitutional Classifiers' to Defend Against Jailbreak Attacks on Enterprise AI",
-      "summary": "Anthropic published research on Constitutional Classifiers, a layered defense system that reduces successful jailbreak rates on Claude deployments to under 1% across red-team evaluations. The technique trains lightweight classifier models on synthetically generated adversarial prompts guided by constitutional principles, adding minimal latency. Enterprise customers in healthcare and finance are already integrating the system for compliance-critical deployments.",
-      "source": "Anthropic Blog",
-      "url": "https://www.anthropic.com",
+      "title": "Anthropic Introduces Claude 4 with Persistent Memory and Tool-Use Orchestration",
+      "summary": "Anthropic released Claude 4 with a persistent episodic memory system that allows the model to retain user context across sessions without reprocessing full histories. The new architecture also includes a built-in tool-use orchestration layer that lets the model plan and execute multi-step workflows across APIs, databases, and code interpreters with improved reliability and auditability.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
       "category": "AI",
-      "date": "2026-11-07"
+      "date": "2026-11-08"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Risk Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC announced that risk production on its A14 (1.4nm-class) process node has commenced at Fab 20 in Hsinchu, several months ahead of the original timeline. The node utilizes gate-all-around nanosheet transistors with backside power delivery, promising 25% performance gains or 35% power reduction versus the N2 node. Apple and Nvidia are expected to be lead customers with chips taping out in early 2027.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for AI Accelerators",
+      "summary": "TSMC confirmed volume production has started on its N1.4 gate-all-around (GAA) transistor process, with first customers including NVIDIA and Apple. The node delivers approximately 35% improved performance per watt over N2, which is expected to enable a new generation of AI training and inference chips shipping in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
-      "date": "2026-11-04"
+      "date": "2026-11-03"
     },
     {
       "id": "7",
-      "title": "Waymo Surpasses 10 Million Fully Autonomous Rides as Expansion Hits Tokyo",
-      "summary": "Waymo announced it has completed over 10 million fully driverless rides globally and is launching its first non-US commercial service in Tokyo in partnership with Nihon Kotsu. The Tokyo deployment uses a new sensor suite optimized for dense urban environments with high pedestrian and cyclist traffic. Waymo's cumulative autonomous miles now exceed 100 million across San Francisco, Phoenix, Los Angeles, Austin, and Tokyo.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Trial",
+      "summary": "The FDA granted Neuralink approval to begin human trials of its N2 implant, which features 4,096 electrodes—a fourfold increase over the first generation—and wireless data transfer at 200 Mbps. The expanded trial will enroll 50 patients with spinal cord injuries, aiming to demonstrate high-bandwidth bidirectional communication for motor restoration and sensory feedback.",
+      "source": "STAT News",
+      "url": "https://www.statnews.com",
       "category": "Innovation",
       "date": "2026-11-10"
     },
     {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
-      "summary": "Figure AI closed a $1.5 billion Series C at a $15 billion valuation led by Microsoft and Bezos Expeditions, earmarked for building a dedicated humanoid robot manufacturing facility in South Carolina. The company's Figure 03 robot integrates an on-device multimodal model co-developed with OpenAI for natural language task instruction and adaptive manipulation. Figure plans to produce 10,000 units annually by late 2027 for automotive and logistics customers.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Figure AI and Microsoft Partner to Deploy Foundation-Model-Powered Humanoids in Data Centers",
+      "summary": "Figure AI announced a partnership with Microsoft to deploy its Figure 03 humanoid robots for physical data center operations including cable management, hardware swaps, and rack inspections. The robots run a jointly developed vision-language-action foundation model fine-tuned on data center operations, representing one of the first large-scale integrations of LLM-driven humanoid labor in critical IT infrastructure.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
       "category": "Robotics",
       "date": "2026-11-09"
     }
