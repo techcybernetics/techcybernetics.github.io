@@ -1,75 +1,75 @@
 {
-  "lastUpdated": "2026-11-12",
+  "lastUpdated": "2026-11-13",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Releases GPT-5 Turbo with Native Multimodal Reasoning and 1M Token Context",
-      "summary": "OpenAI launched GPT-5 Turbo in late October 2026, featuring a natively multimodal architecture that jointly reasons over text, images, audio, and video within a single forward pass. The model supports a 1-million-token context window with significantly improved recall accuracy, marking a step change in long-document and multi-session agentic workflows.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly analyze video feeds, codebases, and audio streams in a single inference pass. The model demonstrates significant improvements on agentic coding benchmarks like SWE-bench Verified, scoring over 75%, and introduces a new long-context architecture supporting 1M+ token windows with minimal degradation. This positions it as a serious contender for enterprise-grade autonomous software engineering workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
-      "category": "AI",
-      "date": "2026-10-29"
-    },
-    {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored a verified 92% on the 2026 International Mathematical Olympiad qualifying problem set, surpassing all previous AI systems. The model employs a novel chain-of-verification architecture that self-checks logical steps before committing to a proof path, significantly reducing hallucinated reasoning chains.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-11-04"
-    },
-    {
-      "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in BMW and Amazon Warehouses",
-      "summary": "Tesla's third-generation Optimus humanoid robot entered pilot deployment at BMW's Spartanburg plant and select Amazon fulfillment centers in early November. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and can autonomously adapt to new pick-and-place tasks after fewer than 10 human demonstrations, leveraging onboard vision-language-action models.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Construction Site Inspections",
-      "summary": "Boston Dynamics revealed that its electric Atlas humanoid robot is conducting fully autonomous structural inspections at Skanska construction sites in the UK and US. The system combines real-time LiDAR SLAM with a fine-tuned vision model to identify defects, deviations from BIM plans, and safety hazards, generating compliance reports without human intervention.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
-      "category": "Robotics",
-      "date": "2026-11-01"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Claude 4 with Persistent Memory and Tool-Use Orchestration",
-      "summary": "Anthropic released Claude 4 with a persistent episodic memory system that allows the model to retain user context across sessions without reprocessing full histories. The new architecture also includes a built-in tool-use orchestration layer that lets the model plan and execute multi-step workflows across APIs, databases, and code interpreters with improved reliability and auditability.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
       "category": "AI",
       "date": "2026-11-08"
     },
     {
-      "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for AI Accelerators",
-      "summary": "TSMC confirmed volume production has started on its N1.4 gate-all-around (GAA) transistor process, with first customers including NVIDIA and Apple. The node delivers approximately 35% improved performance per watt over N2, which is expected to enable a new generation of AI training and inference chips shipping in early 2027.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-11-03"
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
+      "summary": "DeepMind announced Gemini Ultra 2, which surpasses previous frontier models on GPQA Diamond and a new suite of graduate-level scientific reasoning tasks spanning physics, chemistry, and biology. The model leverages a novel mixture-of-experts architecture with over 2 trillion parameters and demonstrates emergent chain-of-thought capabilities in formal mathematical proofs. Google is integrating it across Workspace and Cloud Vertex AI with sub-second latency for most queries.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "AI",
+      "date": "2026-11-06"
     },
     {
-      "id": "7",
-      "title": "Neuralink Receives FDA Approval for Second-Generation Brain-Computer Interface Trial",
-      "summary": "The FDA granted Neuralink approval to begin human trials of its N2 implant, which features 4,096 electrodes—a fourfold increase over the first generation—and wireless data transfer at 200 Mbps. The expanded trial will enroll 50 patients with spinal cord injuries, aiming to demonstrate high-bandwidth bidirectional communication for motor restoration and sensory feedback.",
-      "source": "STAT News",
-      "url": "https://www.statnews.com",
-      "category": "Innovation",
+      "id": "3",
+      "title": "Figure Robotics Deploys Humanoid Workers at BMW's Spartanburg Plant at Scale",
+      "summary": "Figure AI announced the deployment of over 200 of its Figure 03 humanoid robots at BMW's Spartanburg, South Carolina manufacturing facility, marking the largest commercial humanoid deployment in automotive history. The robots handle bin picking, parts transfer, and quality inspection tasks with a reported 99.2% reliability rate across 16-hour shifts. The deployment uses on-device vision-language models fine-tuned for factory-floor object recognition and manipulation.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
+      "category": "Robotics",
       "date": "2026-11-10"
     },
     {
-      "id": "8",
-      "title": "Figure AI and Microsoft Partner to Deploy Foundation-Model-Powered Humanoids in Data Centers",
-      "summary": "Figure AI announced a partnership with Microsoft to deploy its Figure 03 humanoid robots for physical data center operations including cable management, hardware swaps, and rack inspections. The robots run a jointly developed vision-language-action foundation model fine-tuned on data center operations, representing one of the first large-scale integrations of LLM-driven humanoid labor in critical IT infrastructure.",
+      "id": "4",
+      "title": "Boston Dynamics Atlas Now Performs Autonomous Disaster Search-and-Rescue in DARPA Trials",
+      "summary": "Boston Dynamics showcased the latest electric Atlas performing fully autonomous search-and-rescue operations during DARPA's Urban Disaster Response trials, navigating collapsed structures and identifying simulated survivors using onboard LiDAR and thermal imaging. The robot demonstrated dynamic replanning in GPS-denied environments and completed obstacle courses 40% faster than its nearest competitor. The system runs a custom transformer-based navigation policy trained in high-fidelity simulation.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com",
+      "category": "Robotics",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Introduces Constitutional AI Oversight Framework Adopted by EU AI Office",
+      "summary": "Anthropic published a comprehensive constitutional AI governance framework that has been formally adopted by the EU AI Office as a reference standard for high-risk AI system compliance under the AI Act. The framework includes automated red-teaming protocols, interpretability auditing requirements, and a tiered deployment gate system based on capability evaluations. This represents one of the first instances of an AI lab's internal safety methodology becoming regulatory infrastructure.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "AI",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "6",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Transistors Ahead of Schedule",
+      "summary": "TSMC announced that its N1.4 process node using gate-all-around (GAA) nanosheet transistors has entered volume production at its Fab 20 in Hsinchu, roughly one quarter ahead of its original roadmap. The node delivers a 20% performance uplift and 30% power reduction over N2, and is expected to power next-generation AI accelerators from NVIDIA and Apple beginning mid-2027. This milestone intensifies the competition with Samsung Foundry and Intel, both of whom have faced delays on comparable nodes.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum jointly demonstrated sustained fault-tolerant operations on logical qubits with error rates below the critical threshold needed for practical quantum error correction, using Quantinuum's H3 trapped-ion processor. The team executed over 10,000 consecutive logical CNOT gates with a logical error rate of 10^-7, a roughly 100x improvement over results published earlier this year. This brings commercially viable quantum computing meaningfully closer, particularly for quantum chemistry and optimization workloads.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "8",
+      "title": "Tesla Optimus Gen 3 Begins Limited Household Beta Program in Select U.S. Markets",
+      "summary": "Tesla launched a limited beta program placing Optimus Gen 3 humanoid robots in approximately 1,000 households across Texas and California for domestic assistance tasks including laundry folding, dishwashing, and basic meal preparation. The robot uses an end-to-end vision-language-action model derived from Tesla's FSD neural network stack, with over-the-air updates planned biweekly. Early reports indicate strong performance on structured tasks but continued challenges with highly deformable objects and cluttered environments.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-11-09"
     }
