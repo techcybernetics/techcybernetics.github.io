@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-11-13",
+  "lastUpdated": "2026-11-14",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly analyze video feeds, codebases, and audio streams in a single inference pass. The model demonstrates significant improvements on agentic coding benchmarks like SWE-bench Verified, scoring over 75%, and introduces a new long-context architecture supporting 1M+ token windows with minimal degradation. This positions it as a serious contender for enterprise-grade autonomous software engineering workflows.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. The model demonstrates significant improvements on agentic coding benchmarks such as SWE-bench Verified, reportedly resolving over 70% of real-world GitHub issues autonomously. The release intensifies competition with Google's Gemini Ultra 2 and Anthropic's Claude 4, both of which shipped major updates in Q3 2026.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
-      "date": "2026-11-08"
+      "date": "2026-11-11"
     },
     {
       "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Graduate-Level Science Benchmarks",
-      "summary": "DeepMind announced Gemini Ultra 2, which surpasses previous frontier models on GPQA Diamond and a new suite of graduate-level scientific reasoning tasks spanning physics, chemistry, and biology. The model leverages a novel mixture-of-experts architecture with over 2 trillion parameters and demonstrates emergent chain-of-thought capabilities in formal mathematical proofs. Google is integrating it across Workspace and Cloud Vertex AI with sub-second latency for most queries.",
+      "title": "Google DeepMind's Gemini Robotics 2.0 Achieves Zero-Shot Manipulation in Unstructured Environments",
+      "summary": "DeepMind unveiled Gemini Robotics 2.0, a foundation model for robotic manipulation that generalizes to novel objects and cluttered real-world environments without task-specific fine-tuning. Using a combination of large-scale simulation pre-training and real-world teleoperation data, the system achieved an 89% success rate on previously unseen pick-and-place tasks across multiple robot embodiments. The work marks a significant step toward general-purpose robotic autonomy in warehouse and household settings.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-11-06"
+      "category": "Robotics",
+      "date": "2026-11-08"
     },
     {
       "id": "3",
-      "title": "Figure Robotics Deploys Humanoid Workers at BMW's Spartanburg Plant at Scale",
-      "summary": "Figure AI announced the deployment of over 200 of its Figure 03 humanoid robots at BMW's Spartanburg, South Carolina manufacturing facility, marking the largest commercial humanoid deployment in automotive history. The robots handle bin picking, parts transfer, and quality inspection tasks with a reported 99.2% reliability rate across 16-hour shifts. The deployment uses on-device vision-language models fine-tuned for factory-floor object recognition and manipulation.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node for AI Accelerators",
+      "summary": "TSMC announced that its N1.4 gate-all-around (GAA) transistor process has entered high-volume manufacturing at its Kaohsiung fab, with first customer shipments expected in early 2027. The node delivers a roughly 25% power efficiency gain over the N2 node, which is critical for next-generation AI training and inference chips from NVIDIA, AMD, and Apple. The milestone cements TSMC's process leadership amid intensifying geopolitical pressure and competition from Samsung's SF1.4 node.",
+      "source": "AnandTech",
+      "url": "https://www.anandtech.com",
+      "category": "Innovation",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Autonomous Agent Deployments",
+      "summary": "Anthropic published a new Constitutional AI Oversight (CAIO) framework designed to provide runtime safety guarantees for long-running autonomous AI agents operating in production environments. The system uses a hierarchy of monitor models that evaluate agent actions against predefined constitutional principles in real time, with automatic escalation and human-in-the-loop intervention triggers. Early adopters in financial services and healthcare report a 60% reduction in unsafe agent behaviors during pilot deployments.",
+      "source": "Wired",
+      "url": "https://www.wired.com",
+      "category": "AI",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "5",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Automotive Assembly Lines",
+      "summary": "Boston Dynamics, backed by Hyundai, officially launched the commercial Atlas humanoid robot platform tailored for automotive manufacturing, featuring hot-swappable end effectors and a 25 kg payload capacity per arm. The robot integrates a new proprioceptive whole-body controller that enables it to navigate dynamic factory floors and collaborate safely alongside human workers without caging. Hyundai plans to deploy over 200 units across its South Korean assembly plants by mid-2027.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
       "date": "2026-11-10"
     },
     {
-      "id": "4",
-      "title": "Boston Dynamics Atlas Now Performs Autonomous Disaster Search-and-Rescue in DARPA Trials",
-      "summary": "Boston Dynamics showcased the latest electric Atlas performing fully autonomous search-and-rescue operations during DARPA's Urban Disaster Response trials, navigating collapsed structures and identifying simulated survivors using onboard LiDAR and thermal imaging. The robot demonstrated dynamic replanning in GPS-denied environments and completed obstacle courses 40% faster than its nearest competitor. The system runs a custom transformer-based navigation policy trained in high-fidelity simulation.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
-      "category": "Robotics",
-      "date": "2026-11-11"
-    },
-    {
-      "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework Adopted by EU AI Office",
-      "summary": "Anthropic published a comprehensive constitutional AI governance framework that has been formally adopted by the EU AI Office as a reference standard for high-risk AI system compliance under the AI Act. The framework includes automated red-teaming protocols, interpretability auditing requirements, and a tiered deployment gate system based on capability evaluations. This represents one of the first instances of an AI lab's internal safety methodology becoming regulatory infrastructure.",
-      "source": "Financial Times",
-      "url": "https://www.ft.com",
-      "category": "AI",
-      "date": "2026-11-12"
-    },
-    {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Transistors Ahead of Schedule",
-      "summary": "TSMC announced that its N1.4 process node using gate-all-around (GAA) nanosheet transistors has entered volume production at its Fab 20 in Hsinchu, roughly one quarter ahead of its original roadmap. The node delivers a 20% performance uplift and 30% power reduction over N2, and is expected to power next-generation AI accelerators from NVIDIA and Apple beginning mid-2027. This milestone intensifies the competition with Samsung Foundry and Intel, both of whom have faced delays on comparable nodes.",
-      "source": "AnandTech",
-      "url": "https://www.anandtech.com",
+      "title": "Meta Releases Open-Source Llama 4 Models with 1 Trillion Parameter MoE Architecture",
+      "summary": "Meta released the Llama 4 model family under a permissive open-source license, headlined by a 1-trillion-parameter mixture-of-experts model that activates only 140 billion parameters per forward pass. Benchmarks show performance competitive with proprietary frontier models on reasoning, math, and multilingual tasks while running efficiently on clusters of 8 GPUs for inference via expert parallelism. The release is expected to accelerate open-source AI research and enterprise adoption significantly.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "AI",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "7",
+      "title": "Breakthrough Solid-State Battery from QuantumScape Hits 1,000-Cycle Milestone in EV Road Tests",
+      "summary": "QuantumScape reported that its lithium-metal solid-state battery cells have surpassed 1,000 full charge-discharge cycles in real-world EV road testing with an undisclosed automotive OEM partner while retaining over 90% capacity. The cells deliver roughly double the energy density of conventional lithium-ion packs, potentially enabling 600+ mile EV ranges in standard sedan form factors. The milestone addresses the most persistent skepticism around solid-state durability and brings commercial deployment timelines into sharper focus for 2028.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
       "category": "Innovation",
       "date": "2026-11-07"
     },
     {
-      "id": "7",
-      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Logical Qubit Operations Below Error Threshold",
-      "summary": "Microsoft and Quantinuum jointly demonstrated sustained fault-tolerant operations on logical qubits with error rates below the critical threshold needed for practical quantum error correction, using Quantinuum's H3 trapped-ion processor. The team executed over 10,000 consecutive logical CNOT gates with a logical error rate of 10^-7, a roughly 100x improvement over results published earlier this year. This brings commercially viable quantum computing meaningfully closer, particularly for quantum chemistry and optimization workloads.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
-      "category": "Innovation",
-      "date": "2026-11-05"
-    },
-    {
       "id": "8",
-      "title": "Tesla Optimus Gen 3 Begins Limited Household Beta Program in Select U.S. Markets",
-      "summary": "Tesla launched a limited beta program placing Optimus Gen 3 humanoid robots in approximately 1,000 households across Texas and California for domestic assistance tasks including laundry folding, dishwashing, and basic meal preparation. The robot uses an end-to-end vision-language-action model derived from Tesla's FSD neural network stack, with over-the-air updates planned biweekly. Early reports indicate strong performance on structured tasks but continued challenges with highly deformable objects and cluttered environments.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com",
-      "category": "Robotics",
+      "title": "EU AI Act Enforcement Begins: First Compliance Audits Target High-Risk AI Systems in Healthcare",
+      "summary": "The European Union's AI Office initiated its first formal compliance audits under the fully enforceable EU AI Act, focusing on high-risk AI systems deployed in medical diagnostics and clinical decision support. Several major health-tech vendors received requests for technical documentation including training data provenance, bias testing results, and post-market monitoring plans. The enforcement actions are being closely watched globally as a bellwether for how prescriptive AI regulation will function in practice.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "Innovation",
       "date": "2026-11-09"
     }
   ]
