@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-15",
+  "lastUpdated": "2026-11-16",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-Bench over its predecessor, with significantly reduced hallucination rates on factual retrieval tasks. The model is available through the API with a new structured-output guarantee mode aimed at enterprise integrations.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and Audio",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process video streams, codebases, and audio in a single context window of up to 1 million tokens. Benchmarks show a 38% improvement on SWE-Bench over GPT-4.5, with notably stronger performance on multi-file refactoring and architectural reasoning tasks. The model is available via API with a new streaming mode optimized for real-time agent workflows.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
       "category": "AI",
@@ -13,7 +13,7 @@
     {
       "id": "2",
       "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored a verified 92% on a curated set of International Mathematical Olympiad problems, surpassing all prior AI systems. The model uses a novel chain-of-verification architecture that cross-checks intermediate proof steps against a formal theorem prover. Researchers note this represents a meaningful step toward AI systems that can assist with open mathematical conjectures.",
+      "summary": "DeepMind announced Gemini Ultra 2, which scored a gold-medal-equivalent 94% on a curated set of International Mathematical Olympiad problems, surpassing all previous AI systems. The model uses a novel chain-of-verification architecture that cross-checks intermediate proof steps against a formal theorem-proving backend. Researchers say the approach could accelerate automated discovery in pure mathematics and theoretical physics.",
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com",
       "category": "AI",
@@ -21,17 +21,17 @@
     },
     {
       "id": "3",
-      "title": "Figure Robotics Deploys Humanoid Workers at BMW's Spartanburg Plant at Scale",
-      "summary": "Figure announced that over 200 of its Figure 03 humanoid robots are now operating across multiple assembly lines at BMW's South Carolina manufacturing facility, handling tasks from parts kitting to quality inspection. The robots leverage on-device vision-language models for real-time task adaptation without reprogramming. BMW reports a 17% throughput improvement in pilot zones with a safety record matching conventional automation.",
+      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Manufacturing Lines",
+      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in three of its U.S. Gigafactories for tasks including parts sorting, quality inspection, and bin picking. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and an on-device vision-language model for understanding natural-language task instructions. Tesla reports a 4x improvement in mean-time-between-failures compared to Gen 2 prototypes shown earlier this year.",
       "source": "Reuters",
       "url": "https://www.reuters.com",
       "category": "Robotics",
-      "date": "2026-11-13"
+      "date": "2026-11-14"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics Atlas Electric Demonstrates Autonomous Disaster Response in DARPA Field Trials",
-      "summary": "Boston Dynamics' fully electric Atlas robot completed a series of DARPA-supervised disaster response scenarios, autonomously navigating collapsed structures, opening doors and valves, and carrying 40 kg payloads over rubble. The system combines LiDAR-based real-time 3D reconstruction with a foundation model for semantic scene understanding to make navigation decisions. DARPA officials described it as the most capable autonomous disaster-response platform tested to date.",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Sim-to-Real Learning Pipeline",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform, backed by a fully integrated sim-to-real reinforcement learning pipeline that allows customers to train custom locomotion and manipulation skills in simulation and deploy them within hours. The system leverages a photorealistic digital twin environment built on NVIDIA Omniverse. Early enterprise partners in logistics and construction report 60% reductions in task-programming time compared to traditional motion-planning approaches.",
       "source": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org",
       "category": "Robotics",
@@ -39,17 +39,17 @@
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Monitoring Framework for Enterprise Autonomous Agents",
-      "summary": "Anthropic released a new open-source framework for monitoring and constraining autonomous AI agents in enterprise environments, building on its constitutional AI research. The system provides real-time policy enforcement, audit logging, and automatic escalation when agents encounter edge cases outside their sanctioned behavior boundaries. Early adopters in financial services report it significantly reduces the risk surface of deploying agentic AI workflows in production.",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' for Enterprise-Grade AI Safety Guardrails",
+      "summary": "Anthropic published a new framework called Constitutional Classifiers, a modular safety layer that sits between LLM outputs and end users, applying learned constitutional principles to detect and mitigate harmful, biased, or policy-violating content in real time. The system is trained adversarially and reduced jailbreak success rates to under 1% in red-team evaluations while maintaining a less than 3% false-positive rate on benign queries. The framework ships as an open-weight toolkit for enterprise integration.",
       "source": "Wired",
       "url": "https://www.wired.com",
       "category": "AI",
-      "date": "2026-11-14"
+      "date": "2026-11-13"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm A14 Process Node Ahead of Schedule",
-      "summary": "TSMC confirmed it has started high-volume manufacturing on its A14 (1.4nm-class) process node at its Kaohsiung fab, approximately one quarter ahead of its original roadmap. The node uses gate-all-around nanosheet transistors with backside power delivery, yielding a 25% performance gain and 35% power reduction over N2. Apple and Nvidia are among the first customers expected to tape out designs on the process for late-2027 products.",
+      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
+      "summary": "TSMC announced the start of volume production on its N1.4 process node using gate-all-around nanosheet transistors, delivering a 20% performance uplift and 30% power reduction over its 2nm node. The first customers are expected to be Apple and NVIDIA for next-generation mobile SoCs and AI accelerators shipping in 2027. Industry analysts note this cements TSMC's lead over Samsung Foundry and Intel, which are still ramping their comparable nodes.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
       "category": "Innovation",
@@ -57,21 +57,21 @@
     },
     {
       "id": "7",
-      "title": "Meta Unveils Orion AR Glasses Consumer Edition with All-Day Battery and Real-Time AI Assistant",
-      "summary": "Meta officially announced the consumer version of its Orion augmented reality glasses, featuring a sleek form factor under 70 grams, a full-day battery via a belt-mounted compute puck, and a holographic waveguide display with a 70-degree field of view. The glasses ship with a deeply integrated Llama-4-powered AI assistant capable of real-time contextual awareness, object identification, and live translation. Pre-orders begin in early 2027 at $1,299.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Microsoft and Quantinuum Demonstrate Fault-Tolerant Quantum Circuit with 100+ Logical Qubits",
+      "summary": "Microsoft and Quantinuum jointly demonstrated a fault-tolerant quantum computation using over 100 logical qubits with error rates below the threshold needed for practical quantum advantage on certain optimization problems. The system combines Quantinuum's trapped-ion hardware with Microsoft's topological error-correction codes. While general-purpose quantum supremacy remains distant, the milestone opens the door to near-term applications in materials simulation and cryptographic research.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
       "category": "Innovation",
-      "date": "2026-11-09"
+      "date": "2026-11-06"
     },
     {
       "id": "8",
-      "title": "Toyota Research Institute Demonstrates Dexterous Bi-Manual Robot Learning from 50 Human Demonstrations",
-      "summary": "Toyota Research Institute published results showing its diffusion-policy-based robotic manipulation system can learn complex bi-manual tasks — such as folding garments and assembling multi-part objects — from as few as 50 human teleoperation demonstrations. The approach generalizes across object geometries not seen during training, a notable improvement over prior methods requiring thousands of examples. TRI plans to integrate the system into its home-assistant robot prototype for trials in elder-care facilities in 2027.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Production for Warehouse Automation",
+      "summary": "Figure AI closed a $1.5 billion Series C round led by Microsoft and Jeff Bezos' Explore Investments, valuing the company at $12 billion. The funding will be used to build a dedicated manufacturing facility in Texas and scale production of its Figure 03 humanoid to thousands of units per year. Figure's robots are already piloting at BMW and Amazon fulfillment centers, performing unstructured pick-and-place and collaborative packing tasks alongside human workers.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-11-07"
+      "date": "2026-11-15"
     }
   ]
 }
