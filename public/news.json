@@ -1,77 +1,77 @@
 {
-  "lastUpdated": "2026-11-22",
+  "lastUpdated": "2026-11-23",
   "articles": [
     {
       "id": "1",
-      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Vision, and Audio",
-      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, visual diagrams, and spoken instructions in a single inference pass. Benchmarks show a 38% improvement on SWE-bench over GPT-4o and significantly reduced hallucination rates on factual retrieval tasks. The model is available through the API with a new structured-output mode designed for agentic tool-use workflows.",
+      "title": "OpenAI Launches GPT-5 Turbo with Native Multimodal Reasoning Across Code, Video, and 3D",
+      "summary": "OpenAI released GPT-5 Turbo, featuring deeply integrated multimodal reasoning that can jointly process code repositories, video streams, and 3D scene data in a single context window. Benchmarks show a 40% improvement on SWE-bench and near-human performance on novel video understanding tasks, marking a significant step toward general-purpose AI agents.",
       "source": "The Verge",
       "url": "https://www.theverge.com",
+      "category": "AI",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Gold Medal Level on International Math Olympiad Problems",
+      "summary": "DeepMind announced that Gemini Ultra 2 scored gold-medal-level results on a held-out set of IMO 2026 problems, solving 5 out of 6 problems with full formal proofs. The system combines a chain-of-thought reasoning backbone with an AlphaProof-derived formal verification module, pushing AI mathematical reasoning to unprecedented levels.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
       "category": "AI",
       "date": "2026-11-18"
     },
     {
-      "id": "2",
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves State-of-the-Art on Mathematical Olympiad Problems",
-      "summary": "DeepMind announced Gemini Ultra 2, which scored a gold-medal equivalent on the 2026 International Mathematical Olympiad problem set, marking the first time an AI system has consistently solved competition-level combinatorics and geometry proofs end to end. The model uses a novel chain-of-verification architecture that cross-checks intermediate reasoning steps against formal proof assistants. Researchers say the approach could accelerate automated theorem proving in production mathematics research.",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "AI",
-      "date": "2026-11-15"
-    },
-    {
       "id": "3",
-      "title": "Tesla Optimus Gen 3 Begins Limited Deployment in Automotive Assembly Lines",
-      "summary": "Tesla has started deploying its third-generation Optimus humanoid robots in two of its Gigafactory assembly lines for materials handling and quality inspection tasks. The robots use on-device vision-language models for real-time part identification and can adapt to new task configurations with under 30 minutes of demonstration-based fine-tuning. Tesla reports a 22% improvement in dexterous manipulation accuracy over Gen 2, driven by redesigned tendon-actuated hands with 22 degrees of freedom.",
-      "source": "IEEE Spectrum",
-      "url": "https://spectrum.ieee.org",
+      "title": "Tesla Optimus Gen 3 Enters Pilot Deployment at BMW and Amazon Warehouses",
+      "summary": "Tesla began pilot deployments of its third-generation Optimus humanoid robot at BMW manufacturing plants in South Carolina and Amazon fulfillment centers. The Gen 3 units feature improved dexterous manipulation with 22-DOF hands and can autonomously learn new pick-and-place tasks via a few-shot imitation learning pipeline, reducing onboarding time from days to under an hour.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com",
       "category": "Robotics",
       "date": "2026-11-20"
     },
     {
       "id": "4",
-      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform for Construction Site Autonomy",
-      "summary": "Boston Dynamics officially launched the commercial Atlas platform tailored for construction environments, featuring autonomous navigation across unstructured terrain, heavy-object manipulation up to 30 kg, and real-time 3D site mapping. The system integrates with standard BIM software to execute task plans derived from architectural models. Early pilot programs with three major construction firms showed a 40% reduction in time spent on repetitive material transport tasks.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com",
+      "title": "Boston Dynamics and Hyundai Unveil Atlas Commercial Platform with Construction Autonomy Stack",
+      "summary": "Boston Dynamics officially launched the commercial Atlas platform with an integrated construction autonomy stack developed in partnership with Hyundai Engineering. The system can autonomously perform rebar tying, drywall carrying, and site inspection using LiDAR-vision fusion, targeting a market debut in Q1 2027 with pre-orders already exceeding 500 units.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org",
       "category": "Robotics",
-      "date": "2026-11-12"
+      "date": "2026-11-15"
     },
     {
       "id": "5",
-      "title": "Anthropic Introduces Constitutional AI Oversight Framework for Enterprise Agent Deployments",
-      "summary": "Anthropic released a new enterprise-grade framework for governing autonomous AI agents in production, combining constitutional AI principles with runtime monitoring, automated red-teaming, and human-in-the-loop escalation policies. The framework provides auditable decision traces and integrates with standard observability stacks like OpenTelemetry. Early adopters in financial services report measurably tighter adherence to compliance constraints while maintaining agent task-completion throughput.",
-      "source": "Wired",
-      "url": "https://www.wired.com",
+      "title": "Anthropic Introduces 'Constitutional Classifiers' Framework to Mitigate Jailbreaks Across Foundation Models",
+      "summary": "Anthropic published a new open-source framework called Constitutional Classifiers that layers lightweight, constitutionally-trained classifier heads on top of any foundation model to detect and block adversarial jailbreak attempts. In red-team evaluations, the system reduced successful attacks by 93% with less than 2% impact on helpful response rates, offering a model-agnostic safety layer.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com",
       "category": "AI",
-      "date": "2026-11-19"
+      "date": "2026-11-21"
     },
     {
       "id": "6",
-      "title": "TSMC Begins Volume Production of 1.4nm Gate-All-Around Process Node",
-      "summary": "TSMC announced volume production on its N1.4 process node using gate-all-around nanosheet transistors, delivering a 20% performance uplift and 30% power reduction over its 2nm node. The node is expected to power next-generation AI accelerator chips from major fabless customers beginning in Q1 2027. Analysts note this keeps TSMC roughly one node ahead of Samsung Foundry and solidifies its dominance in leading-edge logic fabrication.",
+      "title": "TSMC Begins Volume Production of 1.4nm GAA Process Node, Powering Next-Gen AI Accelerators",
+      "summary": "TSMC confirmed volume production has started on its N1.4 process node using gate-all-around transistor architecture at its Kaohsiung fab. The node delivers a 25% performance gain and 35% power reduction versus N2, with Apple, NVIDIA, and AMD expected to be lead customers for chips taping out in early 2027.",
       "source": "AnandTech",
       "url": "https://www.anandtech.com",
-      "category": "Innovation",
-      "date": "2026-11-14"
-    },
-    {
-      "id": "7",
-      "title": "Microsoft and Atom Computing Demonstrate Logical Qubit Error Rates Below Fault-Tolerance Threshold",
-      "summary": "Microsoft and Atom Computing jointly demonstrated a 24-logical-qubit neutral-atom quantum processor achieving error rates of 10⁻⁶ per logical gate, crossing below the threshold generally considered necessary for fault-tolerant quantum computation. The system uses a topological error-correction code co-designed with Microsoft's Azure Quantum stack. Researchers say this milestone opens a credible path to cryptographically relevant quantum computations within the next three to five years.",
-      "source": "Nature",
-      "url": "https://www.nature.com",
       "category": "Innovation",
       "date": "2026-11-17"
     },
     {
+      "id": "7",
+      "title": "Microsoft and Quantinuum Demonstrate First Fault-Tolerant Logical Qubit Operations Below Error Threshold",
+      "summary": "Microsoft and Quantinuum announced they have achieved below-threshold fault-tolerant operations on logical qubits using Quantinuum's H3 trapped-ion system combined with Microsoft's topological error correction codes. The milestone demonstrates sustained logical error rates of 10^-8 per operation, clearing a key barrier to practical quantum computing at scale.",
+      "source": "Nature",
+      "url": "https://www.nature.com",
+      "category": "Innovation",
+      "date": "2026-11-22"
+    },
+    {
       "id": "8",
-      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing",
-      "summary": "Figure AI closed a $1.5 billion Series C round led by Bezos Expeditions and Microsoft, valuing the company at $12 billion. The funding will be used to build a dedicated humanoid robot manufacturing facility in Texas with a target capacity of 10,000 units per year by 2028. Figure's latest Figure 03 prototype demonstrates autonomous warehouse order-picking at 85% the speed of human workers, using foundation models fine-tuned on proprietary manipulation datasets.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
+      "title": "Figure AI Raises $1.5B Series C to Scale Humanoid Robot Manufacturing with On-Device Foundation Models",
+      "summary": "Figure AI closed a $1.5 billion Series C round at a $15 billion valuation, with funding from Microsoft, NVIDIA, and Intel Capital. The company plans to build a dedicated humanoid manufacturing facility in Texas and deploy on-device multimodal foundation models that enable its Figure 03 robots to perform complex manipulation tasks without cloud connectivity.",
+      "source": "TechCrunch",
+      "url": "https://www.techcrunch.com",
       "category": "Robotics",
-      "date": "2026-11-21"
+      "date": "2026-11-16"
     }
   ]
 }
